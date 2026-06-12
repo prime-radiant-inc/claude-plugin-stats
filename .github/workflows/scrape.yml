@@ -1,0 +1,27 @@
+name: Scrape plugin stats
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 9am UTC daily
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch plugin stats
+        run: |
+          curl -s https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/plugin-stats/plugin-details.json \
+            | python3 -m json.tool --sort-keys > plugin-details.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add plugin-details.json
+          git diff --cached --quiet || git commit -m "Update plugin stats $(date -u +%Y-%m-%d)"
+
+      - name: Push
+        run: git push
