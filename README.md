@@ -4,9 +4,9 @@ Daily scrape of Claude Code plugin install counts from Anthropic's public
 plugin-stats endpoint, with history back to **December 2025** recovered from
 Arq backups.
 
-## 📈 [Interactive chart of installs over time →](https://prime-radiant-inc.github.io/claude-plugin-stats/)
+## 📈 [Interactive chart of installs over time →](https://primeradiant.com/claude-plugin-stats/)
 
-[![Plugin installs over time](docs/preview.png)](https://prime-radiant-inc.github.io/claude-plugin-stats/)
+[![Plugin installs over time](docs/preview.png)](https://primeradiant.com/claude-plugin-stats/)
 
 Search any of the 450+ plugins, toggle log scale, zoom into date ranges, and
 hover for exact counts. (GitHub strips JavaScript from READMEs, so the
