@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Code Plugin Installs Over Time</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%23d97757'/><path d='M3 11l3-5 2 3 2-4 3 6' stroke='white' stroke-width='1.5' fill='none'/></svg>">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #d97757;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  header {
+    padding: 28px 32px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 12px;
+  }
+  header h1 { margin: 0; font-size: 22px; font-weight: 650; }
+  header h1 .accent { color: var(--accent); }
+  header .sub { color: var(--muted); font-size: 13px; }
+  #controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 32px;
+  }
+  #search {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    padding: 8px 12px;
+    width: 320px;
+    font-size: 14px;
+    outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  .btn {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--accent); }
+  .btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #chart { width: 100%; height: calc(100vh - 130px); min-height: 480px; }
+  #suggestions {
+    position: absolute;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-top: 4px;
+    max-height: 320px;
+    overflow-y: auto;
+    z-index: 10;
+    width: 380px;
+    display: none;
+  }
+  #suggestions div {
+    padding: 7px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  #suggestions div:hover { background: #21262d; }
+  #suggestions .n { color: var(--muted); }
+  footer { padding: 6px 32px 18px; color: var(--muted); font-size: 12px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Claude Code <span class="accent">plugin installs</span> over time</h1>
+  <span class="sub" id="meta"></span>
+</header>
+<div id="controls">
+  <span style="position:relative">
+    <input id="search" type="search" placeholder="Add a plugin… (type to search 457 plugins)" autocomplete="off">
+    <div id="suggestions"></div>
+  </span>
+  <button class="btn" id="top10">Top 10</button>
+  <button class="btn" id="top25">Top 25</button>
+  <button class="btn" id="logscale">Log scale</button>
+  <button class="btn" id="clear">Clear</button>
+</div>
+<div id="chart"></div>
+<footer>
+  Data: Anthropic's public plugin-stats feed, scraped daily — early history recovered from Arq backups.
+  Counts are unique installs as reported in the Claude Code plugin catalog.
+  <a href="https://github.com/prime-radiant-inc/claude-plugin-stats">Source &amp; raw data</a>
+</footer>
+<script>
+const PALETTE = ['#d97757','#58a6ff','#3fb950','#d2a8ff','#f0883e','#ff7b72',
+                 '#79c0ff','#56d364','#e3b341','#ffa198','#a5d6ff','#7ee787',
+                 '#f2cc60','#ffc680','#cdb4f9','#76e3ea'];
+
+let DATA = null;
+let selected = [];     // plugin keys in display order
+let logScale = false;
+const chart = echarts.init(document.getElementById('chart'), null, {renderer: 'canvas'});
+
+function latest(p) { const s = DATA.plugins[p]; return s[s.length - 1][1]; }
+function shortName(p) { return p.split('@')[0]; }
+
+function render() {
+  const series = selected.map((p, i) => ({
+    name: shortName(p),
+    type: 'line',
+    smooth: 0.25,
+    symbol: 'circle',
+    symbolSize: 5,
+    lineStyle: { width: 2.5 },
+    emphasis: { focus: 'series', lineStyle: { width: 4 } },
+    color: PALETTE[i % PALETTE.length],
+    data: DATA.plugins[p].map(([d, v]) => [d, v]),
+  }));
+  chart.setOption({
+    backgroundColor: 'transparent',
+    animationDuration: 400,
+    grid: { left: 70, right: 30, top: 56, bottom: 86 },
+    legend: {
+      type: 'scroll',
+      top: 10,
+      textStyle: { color: '#e6edf3' },
+      pageTextStyle: { color: '#8b949e' },
+      inactiveColor: '#484f58',
+    },
+    tooltip: {
+      trigger: 'axis',
+      backgroundColor: '#161b22',
+      borderColor: '#30363d',
+      textStyle: { color: '#e6edf3' },
+      order: 'valueDesc',
+      valueFormatter: v => v == null ? '—' : v.toLocaleString(),
+    },
+    xAxis: {
+      type: 'time',
+      axisLine: { lineStyle: { color: '#30363d' } },
+      axisLabel: { color: '#8b949e' },
+      splitLine: { show: false },
+    },
+    yAxis: {
+      type: logScale ? 'log' : 'value',
+      logBase: 10,
+      min: logScale ? 1 : null,
+      axisLabel: {
+        color: '#8b949e',
+        formatter: v => v >= 1e6 ? (v / 1e6) + 'M' : v >= 1e3 ? (v / 1e3) + 'k' : v,
+      },
+      splitLine: { lineStyle: { color: '#21262d' } },
+    },
+    dataZoom: [
+      { type: 'inside' },
+      {
+        type: 'slider', height: 26, bottom: 24,
+        borderColor: '#30363d', backgroundColor: '#161b22',
+        fillerColor: 'rgba(217,119,87,0.15)',
+        handleStyle: { color: '#d97757' },
+        moveHandleStyle: { color: '#d97757' },
+        textStyle: { color: '#8b949e' },
+        emphasis: { handleStyle: { color: '#f0883e' } },
+      },
+    ],
+    series,
+  }, { notMerge: true });
+}
+
+function setSelected(list) {
+  selected = list;
+  render();
+}
+
+function topN(n) {
+  return Object.keys(DATA.plugins)
+    .sort((a, b) => latest(b) - latest(a))
+    .slice(0, n);
+}
+
+// --- search/autocomplete ---
+const searchEl = document.getElementById('search');
+const sugEl = document.getElementById('suggestions');
+function hideSug() { sugEl.style.display = 'none'; }
+searchEl.addEventListener('input', () => {
+  const q = searchEl.value.trim().toLowerCase();
+  if (!q) { hideSug(); return; }
+  const matches = Object.keys(DATA.plugins)
+    .filter(p => p.toLowerCase().includes(q) && !selected.includes(p))
+    .sort((a, b) => latest(b) - latest(a))
+    .slice(0, 12);
+  if (!matches.length) { hideSug(); return; }
+  sugEl.innerHTML = matches.map(p =>
+    `<div data-p="${p}"><span>${p}</span><span class="n">${latest(p).toLocaleString()}</span></div>`).join('');
+  sugEl.style.display = 'block';
+});
+sugEl.addEventListener('mousedown', e => {
+  const p = e.target.closest('[data-p]')?.dataset.p;
+  if (p) { setSelected([...selected, p]); searchEl.value = ''; hideSug(); }
+});
+searchEl.addEventListener('blur', () => setTimeout(hideSug, 150));
+
+// --- buttons ---
+document.getElementById('top10').onclick = () => setSelected(topN(10));
+document.getElementById('top25').onclick = () => setSelected(topN(25));
+document.getElementById('clear').onclick = () => setSelected([]);
+const logBtn = document.getElementById('logscale');
+logBtn.onclick = () => {
+  logScale = !logScale;
+  logBtn.classList.toggle('active', logScale);
+  render();
+};
+window.addEventListener('resize', () => chart.resize());
+
+fetch('data.json')
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    const total = Object.keys(d.plugins).length;
+    document.getElementById('meta').textContent =
+      `${total} plugins · updated ${d.generated.slice(0, 10)}`;
+    searchEl.placeholder = `Add a plugin… (type to search ${total} plugins)`;
+    setSelected(topN(10));
+  });
+</script>
+</body>
+</html>

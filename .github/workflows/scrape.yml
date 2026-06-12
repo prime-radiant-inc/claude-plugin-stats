@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # build-history.py walks the full history
 
       - name: Fetch plugin stats
         run: |
@@ -22,6 +24,12 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add plugin-details.json
           git diff --cached --quiet || git commit -m "Update plugin stats $(date -u +%Y-%m-%d)"
+
+      - name: Rebuild chart data
+        run: |
+          python3 scripts/build-history.py
+          git add docs/data.json
+          git diff --cached --quiet || git commit -m "Rebuild chart data"
 
       - name: Push
         run: git push
