@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-12T08:49:04.578Z",
+    "generated_at": "2026-06-13T08:32:19.328Z",
     "installs_generated_at": "2026-06-12T06:00:28.233110+00:00",
-    "marketplace_sha": "cbe3b820092313ad76e8a2a0f4c563f7cfbb8463",
+    "marketplace_sha": "ac16ffafcd700e306d8a0fe96e9633ac8a3154e9",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -17,15 +17,22 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 532,
-                            "on_invoke": 3570
+                            "always_on": 567,
+                            "on_invoke": 16739
                         },
-                        "name": "42crunch-audit"
+                        "name": "code-to-oas"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 557,
+                            "on_invoke": 8102
+                        },
+                        "name": "42crunch-api-security-testing"
                     },
                     {
                         "chars": {
                             "always_on": 610,
-                            "on_invoke": 5366
+                            "on_invoke": 6434
                         },
                         "name": "42crunch-scan"
                     },
@@ -38,28 +45,21 @@
                     },
                     {
                         "chars": {
+                            "always_on": 532,
+                            "on_invoke": 3570
+                        },
+                        "name": "42crunch-audit"
+                    },
+                    {
+                        "chars": {
                             "always_on": 563,
                             "on_invoke": 5959
                         },
                         "name": "42crunch-setup"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 557,
-                            "on_invoke": 7745
-                        },
-                        "name": "42crunch-api-security-testing"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 567,
-                            "on_invoke": 16542
-                        },
-                        "name": "code-to-oas"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T12:09:31-07:00",
+            "last_updated": "2026-06-12T10:45:37-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "42Crunch"
@@ -71,27 +71,27 @@
                 "source": {
                     "path": "plugins/api-security-testing",
                     "ref": "v1.5.5",
-                    "sha": "5cfa510f7ea4d940f0ff5f6688a21e4ea0db0a18",
+                    "sha": "bc781f96be8ce17a2972e8a9a3ef38b1ca7e8cc4",
                     "source": "git-subdir",
                     "url": "https://github.com/42Crunch-AI/claude-plugins.git"
                 }
             },
             "plugin": "42crunch-api-security-testing",
-            "sha": "5cfa510f7ea4d940f0ff5f6688a21e4ea0db0a18",
+            "sha": "bc781f96be8ce17a2972e8a9a3ef38b1ca7e8cc4",
             "source": "42crunch-api-security-testing@claude-plugins-official",
-            "source_sha": "5cfa510f7ea4d940f0ff5f6688a21e4ea0db0a18",
+            "source_sha": "bc781f96be8ce17a2972e8a9a3ef38b1ca7e8cc4",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1216,
-                    "on_invoke": 23142
+                    "on_invoke": 23647
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 899,
-                    "on_invoke": 17269
+                    "on_invoke": 17632
                 }
             },
             "unique_installs": 1069,
-            "version": "1.6.2"
+            "version": "1.6.3"
         },
         "adobe-for-creativity@claude-plugins-official": {
             "components": {
@@ -399,17 +399,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 325,
-                            "on_invoke": 1953
-                        },
-                        "name": "setup"
-                    },
-                    {
-                        "chars": {
                             "always_on": 281,
                             "on_invoke": 1301
                         },
                         "name": "issues"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 325,
+                            "on_invoke": 1953
+                        },
+                        "name": "setup"
                     },
                     {
                         "chars": {
@@ -420,21 +420,21 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T16:40:28+02:00",
+            "last_updated": "2026-06-12T15:49:15+02:00",
             "marketplace_entry": {
                 "description": "Aikido Security scanning for Claude Code \u2014 SAST, secrets, and IaC vulnerability detection powered by the Aikido MCP server.",
                 "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
                 "name": "aikido",
                 "source": {
-                    "sha": "603d5eac5ef00d9db65fa4f15058345e7bce3352",
+                    "sha": "01e8cf542500e579cff948a0fa0365e4f819d7b4",
                     "source": "url",
                     "url": "https://github.com/AikidoSec/aikido-claude-plugin.git"
                 }
             },
             "plugin": "aikido",
-            "sha": "603d5eac5ef00d9db65fa4f15058345e7bce3352",
+            "sha": "01e8cf542500e579cff948a0fa0365e4f819d7b4",
             "source": "aikido@claude-plugins-official",
-            "source_sha": "603d5eac5ef00d9db65fa4f15058345e7bce3352",
+            "source_sha": "01e8cf542500e579cff948a0fa0365e4f819d7b4",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 349,
@@ -446,7 +446,7 @@
                 }
             },
             "unique_installs": 5029,
-            "version": "1.1.0"
+            "version": "1.2.0"
         },
         "airtable@claude-plugins-official": {
             "components": {
@@ -559,7 +559,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-09T07:59:03Z",
+            "last_updated": "2026-06-12T09:24:18Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Airwallex"
@@ -571,15 +571,15 @@
                 "source": {
                     "path": "plugins/airwallex",
                     "ref": "master",
-                    "sha": "a49ef1ec801fd776adc4db9f2bb4a78463981bc9",
+                    "sha": "d772717065d55180eb44231de60d5aedfc843122",
                     "source": "git-subdir",
                     "url": "https://github.com/airwallex/airwallex-marketplace.git"
                 }
             },
             "plugin": "airwallex",
-            "sha": "a49ef1ec801fd776adc4db9f2bb4a78463981bc9",
+            "sha": "d772717065d55180eb44231de60d5aedfc843122",
             "source": "airwallex@claude-plugins-official",
-            "source_sha": "a49ef1ec801fd776adc4db9f2bb4a78463981bc9",
+            "source_sha": "d772717065d55180eb44231de60d5aedfc843122",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -808,7 +808,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-10T21:12:22Z",
+            "last_updated": "2026-06-12T17:51:52Z",
             "marketplace_entry": {
                 "category": "location",
                 "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
@@ -817,15 +817,15 @@
                 "source": {
                     "path": "plugins/amazon-location-service",
                     "ref": "main",
-                    "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "amazon-location-service",
-            "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "source": "amazon-location-service@claude-plugins-official",
-            "source_sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 212,
@@ -2166,10 +2166,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 715,
-                            "on_invoke": 2768
+                            "always_on": 987,
+                            "on_invoke": 7486
                         },
-                        "name": "agents-optimize"
+                        "name": "agents-build"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 544,
+                            "on_invoke": 7195
+                        },
+                        "name": "agents-deploy"
                     },
                     {
                         "chars": {
@@ -2194,13 +2201,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 987,
-                            "on_invoke": 7486
-                        },
-                        "name": "agents-build"
-                    },
-                    {
-                        "chars": {
                             "always_on": 936,
                             "on_invoke": 30990
                         },
@@ -2208,14 +2208,14 @@
                     },
                     {
                         "chars": {
-                            "always_on": 544,
-                            "on_invoke": 7195
+                            "always_on": 715,
+                            "on_invoke": 2768
                         },
-                        "name": "agents-deploy"
+                        "name": "agents-optimize"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T09:06:12Z",
+            "last_updated": "2026-06-12T11:49:55Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -2227,15 +2227,15 @@
                 "source": {
                     "path": "plugins/aws-agents",
                     "ref": "main",
-                    "sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+                    "sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-agents",
-            "sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+            "sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
             "source": "aws-agents@claude-plugins-official",
-            "source_sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+            "source_sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2034,
@@ -2268,7 +2268,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-10T21:12:22Z",
+            "last_updated": "2026-06-12T17:51:52Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
@@ -2277,15 +2277,15 @@
                 "source": {
                     "path": "plugins/aws-amplify",
                     "ref": "main",
-                    "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "aws-amplify",
-            "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "source": "aws-amplify@claude-plugins-official",
-            "source_sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 386,
@@ -2311,17 +2311,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 645,
-                            "on_invoke": 19973
+                            "always_on": 564,
+                            "on_invoke": 7613
                         },
-                        "name": "aws-containers"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 796,
-                            "on_invoke": 28443
-                        },
-                        "name": "amazon-bedrock"
+                        "name": "aws-sdk-python-usage"
                     },
                     {
                         "chars": {
@@ -2332,17 +2325,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 564,
-                            "on_invoke": 7613
+                            "always_on": 796,
+                            "on_invoke": 28443
                         },
-                        "name": "aws-sdk-python-usage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 533,
-                            "on_invoke": 8481
-                        },
-                        "name": "aws-billing-and-cost-management"
+                        "name": "amazon-bedrock"
                     },
                     {
                         "chars": {
@@ -2353,10 +2339,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 904,
-                            "on_invoke": 3241
+                            "always_on": 856,
+                            "on_invoke": 14535
                         },
-                        "name": "aws-observability"
+                        "name": "aws-amplify"
                     },
                     {
                         "chars": {
@@ -2367,17 +2353,24 @@
                     },
                     {
                         "chars": {
-                            "always_on": 856,
-                            "on_invoke": 14535
+                            "always_on": 436,
+                            "on_invoke": 5807
                         },
-                        "name": "aws-amplify"
+                        "name": "aws-cdk"
                     },
                     {
                         "chars": {
-                            "always_on": 307,
-                            "on_invoke": 8349
+                            "always_on": 744,
+                            "on_invoke": 3364
                         },
-                        "name": "aws-sdk-js-v3-usage"
+                        "name": "aws-serverless"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 645,
+                            "on_invoke": 19973
+                        },
+                        "name": "aws-containers"
                     },
                     {
                         "chars": {
@@ -2388,21 +2381,28 @@
                     },
                     {
                         "chars": {
-                            "always_on": 867,
-                            "on_invoke": 3074
+                            "always_on": 904,
+                            "on_invoke": 3241
                         },
-                        "name": "aws-serverless"
+                        "name": "aws-observability"
                     },
                     {
                         "chars": {
-                            "always_on": 436,
-                            "on_invoke": 5807
+                            "always_on": 533,
+                            "on_invoke": 8481
                         },
-                        "name": "aws-cdk"
+                        "name": "aws-billing-and-cost-management"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 307,
+                            "on_invoke": 8349
+                        },
+                        "name": "aws-sdk-js-v3-usage"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T09:06:12Z",
+            "last_updated": "2026-06-12T11:49:55Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -2414,23 +2414,23 @@
                 "source": {
                     "path": "plugins/aws-core",
                     "ref": "main",
-                    "sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+                    "sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-core",
-            "sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+            "sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
             "source": "aws-core@claude-plugins-official",
-            "source_sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+            "source_sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2821,
-                    "on_invoke": 48098
+                    "always_on": 2773,
+                    "on_invoke": 48221
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1811,
-                    "on_invoke": 33891
+                    "always_on": 1779,
+                    "on_invoke": 33969
                 }
             },
             "unique_installs": 2084,
@@ -2448,34 +2448,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 487,
-                            "on_invoke": 5469
-                        },
-                        "name": "exploring-data-catalog"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 670,
-                            "on_invoke": 7511
-                        },
-                        "name": "creating-data-lake-table"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 525,
-                            "on_invoke": 9030
-                        },
-                        "name": "finding-data-lake-assets"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1013,
-                            "on_invoke": 9899
-                        },
-                        "name": "ingesting-into-data-lake"
-                    },
-                    {
-                        "chars": {
                             "always_on": 476,
                             "on_invoke": 7113
                         },
@@ -2490,14 +2462,42 @@
                     },
                     {
                         "chars": {
+                            "always_on": 670,
+                            "on_invoke": 7511
+                        },
+                        "name": "creating-data-lake-table"
+                    },
+                    {
+                        "chars": {
                             "always_on": 791,
                             "on_invoke": 8028
                         },
                         "name": "connecting-to-data-source"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1013,
+                            "on_invoke": 9899
+                        },
+                        "name": "ingesting-into-data-lake"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 525,
+                            "on_invoke": 9030
+                        },
+                        "name": "finding-data-lake-assets"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 487,
+                            "on_invoke": 5469
+                        },
+                        "name": "exploring-data-catalog"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T09:06:12Z",
+            "last_updated": "2026-06-12T11:49:55Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -2509,15 +2509,15 @@
                 "source": {
                     "path": "plugins/aws-data-analytics",
                     "ref": "main",
-                    "sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+                    "sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-data-analytics",
-            "sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+            "sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
             "source": "aws-data-analytics@claude-plugins-official",
-            "source_sha": "f5ba81082aafe865ffe947ceabc574a7a0353e57",
+            "source_sha": "7cd875e7e48b45469d66afe3988ed3cc9b144546",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1720,
@@ -2916,10 +2916,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 363,
-                            "on_invoke": 12070
+                            "always_on": 375,
+                            "on_invoke": 4911
                         },
-                        "name": "aws-lambda"
+                        "name": "aws-serverless-deployment"
                     },
                     {
                         "chars": {
@@ -2930,13 +2930,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 601,
-                            "on_invoke": 11988
-                        },
-                        "name": "aws-lambda-managed-instances"
-                    },
-                    {
-                        "chars": {
                             "always_on": 612,
                             "on_invoke": 8557
                         },
@@ -2944,14 +2937,28 @@
                     },
                     {
                         "chars": {
-                            "always_on": 375,
-                            "on_invoke": 4911
+                            "always_on": 318,
+                            "on_invoke": 7200
                         },
-                        "name": "aws-serverless-deployment"
+                        "name": "aws-step-functions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 601,
+                            "on_invoke": 11988
+                        },
+                        "name": "aws-lambda-managed-instances"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 363,
+                            "on_invoke": 11975
+                        },
+                        "name": "aws-lambda"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T21:12:22Z",
+            "last_updated": "2026-06-12T17:51:52Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
@@ -2960,27 +2967,27 @@
                 "source": {
                     "path": "plugins/aws-serverless",
                     "ref": "main",
-                    "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "aws-serverless",
-            "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "source": "aws-serverless@claude-plugins-official",
-            "source_sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 938,
-                    "on_invoke": 19739
+                    "always_on": 1039,
+                    "on_invoke": 22285
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 575,
-                    "on_invoke": 13576
+                    "always_on": 641,
+                    "on_invoke": 15341
                 }
             },
             "unique_installs": 7124,
-            "version": "1.1.0"
+            "version": "1.1.1"
         },
         "aws-startup-advisor@claude-plugins-official": {
             "components": {
@@ -4137,10 +4144,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 698,
-                            "on_invoke": 6188
+                            "always_on": 868,
+                            "on_invoke": 3745
                         },
-                        "name": "carta-witness-signatures"
+                        "name": "carta-waterfall-scenarios"
                     },
                     {
                         "chars": {
@@ -4151,10 +4158,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1037,
-                            "on_invoke": 11342
+                            "always_on": 834,
+                            "on_invoke": 5939
                         },
-                        "name": "carta-grant-vesting"
+                        "name": "carta-round-history"
                     },
                     {
                         "chars": {
@@ -4165,17 +4172,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 594,
-                            "on_invoke": 35592
+                            "always_on": 1037,
+                            "on_invoke": 11342
                         },
-                        "name": "carta-compensation-benchmarks"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 868,
-                            "on_invoke": 3745
-                        },
-                        "name": "carta-waterfall-scenarios"
+                        "name": "carta-grant-vesting"
                     },
                     {
                         "chars": {
@@ -4186,24 +4186,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 924,
-                            "on_invoke": 6113
+                            "always_on": 690,
+                            "on_invoke": 4069
                         },
-                        "name": "carta-conversion-calculator"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 560,
-                            "on_invoke": 34225
-                        },
-                        "name": "carta-interaction-reference"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 834,
-                            "on_invoke": 5939
-                        },
-                        "name": "carta-round-history"
+                        "name": "carta-valuation-history"
                     },
                     {
                         "chars": {
@@ -4214,14 +4200,35 @@
                     },
                     {
                         "chars": {
-                            "always_on": 690,
-                            "on_invoke": 4069
+                            "always_on": 698,
+                            "on_invoke": 6188
                         },
-                        "name": "carta-valuation-history"
+                        "name": "carta-witness-signatures"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 560,
+                            "on_invoke": 34225
+                        },
+                        "name": "carta-interaction-reference"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 594,
+                            "on_invoke": 35592
+                        },
+                        "name": "carta-compensation-benchmarks"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 924,
+                            "on_invoke": 6113
+                        },
+                        "name": "carta-conversion-calculator"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T16:33:55Z",
+            "last_updated": "2026-06-12T23:19:19Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -4233,15 +4240,15 @@
                 "source": {
                     "path": "plugins/carta-cap-table",
                     "ref": "main",
-                    "sha": "ab95e738e5fa8945d0e0faa1e43b7d618980ac76",
+                    "sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-cap-table",
-            "sha": "ab95e738e5fa8945d0e0faa1e43b7d618980ac76",
+            "sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
             "source": "carta-cap-table@claude-plugins-official",
-            "source_sha": "ab95e738e5fa8945d0e0faa1e43b7d618980ac76",
+            "source_sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3307,
@@ -4253,7 +4260,7 @@
                 }
             },
             "unique_installs": 247,
-            "version": "6.10.6"
+            "version": "6.16.3"
         },
         "carta-crm@claude-plugins-official": {
             "components": {
@@ -4460,48 +4467,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 436,
-                            "on_invoke": 21506
-                        },
-                        "name": "carta-budget-vs-actuals"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 491,
-                            "on_invoke": 6185
-                        },
-                        "name": "carta-investors-tutorial"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 453,
-                            "on_invoke": 27320
-                        },
-                        "name": "carta-create-budget"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 899,
-                            "on_invoke": 28645
-                        },
-                        "name": "carta-consolidating-balance-sheet"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 951,
-                            "on_invoke": 15401
-                        },
-                        "name": "carta-explore-data"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 509,
-                            "on_invoke": 8355
-                        },
-                        "name": "carta-form-adv"
-                    },
-                    {
-                        "chars": {
                             "always_on": 208,
                             "on_invoke": 45380
                         },
@@ -4509,17 +4474,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 560,
-                            "on_invoke": 25711
+                            "always_on": 899,
+                            "on_invoke": 29228
                         },
-                        "name": "carta-budget-scenarios"
+                        "name": "carta-consolidating-balance-sheet"
                     },
                     {
                         "chars": {
-                            "always_on": 253,
-                            "on_invoke": 8427
+                            "always_on": 453,
+                            "on_invoke": 27698
                         },
-                        "name": "carta-download-tearsheet"
+                        "name": "carta-create-budget"
                     },
                     {
                         "chars": {
@@ -4531,9 +4496,16 @@
                     {
                         "chars": {
                             "always_on": 1046,
-                            "on_invoke": 50171
+                            "on_invoke": 50850
                         },
                         "name": "carta-consolidating-pnl"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 491,
+                            "on_invoke": 6185
+                        },
+                        "name": "carta-investors-tutorial"
                     },
                     {
                         "chars": {
@@ -4544,21 +4516,56 @@
                     },
                     {
                         "chars": {
-                            "always_on": 267,
+                            "always_on": 336,
                             "on_invoke": 37459
                         },
                         "name": "carta-fetch-budget"
                     },
                     {
                         "chars": {
-                            "always_on": 525,
-                            "on_invoke": 39809
+                            "always_on": 436,
+                            "on_invoke": 22194
+                        },
+                        "name": "carta-budget-vs-actuals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 951,
+                            "on_invoke": 15449
+                        },
+                        "name": "carta-explore-data"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 566,
+                            "on_invoke": 40522
                         },
                         "name": "carta-budget-actuals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 253,
+                            "on_invoke": 8427
+                        },
+                        "name": "carta-download-tearsheet"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 509,
+                            "on_invoke": 8355
+                        },
+                        "name": "carta-form-adv"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 560,
+                            "on_invoke": 26413
+                        },
+                        "name": "carta-budget-scenarios"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T16:33:55Z",
+            "last_updated": "2026-06-12T23:19:19Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -4570,27 +4577,27 @@
                 "source": {
                     "path": "plugins/carta-investors",
                     "ref": "main",
-                    "sha": "ab95e738e5fa8945d0e0faa1e43b7d618980ac76",
+                    "sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-investors",
-            "sha": "ab95e738e5fa8945d0e0faa1e43b7d618980ac76",
+            "sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
             "source": "carta-investors@claude-plugins-official",
-            "source_sha": "ab95e738e5fa8945d0e0faa1e43b7d618980ac76",
+            "source_sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2949,
-                    "on_invoke": 138120
+                    "always_on": 3002,
+                    "on_invoke": 139810
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1949,
-                    "on_invoke": 99339
+                    "always_on": 1985,
+                    "on_invoke": 100457
                 }
             },
             "unique_installs": 223,
-            "version": "0.92.6"
+            "version": "0.95.2"
         },
         "cds-mcp@claude-plugins-official": {
             "components": {
@@ -4647,13 +4654,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 249,
-                            "on_invoke": 5373
-                        },
-                        "name": "a11y-debugging"
-                    },
-                    {
-                        "chars": {
                             "always_on": 174,
                             "on_invoke": 8107
                         },
@@ -4661,10 +4661,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 478,
-                            "on_invoke": 5985
+                            "always_on": 311,
+                            "on_invoke": 3341
                         },
-                        "name": "debug-optimize-lcp"
+                        "name": "chrome-devtools"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 249,
+                            "on_invoke": 5373
+                        },
+                        "name": "a11y-debugging"
                     },
                     {
                         "chars": {
@@ -4682,33 +4689,33 @@
                     },
                     {
                         "chars": {
-                            "always_on": 311,
-                            "on_invoke": 3341
+                            "always_on": 478,
+                            "on_invoke": 5985
                         },
-                        "name": "chrome-devtools"
+                        "name": "debug-optimize-lcp"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T12:02:59Z",
+            "last_updated": "2026-06-12T11:47:43Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions with Puppeteer.",
                 "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
                 "name": "chrome-devtools-mcp",
                 "source": {
-                    "sha": "228cf3936ad99d9e0c09b43d77fbbac8712f2357",
+                    "sha": "ed02047ae90f25c4c15adb8fd7e224b963f43135",
                     "source": "url",
                     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git"
                 }
             },
             "plugin": "chrome-devtools-mcp",
-            "sha": "228cf3936ad99d9e0c09b43d77fbbac8712f2357",
+            "sha": "ed02047ae90f25c4c15adb8fd7e224b963f43135",
             "source": "chrome-devtools-mcp@claude-plugins-official",
-            "source_sha": "228cf3936ad99d9e0c09b43d77fbbac8712f2357",
+            "source_sha": "ed02047ae90f25c4c15adb8fd7e224b963f43135",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 651,
-                    "on_invoke": 11976
+                    "on_invoke": 11975
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 409,
@@ -6409,8 +6416,18 @@
         "convex@claude-plugins-official": {
             "components": {
                 "agents": [],
-                "commands": [],
+                "commands": [
+                    {
+                        "chars": {
+                            "always_on": 270,
+                            "on_invoke": 725
+                        },
+                        "name": "quickstart"
+                    }
+                ],
                 "hooks": [
+                    "SessionStart",
+                    "PreToolUse",
                     "PostToolUse"
                 ],
                 "lspServers": [],
@@ -6421,13 +6438,20 @@
                     {
                         "chars": {
                             "always_on": 1803,
-                            "on_invoke": 45354
+                            "on_invoke": 47655
                         },
                         "name": "design"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1185,
+                            "on_invoke": 10401
+                        },
+                        "name": "quickstart"
                     }
                 ]
             },
-            "last_updated": "2026-05-29T10:34:07-07:00",
+            "last_updated": "2026-06-11T21:38:22-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Convex",
@@ -6456,27 +6480,27 @@
                 ],
                 "name": "convex",
                 "source": {
-                    "sha": "002f9c834cdb834ddef1e4867d87cb6e80f0acba",
+                    "sha": "d184f54776d20dd834218b11b83feb42d5e2a065",
                     "source": "url",
                     "url": "https://github.com/get-convex/convex-backend-skill.git"
                 }
             },
             "plugin": "convex",
-            "sha": "002f9c834cdb834ddef1e4867d87cb6e80f0acba",
+            "sha": "d184f54776d20dd834218b11b83feb42d5e2a065",
             "source": "convex@claude-plugins-official",
-            "source_sha": "002f9c834cdb834ddef1e4867d87cb6e80f0acba",
+            "source_sha": "d184f54776d20dd834218b11b83feb42d5e2a065",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 679,
-                    "on_invoke": 16513
+                    "always_on": 1176,
+                    "on_invoke": 21608
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 470,
-                    "on_invoke": 12225
+                    "always_on": 848,
+                    "on_invoke": 16002
                 }
             },
             "unique_installs": 371,
-            "version": "1.0.3"
+            "version": "1.2.2"
         },
         "crowdstrike-falcon-foundry@claude-plugins-official": {
             "components": {
@@ -6739,7 +6763,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-10T11:42:58+03:00",
+            "last_updated": "2026-06-12T14:23:32+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Dash0"
@@ -6749,15 +6773,15 @@
                 "homepage": "https://dash0.com/",
                 "name": "dash0",
                 "source": {
-                    "sha": "37fd498b0775d98fcd27ff3c0fe3f68e412482a4",
+                    "sha": "71b44017cde60169616cc2f0ff8129cd3057797e",
                     "source": "url",
                     "url": "https://github.com/dash0hq/dash0-agent-plugin.git"
                 }
             },
             "plugin": "dash0-agent-plugin",
-            "sha": "37fd498b0775d98fcd27ff3c0fe3f68e412482a4",
+            "sha": "71b44017cde60169616cc2f0ff8129cd3057797e",
             "source": "dash0@claude-plugins-official",
-            "source_sha": "37fd498b0775d98fcd27ff3c0fe3f68e412482a4",
+            "source_sha": "71b44017cde60169616cc2f0ff8129cd3057797e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -6793,17 +6817,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 591,
-                            "on_invoke": 9124
+                            "always_on": 1056,
+                            "on_invoke": 13943
                         },
-                        "name": "ml-best-practices"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 659,
-                            "on_invoke": 577
-                        },
-                        "name": "accidental-data-loss-prevention"
+                        "name": "notebook-guidance"
                     },
                     {
                         "chars": {
@@ -6814,34 +6831,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 301,
-                            "on_invoke": 11745
-                        },
-                        "name": "data-autocleaning"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1013,
-                            "on_invoke": 5425
-                        },
-                        "name": "gcp-pipeline-resource-provisioning"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 534,
-                            "on_invoke": 3270
-                        },
-                        "name": "gcp-spark"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 327,
-                            "on_invoke": 8684
-                        },
-                        "name": "gcp-composer-troubleshooting"
-                    },
-                    {
-                        "chars": {
                             "always_on": 295,
                             "on_invoke": 1776
                         },
@@ -6849,38 +6838,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 448,
-                            "on_invoke": 16453
+                            "always_on": 659,
+                            "on_invoke": 577
                         },
-                        "name": "gcp-pipeline-orchestration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1056,
-                            "on_invoke": 13943
-                        },
-                        "name": "notebook-guidance"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 425,
-                            "on_invoke": 11256
-                        },
-                        "name": "dbt-bigquery"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 446,
-                            "on_invoke": 11754
-                        },
-                        "name": "dataform-bigquery"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 435,
-                            "on_invoke": 6630
-                        },
-                        "name": "bigquery-data-transfer-service"
+                        "name": "accidental-data-loss-prevention"
                     },
                     {
                         "chars": {
@@ -6891,10 +6852,52 @@
                     },
                     {
                         "chars": {
+                            "always_on": 1013,
+                            "on_invoke": 5425
+                        },
+                        "name": "gcp-pipeline-resource-provisioning"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 301,
+                            "on_invoke": 11745
+                        },
+                        "name": "data-autocleaning"
+                    },
+                    {
+                        "chars": {
                             "always_on": 1050,
                             "on_invoke": 5177
                         },
                         "name": "building-data-apps"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 327,
+                            "on_invoke": 8684
+                        },
+                        "name": "gcp-composer-troubleshooting"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 534,
+                            "on_invoke": 3270
+                        },
+                        "name": "gcp-spark"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 425,
+                            "on_invoke": 11256
+                        },
+                        "name": "dbt-bigquery"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 448,
+                            "on_invoke": 16453
+                        },
+                        "name": "gcp-pipeline-orchestration"
                     },
                     {
                         "chars": {
@@ -6912,6 +6915,27 @@
                     },
                     {
                         "chars": {
+                            "always_on": 446,
+                            "on_invoke": 11754
+                        },
+                        "name": "dataform-bigquery"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 435,
+                            "on_invoke": 6630
+                        },
+                        "name": "bigquery-data-transfer-service"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 591,
+                            "on_invoke": 9124
+                        },
+                        "name": "ml-best-practices"
+                    },
+                    {
+                        "chars": {
                             "always_on": 642,
                             "on_invoke": 2029
                         },
@@ -6919,7 +6943,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T14:10:36-07:00",
+            "last_updated": "2026-06-12T15:06:49-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -6929,15 +6953,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
                 "name": "data-agent-kit-starter-pack",
                 "source": {
-                    "sha": "23aab90cf7a198e8481dce1475020e14014a7ebe",
+                    "sha": "65a480a04dc09fe51fab66fde61b1a2baa443741",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack.git"
                 }
             },
             "plugin": "data-agent-kit-starter-pack",
-            "sha": "23aab90cf7a198e8481dce1475020e14014a7ebe",
+            "sha": "65a480a04dc09fe51fab66fde61b1a2baa443741",
             "source": "data-agent-kit-starter-pack@claude-plugins-official",
-            "source_sha": "23aab90cf7a198e8481dce1475020e14014a7ebe",
+            "source_sha": "65a480a04dc09fe51fab66fde61b1a2baa443741",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3973,
@@ -6949,7 +6973,7 @@
                 }
             },
             "unique_installs": 1426,
-            "version": "0.2.0"
+            "version": "0.4.0"
         },
         "data-engineering@claude-plugins-official": {
             "components": {
@@ -7392,7 +7416,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-10T21:12:22Z",
+            "last_updated": "2026-06-12T17:51:52Z",
             "marketplace_entry": {
                 "category": "database",
                 "description": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload.",
@@ -7401,15 +7425,15 @@
                 "source": {
                     "path": "plugins/databases-on-aws",
                     "ref": "main",
-                    "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "databases-on-aws",
-            "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "source": "databases-on-aws@claude-plugins-official",
-            "source_sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 375,
@@ -7750,10 +7774,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 316,
-                            "on_invoke": 6940
+                            "always_on": 342,
+                            "on_invoke": 7191
                         },
-                        "name": "datarobot-feature-engineering"
+                        "name": "datarobot-setup"
                     },
                     {
                         "chars": {
@@ -7761,34 +7785,6 @@
                             "on_invoke": 6761
                         },
                         "name": "datarobot-data-preparation"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 362,
-                            "on_invoke": 10553
-                        },
-                        "name": "datarobot-model-explainability"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 322,
-                            "on_invoke": 19260
-                        },
-                        "name": "datarobot-app-framework-cicd"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 287,
-                            "on_invoke": 7214
-                        },
-                        "name": "datarobot-model-deployment"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 274,
-                            "on_invoke": 7137
-                        },
-                        "name": "datarobot-model-monitoring"
                     },
                     {
                         "chars": {
@@ -7806,10 +7802,24 @@
                     },
                     {
                         "chars": {
-                            "always_on": 342,
-                            "on_invoke": 7191
+                            "always_on": 274,
+                            "on_invoke": 7137
                         },
-                        "name": "datarobot-setup"
+                        "name": "datarobot-model-monitoring"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 316,
+                            "on_invoke": 6940
+                        },
+                        "name": "datarobot-feature-engineering"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 287,
+                            "on_invoke": 7214
+                        },
+                        "name": "datarobot-model-deployment"
                     },
                     {
                         "chars": {
@@ -7820,6 +7830,20 @@
                     },
                     {
                         "chars": {
+                            "always_on": 362,
+                            "on_invoke": 10553
+                        },
+                        "name": "datarobot-model-explainability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 322,
+                            "on_invoke": 19260
+                        },
+                        "name": "datarobot-app-framework-cicd"
+                    },
+                    {
+                        "chars": {
                             "always_on": 293,
                             "on_invoke": 16618
                         },
@@ -7827,7 +7851,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-09T23:00:35+03:00",
+            "last_updated": "2026-06-12T21:31:42+03:00",
             "marketplace_entry": {
                 "author": {
                     "name": "DataRobot"
@@ -7837,15 +7861,15 @@
                 "homepage": "https://datarobot.com",
                 "name": "datarobot-agent-skills",
                 "source": {
-                    "sha": "ec2ecdd49d54ef490b344a850cff1feb1230c409",
+                    "sha": "9e12eca2a8246674aaa6d7bc3b6cf267163d932e",
                     "source": "url",
                     "url": "https://github.com/datarobot-oss/datarobot-agent-skills.git"
                 }
             },
             "plugin": "datarobot-agent-skills",
-            "sha": "ec2ecdd49d54ef490b344a850cff1feb1230c409",
+            "sha": "9e12eca2a8246674aaa6d7bc3b6cf267163d932e",
             "source": "datarobot-agent-skills@claude-plugins-official",
-            "source_sha": "ec2ecdd49d54ef490b344a850cff1feb1230c409",
+            "source_sha": "9e12eca2a8246674aaa6d7bc3b6cf267163d932e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1343,
@@ -7869,6 +7893,13 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 274,
+                            "on_invoke": 19958
+                        },
+                        "name": "dv-metadata"
+                    },
+                    {
+                        "chars": {
                             "always_on": 254,
                             "on_invoke": 5992
                         },
@@ -7876,17 +7907,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 271,
-                            "on_invoke": 14892
+                            "always_on": 278,
+                            "on_invoke": 19996
                         },
-                        "name": "dv-data"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 273,
-                            "on_invoke": 10383
-                        },
-                        "name": "dv-query"
+                        "name": "dv-connect"
                     },
                     {
                         "chars": {
@@ -7897,10 +7921,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 278,
-                            "on_invoke": 19928
+                            "always_on": 273,
+                            "on_invoke": 10383
                         },
-                        "name": "dv-connect"
+                        "name": "dv-query"
                     },
                     {
                         "chars": {
@@ -7918,14 +7942,14 @@
                     },
                     {
                         "chars": {
-                            "always_on": 274,
-                            "on_invoke": 19958
+                            "always_on": 271,
+                            "on_invoke": 14892
                         },
-                        "name": "dv-metadata"
+                        "name": "dv-data"
                     }
                 ]
             },
-            "last_updated": "2026-06-08T16:05:05-07:00",
+            "last_updated": "2026-06-12T13:05:18-07:00",
             "marketplace_entry": {
                 "category": "database",
                 "description": "Agent skills for building on, analyzing, and managing Microsoft Dataverse \u2014 with Dataverse MCP, PAC CLI, and Python SDK.",
@@ -7934,27 +7958,27 @@
                 "source": {
                     "path": ".github/plugins/dataverse",
                     "ref": "main",
-                    "sha": "2c37394346be1afc1db12cc5b89f5dee3617c45c",
+                    "sha": "1175021761a2f135ea7505208f074ed0fae45255",
                     "source": "git-subdir",
                     "url": "https://github.com/microsoft/Dataverse-skills.git"
                 }
             },
             "plugin": "dataverse",
-            "sha": "2c37394346be1afc1db12cc5b89f5dee3617c45c",
+            "sha": "1175021761a2f135ea7505208f074ed0fae45255",
             "source": "dataverse@claude-plugins-official",
-            "source_sha": "2c37394346be1afc1db12cc5b89f5dee3617c45c",
+            "source_sha": "1175021761a2f135ea7505208f074ed0fae45255",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 797,
-                    "on_invoke": 48225
+                    "on_invoke": 48278
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 564,
-                    "on_invoke": 34889
+                    "on_invoke": 34960
                 }
             },
             "unique_installs": 1768,
-            "version": "1.5.0"
+            "version": "1.6.0"
         },
         "deploy-on-aws@claude-plugins-official": {
             "components": {
@@ -7972,17 +7996,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 595,
-                            "on_invoke": 14504
-                        },
-                        "name": "aws-architecture-diagram"
-                    },
-                    {
-                        "chars": {
                             "always_on": 349,
                             "on_invoke": 8243
                         },
                         "name": "elastic-beanstalk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 595,
+                            "on_invoke": 14504
+                        },
+                        "name": "aws-architecture-diagram"
                     },
                     {
                         "chars": {
@@ -7993,7 +8017,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-10T21:12:22Z",
+            "last_updated": "2026-06-12T17:51:52Z",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
@@ -8002,15 +8026,15 @@
                 "source": {
                     "path": "plugins/deploy-on-aws",
                     "ref": "main",
-                    "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "deploy-on-aws",
-            "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "source": "deploy-on-aws@claude-plugins-official",
-            "source_sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 476,
@@ -8796,10 +8820,24 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 135,
-                            "on_invoke": 9485
+                            "always_on": 271,
+                            "on_invoke": 3154
                         },
-                        "name": "use-dom"
+                        "name": "expo-cicd-workflows"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 117,
+                            "on_invoke": 11744
+                        },
+                        "name": "expo-tailwind-setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 87,
+                            "on_invoke": 8510
+                        },
+                        "name": "expo-api-routes"
                     },
                     {
                         "chars": {
@@ -8807,6 +8845,34 @@
                             "on_invoke": 3561
                         },
                         "name": "expo-deployment"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 135,
+                            "on_invoke": 9485
+                        },
+                        "name": "use-dom"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 972,
+                            "on_invoke": 2763
+                        },
+                        "name": "expo-ui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 548,
+                            "on_invoke": 1919
+                        },
+                        "name": "expo-observe"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 91,
+                            "on_invoke": 5653
+                        },
+                        "name": "upgrading-expo"
                     },
                     {
                         "chars": {
@@ -8824,38 +8890,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 103,
-                            "on_invoke": 1468
+                            "always_on": 307,
+                            "on_invoke": 3267
                         },
-                        "name": "expo-ui-swift-ui"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 87,
-                            "on_invoke": 8510
-                        },
-                        "name": "expo-api-routes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 358,
-                            "on_invoke": 10955
-                        },
-                        "name": "eas-update-insights"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 312,
-                            "on_invoke": 5205
-                        },
-                        "name": "expo-module"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 91,
-                            "on_invoke": 5653
-                        },
-                        "name": "upgrading-expo"
+                        "name": "expo-brownfield"
                     },
                     {
                         "chars": {
@@ -8873,42 +8911,21 @@
                     },
                     {
                         "chars": {
-                            "always_on": 548,
-                            "on_invoke": 1919
+                            "always_on": 312,
+                            "on_invoke": 5205
                         },
-                        "name": "expo-observe"
+                        "name": "expo-module"
                     },
                     {
                         "chars": {
-                            "always_on": 125,
-                            "on_invoke": 2697
+                            "always_on": 358,
+                            "on_invoke": 10955
                         },
-                        "name": "expo-ui-jetpack-compose"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 271,
-                            "on_invoke": 3154
-                        },
-                        "name": "expo-cicd-workflows"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 117,
-                            "on_invoke": 11744
-                        },
-                        "name": "expo-tailwind-setup"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 307,
-                            "on_invoke": 3267
-                        },
-                        "name": "expo-brownfield"
+                        "name": "eas-update-insights"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T23:03:26+08:00",
+            "last_updated": "2026-06-12T07:49:41-07:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution.",
@@ -8917,27 +8934,27 @@
                 "source": {
                     "path": "plugins/expo",
                     "ref": "main",
-                    "sha": "1a5693e0acc95a0829ff1656b4426fee2f2c1167",
+                    "sha": "39d50f0caeacec8a17588534bb32aa962c677a3d",
                     "source": "git-subdir",
                     "url": "https://github.com/expo/skills.git"
                 }
             },
             "plugin": "expo",
-            "sha": "1a5693e0acc95a0829ff1656b4426fee2f2c1167",
+            "sha": "39d50f0caeacec8a17588534bb32aa962c677a3d",
             "source": "expo@claude-plugins-official",
-            "source_sha": "1a5693e0acc95a0829ff1656b4426fee2f2c1167",
+            "source_sha": "39d50f0caeacec8a17588534bb32aa962c677a3d",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1254,
-                    "on_invoke": 39546
+                    "always_on": 1505,
+                    "on_invoke": 38853
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 852,
-                    "on_invoke": 29157
+                    "always_on": 1018,
+                    "on_invoke": 28685
                 }
             },
             "unique_installs": 9832,
-            "version": "1.1.0"
+            "version": "1.2.0"
         },
         "fakechat@claude-plugins-official": {
             "components": {
@@ -9568,7 +9585,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-10T16:50:15-07:00",
+            "last_updated": "2026-06-12T10:33:07-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -9578,15 +9595,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/firestore-native",
                 "name": "firestore-native",
                 "source": {
-                    "sha": "d7f42424cfddfb567efbae100023b94dfb4571be",
+                    "sha": "d151daf6a5fde7f46fde824292828ab630220282",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/firestore-native.git"
                 }
             },
             "plugin": "firestore-native",
-            "sha": "d7f42424cfddfb567efbae100023b94dfb4571be",
+            "sha": "d151daf6a5fde7f46fde824292828ab630220282",
             "source": "firestore-native@claude-plugins-official",
-            "source_sha": "d7f42424cfddfb567efbae100023b94dfb4571be",
+            "source_sha": "d151daf6a5fde7f46fde824292828ab630220282",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 79,
@@ -10059,10 +10076,24 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 353,
-                            "on_invoke": 4483
+                            "always_on": 251,
+                            "on_invoke": 16426
                         },
-                        "name": "huggingface-trackio"
+                        "name": "huggingface-paper-publisher"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 908,
+                            "on_invoke": 17285
+                        },
+                        "name": "huggingface-zerogpu"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 666,
+                            "on_invoke": 27946
+                        },
+                        "name": "huggingface-llm-trainer"
                     },
                     {
                         "chars": {
@@ -10073,24 +10104,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 481,
-                            "on_invoke": 14449
+                            "always_on": 344,
+                            "on_invoke": 6197
                         },
-                        "name": "huggingface-spaces"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 347,
-                            "on_invoke": 5525
-                        },
-                        "name": "huggingface-tool-builder"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 821,
-                            "on_invoke": 29161
-                        },
-                        "name": "huggingface-vision-trainer"
+                        "name": "huggingface-community-evals"
                     },
                     {
                         "chars": {
@@ -10101,10 +10118,38 @@
                     },
                     {
                         "chars": {
+                            "always_on": 353,
+                            "on_invoke": 4483
+                        },
+                        "name": "huggingface-trackio"
+                    },
+                    {
+                        "chars": {
                             "always_on": 357,
                             "on_invoke": 8981
                         },
                         "name": "huggingface-papers"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 347,
+                            "on_invoke": 5525
+                        },
+                        "name": "huggingface-tool-builder"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 156,
+                            "on_invoke": 3158
+                        },
+                        "name": "hf-mem"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 821,
+                            "on_invoke": 29161
+                        },
+                        "name": "huggingface-vision-trainer"
                     },
                     {
                         "chars": {
@@ -10115,31 +10160,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 661,
-                            "on_invoke": 5121
-                        },
-                        "name": "huggingface-best"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 207,
-                            "on_invoke": 8233
-                        },
-                        "name": "trl-training"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 344,
-                            "on_invoke": 6197
-                        },
-                        "name": "huggingface-community-evals"
-                    },
-                    {
-                        "chars": {
                             "always_on": 229,
                             "on_invoke": 4425
                         },
                         "name": "huggingface-datasets"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 661,
+                            "on_invoke": 5121
+                        },
+                        "name": "huggingface-best"
                     },
                     {
                         "chars": {
@@ -10157,13 +10188,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 908,
-                            "on_invoke": 17285
-                        },
-                        "name": "huggingface-zerogpu"
-                    },
-                    {
-                        "chars": {
                             "always_on": 605,
                             "on_invoke": 8301
                         },
@@ -10171,44 +10195,44 @@
                     },
                     {
                         "chars": {
-                            "always_on": 251,
-                            "on_invoke": 16426
+                            "always_on": 481,
+                            "on_invoke": 14449
                         },
-                        "name": "huggingface-paper-publisher"
+                        "name": "huggingface-spaces"
                     },
                     {
                         "chars": {
-                            "always_on": 666,
-                            "on_invoke": 27946
+                            "always_on": 207,
+                            "on_invoke": 8233
                         },
-                        "name": "huggingface-llm-trainer"
+                        "name": "trl-training"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T14:33:19+02:00",
+            "last_updated": "2026-06-12T11:25:39+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
                 "homepage": "https://github.com/huggingface/skills.git",
                 "name": "huggingface-skills",
                 "source": {
-                    "sha": "7bf59b7f85b79c74207b10d5e425934514e8b089",
+                    "sha": "c68f1b08d9eb3af22cdc1d3fb60e9cdb78522556",
                     "source": "url",
                     "url": "https://github.com/huggingface/skills.git"
                 }
             },
             "plugin": "huggingface-skills",
-            "sha": "7bf59b7f85b79c74207b10d5e425934514e8b089",
+            "sha": "c68f1b08d9eb3af22cdc1d3fb60e9cdb78522556",
             "source": "huggingface-skills@claude-plugins-official",
-            "source_sha": "7bf59b7f85b79c74207b10d5e425934514e8b089",
+            "source_sha": "c68f1b08d9eb3af22cdc1d3fb60e9cdb78522556",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 3377,
-                    "on_invoke": 108166
+                    "always_on": 3437,
+                    "on_invoke": 109553
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 2356,
-                    "on_invoke": 79618
+                    "always_on": 2401,
+                    "on_invoke": 80778
                 }
             },
             "unique_installs": 30364,
@@ -10331,10 +10355,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 311,
-                            "on_invoke": 7385
+                            "always_on": 277,
+                            "on_invoke": 3102
                         },
-                        "name": "gsap"
+                        "name": "lottie"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 317,
+                            "on_invoke": 6331
+                        },
+                        "name": "typegpu"
                     },
                     {
                         "chars": {
@@ -10352,6 +10383,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 459,
+                            "on_invoke": 9653
+                        },
+                        "name": "website-to-hyperframes"
+                    },
+                    {
+                        "chars": {
                             "always_on": 502,
                             "on_invoke": 14099
                         },
@@ -10366,45 +10404,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 850,
-                            "on_invoke": 30501
-                        },
-                        "name": "hyperframes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 277,
-                            "on_invoke": 3102
-                        },
-                        "name": "lottie"
-                    },
-                    {
-                        "chars": {
                             "always_on": 304,
                             "on_invoke": 2987
                         },
                         "name": "animejs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 275,
-                            "on_invoke": 3596
-                        },
-                        "name": "css-animations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 459,
-                            "on_invoke": 9653
-                        },
-                        "name": "website-to-hyperframes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 430,
-                            "on_invoke": 8475
-                        },
-                        "name": "hyperframes-cli"
                     },
                     {
                         "chars": {
@@ -10415,13 +10418,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 932,
-                            "on_invoke": 7962
-                        },
-                        "name": "remotion-to-hyperframes"
-                    },
-                    {
-                        "chars": {
                             "always_on": 378,
                             "on_invoke": 3860
                         },
@@ -10429,14 +10425,42 @@
                     },
                     {
                         "chars": {
-                            "always_on": 317,
-                            "on_invoke": 6331
+                            "always_on": 275,
+                            "on_invoke": 3596
                         },
-                        "name": "typegpu"
+                        "name": "css-animations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 311,
+                            "on_invoke": 7385
+                        },
+                        "name": "gsap"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 430,
+                            "on_invoke": 8475
+                        },
+                        "name": "hyperframes-cli"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 932,
+                            "on_invoke": 7962
+                        },
+                        "name": "remotion-to-hyperframes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 850,
+                            "on_invoke": 30501
+                        },
+                        "name": "hyperframes"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T10:26:49-04:00",
+            "last_updated": "2026-06-12T16:18:43-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -10446,15 +10470,15 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "c52165d1b63cf11955ceb4e2265cbe34b0718852",
+                    "sha": "583b47b0390e5368193b9de8214cf22ce0cb99f5",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "c52165d1b63cf11955ceb4e2265cbe34b0718852",
+            "sha": "583b47b0390e5368193b9de8214cf22ce0cb99f5",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "c52165d1b63cf11955ceb4e2265cbe34b0718852",
+            "source_sha": "583b47b0390e5368193b9de8214cf22ce0cb99f5",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2335,
@@ -10714,7 +10738,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T10:56:42+02:00",
+            "last_updated": "2026-06-12T10:55:52+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -10724,15 +10748,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/knowledge-catalog",
                 "name": "knowledge-catalog",
                 "source": {
-                    "sha": "b3df58e81ae46a1497a1186fc82119d328ec730c",
+                    "sha": "fe4e94035824fa41f7d06426531bbed7bec2520c",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/knowledge-catalog.git"
                 }
             },
             "plugin": "knowledge-catalog",
-            "sha": "b3df58e81ae46a1497a1186fc82119d328ec730c",
+            "sha": "fe4e94035824fa41f7d06426531bbed7bec2520c",
             "source": "knowledge-catalog@claude-plugins-official",
-            "source_sha": "b3df58e81ae46a1497a1186fc82119d328ec730c",
+            "source_sha": "fe4e94035824fa41f7d06426531bbed7bec2520c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 98,
@@ -10744,7 +10768,7 @@
                 }
             },
             "unique_installs": 77,
-            "version": "0.5.1"
+            "version": "0.5.2"
         },
         "kotlin-lsp@claude-plugins-official": {
             "components": {
@@ -10798,6 +10822,49 @@
                 }
             },
             "unique_installs": 21195,
+            "version": "1.0.0"
+        },
+        "langfuse-observability@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [
+                    "Stop",
+                    "SessionEnd"
+                ],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": []
+            },
+            "last_updated": "2026-06-10T13:43:22+02:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Langfuse"
+                },
+                "category": "monitoring",
+                "description": "The Langfuse x Claude Code Observability Plugin",
+                "homepage": "https://langfuse.com/integrations/other/claude-code",
+                "name": "langfuse-observability",
+                "source": {
+                    "sha": "597af67d6c6b369f3e55db6cfa2ebe444f1af46c",
+                    "source": "url",
+                    "url": "https://github.com/langfuse/claude-observability-plugin.git"
+                }
+            },
+            "plugin": "langfuse-observability",
+            "sha": "597af67d6c6b369f3e55db6cfa2ebe444f1af46c",
+            "source": "langfuse-observability@claude-plugins-official",
+            "source_sha": "597af67d6c6b369f3e55db6cfa2ebe444f1af46c",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 0,
+                    "on_invoke": 0
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 0,
+                    "on_invoke": 0
+                }
+            },
             "version": "1.0.0"
         },
         "laravel-boost@claude-plugins-official": {
@@ -12263,7 +12330,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-11T12:15:13-07:00",
+            "last_updated": "2026-06-12T13:53:54-07:00",
             "marketplace_entry": {
                 "category": "database",
                 "description": "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server.",
@@ -12272,15 +12339,15 @@
                 "source": {
                     "path": "plugins/neon-postgres",
                     "ref": "main",
-                    "sha": "654f914a925ac88d53cee8a2351f28bdb08f1e42",
+                    "sha": "240e2e182329f291eb8b842c0e42ccca7c9fceaf",
                     "source": "git-subdir",
                     "url": "https://github.com/neondatabase/agent-skills.git"
                 }
             },
             "plugin": "neon",
-            "sha": "654f914a925ac88d53cee8a2351f28bdb08f1e42",
+            "sha": "240e2e182329f291eb8b842c0e42ccca7c9fceaf",
             "source": "neon@claude-plugins-official",
-            "source_sha": "654f914a925ac88d53cee8a2351f28bdb08f1e42",
+            "source_sha": "240e2e182329f291eb8b842c0e42ccca7c9fceaf",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -12300,49 +12367,16 @@
                 "commands": [],
                 "hooks": [],
                 "lspServers": [],
-                "mcpServers": [],
+                "mcpServers": [
+                    "netlify"
+                ],
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 342,
-                            "on_invoke": 3208
+                            "always_on": 662,
+                            "on_invoke": 8867
                         },
-                        "name": "netlify-edge-functions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 338,
-                            "on_invoke": 2816
-                        },
-                        "name": "netlify-blobs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 301,
-                            "on_invoke": 11012
-                        },
-                        "name": "netlify-identity"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 328,
-                            "on_invoke": 3930
-                        },
-                        "name": "netlify-cli-and-deploy"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 222,
-                            "on_invoke": 6318
-                        },
-                        "name": "netlify-deploy"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 351,
-                            "on_invoke": 4831
-                        },
-                        "name": "netlify-functions"
+                        "name": "netlify-ai-gateway"
                     },
                     {
                         "chars": {
@@ -12353,24 +12387,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 407,
-                            "on_invoke": 2851
+                            "always_on": 328,
+                            "on_invoke": 3930
                         },
-                        "name": "netlify-image-cdn"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 662,
-                            "on_invoke": 8867
-                        },
-                        "name": "netlify-ai-gateway"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 366,
-                            "on_invoke": 3307
-                        },
-                        "name": "netlify-config"
+                        "name": "netlify-cli-and-deploy"
                     },
                     {
                         "chars": {
@@ -12388,29 +12408,78 @@
                     },
                     {
                         "chars": {
+                            "always_on": 407,
+                            "on_invoke": 2851
+                        },
+                        "name": "netlify-image-cdn"
+                    },
+                    {
+                        "chars": {
                             "always_on": 351,
                             "on_invoke": 3521
                         },
                         "name": "netlify-caching"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 222,
+                            "on_invoke": 6318
+                        },
+                        "name": "netlify-deploy"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 301,
+                            "on_invoke": 11012
+                        },
+                        "name": "netlify-identity"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 351,
+                            "on_invoke": 4831
+                        },
+                        "name": "netlify-functions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 366,
+                            "on_invoke": 3307
+                        },
+                        "name": "netlify-config"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 338,
+                            "on_invoke": 2816
+                        },
+                        "name": "netlify-blobs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 342,
+                            "on_invoke": 3208
+                        },
+                        "name": "netlify-edge-functions"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T11:54:14-04:00",
+            "last_updated": "2026-06-11T15:09:36-04:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Netlify platform skills for Claude Code \u2014 functions, edge functions, blobs, database, image CDN, forms, config, CLI, frameworks, caching, AI gateway, and deployment.",
                 "homepage": "https://github.com/netlify/context-and-tools",
                 "name": "netlify-skills",
                 "source": {
-                    "sha": "c594226e29e05cd6da81b73e8d5a67c6742b4437",
+                    "sha": "ab80a6ed2b6c4933a3f964101c82b45cab847b5b",
                     "source": "url",
                     "url": "https://github.com/netlify/context-and-tools.git"
                 }
             },
             "plugin": "netlify-skills",
-            "sha": "c594226e29e05cd6da81b73e8d5a67c6742b4437",
+            "sha": "ab80a6ed2b6c4933a3f964101c82b45cab847b5b",
             "source": "netlify-skills@claude-plugins-official",
-            "source_sha": "c594226e29e05cd6da81b73e8d5a67c6742b4437",
+            "source_sha": "ab80a6ed2b6c4933a3f964101c82b45cab847b5b",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1711,
@@ -12504,20 +12573,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 307,
-                            "on_invoke": 7672
-                        },
-                        "name": "scan-triage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 306,
-                            "on_invoke": 7245
-                        },
-                        "name": "api-discovery"
-                    },
-                    {
-                        "chars": {
                             "always_on": 369,
                             "on_invoke": 10531
                         },
@@ -12529,24 +12584,38 @@
                             "on_invoke": 9366
                         },
                         "name": "scan-configuration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 306,
+                            "on_invoke": 7245
+                        },
+                        "name": "api-discovery"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 307,
+                            "on_invoke": 7672
+                        },
+                        "name": "scan-triage"
                     }
                 ]
             },
-            "last_updated": "2026-03-05T15:17:44-05:00",
+            "last_updated": "2026-06-12T18:59:55-04:00",
             "marketplace_entry": {
                 "description": "Skills for working with NightVision, a DAST and API Discovery platform that finds exploitable vulnerabilities in web applications and REST APIs",
                 "homepage": "https://github.com/nvsecurity/nightvision-skills",
                 "name": "nightvision",
                 "source": {
-                    "sha": "7d7a3f342bbf4d02b6e012279800cf91ff0c1c97",
+                    "sha": "73a9d846b7428f8e616e891a16053209f2f6f67d",
                     "source": "url",
                     "url": "https://github.com/nvsecurity/nightvision-skills.git"
                 }
             },
             "plugin": "nightvision",
-            "sha": "7d7a3f342bbf4d02b6e012279800cf91ff0c1c97",
+            "sha": "73a9d846b7428f8e616e891a16053209f2f6f67d",
             "source": "nightvision@claude-plugins-official",
-            "source_sha": "7d7a3f342bbf4d02b6e012279800cf91ff0c1c97",
+            "source_sha": "73a9d846b7428f8e616e891a16053209f2f6f67d",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 454,
@@ -12558,7 +12627,7 @@
                 }
             },
             "unique_installs": 1648,
-            "version": "1.0.0"
+            "version": "1.0.1"
         },
         "nimble@claude-plugins-official": {
             "components": {
@@ -12580,13 +12649,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 597,
-                            "on_invoke": 29307
-                        },
-                        "name": "nimble-agent-builder"
-                    },
-                    {
-                        "chars": {
                             "always_on": 624,
                             "on_invoke": 15296
                         },
@@ -12594,10 +12656,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 880,
-                            "on_invoke": 22949
+                            "always_on": 597,
+                            "on_invoke": 29307
                         },
-                        "name": "meeting-prep"
+                        "name": "nimble-agent-builder"
                     },
                     {
                         "chars": {
@@ -12608,10 +12670,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 856,
-                            "on_invoke": 12348
+                            "always_on": 880,
+                            "on_invoke": 22949
                         },
-                        "name": "company-deep-dive"
+                        "name": "meeting-prep"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 884,
+                            "on_invoke": 17668
+                        },
+                        "name": "market-finder"
                     },
                     {
                         "chars": {
@@ -12622,10 +12691,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 884,
-                            "on_invoke": 17668
+                            "always_on": 856,
+                            "on_invoke": 12348
                         },
-                        "name": "market-finder"
+                        "name": "company-deep-dive"
                     },
                     {
                         "chars": {
@@ -12668,36 +12737,43 @@
                             "on_invoke": 9471
                         },
                         "name": "talent-sourcing"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1049,
+                            "on_invoke": 8843
+                        },
+                        "name": "nimble-databricks-data-products"
                     }
                 ]
             },
-            "last_updated": "2026-05-27T14:30:59+03:00",
+            "last_updated": "2026-06-12T18:36:55+03:00",
             "marketplace_entry": {
                 "description": "Nimble web data toolkit \u2014 search, extract, map, crawl the web and work with structured data agents",
                 "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
                 "name": "nimble",
                 "source": {
-                    "sha": "9736dfc757f5ed4f05da0480b202af09e93a27de",
+                    "sha": "bcc5159da6ae1e46ca366ff949d196112b47c5e9",
                     "source": "url",
                     "url": "https://github.com/Nimbleway/agent-skills.git"
                 }
             },
             "plugin": "nimble",
-            "sha": "9736dfc757f5ed4f05da0480b202af09e93a27de",
+            "sha": "bcc5159da6ae1e46ca366ff949d196112b47c5e9",
             "source": "nimble@claude-plugins-official",
-            "source_sha": "9736dfc757f5ed4f05da0480b202af09e93a27de",
+            "source_sha": "bcc5159da6ae1e46ca366ff949d196112b47c5e9",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4018,
-                    "on_invoke": 74425
+                    "always_on": 4398,
+                    "on_invoke": 77778
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 2772,
-                    "on_invoke": 52951
+                    "always_on": 3042,
+                    "on_invoke": 55437
                 }
             },
             "unique_installs": 2338,
-            "version": "0.21.3"
+            "version": "0.22.0"
         },
         "notion@claude-plugins-official": {
             "components": {
@@ -12791,34 +12867,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 134,
-                            "on_invoke": 12489
-                        },
-                        "name": "aiq-deploy"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 462,
-                            "on_invoke": 16891
-                        },
-                        "name": "omniverse-cad-to-simready"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 197,
-                            "on_invoke": 14949
-                        },
-                        "name": "physical-ai-neural-reconstruction"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 130,
-                            "on_invoke": 11882
-                        },
-                        "name": "aiq-research"
-                    },
-                    {
-                        "chars": {
                             "always_on": 170,
                             "on_invoke": 7924
                         },
@@ -12826,31 +12874,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 326,
-                            "on_invoke": 5913
+                            "always_on": 134,
+                            "on_invoke": 12489
                         },
-                        "name": "dynamo-interconnect-check"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 154,
-                            "on_invoke": 6956
-                        },
-                        "name": "omniverse-realtime-viewer"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 244,
-                            "on_invoke": 17288
-                        },
-                        "name": "omniverse-usd-performance-tuning"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 264,
-                            "on_invoke": 5299
-                        },
-                        "name": "dynamo-router-starter"
+                        "name": "aiq-deploy"
                     },
                     {
                         "chars": {
@@ -12861,14 +12888,63 @@
                     },
                     {
                         "chars": {
+                            "always_on": 264,
+                            "on_invoke": 5299
+                        },
+                        "name": "dynamo-router-starter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 462,
+                            "on_invoke": 16891
+                        },
+                        "name": "omniverse-cad-to-simready"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 326,
+                            "on_invoke": 5913
+                        },
+                        "name": "dynamo-interconnect-check"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 197,
+                            "on_invoke": 14949
+                        },
+                        "name": "physical-ai-neural-reconstruction"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 244,
+                            "on_invoke": 17288
+                        },
+                        "name": "omniverse-usd-performance-tuning"
+                    },
+                    {
+                        "chars": {
                             "always_on": 701,
                             "on_invoke": 9895
                         },
                         "name": "physical-ai-infrastructure-setup-and-resilient-scaling"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 130,
+                            "on_invoke": 11882
+                        },
+                        "name": "aiq-research"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 154,
+                            "on_invoke": 6956
+                        },
+                        "name": "omniverse-realtime-viewer"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T12:43:11-05:00",
+            "last_updated": "2026-06-12T17:18:16-05:00",
             "marketplace_entry": {
                 "author": {
                     "name": "NVIDIA"
@@ -12880,15 +12956,15 @@
                 "source": {
                     "path": "plugins/nvidia-skills",
                     "ref": "main",
-                    "sha": "071d2fe0ef34b77a56f2f1401c223848572d5a97",
+                    "sha": "26058fed2657b64c3638a4ab731f62fb479201d9",
                     "source": "git-subdir",
                     "url": "https://github.com/NVIDIA/skills.git"
                 }
             },
             "plugin": "nvidia-skills",
-            "sha": "071d2fe0ef34b77a56f2f1401c223848572d5a97",
+            "sha": "26058fed2657b64c3638a4ab731f62fb479201d9",
             "source": "nvidia-skills@claude-plugins-official",
-            "source_sha": "071d2fe0ef34b77a56f2f1401c223848572d5a97",
+            "source_sha": "26058fed2657b64c3638a4ab731f62fb479201d9",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1338,
@@ -12912,6 +12988,13 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 395,
+                            "on_invoke": 3945
+                        },
+                        "name": "aidp-excel"
+                    },
+                    {
+                        "chars": {
                             "always_on": 311,
                             "on_invoke": 3025
                         },
@@ -12919,87 +13002,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 379,
-                            "on_invoke": 2995
-                        },
-                        "name": "aidp-epm-cloud"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 442,
-                            "on_invoke": 5189
-                        },
-                        "name": "aidp-oracle-db"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 343,
-                            "on_invoke": 3522
-                        },
-                        "name": "aidp-siebel"
-                    },
-                    {
-                        "chars": {
                             "always_on": 376,
                             "on_invoke": 2882
                         },
                         "name": "aidp-fusion-rest"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 303,
-                            "on_invoke": 4087
-                        },
-                        "name": "aidp-hive"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 368,
-                            "on_invoke": 4687
-                        },
-                        "name": "aidp-jdbc-custom"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 310,
-                            "on_invoke": 2516
-                        },
-                        "name": "aidp-sqlserver"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 467,
-                            "on_invoke": 5397
-                        },
-                        "name": "aidp-exacs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 356,
-                            "on_invoke": 3533
-                        },
-                        "name": "aidp-peoplesoft"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 454,
-                            "on_invoke": 6394
-                        },
-                        "name": "aidp-alh"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 399,
-                            "on_invoke": 6094
-                        },
-                        "name": "aidp-streaming-kafka"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 440,
-                            "on_invoke": 3356
-                        },
-                        "name": "aidp-object-storage"
                     },
                     {
                         "chars": {
@@ -13017,59 +13023,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 344,
-                            "on_invoke": 4118
+                            "always_on": 356,
+                            "on_invoke": 3533
                         },
-                        "name": "aidp-salesforce"
+                        "name": "aidp-peoplesoft"
                     },
                     {
                         "chars": {
-                            "always_on": 442,
-                            "on_invoke": 3871
+                            "always_on": 454,
+                            "on_invoke": 6394
                         },
-                        "name": "aidp-connectors-bootstrap"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 337,
-                            "on_invoke": 3030
-                        },
-                        "name": "aidp-azure-adls"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 395,
-                            "on_invoke": 3945
-                        },
-                        "name": "aidp-excel"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 308,
-                            "on_invoke": 3049
-                        },
-                        "name": "aidp-essbase"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 406,
-                            "on_invoke": 5633
-                        },
-                        "name": "aidp-fusion-bicc"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 366,
-                            "on_invoke": 4665
-                        },
-                        "name": "aidp-snowflake"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 620,
-                            "on_invoke": 5626
-                        },
-                        "name": "aidp-connectors-overview"
+                        "name": "aidp-alh"
                     },
                     {
                         "chars": {
@@ -13080,14 +13044,126 @@
                     },
                     {
                         "chars": {
+                            "always_on": 406,
+                            "on_invoke": 5633
+                        },
+                        "name": "aidp-fusion-bicc"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 310,
+                            "on_invoke": 2516
+                        },
+                        "name": "aidp-sqlserver"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 442,
+                            "on_invoke": 5189
+                        },
+                        "name": "aidp-oracle-db"
+                    },
+                    {
+                        "chars": {
                             "always_on": 329,
                             "on_invoke": 5520
                         },
                         "name": "aidp-aws-s3"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 366,
+                            "on_invoke": 4665
+                        },
+                        "name": "aidp-snowflake"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 308,
+                            "on_invoke": 3049
+                        },
+                        "name": "aidp-essbase"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 399,
+                            "on_invoke": 6094
+                        },
+                        "name": "aidp-streaming-kafka"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 620,
+                            "on_invoke": 5626
+                        },
+                        "name": "aidp-connectors-overview"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 303,
+                            "on_invoke": 4087
+                        },
+                        "name": "aidp-hive"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 343,
+                            "on_invoke": 3522
+                        },
+                        "name": "aidp-siebel"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 440,
+                            "on_invoke": 3356
+                        },
+                        "name": "aidp-object-storage"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 467,
+                            "on_invoke": 5397
+                        },
+                        "name": "aidp-exacs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 379,
+                            "on_invoke": 2995
+                        },
+                        "name": "aidp-epm-cloud"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 337,
+                            "on_invoke": 3030
+                        },
+                        "name": "aidp-azure-adls"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 368,
+                            "on_invoke": 4687
+                        },
+                        "name": "aidp-jdbc-custom"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 442,
+                            "on_invoke": 3871
+                        },
+                        "name": "aidp-connectors-bootstrap"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 344,
+                            "on_invoke": 4118
+                        },
+                        "name": "aidp-salesforce"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T15:35:40-05:00",
+            "last_updated": "2026-06-12T13:15:11-05:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Oracle"
@@ -13099,15 +13175,15 @@
                 "source": {
                     "path": "ai/claude-code-plugins/oracle-ai-data-platform-workbench-spark-connectors",
                     "ref": "main",
-                    "sha": "451ec14c83d65924a2a62615274122ad3b628404",
+                    "sha": "fd54df54076da5fa95fdb4a63398d2edb8724edb",
                     "source": "git-subdir",
                     "url": "https://github.com/oracle-samples/oracle-aidp-samples.git"
                 }
             },
             "plugin": "oracle-ai-data-platform-workbench-spark-connectors",
-            "sha": "451ec14c83d65924a2a62615274122ad3b628404",
+            "sha": "fd54df54076da5fa95fdb4a63398d2edb8724edb",
             "source": "oracle-ai-data-platform-workbench-spark-connectors@claude-plugins-official",
-            "source_sha": "451ec14c83d65924a2a62615274122ad3b628404",
+            "source_sha": "fd54df54076da5fa95fdb4a63398d2edb8724edb",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4174,
@@ -13175,13 +13251,6 @@
                 "agents": [
                     {
                         "chars": {
-                            "always_on": 265,
-                            "on_invoke": 11562
-                        },
-                        "name": "workflow_planner"
-                    },
-                    {
-                        "chars": {
                             "always_on": 218,
                             "on_invoke": 4406
                         },
@@ -13207,6 +13276,13 @@
                             "on_invoke": 3336
                         },
                         "name": "workflow_context_fetcher"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 265,
+                            "on_invoke": 11562
+                        },
+                        "name": "workflow_planner"
                     }
                 ],
                 "commands": [],
@@ -13218,31 +13294,108 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 265,
-                            "on_invoke": 5863
+                            "always_on": 209,
+                            "on_invoke": 9718
                         },
-                        "name": "output-dev-code-style"
+                        "name": "output-dev-agent-class"
                     },
                     {
                         "chars": {
-                            "always_on": 254,
-                            "on_invoke": 14966
+                            "always_on": 274,
+                            "on_invoke": 5497
                         },
-                        "name": "output-dev-eval-testing"
+                        "name": "output-workflow-start"
                     },
                     {
                         "chars": {
-                            "always_on": 196,
-                            "on_invoke": 7377
+                            "always_on": 220,
+                            "on_invoke": 4381
                         },
-                        "name": "output-dev-credentials"
+                        "name": "output-workflow-stop"
                     },
                     {
                         "chars": {
-                            "always_on": 207,
-                            "on_invoke": 10984
+                            "always_on": 255,
+                            "on_invoke": 8252
                         },
-                        "name": "output-eval-dataset-design"
+                        "name": "output-plan-workflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 208,
+                            "on_invoke": 4640
+                        },
+                        "name": "output-meta-post-flight"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 238,
+                            "on_invoke": 3063
+                        },
+                        "name": "output-services-check"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 235,
+                            "on_invoke": 4378
+                        },
+                        "name": "output-error-zod-import"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 231,
+                            "on_invoke": 4107
+                        },
+                        "name": "output-workflow-status"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 191,
+                            "on_invoke": 21424
+                        },
+                        "name": "output-dev-evaluator-function"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 195,
+                            "on_invoke": 10837
+                        },
+                        "name": "output-dev-types-file"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 318,
+                            "on_invoke": 7263
+                        },
+                        "name": "output-dev-model-selection"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 275,
+                            "on_invoke": 2307
+                        },
+                        "name": "output-workflow-trace-file"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 312,
+                            "on_invoke": 15251
+                        },
+                        "name": "output-meta-project-context"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 341,
+                            "on_invoke": 6723
+                        },
+                        "name": "output-migrate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 233,
+                            "on_invoke": 6163
+                        },
+                        "name": "output-workflow-run"
                     },
                     {
                         "chars": {
@@ -13260,248 +13413,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 204,
-                            "on_invoke": 12563
-                        },
-                        "name": "output-eval-judge-prompt"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 203,
-                            "on_invoke": 3878
-                        },
-                        "name": "output-dev-workflow-cost"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 318,
-                            "on_invoke": 7263
-                        },
-                        "name": "output-dev-model-selection"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 176,
-                            "on_invoke": 15284
-                        },
-                        "name": "output-dev-step-function"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 203,
-                            "on_invoke": 8320
-                        },
-                        "name": "output-dev-create-skeleton"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 209,
-                            "on_invoke": 9718
-                        },
-                        "name": "output-dev-agent-class"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 237,
-                            "on_invoke": 5800
-                        },
-                        "name": "output-error-missing-schemas"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 220,
-                            "on_invoke": 3074
-                        },
-                        "name": "output-credentials-init"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 250,
-                            "on_invoke": 3055
-                        },
-                        "name": "output-workflow-list"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 201,
-                            "on_invoke": 10413
-                        },
-                        "name": "output-dev-skill-file"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 238,
-                            "on_invoke": 3063
-                        },
-                        "name": "output-services-check"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 196,
-                            "on_invoke": 8400
-                        },
-                        "name": "output-dev-folder-structure"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 312,
-                            "on_invoke": 15251
-                        },
-                        "name": "output-meta-project-context"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 208,
-                            "on_invoke": 4640
-                        },
-                        "name": "output-meta-post-flight"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 219,
-                            "on_invoke": 5899
-                        },
-                        "name": "output-debug-workflow"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 358,
-                            "on_invoke": 5944
-                        },
-                        "name": "output-workflow-reset"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 213,
-                            "on_invoke": 3284
-                        },
-                        "name": "output-meta-pre-flight"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 195,
-                            "on_invoke": 10837
-                        },
-                        "name": "output-dev-types-file"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 357,
-                            "on_invoke": 6210
-                        },
-                        "name": "output-dev-upgrade-prompt-models"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 256,
-                            "on_invoke": 4509
-                        },
-                        "name": "output-credentials-env-vars"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 341,
-                            "on_invoke": 6723
-                        },
-                        "name": "output-migrate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 236,
-                            "on_invoke": 6128
-                        },
-                        "name": "output-error-nondeterminism"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 179,
-                            "on_invoke": 9624
-                        },
-                        "name": "output-eval-audit"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 235,
-                            "on_invoke": 5956
-                        },
-                        "name": "output-error-try-catch"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 199,
-                            "on_invoke": 9561
-                        },
-                        "name": "output-eval-validate-judge"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 255,
-                            "on_invoke": 8252
-                        },
-                        "name": "output-plan-workflow"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 218,
-                            "on_invoke": 6881
-                        },
-                        "name": "output-error-http-client"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 275,
-                            "on_invoke": 2307
-                        },
-                        "name": "output-workflow-trace-file"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 186,
-                            "on_invoke": 8270
-                        },
-                        "name": "output-dev-scenario-file"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 191,
-                            "on_invoke": 21424
-                        },
-                        "name": "output-dev-evaluator-function"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 231,
-                            "on_invoke": 4107
-                        },
-                        "name": "output-workflow-status"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 274,
-                            "on_invoke": 5497
-                        },
-                        "name": "output-workflow-start"
-                    },
-                    {
-                        "chars": {
                             "always_on": 182,
                             "on_invoke": 17195
                         },
                         "name": "output-dev-prompt-file"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 184,
-                            "on_invoke": 7953
-                        },
-                        "name": "output-dev-workflow-function"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 232,
-                            "on_invoke": 10311
-                        },
-                        "name": "output-eval-error-analysis"
                     },
                     {
                         "chars": {
@@ -13512,6 +13427,90 @@
                     },
                     {
                         "chars": {
+                            "always_on": 186,
+                            "on_invoke": 8270
+                        },
+                        "name": "output-dev-scenario-file"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 218,
+                            "on_invoke": 6881
+                        },
+                        "name": "output-error-http-client"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 184,
+                            "on_invoke": 7953
+                        },
+                        "name": "output-dev-workflow-function"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 220,
+                            "on_invoke": 3074
+                        },
+                        "name": "output-credentials-init"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 207,
+                            "on_invoke": 10984
+                        },
+                        "name": "output-eval-dataset-design"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 357,
+                            "on_invoke": 6210
+                        },
+                        "name": "output-dev-upgrade-prompt-models"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 235,
+                            "on_invoke": 5956
+                        },
+                        "name": "output-error-try-catch"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 265,
+                            "on_invoke": 5863
+                        },
+                        "name": "output-dev-code-style"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 203,
+                            "on_invoke": 8320
+                        },
+                        "name": "output-dev-create-skeleton"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 179,
+                            "on_invoke": 9624
+                        },
+                        "name": "output-eval-audit"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 232,
+                            "on_invoke": 10311
+                        },
+                        "name": "output-eval-error-analysis"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 237,
+                            "on_invoke": 5800
+                        },
+                        "name": "output-error-missing-schemas"
+                    },
+                    {
+                        "chars": {
                             "always_on": 251,
                             "on_invoke": 3846
                         },
@@ -13519,24 +13518,45 @@
                     },
                     {
                         "chars": {
-                            "always_on": 235,
-                            "on_invoke": 4378
+                            "always_on": 176,
+                            "on_invoke": 15284
                         },
-                        "name": "output-error-zod-import"
+                        "name": "output-dev-step-function"
                     },
                     {
                         "chars": {
-                            "always_on": 203,
-                            "on_invoke": 3412
+                            "always_on": 236,
+                            "on_invoke": 6128
                         },
-                        "name": "output-credentials-edit"
+                        "name": "output-error-nondeterminism"
                     },
                     {
                         "chars": {
-                            "always_on": 211,
-                            "on_invoke": 12760
+                            "always_on": 201,
+                            "on_invoke": 10413
                         },
-                        "name": "output-dev-http-client-create"
+                        "name": "output-dev-skill-file"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 204,
+                            "on_invoke": 12563
+                        },
+                        "name": "output-eval-judge-prompt"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 213,
+                            "on_invoke": 3284
+                        },
+                        "name": "output-meta-pre-flight"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 358,
+                            "on_invoke": 5944
+                        },
+                        "name": "output-workflow-reset"
                     },
                     {
                         "chars": {
@@ -13547,21 +13567,77 @@
                     },
                     {
                         "chars": {
-                            "always_on": 220,
-                            "on_invoke": 4381
+                            "always_on": 211,
+                            "on_invoke": 12760
                         },
-                        "name": "output-workflow-stop"
+                        "name": "output-dev-http-client-create"
                     },
                     {
                         "chars": {
-                            "always_on": 233,
-                            "on_invoke": 6163
+                            "always_on": 196,
+                            "on_invoke": 8400
                         },
-                        "name": "output-workflow-run"
+                        "name": "output-dev-folder-structure"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 203,
+                            "on_invoke": 3412
+                        },
+                        "name": "output-credentials-edit"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 203,
+                            "on_invoke": 4832
+                        },
+                        "name": "output-dev-workflow-cost"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 219,
+                            "on_invoke": 5899
+                        },
+                        "name": "output-debug-workflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 196,
+                            "on_invoke": 7377
+                        },
+                        "name": "output-dev-credentials"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 250,
+                            "on_invoke": 3055
+                        },
+                        "name": "output-workflow-list"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 256,
+                            "on_invoke": 4509
+                        },
+                        "name": "output-credentials-env-vars"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 199,
+                            "on_invoke": 9561
+                        },
+                        "name": "output-eval-validate-judge"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 254,
+                            "on_invoke": 14966
+                        },
+                        "name": "output-dev-eval-testing"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T17:22:35-05:00",
+            "last_updated": "2026-06-12T15:41:52-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Output.ai"
@@ -13573,23 +13649,23 @@
                 "source": {
                     "path": "coding_assistants/claude/plugins/outputai",
                     "ref": "main",
-                    "sha": "5a29fff6ffa4ddfb73563c4c584755328e92d679",
+                    "sha": "bd6bd4960b00f340c1e345620a8eb42d6c696e5f",
                     "source": "git-subdir",
                     "url": "https://github.com/growthxai/output.git"
                 }
             },
             "plugin": "outputai",
-            "sha": "5a29fff6ffa4ddfb73563c4c584755328e92d679",
+            "sha": "bd6bd4960b00f340c1e345620a8eb42d6c696e5f",
             "source": "outputai@claude-plugins-official",
-            "source_sha": "5a29fff6ffa4ddfb73563c4c584755328e92d679",
+            "source_sha": "bd6bd4960b00f340c1e345620a8eb42d6c696e5f",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4222,
-                    "on_invoke": 162041
+                    "on_invoke": 162487
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 2701,
-                    "on_invoke": 116942
+                    "on_invoke": 117294
                 }
             },
             "unique_installs": 483,
@@ -15538,7 +15614,7 @@
                 ],
                 "skills": []
             },
-            "last_updated": "2026-06-11T15:58:03+10:00",
+            "last_updated": "2026-06-12T11:39:02+10:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Quarkus"
@@ -15548,15 +15624,15 @@
                 "homepage": "https://quarkus.io",
                 "name": "quarkus-agent",
                 "source": {
-                    "sha": "0ecd6237518001b92da64499f0b43103a278f95f",
+                    "sha": "0b5e64457565f04bc88ca75ed67bd9eb02aa2905",
                     "source": "url",
                     "url": "https://github.com/quarkusio/quarkus-agent-mcp.git"
                 }
             },
             "plugin": "quarkus-agent",
-            "sha": "0ecd6237518001b92da64499f0b43103a278f95f",
+            "sha": "0b5e64457565f04bc88ca75ed67bd9eb02aa2905",
             "source": "quarkus-agent@claude-plugins-official",
-            "source_sha": "0ecd6237518001b92da64499f0b43103a278f95f",
+            "source_sha": "0b5e64457565f04bc88ca75ed67bd9eb02aa2905",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -15585,13 +15661,13 @@
                     {
                         "chars": {
                             "always_on": 882,
-                            "on_invoke": 25936
+                            "on_invoke": 26115
                         },
                         "name": "use-railway"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T22:46:51-07:00",
+            "last_updated": "2026-06-12T12:30:29-07:00",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Deploy and manage apps, databases, and infrastructure on Railway. Covers project setup, deploys, environment configuration, networking, troubleshooting, and monitoring.",
@@ -15600,27 +15676,27 @@
                 "source": {
                     "path": "plugins/railway",
                     "ref": "main",
-                    "sha": "836d42c1b652953c17a4523a07f1b8a68cc22064",
+                    "sha": "d096b092f96f9b6a3023c4a38295f431f5aebe0e",
                     "source": "git-subdir",
                     "url": "https://github.com/railwayapp/railway-skills.git"
                 }
             },
             "plugin": "railway",
-            "sha": "836d42c1b652953c17a4523a07f1b8a68cc22064",
+            "sha": "d096b092f96f9b6a3023c4a38295f431f5aebe0e",
             "source": "railway@claude-plugins-official",
-            "source_sha": "836d42c1b652953c17a4523a07f1b8a68cc22064",
+            "source_sha": "d096b092f96f9b6a3023c4a38295f431f5aebe0e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 292,
-                    "on_invoke": 8863
+                    "on_invoke": 8937
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 196,
-                    "on_invoke": 6398
+                    "on_invoke": 6437
                 }
             },
             "unique_installs": 5191,
-            "version": "1.2.6"
+            "version": "1.3.0"
         },
         "ralph-loop@claude-plugins-official": {
             "components": {
@@ -16399,59 +16475,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 467,
-                            "on_invoke": 2863
-                        },
-                        "name": "model-selection"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 625,
-                            "on_invoke": 6627
-                        },
-                        "name": "planning"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 309,
-                            "on_invoke": 4942
-                        },
-                        "name": "model-evaluation"
-                    },
-                    {
-                        "chars": {
                             "always_on": 616,
                             "on_invoke": 2964
                         },
                         "name": "hyperpod-issue-report"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 592,
-                            "on_invoke": 3000
-                        },
-                        "name": "hyperpod-version-checker"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 357,
-                            "on_invoke": 8888
-                        },
-                        "name": "finetuning"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 395,
-                            "on_invoke": 5459
-                        },
-                        "name": "model-deployment"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 550,
-                            "on_invoke": 20207
-                        },
-                        "name": "hyperpod-node-debugger"
                     },
                     {
                         "chars": {
@@ -16462,59 +16489,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 596,
-                            "on_invoke": 15817
+                            "always_on": 592,
+                            "on_invoke": 3000
                         },
-                        "name": "hyperpod-performance-debugger"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 468,
-                            "on_invoke": 3532
-                        },
-                        "name": "use-case-specification"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 514,
-                            "on_invoke": 13539
-                        },
-                        "name": "dataset-transformation"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 342,
-                            "on_invoke": 1313
-                        },
-                        "name": "directory-management"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 432,
-                            "on_invoke": 4559
-                        },
-                        "name": "dataset-evaluation"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 387,
-                            "on_invoke": 13982
-                        },
-                        "name": "hyperpod-cluster-debugger"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 391,
-                            "on_invoke": 1978
-                        },
-                        "name": "finetuning-technique"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 338,
-                            "on_invoke": 636
-                        },
-                        "name": "sdk-getting-started"
+                        "name": "hyperpod-version-checker"
                     },
                     {
                         "chars": {
@@ -16525,14 +16503,112 @@
                     },
                     {
                         "chars": {
+                            "always_on": 467,
+                            "on_invoke": 2863
+                        },
+                        "name": "model-selection"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 357,
+                            "on_invoke": 8888
+                        },
+                        "name": "finetuning"
+                    },
+                    {
+                        "chars": {
                             "always_on": 550,
                             "on_invoke": 4576
                         },
                         "name": "hyperpod-ssm"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 342,
+                            "on_invoke": 1313
+                        },
+                        "name": "directory-management"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 514,
+                            "on_invoke": 13539
+                        },
+                        "name": "dataset-transformation"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 395,
+                            "on_invoke": 5459
+                        },
+                        "name": "model-deployment"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 387,
+                            "on_invoke": 13982
+                        },
+                        "name": "hyperpod-cluster-debugger"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 309,
+                            "on_invoke": 4942
+                        },
+                        "name": "model-evaluation"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 625,
+                            "on_invoke": 6627
+                        },
+                        "name": "planning"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 391,
+                            "on_invoke": 1978
+                        },
+                        "name": "finetuning-technique"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 432,
+                            "on_invoke": 4559
+                        },
+                        "name": "dataset-evaluation"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 338,
+                            "on_invoke": 636
+                        },
+                        "name": "sdk-getting-started"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 468,
+                            "on_invoke": 3532
+                        },
+                        "name": "use-case-specification"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 550,
+                            "on_invoke": 20207
+                        },
+                        "name": "hyperpod-node-debugger"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 596,
+                            "on_invoke": 15817
+                        },
+                        "name": "hyperpod-performance-debugger"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T21:12:22Z",
+            "last_updated": "2026-06-12T17:51:52Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
@@ -16541,15 +16617,15 @@
                 "source": {
                     "path": "plugins/sagemaker-ai",
                     "ref": "main",
-                    "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "sagemaker-ai",
-            "sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "source": "sagemaker-ai@claude-plugins-official",
-            "source_sha": "58373593c6ed2e4684181f81369c0b7a4c916423",
+            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3468,
@@ -16742,6 +16818,13 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 186,
+                            "on_invoke": 7134
+                        },
+                        "name": "sap-fiori-analytical-chart"
+                    },
+                    {
+                        "chars": {
                             "always_on": 148,
                             "on_invoke": 5903
                         },
@@ -16749,7 +16832,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T16:48:19Z",
+            "last_updated": "2026-06-12T19:01:39Z",
             "marketplace_entry": {
                 "author": {
                     "email": "ospo@sap.com",
@@ -16763,27 +16846,27 @@
                 "source": {
                     "path": "packages/fiori-mcp-server",
                     "ref": "main",
-                    "sha": "cf2d1ef7f5641416c8f3ce7da7afac6c9271ad39",
+                    "sha": "5f573157dd6af9f24984c5f58ad1d660c156e07b",
                     "source": "git-subdir",
                     "url": "https://github.com/SAP/open-ux-tools.git"
                 }
             },
             "plugin": "sap-fiori-mcp-server",
-            "sha": "cf2d1ef7f5641416c8f3ce7da7afac6c9271ad39",
+            "sha": "5f573157dd6af9f24984c5f58ad1d660c156e07b",
             "source": "sap-fiori-mcp-server@claude-plugins-official",
-            "source_sha": "cf2d1ef7f5641416c8f3ce7da7afac6c9271ad39",
+            "source_sha": "5f573157dd6af9f24984c5f58ad1d660c156e07b",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 81,
-                    "on_invoke": 2585
+                    "always_on": 166,
+                    "on_invoke": 5809
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 59,
-                    "on_invoke": 1750
+                    "always_on": 119,
+                    "on_invoke": 3993
                 }
             },
             "unique_installs": 390,
-            "version": "1.2.0"
+            "version": "1.4.0"
         },
         "sap-mdk-server@claude-plugins-official": {
             "components": {
@@ -16895,7 +16978,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-11T23:31:55-07:00",
+            "last_updated": "2026-06-12T00:53:02-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -16906,12 +16989,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.5"
+                "version": "2.0.6"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "e7fe15d9ba8bc02a40cdccdb184f6d61a58b33cc",
+            "source_sha": "4e56d19dd8d3e4fb54ec8bcbec2669c248b056d9",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -16923,7 +17006,7 @@
                 }
             },
             "unique_installs": 202287,
-            "version": "2.0.5"
+            "version": "2.0.6"
         },
         "semgrep@claude-plugins-official": {
             "components": {
@@ -16995,7 +17078,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T17:39:04+02:00",
+            "last_updated": "2026-06-12T16:32:26Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Sentry"
@@ -17007,15 +17090,15 @@
                 "source": {
                     "path": "plugins/sentry-cli",
                     "ref": "main",
-                    "sha": "a55d2a805aea69f6abb3fe58ed162377867ba2c5",
+                    "sha": "f1f603036aecac16048498e32f60d27dffd5a227",
                     "source": "git-subdir",
                     "url": "https://github.com/getsentry/cli.git"
                 }
             },
             "plugin": "sentry-cli",
-            "sha": "a55d2a805aea69f6abb3fe58ed162377867ba2c5",
+            "sha": "f1f603036aecac16048498e32f60d27dffd5a227",
             "source": "sentry-cli@claude-plugins-official",
-            "source_sha": "a55d2a805aea69f6abb3fe58ed162377867ba2c5",
+            "source_sha": "f1f603036aecac16048498e32f60d27dffd5a227",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 93,
@@ -17027,7 +17110,7 @@
                 }
             },
             "unique_installs": 774,
-            "version": "0.37.0"
+            "version": "0.38.0"
         },
         "sentry@claude-plugins-official": {
             "components": {
@@ -17049,171 +17132,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 366,
-                            "on_invoke": 32584
-                        },
-                        "name": "sentry-nestjs-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 321,
-                            "on_invoke": 30380
-                        },
-                        "name": "sentry-flutter-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 281,
-                            "on_invoke": 13887
-                        },
-                        "name": "sentry-php-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 200,
-                            "on_invoke": 2256
-                        },
-                        "name": "sentry-workflow"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 329,
-                            "on_invoke": 19959
-                        },
-                        "name": "sentry-cocoa-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 217,
-                            "on_invoke": 3341
-                        },
-                        "name": "sentry-feature-setup"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 279,
-                            "on_invoke": 12897
-                        },
-                        "name": "sentry-tanstack-start-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 346,
-                            "on_invoke": 15602
-                        },
-                        "name": "sentry-python-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 286,
-                            "on_invoke": 13695
-                        },
-                        "name": "sentry-sdk-skill-creator"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 239,
-                            "on_invoke": 3678
-                        },
-                        "name": "sentry-pr-code-review"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 291,
-                            "on_invoke": 21615
-                        },
-                        "name": "sentry-span-streaming-python"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 270,
-                            "on_invoke": 25602
-                        },
-                        "name": "sentry-browser-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 312,
-                            "on_invoke": 13913
-                        },
-                        "name": "sentry-react-router-framework-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 331,
-                            "on_invoke": 19466
-                        },
-                        "name": "sentry-cloudflare-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 296,
-                            "on_invoke": 32944
-                        },
-                        "name": "sentry-android-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 309,
-                            "on_invoke": 17667
-                        },
-                        "name": "sentry-nextjs-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 512,
-                            "on_invoke": 7329
-                        },
-                        "name": "sentry-instrumentation-guide"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 275,
-                            "on_invoke": 14829
-                        },
-                        "name": "sentry-svelte-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 285,
-                            "on_invoke": 22463
-                        },
-                        "name": "sentry-dotnet-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 301,
-                            "on_invoke": 15087
-                        },
-                        "name": "sentry-setup-ai-monitoring"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 357,
-                            "on_invoke": 31662
-                        },
-                        "name": "sentry-node-sdk"
-                    },
-                    {
-                        "chars": {
                             "always_on": 352,
                             "on_invoke": 36768
                         },
                         "name": "sentry-react-native-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 213,
-                            "on_invoke": 6994
-                        },
-                        "name": "sentry-sdk-setup"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 385,
-                            "on_invoke": 13089
-                        },
-                        "name": "sentry-ruby-sdk"
                     },
                     {
                         "chars": {
@@ -17224,6 +17146,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 291,
+                            "on_invoke": 21615
+                        },
+                        "name": "sentry-span-streaming-python"
+                    },
+                    {
+                        "chars": {
                             "always_on": 305,
                             "on_invoke": 17091
                         },
@@ -17231,24 +17160,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 326,
-                            "on_invoke": 13686
+                            "always_on": 309,
+                            "on_invoke": 17667
                         },
-                        "name": "sentry-span-streaming-js"
+                        "name": "sentry-nextjs-sdk"
                     },
                     {
                         "chars": {
-                            "always_on": 229,
-                            "on_invoke": 8216
+                            "always_on": 296,
+                            "on_invoke": 32944
                         },
-                        "name": "sentry-sdk-upgrade"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 256,
-                            "on_invoke": 5590
-                        },
-                        "name": "sentry-code-review"
+                        "name": "sentry-android-sdk"
                     },
                     {
                         "chars": {
@@ -17259,10 +17181,164 @@
                     },
                     {
                         "chars": {
-                            "always_on": 326,
-                            "on_invoke": 16294
+                            "always_on": 366,
+                            "on_invoke": 32584
                         },
-                        "name": "sentry-react-sdk"
+                        "name": "sentry-nestjs-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 301,
+                            "on_invoke": 15087
+                        },
+                        "name": "sentry-setup-ai-monitoring"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 279,
+                            "on_invoke": 12897
+                        },
+                        "name": "sentry-tanstack-start-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 200,
+                            "on_invoke": 2256
+                        },
+                        "name": "sentry-workflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 270,
+                            "on_invoke": 25602
+                        },
+                        "name": "sentry-browser-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 256,
+                            "on_invoke": 5590
+                        },
+                        "name": "sentry-code-review"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 285,
+                            "on_invoke": 22463
+                        },
+                        "name": "sentry-dotnet-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 217,
+                            "on_invoke": 3341
+                        },
+                        "name": "sentry-feature-setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 385,
+                            "on_invoke": 13089
+                        },
+                        "name": "sentry-ruby-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 512,
+                            "on_invoke": 7329
+                        },
+                        "name": "sentry-instrumentation-guide"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 213,
+                            "on_invoke": 6994
+                        },
+                        "name": "sentry-sdk-setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 275,
+                            "on_invoke": 14829
+                        },
+                        "name": "sentry-svelte-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 346,
+                            "on_invoke": 15602
+                        },
+                        "name": "sentry-python-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 326,
+                            "on_invoke": 13686
+                        },
+                        "name": "sentry-span-streaming-js"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 357,
+                            "on_invoke": 31662
+                        },
+                        "name": "sentry-node-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 239,
+                            "on_invoke": 3678
+                        },
+                        "name": "sentry-pr-code-review"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 321,
+                            "on_invoke": 30380
+                        },
+                        "name": "sentry-flutter-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 329,
+                            "on_invoke": 19959
+                        },
+                        "name": "sentry-cocoa-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 331,
+                            "on_invoke": 19466
+                        },
+                        "name": "sentry-cloudflare-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 229,
+                            "on_invoke": 8216
+                        },
+                        "name": "sentry-sdk-upgrade"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 312,
+                            "on_invoke": 13913
+                        },
+                        "name": "sentry-react-router-framework-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 286,
+                            "on_invoke": 13695
+                        },
+                        "name": "sentry-sdk-skill-creator"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 272,
+                            "on_invoke": 7245
+                        },
+                        "name": "sentry-create-alert"
                     },
                     {
                         "chars": {
@@ -17273,29 +17349,36 @@
                     },
                     {
                         "chars": {
-                            "always_on": 272,
-                            "on_invoke": 7245
+                            "always_on": 326,
+                            "on_invoke": 16294
                         },
-                        "name": "sentry-create-alert"
+                        "name": "sentry-react-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 281,
+                            "on_invoke": 13887
+                        },
+                        "name": "sentry-php-sdk"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T10:18:04+02:00",
+            "last_updated": "2026-06-12T13:39:38-04:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
                 "homepage": "https://github.com/getsentry/sentry-for-claude/tree/main",
                 "name": "sentry",
                 "source": {
-                    "sha": "9780bfc111f97b359893169e79c33d1e393891e5",
+                    "sha": "d65bd23b6779a30564ff2bd3ee6d35746dab86fb",
                     "source": "url",
                     "url": "https://github.com/getsentry/sentry-for-claude.git"
                 }
             },
             "plugin": "sentry",
-            "sha": "9780bfc111f97b359893169e79c33d1e393891e5",
+            "sha": "d65bd23b6779a30564ff2bd3ee6d35746dab86fb",
             "source": "sentry@claude-plugins-official",
-            "source_sha": "9780bfc111f97b359893169e79c33d1e393891e5",
+            "source_sha": "d65bd23b6779a30564ff2bd3ee6d35746dab86fb",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4061,
@@ -18273,17 +18356,17 @@
                 "commands": [
                     {
                         "chars": {
-                            "always_on": 88,
-                            "on_invoke": 688
-                        },
-                        "name": "explain-error"
-                    },
-                    {
-                        "chars": {
                             "always_on": 80,
                             "on_invoke": 895
                         },
                         "name": "test-cards"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 88,
+                            "on_invoke": 688
+                        },
+                        "name": "explain-error"
                     }
                 ],
                 "hooks": [],
@@ -18294,10 +18377,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 659,
-                            "on_invoke": 3377
+                            "always_on": 70,
+                            "on_invoke": 5514
                         },
-                        "name": "stripe-best-practices"
+                        "name": "upgrade-stripe"
                     },
                     {
                         "chars": {
@@ -18308,10 +18391,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 70,
-                            "on_invoke": 5514
+                            "always_on": 659,
+                            "on_invoke": 3994
                         },
-                        "name": "upgrade-stripe"
+                        "name": "stripe-best-practices"
                     },
                     {
                         "chars": {
@@ -18322,7 +18405,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-10T01:14:27Z",
+            "last_updated": "2026-06-12T01:19:06Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Stripe development plugin for Claude",
@@ -18331,23 +18414,23 @@
                 "source": {
                     "path": "providers/claude/plugin",
                     "ref": "main",
-                    "sha": "d076d0558c3b3d86149c2dddc84054fe9c6dd3e0",
+                    "sha": "2b60be10f6f838a739b0d4faa5eb3583cc7cec81",
                     "source": "git-subdir",
                     "url": "https://github.com/stripe/ai.git"
                 }
             },
             "plugin": "stripe",
-            "sha": "d076d0558c3b3d86149c2dddc84054fe9c6dd3e0",
+            "sha": "2b60be10f6f838a739b0d4faa5eb3583cc7cec81",
             "source": "stripe@claude-plugins-official",
-            "source_sha": "d076d0558c3b3d86149c2dddc84054fe9c6dd3e0",
+            "source_sha": "2b60be10f6f838a739b0d4faa5eb3583cc7cec81",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 746,
-                    "on_invoke": 7218
+                    "on_invoke": 7422
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 488,
-                    "on_invoke": 5087
+                    "on_invoke": 5233
                 }
             },
             "unique_installs": 39863,
