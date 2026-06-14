@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-13T08:32:19.328Z",
+    "generated_at": "2026-06-14T08:40:01.387Z",
     "installs_generated_at": "2026-06-12T06:00:28.233110+00:00",
-    "marketplace_sha": "ac16ffafcd700e306d8a0fe96e9633ac8a3154e9",
+    "marketplace_sha": "3134d2866d15e3a073478254d903ebf565797695",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -4272,31 +4272,45 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 464,
-                            "on_invoke": 2459
+                            "always_on": 419,
+                            "on_invoke": 2111
                         },
-                        "name": "update-contact"
+                        "name": "add-contact"
                     },
                     {
                         "chars": {
-                            "always_on": 537,
-                            "on_invoke": 3136
+                            "always_on": 348,
+                            "on_invoke": 1508
                         },
-                        "name": "lookup-fund-portfolio"
+                        "name": "add-note"
                     },
                     {
                         "chars": {
-                            "always_on": 484,
-                            "on_invoke": 2749
+                            "always_on": 337,
+                            "on_invoke": 796
                         },
-                        "name": "update-deal"
+                        "name": "search-notes"
                     },
                     {
                         "chars": {
-                            "always_on": 511,
-                            "on_invoke": 1354
+                            "always_on": 454,
+                            "on_invoke": 2024
                         },
-                        "name": "search-fundraisings"
+                        "name": "update-company"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 329,
+                            "on_invoke": 2630
+                        },
+                        "name": "add-deal"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 488,
+                            "on_invoke": 1559
+                        },
+                        "name": "search-contacts"
                     },
                     {
                         "chars": {
@@ -4307,6 +4321,20 @@
                     },
                     {
                         "chars": {
+                            "always_on": 484,
+                            "on_invoke": 2749
+                        },
+                        "name": "update-deal"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 366,
+                            "on_invoke": 1282
+                        },
+                        "name": "update-note"
+                    },
+                    {
+                        "chars": {
                             "always_on": 441,
                             "on_invoke": 1964
                         },
@@ -4314,10 +4342,38 @@
                     },
                     {
                         "chars": {
-                            "always_on": 454,
-                            "on_invoke": 2024
+                            "always_on": 464,
+                            "on_invoke": 2459
                         },
-                        "name": "update-company"
+                        "name": "update-contact"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 341,
+                            "on_invoke": 1641
+                        },
+                        "name": "add-company"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 479,
+                            "on_invoke": 1167
+                        },
+                        "name": "search-companies"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 537,
+                            "on_invoke": 3136
+                        },
+                        "name": "lookup-fund-portfolio"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 392,
+                            "on_invoke": 1926
+                        },
+                        "name": "add-fundraising"
                     },
                     {
                         "chars": {
@@ -4335,55 +4391,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 419,
-                            "on_invoke": 2111
-                        },
-                        "name": "add-contact"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 366,
-                            "on_invoke": 1282
-                        },
-                        "name": "update-note"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 337,
-                            "on_invoke": 796
-                        },
-                        "name": "search-notes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 488,
-                            "on_invoke": 1559
-                        },
-                        "name": "search-contacts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 464,
-                            "on_invoke": 1192
-                        },
-                        "name": "search-investors"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 479,
-                            "on_invoke": 1167
-                        },
-                        "name": "search-companies"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 329,
-                            "on_invoke": 2630
-                        },
-                        "name": "add-deal"
-                    },
-                    {
-                        "chars": {
                             "always_on": 380,
                             "on_invoke": 1611
                         },
@@ -4391,35 +4398,28 @@
                     },
                     {
                         "chars": {
-                            "always_on": 341,
-                            "on_invoke": 1641
-                        },
-                        "name": "add-company"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 392,
-                            "on_invoke": 1926
-                        },
-                        "name": "add-fundraising"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 348,
-                            "on_invoke": 1508
-                        },
-                        "name": "add-note"
-                    },
-                    {
-                        "chars": {
                             "always_on": 470,
                             "on_invoke": 2000
                         },
                         "name": "search-deals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 511,
+                            "on_invoke": 1354
+                        },
+                        "name": "search-fundraisings"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 464,
+                            "on_invoke": 1192
+                        },
+                        "name": "search-investors"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T17:54:12Z",
+            "last_updated": "2026-06-12T23:19:19Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -4431,15 +4431,15 @@
                 "source": {
                     "path": "plugins/carta-crm",
                     "ref": "main",
-                    "sha": "4b5796517b62c4aeaac1a0bb6ccdaebeb73475a5",
+                    "sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-crm",
-            "sha": "4b5796517b62c4aeaac1a0bb6ccdaebeb73475a5",
+            "sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
             "source": "carta-crm@claude-plugins-official",
-            "source_sha": "4b5796517b62c4aeaac1a0bb6ccdaebeb73475a5",
+            "source_sha": "9de95825cd0eef06abc819e99591270ce5a77e95",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2988,
@@ -6284,7 +6284,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T11:47:11+02:00",
+            "last_updated": "2026-06-13T19:26:44+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "CodSpeed"
@@ -6294,15 +6294,15 @@
                 "homepage": "https://codspeed.io",
                 "name": "codspeed",
                 "source": {
-                    "sha": "41f4db99123434f3e24d0b9caca3e2b65d7ee24d",
+                    "sha": "ba5799e38d88632b62e39074238e233bc870f433",
                     "source": "url",
                     "url": "https://github.com/CodSpeedHQ/codspeed.git"
                 }
             },
             "plugin": "codspeed",
-            "sha": "41f4db99123434f3e24d0b9caca3e2b65d7ee24d",
+            "sha": "ba5799e38d88632b62e39074238e233bc870f433",
             "source": "codspeed@claude-plugins-official",
-            "source_sha": "41f4db99123434f3e24d0b9caca3e2b65d7ee24d",
+            "source_sha": "ba5799e38d88632b62e39074238e233bc870f433",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 422,
@@ -10460,7 +10460,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T16:18:43-07:00",
+            "last_updated": "2026-06-13T19:23:05-04:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -10470,15 +10470,15 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "583b47b0390e5368193b9de8214cf22ce0cb99f5",
+                    "sha": "a241f2591e7786a4586afb623c1242ccfc1a6510",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "583b47b0390e5368193b9de8214cf22ce0cb99f5",
+            "sha": "a241f2591e7786a4586afb623c1242ccfc1a6510",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "583b47b0390e5368193b9de8214cf22ce0cb99f5",
+            "source_sha": "a241f2591e7786a4586afb623c1242ccfc1a6510",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2335,
@@ -12330,7 +12330,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-12T13:53:54-07:00",
+            "last_updated": "2026-06-13T16:02:45-07:00",
             "marketplace_entry": {
                 "category": "database",
                 "description": "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server.",
@@ -12339,15 +12339,15 @@
                 "source": {
                     "path": "plugins/neon-postgres",
                     "ref": "main",
-                    "sha": "240e2e182329f291eb8b842c0e42ccca7c9fceaf",
+                    "sha": "7c3839a19c3fc9a570cedae7b2495f7f642f9f07",
                     "source": "git-subdir",
                     "url": "https://github.com/neondatabase/agent-skills.git"
                 }
             },
             "plugin": "neon",
-            "sha": "240e2e182329f291eb8b842c0e42ccca7c9fceaf",
+            "sha": "7c3839a19c3fc9a570cedae7b2495f7f642f9f07",
             "source": "neon@claude-plugins-official",
-            "source_sha": "240e2e182329f291eb8b842c0e42ccca7c9fceaf",
+            "source_sha": "7c3839a19c3fc9a570cedae7b2495f7f642f9f07",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -12601,21 +12601,21 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T18:59:55-04:00",
+            "last_updated": "2026-06-12T22:19:51-04:00",
             "marketplace_entry": {
                 "description": "Skills for working with NightVision, a DAST and API Discovery platform that finds exploitable vulnerabilities in web applications and REST APIs",
                 "homepage": "https://github.com/nvsecurity/nightvision-skills",
                 "name": "nightvision",
                 "source": {
-                    "sha": "73a9d846b7428f8e616e891a16053209f2f6f67d",
+                    "sha": "a510be06ca7fb2a0b1ffe38d4163f56dbc3b9e93",
                     "source": "url",
                     "url": "https://github.com/nvsecurity/nightvision-skills.git"
                 }
             },
             "plugin": "nightvision",
-            "sha": "73a9d846b7428f8e616e891a16053209f2f6f67d",
+            "sha": "a510be06ca7fb2a0b1ffe38d4163f56dbc3b9e93",
             "source": "nightvision@claude-plugins-official",
-            "source_sha": "73a9d846b7428f8e616e891a16053209f2f6f67d",
+            "source_sha": "a510be06ca7fb2a0b1ffe38d4163f56dbc3b9e93",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 454,
@@ -12944,7 +12944,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:18:16-05:00",
+            "last_updated": "2026-06-12T19:18:57-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "NVIDIA"
@@ -12956,15 +12956,15 @@
                 "source": {
                     "path": "plugins/nvidia-skills",
                     "ref": "main",
-                    "sha": "26058fed2657b64c3638a4ab731f62fb479201d9",
+                    "sha": "5b2a1e80d0e03fc3c9f60e69a727cdfcc9ab8d4c",
                     "source": "git-subdir",
                     "url": "https://github.com/NVIDIA/skills.git"
                 }
             },
             "plugin": "nvidia-skills",
-            "sha": "26058fed2657b64c3638a4ab731f62fb479201d9",
+            "sha": "5b2a1e80d0e03fc3c9f60e69a727cdfcc9ab8d4c",
             "source": "nvidia-skills@claude-plugins-official",
-            "source_sha": "26058fed2657b64c3638a4ab731f62fb479201d9",
+            "source_sha": "5b2a1e80d0e03fc3c9f60e69a727cdfcc9ab8d4c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1338,
@@ -14262,17 +14262,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 87,
-                            "on_invoke": 703
-                        },
-                        "name": "llma-cc-ingest"
-                    },
-                    {
-                        "chars": {
                             "always_on": 92,
                             "on_invoke": 1007
                         },
                         "name": "llma-cc-status"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 87,
+                            "on_invoke": 703
+                        },
+                        "name": "llma-cc-ingest"
                     }
                 ],
                 "hooks": [
@@ -14286,129 +14286,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 535,
-                            "on_invoke": 6343
+                            "always_on": 734,
+                            "on_invoke": 1738
                         },
-                        "name": "finding-deleted-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 391,
-                            "on_invoke": 6902
-                        },
-                        "name": "analyzing-experiment-session-replays"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 292,
-                            "on_invoke": 8354
-                        },
-                        "name": "creating-ai-subscription"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 603,
-                            "on_invoke": 6377
-                        },
-                        "name": "managing-experiment-lifecycle"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 617,
-                            "on_invoke": 6804
-                        },
-                        "name": "querying-posthog-data"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 949,
-                            "on_invoke": 28266
-                        },
-                        "name": "exploring-signals-scouts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 739,
-                            "on_invoke": 19712
-                        },
-                        "name": "signals-scout-data-pipelines"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 261,
-                            "on_invoke": 8632
-                        },
-                        "name": "instrument-integration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 675,
-                            "on_invoke": 23621
-                        },
-                        "name": "signals-scout-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 797,
-                            "on_invoke": 8588
-                        },
-                        "name": "assessing-heatmaps"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 506,
-                            "on_invoke": 15460
-                        },
-                        "name": "working-with-skills"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 615,
-                            "on_invoke": 15212
-                        },
-                        "name": "triaging-visual-review-runs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 269,
-                            "on_invoke": 6613
-                        },
-                        "name": "instrument-error-tracking"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 988,
-                            "on_invoke": 7946
-                        },
-                        "name": "configuring-experiment-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 564,
-                            "on_invoke": 12618
-                        },
-                        "name": "grouping-noisy-errors"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 419,
-                            "on_invoke": 9560
-                        },
-                        "name": "exploring-llm-costs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1006,
-                            "on_invoke": 12240
-                        },
-                        "name": "diagnosing-experiment-results"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 411,
-                            "on_invoke": 5762
-                        },
-                        "name": "downloading-batch-export-files"
+                        "name": "finding-experiments"
                     },
                     {
                         "chars": {
@@ -14419,6 +14300,55 @@
                     },
                     {
                         "chars": {
+                            "always_on": 213,
+                            "on_invoke": 11457
+                        },
+                        "name": "skills-store"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 615,
+                            "on_invoke": 15212
+                        },
+                        "name": "triaging-visual-review-runs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 617,
+                            "on_invoke": 6804
+                        },
+                        "name": "querying-posthog-data"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 572,
+                            "on_invoke": 23229
+                        },
+                        "name": "signals-scout-surveys"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 564,
+                            "on_invoke": 15743
+                        },
+                        "name": "diagnosing-failed-warehouse-syncs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 580,
+                            "on_invoke": 7169
+                        },
+                        "name": "suggesting-data-imports"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 628,
+                            "on_invoke": 28784
+                        },
+                        "name": "feature-usage-feed"
+                    },
+                    {
+                        "chars": {
                             "always_on": 614,
                             "on_invoke": 10835
                         },
@@ -14426,10 +14356,24 @@
                     },
                     {
                         "chars": {
-                            "always_on": 439,
-                            "on_invoke": 10442
+                            "always_on": 259,
+                            "on_invoke": 9382
                         },
-                        "name": "exploring-apm-traces"
+                        "name": "instrument-product-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 319,
+                            "on_invoke": 4209
+                        },
+                        "name": "designing-email-templates"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 539,
+                            "on_invoke": 11523
+                        },
+                        "name": "auditing-warehouse-data-health"
                     },
                     {
                         "chars": {
@@ -14440,10 +14384,290 @@
                     },
                     {
                         "chars": {
-                            "always_on": 571,
-                            "on_invoke": 15175
+                            "always_on": 434,
+                            "on_invoke": 14506
                         },
-                        "name": "suppressing-noisy-errors"
+                        "name": "signals-scout-logs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 275,
+                            "on_invoke": 7129
+                        },
+                        "name": "instrument-llm-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 439,
+                            "on_invoke": 10442
+                        },
+                        "name": "exploring-apm-traces"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 649,
+                            "on_invoke": 10684
+                        },
+                        "name": "exploring-autocapture-events"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1006,
+                            "on_invoke": 12240
+                        },
+                        "name": "diagnosing-experiment-results"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 557,
+                            "on_invoke": 13202
+                        },
+                        "name": "exploring-live-traffic"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 564,
+                            "on_invoke": 12618
+                        },
+                        "name": "grouping-noisy-errors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 766,
+                            "on_invoke": 16735
+                        },
+                        "name": "signals-scout-health-checks"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 544,
+                            "on_invoke": 6382
+                        },
+                        "name": "exploring-endpoint-execution-logs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 848,
+                            "on_invoke": 12525
+                        },
+                        "name": "authoring-signals-scouts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 221,
+                            "on_invoke": 8432
+                        },
+                        "name": "exploring-llm-clusters"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 484,
+                            "on_invoke": 9057
+                        },
+                        "name": "debugging-signals-pipeline"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 781,
+                            "on_invoke": 13762
+                        },
+                        "name": "signals-scout-anomaly-detection"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 536,
+                            "on_invoke": 6920
+                        },
+                        "name": "debugging-local-replay"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 488,
+                            "on_invoke": 12679
+                        },
+                        "name": "consuming-endpoints-from-client-code"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 614,
+                            "on_invoke": 17900
+                        },
+                        "name": "exploring-llm-evaluations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 261,
+                            "on_invoke": 8632
+                        },
+                        "name": "instrument-integration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 988,
+                            "on_invoke": 7946
+                        },
+                        "name": "configuring-experiment-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 323,
+                            "on_invoke": 10173
+                        },
+                        "name": "cleaning-up-stale-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 461,
+                            "on_invoke": 6608
+                        },
+                        "name": "triaging-error-issues"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 487,
+                            "on_invoke": 7622
+                        },
+                        "name": "investigating-replay"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 535,
+                            "on_invoke": 6343
+                        },
+                        "name": "finding-deleted-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 579,
+                            "on_invoke": 20671
+                        },
+                        "name": "signals-scout-inbox-validation"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 698,
+                            "on_invoke": 8880
+                        },
+                        "name": "configuring-experiment-rollout"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 761,
+                            "on_invoke": 8093
+                        },
+                        "name": "diagnosing-stacktrace-symbolication"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 425,
+                            "on_invoke": 9900
+                        },
+                        "name": "diagnosing-endpoint-performance"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 550,
+                            "on_invoke": 14673
+                        },
+                        "name": "signals-scout-revenue-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 500,
+                            "on_invoke": 3920
+                        },
+                        "name": "creating-experiments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 623,
+                            "on_invoke": 14027
+                        },
+                        "name": "exploring-llm-traces"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 797,
+                            "on_invoke": 8588
+                        },
+                        "name": "assessing-heatmaps"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1035,
+                            "on_invoke": 15272
+                        },
+                        "name": "planning-user-interviews"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 510,
+                            "on_invoke": 13944
+                        },
+                        "name": "inbox-exploration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 485,
+                            "on_invoke": 16847
+                        },
+                        "name": "signals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 654,
+                            "on_invoke": 6867
+                        },
+                        "name": "managing-path-cleaning-rules"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 425,
+                            "on_invoke": 8698
+                        },
+                        "name": "signals-scout-error-tracking"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 269,
+                            "on_invoke": 6613
+                        },
+                        "name": "instrument-error-tracking"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 572,
+                            "on_invoke": 19836
+                        },
+                        "name": "setting-up-a-data-warehouse-source"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 488,
+                            "on_invoke": 11033
+                        },
+                        "name": "auditing-endpoints"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 506,
+                            "on_invoke": 15460
+                        },
+                        "name": "working-with-skills"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 640,
+                            "on_invoke": 26059
+                        },
+                        "name": "signals-scout-session-replay"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 346,
+                            "on_invoke": 10473
+                        },
+                        "name": "diagnosing-sdk-health"
                     },
                     {
                         "chars": {
@@ -14454,17 +14678,185 @@
                     },
                     {
                         "chars": {
-                            "always_on": 572,
-                            "on_invoke": 15077
+                            "always_on": 656,
+                            "on_invoke": 8545
                         },
-                        "name": "setting-up-a-data-warehouse-source"
+                        "name": "managing-experiment-lifecycle"
                     },
                     {
                         "chars": {
-                            "always_on": 628,
-                            "on_invoke": 28784
+                            "always_on": 430,
+                            "on_invoke": 7820
                         },
-                        "name": "feature-usage-feed"
+                        "name": "managing-subscriptions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 811,
+                            "on_invoke": 6680
+                        },
+                        "name": "creating-replay-vision-scanners"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 460,
+                            "on_invoke": 3772
+                        },
+                        "name": "signals-scout-general"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 247,
+                            "on_invoke": 5368
+                        },
+                        "name": "instrument-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 391,
+                            "on_invoke": 7460
+                        },
+                        "name": "analyzing-experiment-session-replays"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 281,
+                            "on_invoke": 3428
+                        },
+                        "name": "auditing-experiments-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 411,
+                            "on_invoke": 5762
+                        },
+                        "name": "downloading-batch-export-files"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 549,
+                            "on_invoke": 14268
+                        },
+                        "name": "tuning-incremental-sync-config"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 675,
+                            "on_invoke": 23621
+                        },
+                        "name": "signals-scout-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 438,
+                            "on_invoke": 5951
+                        },
+                        "name": "finding-replay-for-issue"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 697,
+                            "on_invoke": 23446
+                        },
+                        "name": "signals-scout-web-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 949,
+                            "on_invoke": 28515
+                        },
+                        "name": "exploring-signals-scouts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 499,
+                            "on_invoke": 8382
+                        },
+                        "name": "creating-ai-subscription"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 574,
+                            "on_invoke": 5617
+                        },
+                        "name": "formatting-insight-axes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 617,
+                            "on_invoke": 16790
+                        },
+                        "name": "signals-scout-observability-gaps"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 403,
+                            "on_invoke": 6998
+                        },
+                        "name": "diagnosing-missing-recordings"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 547,
+                            "on_invoke": 8611
+                        },
+                        "name": "managing-endpoint-versions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 616,
+                            "on_invoke": 25630
+                        },
+                        "name": "signals-scout-experiments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 419,
+                            "on_invoke": 9560
+                        },
+                        "name": "exploring-llm-costs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 739,
+                            "on_invoke": 19712
+                        },
+                        "name": "signals-scout-data-pipelines"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 260,
+                            "on_invoke": 5693
+                        },
+                        "name": "instrument-logs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 571,
+                            "on_invoke": 15175
+                        },
+                        "name": "suppressing-noisy-errors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 608,
+                            "on_invoke": 11794
+                        },
+                        "name": "signals-scout-ai-observability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 515,
+                            "on_invoke": 16554
+                        },
+                        "name": "investigating-error-issue"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 453,
+                            "on_invoke": 7186
+                        },
+                        "name": "copying-flags-across-projects"
                     },
                     {
                         "chars": {
@@ -14479,408 +14871,37 @@
                             "on_invoke": 9117
                         },
                         "name": "finding-sessions-to-watch"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 403,
-                            "on_invoke": 6998
-                        },
-                        "name": "diagnosing-missing-recordings"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 259,
-                            "on_invoke": 9382
-                        },
-                        "name": "instrument-product-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 550,
-                            "on_invoke": 14673
-                        },
-                        "name": "signals-scout-revenue-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 697,
-                            "on_invoke": 23446
-                        },
-                        "name": "signals-scout-web-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 734,
-                            "on_invoke": 1738
-                        },
-                        "name": "finding-experiments"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 574,
-                            "on_invoke": 5517
-                        },
-                        "name": "formatting-insight-axes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 213,
-                            "on_invoke": 11457
-                        },
-                        "name": "skills-store"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 654,
-                            "on_invoke": 6867
-                        },
-                        "name": "managing-path-cleaning-rules"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 515,
-                            "on_invoke": 16554
-                        },
-                        "name": "investigating-error-issue"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 761,
-                            "on_invoke": 8093
-                        },
-                        "name": "diagnosing-stacktrace-symbolication"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 453,
-                            "on_invoke": 7186
-                        },
-                        "name": "copying-flags-across-projects"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 623,
-                            "on_invoke": 14027
-                        },
-                        "name": "exploring-llm-traces"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 811,
-                            "on_invoke": 6680
-                        },
-                        "name": "creating-replay-vision-scanners"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 275,
-                            "on_invoke": 7129
-                        },
-                        "name": "instrument-llm-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 616,
-                            "on_invoke": 25630
-                        },
-                        "name": "signals-scout-experiments"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 221,
-                            "on_invoke": 8790
-                        },
-                        "name": "exploring-llm-clusters"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 539,
-                            "on_invoke": 11523
-                        },
-                        "name": "auditing-warehouse-data-health"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 766,
-                            "on_invoke": 16735
-                        },
-                        "name": "signals-scout-health-checks"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 281,
-                            "on_invoke": 3346
-                        },
-                        "name": "auditing-experiments-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 434,
-                            "on_invoke": 14506
-                        },
-                        "name": "signals-scout-logs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 547,
-                            "on_invoke": 8611
-                        },
-                        "name": "managing-endpoint-versions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 260,
-                            "on_invoke": 5693
-                        },
-                        "name": "instrument-logs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 438,
-                            "on_invoke": 4756
-                        },
-                        "name": "finding-replay-for-issue"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 580,
-                            "on_invoke": 6314
-                        },
-                        "name": "suggesting-data-imports"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 698,
-                            "on_invoke": 8880
-                        },
-                        "name": "configuring-experiment-rollout"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 461,
-                            "on_invoke": 6608
-                        },
-                        "name": "triaging-error-issues"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 425,
-                            "on_invoke": 9900
-                        },
-                        "name": "diagnosing-endpoint-performance"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 488,
-                            "on_invoke": 12679
-                        },
-                        "name": "consuming-endpoints-from-client-code"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 649,
-                            "on_invoke": 10684
-                        },
-                        "name": "exploring-autocapture-events"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 247,
-                            "on_invoke": 5368
-                        },
-                        "name": "instrument-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 614,
-                            "on_invoke": 17900
-                        },
-                        "name": "exploring-llm-evaluations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 608,
-                            "on_invoke": 11794
-                        },
-                        "name": "signals-scout-ai-observability"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 487,
-                            "on_invoke": 4365
-                        },
-                        "name": "investigating-replay"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 346,
-                            "on_invoke": 10473
-                        },
-                        "name": "diagnosing-sdk-health"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 804,
-                            "on_invoke": 10393
-                        },
-                        "name": "authoring-signals-scouts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 617,
-                            "on_invoke": 16790
-                        },
-                        "name": "signals-scout-observability-gaps"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 549,
-                            "on_invoke": 14268
-                        },
-                        "name": "tuning-incremental-sync-config"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 484,
-                            "on_invoke": 9057
-                        },
-                        "name": "debugging-signals-pipeline"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 317,
-                            "on_invoke": 6339
-                        },
-                        "name": "managing-subscriptions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 640,
-                            "on_invoke": 26059
-                        },
-                        "name": "signals-scout-session-replay"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 488,
-                            "on_invoke": 11033
-                        },
-                        "name": "auditing-endpoints"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 557,
-                            "on_invoke": 13202
-                        },
-                        "name": "exploring-live-traffic"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 425,
-                            "on_invoke": 8698
-                        },
-                        "name": "signals-scout-error-tracking"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 485,
-                            "on_invoke": 16847
-                        },
-                        "name": "signals"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 510,
-                            "on_invoke": 13944
-                        },
-                        "name": "inbox-exploration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 500,
-                            "on_invoke": 3920
-                        },
-                        "name": "creating-experiments"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 564,
-                            "on_invoke": 15743
-                        },
-                        "name": "diagnosing-failed-warehouse-syncs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 323,
-                            "on_invoke": 10173
-                        },
-                        "name": "cleaning-up-stale-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1035,
-                            "on_invoke": 15272
-                        },
-                        "name": "planning-user-interviews"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 536,
-                            "on_invoke": 6920
-                        },
-                        "name": "debugging-local-replay"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 460,
-                            "on_invoke": 3772
-                        },
-                        "name": "signals-scout-general"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 781,
-                            "on_invoke": 13762
-                        },
-                        "name": "signals-scout-anomaly-detection"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 572,
-                            "on_invoke": 23229
-                        },
-                        "name": "signals-scout-surveys"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T16:42:08+02:00",
+            "last_updated": "2026-06-13T16:26:56+02:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code.",
                 "homepage": "https://posthog.com/docs/model-context-protocol",
                 "name": "posthog",
                 "source": {
-                    "sha": "f674efefafeff7152294642f8559906eed885210",
+                    "sha": "fd9992ff9f74b97ae8cd4a21e69d07687c5369ca",
                     "source": "url",
                     "url": "https://github.com/PostHog/ai-plugin.git"
                 }
             },
             "plugin": "posthog",
-            "sha": "f674efefafeff7152294642f8559906eed885210",
+            "sha": "fd9992ff9f74b97ae8cd4a21e69d07687c5369ca",
             "source": "posthog@claude-plugins-official",
-            "source_sha": "f674efefafeff7152294642f8559906eed885210",
+            "source_sha": "fd9992ff9f74b97ae8cd4a21e69d07687c5369ca",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 15302,
-                    "on_invoke": 332930
+                    "always_on": 15925,
+                    "on_invoke": 349645
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 10415,
-                    "on_invoke": 244872
+                    "always_on": 10828,
+                    "on_invoke": 257097
                 }
             },
             "unique_installs": 11506,
-            "version": "1.1.34"
+            "version": "1.1.35"
         },
         "postiz@claude-plugins-official": {
             "components": {
@@ -15348,38 +15369,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 268,
-                            "on_invoke": 1531
-                        },
-                        "name": "qdrant-scaling"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 139,
-                            "on_invoke": 2785
-                        },
-                        "name": "qdrant-clients-sdk"
-                    },
-                    {
-                        "chars": {
                             "always_on": 362,
                             "on_invoke": 678
                         },
                         "name": "qdrant-monitoring"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 163,
-                            "on_invoke": 1737
-                        },
-                        "name": "qdrant-version-upgrade"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 336,
-                            "on_invoke": 2725
-                        },
-                        "name": "qdrant-deployment-options"
                     },
                     {
                         "chars": {
@@ -15394,10 +15387,38 @@
                             "on_invoke": 1516
                         },
                         "name": "qdrant-performance-optimization"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 139,
+                            "on_invoke": 2791
+                        },
+                        "name": "qdrant-clients-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 268,
+                            "on_invoke": 1531
+                        },
+                        "name": "qdrant-scaling"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 163,
+                            "on_invoke": 1737
+                        },
+                        "name": "qdrant-version-upgrade"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 336,
+                            "on_invoke": 2725
+                        },
+                        "name": "qdrant-deployment-options"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T09:27:23+02:00",
+            "last_updated": "2026-06-13T10:47:22+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Qdrant"
@@ -15407,23 +15428,23 @@
                 "homepage": "https://skills.qdrant.tech",
                 "name": "qdrant-skills",
                 "source": {
-                    "sha": "0814a0875db7a31bf29e46821668ef1b07f9f696",
+                    "sha": "80f1980d126039c762664a3fe660bbad2eb1ec11",
                     "source": "url",
                     "url": "https://github.com/qdrant/skills.git"
                 }
             },
             "plugin": "qdrant",
-            "sha": "0814a0875db7a31bf29e46821668ef1b07f9f696",
+            "sha": "80f1980d126039c762664a3fe660bbad2eb1ec11",
             "source": "qdrant-skills@claude-plugins-official",
-            "source_sha": "0814a0875db7a31bf29e46821668ef1b07f9f696",
+            "source_sha": "80f1980d126039c762664a3fe660bbad2eb1ec11",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 935,
-                    "on_invoke": 6594
+                    "on_invoke": 6597
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 669,
-                    "on_invoke": 4727
+                    "on_invoke": 4729
                 }
             },
             "unique_installs": 859,
@@ -15667,7 +15688,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T12:30:29-07:00",
+            "last_updated": "2026-06-13T10:07:24+04:00",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Deploy and manage apps, databases, and infrastructure on Railway. Covers project setup, deploys, environment configuration, networking, troubleshooting, and monitoring.",
@@ -15676,15 +15697,15 @@
                 "source": {
                     "path": "plugins/railway",
                     "ref": "main",
-                    "sha": "d096b092f96f9b6a3023c4a38295f431f5aebe0e",
+                    "sha": "aa1e055b0f18d13787232b164cfb7416b553bd03",
                     "source": "git-subdir",
                     "url": "https://github.com/railwayapp/railway-skills.git"
                 }
             },
             "plugin": "railway",
-            "sha": "d096b092f96f9b6a3023c4a38295f431f5aebe0e",
+            "sha": "aa1e055b0f18d13787232b164cfb7416b553bd03",
             "source": "railway@claude-plugins-official",
-            "source_sha": "d096b092f96f9b6a3023c4a38295f431f5aebe0e",
+            "source_sha": "aa1e055b0f18d13787232b164cfb7416b553bd03",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 292,
@@ -15696,7 +15717,7 @@
                 }
             },
             "unique_installs": 5191,
-            "version": "1.3.0"
+            "version": "1.3.1"
         },
         "ralph-loop@claude-plugins-official": {
             "components": {
@@ -17078,7 +17099,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T16:32:26Z",
+            "last_updated": "2026-06-13T01:49:58+01:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Sentry"
@@ -17090,15 +17111,15 @@
                 "source": {
                     "path": "plugins/sentry-cli",
                     "ref": "main",
-                    "sha": "f1f603036aecac16048498e32f60d27dffd5a227",
+                    "sha": "4fda3dc169b914a8dec53c18d127ccbe67dbbf3e",
                     "source": "git-subdir",
                     "url": "https://github.com/getsentry/cli.git"
                 }
             },
             "plugin": "sentry-cli",
-            "sha": "f1f603036aecac16048498e32f60d27dffd5a227",
+            "sha": "4fda3dc169b914a8dec53c18d127ccbe67dbbf3e",
             "source": "sentry-cli@claude-plugins-official",
-            "source_sha": "f1f603036aecac16048498e32f60d27dffd5a227",
+            "source_sha": "4fda3dc169b914a8dec53c18d127ccbe67dbbf3e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 93,
@@ -18405,7 +18426,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T01:19:06Z",
+            "last_updated": "2026-06-13T01:17:02Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Stripe development plugin for Claude",
@@ -18414,15 +18435,15 @@
                 "source": {
                     "path": "providers/claude/plugin",
                     "ref": "main",
-                    "sha": "2b60be10f6f838a739b0d4faa5eb3583cc7cec81",
+                    "sha": "ea0ad2373fdb687c247aac4f4100dc04154bf687",
                     "source": "git-subdir",
                     "url": "https://github.com/stripe/ai.git"
                 }
             },
             "plugin": "stripe",
-            "sha": "2b60be10f6f838a739b0d4faa5eb3583cc7cec81",
+            "sha": "ea0ad2373fdb687c247aac4f4100dc04154bf687",
             "source": "stripe@claude-plugins-official",
-            "source_sha": "2b60be10f6f838a739b0d4faa5eb3583cc7cec81",
+            "source_sha": "ea0ad2373fdb687c247aac4f4100dc04154bf687",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 746,
@@ -18455,7 +18476,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-08T21:51:52+02:00",
+            "last_updated": "2026-06-13T21:49:00+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "SumUp payment integrations across terminal and online checkout flows. Build Android and iOS POS apps with SumUp card readers, online checkout with server SDKs and the checkout widget, and control card readers remotely via Cloud API.",
@@ -18463,15 +18484,15 @@
                 "name": "sumup",
                 "source": {
                     "path": "providers/claude/plugin",
-                    "sha": "5b9b2d72c63fefd9038db0a9c571d3d64ff6353c",
+                    "sha": "b69ff6f5afcd5934af70529e529c0dd8abe46cbe",
                     "source": "url",
                     "url": "https://github.com/sumup/sumup-skills.git"
                 }
             },
             "plugin": "sumup",
-            "sha": "5b9b2d72c63fefd9038db0a9c571d3d64ff6353c",
+            "sha": "b69ff6f5afcd5934af70529e529c0dd8abe46cbe",
             "source": "sumup@claude-plugins-official",
-            "source_sha": "5b9b2d72c63fefd9038db0a9c571d3d64ff6353c",
+            "source_sha": "b69ff6f5afcd5934af70529e529c0dd8abe46cbe",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 149,
