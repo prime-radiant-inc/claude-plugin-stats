@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-14T08:40:01.387Z",
+    "generated_at": "2026-06-15T09:33:50.726Z",
     "installs_generated_at": "2026-06-12T06:00:28.233110+00:00",
-    "marketplace_sha": "3134d2866d15e3a073478254d903ebf565797695",
+    "marketplace_sha": "be88f154f6ab4f0c5142585ede3d9763aca38bd4",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -105,31 +105,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 642,
-                            "on_invoke": 21165
-                        },
-                        "name": "adobe-retouch-portraits"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 572,
-                            "on_invoke": 10829
-                        },
-                        "name": "adobe-edit-quick-cut"
-                    },
-                    {
-                        "chars": {
                             "always_on": 797,
                             "on_invoke": 25653
                         },
                         "name": "adobe-create-social-variations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 989,
-                            "on_invoke": 17608
-                        },
-                        "name": "adobe-resize-photos-and-videos"
                     },
                     {
                         "chars": {
@@ -140,14 +119,35 @@
                     },
                     {
                         "chars": {
+                            "always_on": 642,
+                            "on_invoke": 21165
+                        },
+                        "name": "adobe-retouch-portraits"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 989,
+                            "on_invoke": 17608
+                        },
+                        "name": "adobe-resize-photos-and-videos"
+                    },
+                    {
+                        "chars": {
                             "always_on": 814,
                             "on_invoke": 6179
                         },
                         "name": "adobe-design-from-template"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 572,
+                            "on_invoke": 10829
+                        },
+                        "name": "adobe-edit-quick-cut"
                     }
                 ]
             },
-            "last_updated": "2026-06-09T00:05:59+05:30",
+            "last_updated": "2026-06-14T21:05:06+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Adobe"
@@ -159,15 +159,15 @@
                 "source": {
                     "path": "plugins/creative-cloud/adobe-for-creativity",
                     "ref": "main",
-                    "sha": "253f56901e058800ccb97ffd5bf1e3329d5f2e00",
+                    "sha": "cdf8738152076ea5850354c1a3de21d88e377c2e",
                     "source": "git-subdir",
                     "url": "https://github.com/adobe/skills.git"
                 }
             },
             "plugin": "adobe-for-creativity",
-            "sha": "253f56901e058800ccb97ffd5bf1e3329d5f2e00",
+            "sha": "cdf8738152076ea5850354c1a3de21d88e377c2e",
             "source": "adobe-for-creativity@claude-plugins-official",
-            "source_sha": "253f56901e058800ccb97ffd5bf1e3329d5f2e00",
+            "source_sha": "cdf8738152076ea5850354c1a3de21d88e377c2e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1623,
@@ -1784,7 +1784,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-03T09:22:58+02:00",
+            "last_updated": "2026-06-13T20:50:19+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Comprehensive development workflow for building AI agents with the Atomic Agents framework. Includes specialized agents for schema design, architecture planning, code review, and tool development. Features guided workflows, progressive-disclosure skills, and best practice validation.",
@@ -1792,7 +1792,7 @@
                 "name": "atomic-agents",
                 "source": {
                     "path": "claude-plugin/atomic-agents",
-                    "sha": "324399402b9b5965313de6a34ea09d6bb149a200",
+                    "sha": "94220182f88df0292a8b59d01b61170ff6c61fd4",
                     "source": "url",
                     "url": "https://github.com/BrainBlend-AI/atomic-agents.git"
                 },
@@ -1801,9 +1801,9 @@
                 ]
             },
             "plugin": "atomic-agents",
-            "sha": "324399402b9b5965313de6a34ea09d6bb149a200",
+            "sha": "94220182f88df0292a8b59d01b61170ff6c61fd4",
             "source": "atomic-agents@claude-plugins-official",
-            "source_sha": "324399402b9b5965313de6a34ea09d6bb149a200",
+            "source_sha": "94220182f88df0292a8b59d01b61170ff6c61fd4",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -5491,16 +5491,16 @@
                     {
                         "chars": {
                             "always_on": 75,
-                            "on_invoke": 2074
+                            "on_invoke": 2418
                         },
-                        "name": "build-agent"
+                        "name": "build-mcp"
                     },
                     {
                         "chars": {
                             "always_on": 75,
-                            "on_invoke": 2418
+                            "on_invoke": 2074
                         },
-                        "name": "build-mcp"
+                        "name": "build-agent"
                     }
                 ],
                 "hooks": [],
@@ -5515,38 +5515,24 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 224,
+                            "on_invoke": 12120
+                        },
+                        "name": "cloudflare-one-migrations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 390,
+                            "on_invoke": 7973
+                        },
+                        "name": "cloudflare"
+                    },
+                    {
+                        "chars": {
                             "always_on": 409,
                             "on_invoke": 13447
                         },
                         "name": "turnstile-spin"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 473,
-                            "on_invoke": 7698
-                        },
-                        "name": "web-perf"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 544,
-                            "on_invoke": 7365
-                        },
-                        "name": "cloudflare-email-service"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 453,
-                            "on_invoke": 11647
-                        },
-                        "name": "agents-sdk"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 409,
-                            "on_invoke": 5439
-                        },
-                        "name": "durable-objects"
                     },
                     {
                         "chars": {
@@ -5557,10 +5543,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 356,
-                            "on_invoke": 17982
+                            "always_on": 409,
+                            "on_invoke": 5439
                         },
-                        "name": "wrangler"
+                        "name": "durable-objects"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 349,
+                            "on_invoke": 21923
+                        },
+                        "name": "cloudflare-one"
                     },
                     {
                         "chars": {
@@ -5571,37 +5564,58 @@
                     },
                     {
                         "chars": {
-                            "always_on": 390,
-                            "on_invoke": 7973
+                            "always_on": 453,
+                            "on_invoke": 11647
                         },
-                        "name": "cloudflare"
+                        "name": "agents-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 473,
+                            "on_invoke": 7698
+                        },
+                        "name": "web-perf"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 356,
+                            "on_invoke": 17982
+                        },
+                        "name": "wrangler"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 544,
+                            "on_invoke": 7365
+                        },
+                        "name": "cloudflare-email-service"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T17:14:19+01:00",
+            "last_updated": "2026-06-14T15:44:48-07:00",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
                 "homepage": "https://github.com/cloudflare/skills",
                 "name": "cloudflare",
                 "source": {
-                    "sha": "12520fd63a1e958be217a93f48ce1f04bc9055f3",
+                    "sha": "e16d698f6be2beb3a100138ac7eb072499bf429f",
                     "source": "url",
                     "url": "https://github.com/cloudflare/skills.git"
                 }
             },
             "plugin": "cloudflare",
-            "sha": "12520fd63a1e958be217a93f48ce1f04bc9055f3",
+            "sha": "e16d698f6be2beb3a100138ac7eb072499bf429f",
             "source": "cloudflare@claude-plugins-official",
-            "source_sha": "12520fd63a1e958be217a93f48ce1f04bc9055f3",
+            "source_sha": "e16d698f6be2beb3a100138ac7eb072499bf429f",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1514,
-                    "on_invoke": 36063
+                    "always_on": 1765,
+                    "on_invoke": 48341
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 999,
-                    "on_invoke": 26037
+                    "always_on": 1171,
+                    "on_invoke": 34277
                 }
             },
             "unique_installs": 11024,
@@ -9714,14 +9728,14 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 266,
-                            "on_invoke": 3956
+                            "always_on": 236,
+                            "on_invoke": 7961
                         },
                         "name": "frontend-design"
                     }
                 ]
             },
-            "last_updated": "2026-02-20T01:06:49Z",
+            "last_updated": "2026-06-14T20:35:08-05:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -9736,15 +9750,15 @@
             "plugin": "frontend-design",
             "sha": null,
             "source": "frontend-design@claude-plugins-official",
-            "source_sha": "aecd4c852f10b466245f18383fa6aad8c0b10d57",
+            "source_sha": "d029127f7d29bdb8fd8902ac34dd7d5c8ba92b6e",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 91,
-                    "on_invoke": 1376
+                    "always_on": 83,
+                    "on_invoke": 2361
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 59,
-                    "on_invoke": 857
+                    "always_on": 54,
+                    "on_invoke": 1700
                 }
             },
             "unique_installs": 907265
@@ -10355,112 +10369,119 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 277,
-                            "on_invoke": 3102
+                            "always_on": 343,
+                            "on_invoke": 4637
                         },
-                        "name": "lottie"
+                        "name": "hyperframes-creative"
                     },
                     {
                         "chars": {
-                            "always_on": 317,
-                            "on_invoke": 6331
+                            "always_on": 544,
+                            "on_invoke": 6599
                         },
-                        "name": "typegpu"
+                        "name": "hyperframes-animation"
                     },
                     {
                         "chars": {
-                            "always_on": 384,
-                            "on_invoke": 5868
+                            "always_on": 575,
+                            "on_invoke": 45392
                         },
-                        "name": "tailwind"
+                        "name": "pr-to-video"
                     },
                     {
                         "chars": {
-                            "always_on": 287,
-                            "on_invoke": 2912
+                            "always_on": 818,
+                            "on_invoke": 62811
                         },
-                        "name": "waapi"
+                        "name": "graphic-overlays"
                     },
                     {
                         "chars": {
-                            "always_on": 459,
-                            "on_invoke": 9653
+                            "always_on": 876,
+                            "on_invoke": 13293
                         },
-                        "name": "website-to-hyperframes"
+                        "name": "general-video"
                     },
                     {
                         "chars": {
-                            "always_on": 502,
-                            "on_invoke": 14099
+                            "always_on": 428,
+                            "on_invoke": 4439
                         },
                         "name": "hyperframes-media"
                     },
                     {
                         "chars": {
-                            "always_on": 439,
-                            "on_invoke": 6752
+                            "always_on": 675,
+                            "on_invoke": 40485
                         },
-                        "name": "contribute-catalog"
+                        "name": "faceless-explainer"
                     },
                     {
                         "chars": {
-                            "always_on": 304,
-                            "on_invoke": 2987
+                            "always_on": 859,
+                            "on_invoke": 12470
                         },
-                        "name": "animejs"
+                        "name": "motion-graphics"
                     },
                     {
                         "chars": {
-                            "always_on": 266,
-                            "on_invoke": 3253
-                        },
-                        "name": "three"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 378,
-                            "on_invoke": 3860
+                            "always_on": 471,
+                            "on_invoke": 4015
                         },
                         "name": "hyperframes-registry"
                     },
                     {
                         "chars": {
-                            "always_on": 275,
-                            "on_invoke": 3596
+                            "always_on": 1046,
+                            "on_invoke": 30422
                         },
-                        "name": "css-animations"
+                        "name": "embedded-captions"
                     },
                     {
                         "chars": {
-                            "always_on": 311,
-                            "on_invoke": 7385
+                            "always_on": 250,
+                            "on_invoke": 10366
                         },
-                        "name": "gsap"
+                        "name": "hyperframes-core"
                     },
                     {
                         "chars": {
-                            "always_on": 430,
-                            "on_invoke": 8475
+                            "always_on": 955,
+                            "on_invoke": 29278
+                        },
+                        "name": "hyperframes-read-first"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 500,
+                            "on_invoke": 8249
                         },
                         "name": "hyperframes-cli"
                     },
                     {
                         "chars": {
-                            "always_on": 932,
-                            "on_invoke": 7962
+                            "always_on": 927,
+                            "on_invoke": 9161
                         },
                         "name": "remotion-to-hyperframes"
                     },
                     {
                         "chars": {
-                            "always_on": 850,
-                            "on_invoke": 30501
+                            "always_on": 684,
+                            "on_invoke": 10389
                         },
-                        "name": "hyperframes"
+                        "name": "website-to-video"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 813,
+                            "on_invoke": 32385
+                        },
+                        "name": "product-launch-video"
                     }
                 ]
             },
-            "last_updated": "2026-06-13T19:23:05-04:00",
+            "last_updated": "2026-06-14T17:23:54-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -10470,23 +10491,23 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "a241f2591e7786a4586afb623c1242ccfc1a6510",
+                    "sha": "e6da47d8f8bf604b2de2efcb03e4b6a7fb0515cb",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "a241f2591e7786a4586afb623c1242ccfc1a6510",
+            "sha": "e6da47d8f8bf604b2de2efcb03e4b6a7fb0515cb",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "a241f2591e7786a4586afb623c1242ccfc1a6510",
+            "source_sha": "e6da47d8f8bf604b2de2efcb03e4b6a7fb0515cb",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2335,
-                    "on_invoke": 44054
+                    "always_on": 3976,
+                    "on_invoke": 117919
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1604,
-                    "on_invoke": 32745
+                    "always_on": 2801,
+                    "on_invoke": 86590
                 }
             },
             "unique_installs": 754,
@@ -12330,7 +12351,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-13T16:02:45-07:00",
+            "last_updated": "2026-06-14T10:31:18-07:00",
             "marketplace_entry": {
                 "category": "database",
                 "description": "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server.",
@@ -12339,15 +12360,15 @@
                 "source": {
                     "path": "plugins/neon-postgres",
                     "ref": "main",
-                    "sha": "7c3839a19c3fc9a570cedae7b2495f7f642f9f07",
+                    "sha": "e09dafdc62a11fc8a20134afcb70dc2aab2feb88",
                     "source": "git-subdir",
                     "url": "https://github.com/neondatabase/agent-skills.git"
                 }
             },
             "plugin": "neon",
-            "sha": "7c3839a19c3fc9a570cedae7b2495f7f642f9f07",
+            "sha": "e09dafdc62a11fc8a20134afcb70dc2aab2feb88",
             "source": "neon@claude-plugins-official",
-            "source_sha": "7c3839a19c3fc9a570cedae7b2495f7f642f9f07",
+            "source_sha": "e09dafdc62a11fc8a20134afcb70dc2aab2feb88",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -12741,39 +12762,39 @@
                     {
                         "chars": {
                             "always_on": 1049,
-                            "on_invoke": 8843
+                            "on_invoke": 8939
                         },
                         "name": "nimble-databricks-data-products"
                     }
                 ]
             },
-            "last_updated": "2026-06-12T18:36:55+03:00",
+            "last_updated": "2026-06-14T16:22:37+03:00",
             "marketplace_entry": {
                 "description": "Nimble web data toolkit \u2014 search, extract, map, crawl the web and work with structured data agents",
                 "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
                 "name": "nimble",
                 "source": {
-                    "sha": "bcc5159da6ae1e46ca366ff949d196112b47c5e9",
+                    "sha": "e72345e283f977d4f7bb4d6d415b5964a385bdf1",
                     "source": "url",
                     "url": "https://github.com/Nimbleway/agent-skills.git"
                 }
             },
             "plugin": "nimble",
-            "sha": "bcc5159da6ae1e46ca366ff949d196112b47c5e9",
+            "sha": "e72345e283f977d4f7bb4d6d415b5964a385bdf1",
             "source": "nimble@claude-plugins-official",
-            "source_sha": "bcc5159da6ae1e46ca366ff949d196112b47c5e9",
+            "source_sha": "e72345e283f977d4f7bb4d6d415b5964a385bdf1",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4398,
-                    "on_invoke": 77778
+                    "on_invoke": 77817
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 3042,
-                    "on_invoke": 55437
+                    "on_invoke": 55462
                 }
             },
             "unique_installs": 2338,
-            "version": "0.22.0"
+            "version": "0.23.0"
         },
         "notion@claude-plugins-official": {
             "components": {
@@ -15635,7 +15656,7 @@
                 ],
                 "skills": []
             },
-            "last_updated": "2026-06-12T11:39:02+10:00",
+            "last_updated": "2026-06-15T10:53:06+10:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Quarkus"
@@ -15645,15 +15666,15 @@
                 "homepage": "https://quarkus.io",
                 "name": "quarkus-agent",
                 "source": {
-                    "sha": "0b5e64457565f04bc88ca75ed67bd9eb02aa2905",
+                    "sha": "a2b67f5925ec10a8bb1d1905cbb91d0b4efb904d",
                     "source": "url",
                     "url": "https://github.com/quarkusio/quarkus-agent-mcp.git"
                 }
             },
             "plugin": "quarkus-agent",
-            "sha": "0b5e64457565f04bc88ca75ed67bd9eb02aa2905",
+            "sha": "a2b67f5925ec10a8bb1d1905cbb91d0b4efb904d",
             "source": "quarkus-agent@claude-plugins-official",
-            "source_sha": "0b5e64457565f04bc88ca75ed67bd9eb02aa2905",
+            "source_sha": "a2b67f5925ec10a8bb1d1905cbb91d0b4efb904d",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -16853,7 +16874,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T19:01:39Z",
+            "last_updated": "2026-06-14T10:40:09Z",
             "marketplace_entry": {
                 "author": {
                     "email": "ospo@sap.com",
@@ -16867,15 +16888,15 @@
                 "source": {
                     "path": "packages/fiori-mcp-server",
                     "ref": "main",
-                    "sha": "5f573157dd6af9f24984c5f58ad1d660c156e07b",
+                    "sha": "b204616c3622abdd40e18c4c1fc09c397978d9e2",
                     "source": "git-subdir",
                     "url": "https://github.com/SAP/open-ux-tools.git"
                 }
             },
             "plugin": "sap-fiori-mcp-server",
-            "sha": "5f573157dd6af9f24984c5f58ad1d660c156e07b",
+            "sha": "b204616c3622abdd40e18c4c1fc09c397978d9e2",
             "source": "sap-fiori-mcp-server@claude-plugins-official",
-            "source_sha": "5f573157dd6af9f24984c5f58ad1d660c156e07b",
+            "source_sha": "b204616c3622abdd40e18c4c1fc09c397978d9e2",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 166,
@@ -18426,7 +18447,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-13T01:17:02Z",
+            "last_updated": "2026-06-14T01:19:13Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Stripe development plugin for Claude",
@@ -18435,15 +18456,15 @@
                 "source": {
                     "path": "providers/claude/plugin",
                     "ref": "main",
-                    "sha": "ea0ad2373fdb687c247aac4f4100dc04154bf687",
+                    "sha": "7e7f72eb42e06f79e7bc75f86e9395f4c8232c00",
                     "source": "git-subdir",
                     "url": "https://github.com/stripe/ai.git"
                 }
             },
             "plugin": "stripe",
-            "sha": "ea0ad2373fdb687c247aac4f4100dc04154bf687",
+            "sha": "7e7f72eb42e06f79e7bc75f86e9395f4c8232c00",
             "source": "stripe@claude-plugins-official",
-            "source_sha": "ea0ad2373fdb687c247aac4f4100dc04154bf687",
+            "source_sha": "7e7f72eb42e06f79e7bc75f86e9395f4c8232c00",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 746,
@@ -18763,7 +18784,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-05T11:30:51+02:00",
+            "last_updated": "2026-06-13T12:04:28+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "JetBrains"
@@ -18773,15 +18794,15 @@
                 "homepage": "https://www.jetbrains.com/teamcity/",
                 "name": "teamcity-cli",
                 "source": {
-                    "sha": "67e21f0be908daa7ca1e04c8016d1bc81750baee",
+                    "sha": "4865b1b75e77889355393a46dc56a0363ce3330d",
                     "source": "url",
                     "url": "https://github.com/JetBrains/teamcity-cli.git"
                 }
             },
             "plugin": "teamcity-cli",
-            "sha": "67e21f0be908daa7ca1e04c8016d1bc81750baee",
+            "sha": "4865b1b75e77889355393a46dc56a0363ce3330d",
             "source": "teamcity-cli@claude-plugins-official",
-            "source_sha": "67e21f0be908daa7ca1e04c8016d1bc81750baee",
+            "source_sha": "4865b1b75e77889355393a46dc56a0363ce3330d",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 98,
@@ -19560,6 +19581,13 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 880,
+                            "on_invoke": 14067
+                        },
+                        "name": "ui5-best-practices"
+                    },
+                    {
+                        "chars": {
                             "always_on": 416,
                             "on_invoke": 5609
                         },
@@ -19567,14 +19595,14 @@
                     },
                     {
                         "chars": {
-                            "always_on": 880,
-                            "on_invoke": 14067
+                            "always_on": 332,
+                            "on_invoke": 682
                         },
-                        "name": "ui5-best-practices"
+                        "name": "ui5-best-practices-opa5"
                     }
                 ]
             },
-            "last_updated": "2026-06-09T15:57:39Z",
+            "last_updated": "2026-06-10T13:27:20+02:00",
             "marketplace_entry": {
                 "author": {
                     "email": "openui5@sap.com",
@@ -19588,23 +19616,23 @@
                 "source": {
                     "path": "plugins/ui5",
                     "ref": "main",
-                    "sha": "6d72751f0b2983c379aaa457fe4c7cf4a075a66d",
+                    "sha": "80f2d93287054f9d30dd990e842e15bcfca581c9",
                     "source": "git-subdir",
                     "url": "https://github.com/UI5/plugins-coding-agents.git"
                 }
             },
             "plugin": "ui5",
-            "sha": "6d72751f0b2983c379aaa457fe4c7cf4a075a66d",
+            "sha": "80f2d93287054f9d30dd990e842e15bcfca581c9",
             "source": "ui5@claude-plugins-official",
-            "source_sha": "6d72751f0b2983c379aaa457fe4c7cf4a075a66d",
+            "source_sha": "80f2d93287054f9d30dd990e842e15bcfca581c9",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 491,
-                    "on_invoke": 7641
+                    "always_on": 622,
+                    "on_invoke": 7907
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 326,
-                    "on_invoke": 5597
+                    "always_on": 426,
+                    "on_invoke": 5777
                 }
             },
             "unique_installs": 1301
@@ -19867,20 +19895,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 240,
-                            "on_invoke": 9080
-                        },
-                        "name": "vercel-sandbox"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 227,
-                            "on_invoke": 1650
-                        },
-                        "name": "vercel-agent"
-                    },
-                    {
-                        "chars": {
                             "always_on": 228,
                             "on_invoke": 3526
                         },
@@ -19888,24 +19902,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 208,
-                            "on_invoke": 10316
+                            "always_on": 312,
+                            "on_invoke": 17924
                         },
-                        "name": "deployments-cicd"
+                        "name": "marketplace"
                     },
                     {
                         "chars": {
-                            "always_on": 209,
-                            "on_invoke": 11708
+                            "always_on": 606,
+                            "on_invoke": 3054
                         },
-                        "name": "vercel-storage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 257,
-                            "on_invoke": 8460
-                        },
-                        "name": "routing-middleware"
+                        "name": "microfrontends"
                     },
                     {
                         "chars": {
@@ -19923,10 +19930,31 @@
                     },
                     {
                         "chars": {
-                            "always_on": 244,
-                            "on_invoke": 18233
+                            "always_on": 270,
+                            "on_invoke": 3768
                         },
-                        "name": "workflow"
+                        "name": "nextjs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 180,
+                            "on_invoke": 9400
+                        },
+                        "name": "turbopack"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 227,
+                            "on_invoke": 1650
+                        },
+                        "name": "vercel-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 272,
+                            "on_invoke": 9224
+                        },
+                        "name": "next-cache-components"
                     },
                     {
                         "chars": {
@@ -19934,6 +19962,76 @@
                             "on_invoke": 18465
                         },
                         "name": "shadcn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 179,
+                            "on_invoke": 19646
+                        },
+                        "name": "ai-gateway"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 243,
+                            "on_invoke": 8422
+                        },
+                        "name": "vercel-functions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 208,
+                            "on_invoke": 10316
+                        },
+                        "name": "deployments-cicd"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 257,
+                            "on_invoke": 8460
+                        },
+                        "name": "routing-middleware"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 244,
+                            "on_invoke": 18233
+                        },
+                        "name": "workflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 252,
+                            "on_invoke": 7154
+                        },
+                        "name": "runtime-cache"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 227,
+                            "on_invoke": 5020
+                        },
+                        "name": "next-forge"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 240,
+                            "on_invoke": 9080
+                        },
+                        "name": "vercel-sandbox"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 199,
+                            "on_invoke": 1842
+                        },
+                        "name": "next-upgrade"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 176,
+                            "on_invoke": 8416
+                        },
+                        "name": "env-vars"
                     },
                     {
                         "chars": {
@@ -19965,62 +20063,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 331,
-                            "on_invoke": 18951
-                        },
-                        "name": "vercel-firewall"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 270,
-                            "on_invoke": 3768
-                        },
-                        "name": "nextjs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 227,
-                            "on_invoke": 5020
-                        },
-                        "name": "next-forge"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 243,
-                            "on_invoke": 8422
-                        },
-                        "name": "vercel-functions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 272,
-                            "on_invoke": 9224
-                        },
-                        "name": "next-cache-components"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 199,
-                            "on_invoke": 1842
-                        },
-                        "name": "next-upgrade"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 252,
-                            "on_invoke": 7154
-                        },
-                        "name": "runtime-cache"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 180,
-                            "on_invoke": 9400
-                        },
-                        "name": "turbopack"
-                    },
-                    {
-                        "chars": {
                             "always_on": 304,
                             "on_invoke": 5681
                         },
@@ -20028,55 +20070,48 @@
                     },
                     {
                         "chars": {
-                            "always_on": 312,
-                            "on_invoke": 17924
+                            "always_on": 331,
+                            "on_invoke": 18951
                         },
-                        "name": "marketplace"
+                        "name": "vercel-firewall"
                     },
                     {
                         "chars": {
-                            "always_on": 176,
-                            "on_invoke": 8416
+                            "always_on": 209,
+                            "on_invoke": 11708
                         },
-                        "name": "env-vars"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 179,
-                            "on_invoke": 19646
-                        },
-                        "name": "ai-gateway"
+                        "name": "vercel-storage"
                     }
                 ]
             },
-            "last_updated": "2026-05-19T09:50:25-07:00",
+            "last_updated": "2026-06-09T08:21:42+01:00",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Claude Code.",
                 "homepage": "https://github.com/vercel/vercel-plugin",
                 "name": "vercel",
                 "source": {
-                    "sha": "6e51924cb249e2941de005d59f1ac6f768477b98",
+                    "sha": "b73bc95636c4f4d749ea242b669e0f78f5e72751",
                     "source": "url",
                     "url": "https://github.com/vercel/vercel-plugin.git"
                 }
             },
             "plugin": "vercel",
-            "sha": "6e51924cb249e2941de005d59f1ac6f768477b98",
+            "sha": "b73bc95636c4f4d749ea242b669e0f78f5e72751",
             "source": "vercel@claude-plugins-official",
-            "source_sha": "6e51924cb249e2941de005d59f1ac6f768477b98",
+            "source_sha": "b73bc95636c4f4d749ea242b669e0f78f5e72751",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2272,
-                    "on_invoke": 91932
+                    "always_on": 2467,
+                    "on_invoke": 92988
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1507,
-                    "on_invoke": 66391
+                    "always_on": 1646,
+                    "on_invoke": 67171
                 }
             },
             "unique_installs": 163642,
-            "version": "0.43.0"
+            "version": "0.44.0"
         },
         "vibe-prospecting@claude-plugins-official": {
             "components": {
@@ -20220,17 +20255,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 318,
-                            "on_invoke": 19111
-                        },
-                        "name": "wix-manage"
-                    },
-                    {
-                        "chars": {
                             "always_on": 339,
                             "on_invoke": 4771
                         },
                         "name": "wix-design-system"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 318,
+                            "on_invoke": 19111
+                        },
+                        "name": "wix-manage"
                     },
                     {
                         "chars": {
@@ -20248,22 +20283,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-11T14:29:26+03:00",
+            "last_updated": "2026-06-14T13:35:41+03:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
                 "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
                 "name": "wix",
                 "source": {
-                    "sha": "def21835af3e6f0d86bf8c18acb1aaad7fdc9cd8",
+                    "sha": "75bb86e43cad1bfdc0e51f541cd44f9612c1deee",
                     "source": "url",
                     "url": "https://github.com/wix/skills.git"
                 }
             },
             "plugin": "wix",
-            "sha": "def21835af3e6f0d86bf8c18acb1aaad7fdc9cd8",
+            "sha": "75bb86e43cad1bfdc0e51f541cd44f9612c1deee",
             "source": "wix@claude-plugins-official",
-            "source_sha": "def21835af3e6f0d86bf8c18acb1aaad7fdc9cd8",
+            "source_sha": "75bb86e43cad1bfdc0e51f541cd44f9612c1deee",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 892,
