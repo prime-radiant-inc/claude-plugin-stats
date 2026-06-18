@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-17T09:08:31.871Z",
+    "generated_at": "2026-06-18T08:59:13.540Z",
     "installs_generated_at": "2026-06-12T06:00:28.233110+00:00",
-    "marketplace_sha": "ccdc03c56532519760df6363a6eef87324470fc8",
+    "marketplace_sha": "518259c1c3449a4f396505d4840c2163420bfb6c",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -147,7 +147,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T09:49:04+02:00",
+            "last_updated": "2026-06-17T02:55:33-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Adobe"
@@ -159,15 +159,15 @@
                 "source": {
                     "path": "plugins/creative-cloud/adobe-for-creativity",
                     "ref": "main",
-                    "sha": "e3971a70ecf47c0acadcd1852d9eb10e820e83f0",
+                    "sha": "2178b523eae8dcc75251829a49b24e62e8af6773",
                     "source": "git-subdir",
                     "url": "https://github.com/adobe/skills.git"
                 }
             },
             "plugin": "adobe-for-creativity",
-            "sha": "e3971a70ecf47c0acadcd1852d9eb10e820e83f0",
+            "sha": "2178b523eae8dcc75251829a49b24e62e8af6773",
             "source": "adobe-for-creativity@claude-plugins-official",
-            "source_sha": "e3971a70ecf47c0acadcd1852d9eb10e820e83f0",
+            "source_sha": "2178b523eae8dcc75251829a49b24e62e8af6773",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1623,
@@ -631,49 +631,6 @@
             },
             "version": "0.2.2"
         },
-        "airwallex@claude-plugins-official": {
-            "components": {
-                "agents": [],
-                "commands": [],
-                "hooks": [],
-                "lspServers": [],
-                "mcpServers": [],
-                "skills": []
-            },
-            "last_updated": "2026-06-15T02:48:08Z",
-            "marketplace_entry": {
-                "author": {
-                    "name": "Airwallex"
-                },
-                "category": "productivity",
-                "description": "Airwallex CLI plugin for Claude \u2014 skills for payments, billing, invoicing, beneficiary creation, card provisioning, and cashflow management.",
-                "homepage": "https://www.airwallex.com/docs",
-                "name": "airwallex",
-                "source": {
-                    "path": "plugins/airwallex",
-                    "ref": "master",
-                    "sha": "683a7536f9445c07439d087607b44b0383b8c41d",
-                    "source": "git-subdir",
-                    "url": "https://github.com/airwallex/airwallex-marketplace.git"
-                }
-            },
-            "plugin": "airwallex",
-            "sha": "683a7536f9445c07439d087607b44b0383b8c41d",
-            "source": "airwallex@claude-plugins-official",
-            "source_sha": "683a7536f9445c07439d087607b44b0383b8c41d",
-            "tokens": {
-                "claude-opus-4-7": {
-                    "always_on": 0,
-                    "on_invoke": 0
-                },
-                "claude-sonnet-4-6": {
-                    "always_on": 0,
-                    "on_invoke": 0
-                }
-            },
-            "unique_installs": 43,
-            "version": "0.2.0"
-        },
         "alloydb-omni@claude-plugins-official": {
             "components": {
                 "agents": [],
@@ -889,7 +846,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:51:52Z",
+            "last_updated": "2026-06-17T04:26:56Z",
             "marketplace_entry": {
                 "category": "location",
                 "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
@@ -898,15 +855,15 @@
                 "source": {
                     "path": "plugins/amazon-location-service",
                     "ref": "main",
-                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "amazon-location-service",
-            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "source": "amazon-location-service@claude-plugins-official",
-            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 212,
@@ -2235,6 +2192,206 @@
             "unique_installs": 2565,
             "version": "1.1.0"
         },
+        "aws-agents-for-devsecops@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [
+                    {
+                        "chars": {
+                            "always_on": 86,
+                            "on_invoke": 106
+                        },
+                        "name": "setup-devops-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 118,
+                            "on_invoke": 931
+                        },
+                        "name": "investigate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 94,
+                            "on_invoke": 517
+                        },
+                        "name": "chat"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 85,
+                            "on_invoke": 117
+                        },
+                        "name": "setup-security-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 116,
+                            "on_invoke": 705
+                        },
+                        "name": "cost"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 130,
+                            "on_invoke": 7292
+                        },
+                        "name": "release-readiness"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 121,
+                            "on_invoke": 3032
+                        },
+                        "name": "release-testing"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 110,
+                            "on_invoke": 799
+                        },
+                        "name": "spaces"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 94,
+                            "on_invoke": 90
+                        },
+                        "name": "setup"
+                    }
+                ],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "aws-devops-agent"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 472,
+                            "on_invoke": 19679
+                        },
+                        "name": "analyzing-release-readiness"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 341,
+                            "on_invoke": 3918
+                        },
+                        "name": "threat-modeling-with-aws-security-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 876,
+                            "on_invoke": 10683
+                        },
+                        "name": "remediating-with-aws-security-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 182,
+                            "on_invoke": 308
+                        },
+                        "name": "setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 332,
+                            "on_invoke": 8038
+                        },
+                        "name": "setup-security-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 512,
+                            "on_invoke": 6526
+                        },
+                        "name": "coordinating-multi-space-devops-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 484,
+                            "on_invoke": 4900
+                        },
+                        "name": "chatting-with-aws-devops-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 435,
+                            "on_invoke": 4956
+                        },
+                        "name": "investigating-incidents-with-aws-devops-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 322,
+                            "on_invoke": 11895
+                        },
+                        "name": "setup-devops-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 324,
+                            "on_invoke": 3678
+                        },
+                        "name": "diff-scanning-with-aws-security-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 430,
+                            "on_invoke": 8026
+                        },
+                        "name": "running-release-tests"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 442,
+                            "on_invoke": 10351
+                        },
+                        "name": "scanning-with-aws-security-agent"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 484,
+                            "on_invoke": 6025
+                        },
+                        "name": "pentesting-with-aws-security-agent"
+                    }
+                ]
+            },
+            "last_updated": "2026-06-17T22:01:17Z",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Amazon Web Services"
+                },
+                "category": "development",
+                "description": "Investigate incidents, review code and execute UAT for release readiness, scan code for vulnerabilities, and run penetration tests with AWS DevOps Agent and AWS Security Agent.",
+                "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+                "name": "aws-agents-for-devsecops",
+                "source": {
+                    "path": "plugins/aws-agents-for-devsecops",
+                    "ref": "main",
+                    "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
+                    "source": "git-subdir",
+                    "url": "https://github.com/aws/agent-toolkit-for-aws.git"
+                }
+            },
+            "plugin": "aws-agents-for-devsecops",
+            "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
+            "source": "aws-agents-for-devsecops@claude-plugins-official",
+            "source_sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 2347,
+                    "on_invoke": 45309
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 1632,
+                    "on_invoke": 33364
+                }
+            },
+            "version": "1.0.0"
+        },
         "aws-agents@claude-plugins-official": {
             "components": {
                 "agents": [],
@@ -2296,7 +2453,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T12:09:34Z",
+            "last_updated": "2026-06-17T22:01:17Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -2308,15 +2465,15 @@
                 "source": {
                     "path": "plugins/aws-agents",
                     "ref": "main",
-                    "sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+                    "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-agents",
-            "sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+            "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
             "source": "aws-agents@claude-plugins-official",
-            "source_sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+            "source_sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2034,
@@ -2349,7 +2506,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:51:52Z",
+            "last_updated": "2026-06-17T04:26:56Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
@@ -2358,15 +2515,15 @@
                 "source": {
                     "path": "plugins/aws-amplify",
                     "ref": "main",
-                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "aws-amplify",
-            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "source": "aws-amplify@claude-plugins-official",
-            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 386,
@@ -2384,7 +2541,9 @@
             "components": {
                 "agents": [],
                 "commands": [],
-                "hooks": [],
+                "hooks": [
+                    "PreToolUse"
+                ],
                 "lspServers": [],
                 "mcpServers": [
                     "aws-mcp"
@@ -2413,8 +2572,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 796,
-                            "on_invoke": 28443
+                            "always_on": 998,
+                            "on_invoke": 28639
                         },
                         "name": "amazon-bedrock"
                     },
@@ -2445,6 +2604,13 @@
                             "on_invoke": 5807
                         },
                         "name": "aws-cdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 291,
+                            "on_invoke": 7097
+                        },
+                        "name": "aws-secrets-manager"
                     },
                     {
                         "chars": {
@@ -2490,7 +2656,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T12:09:34Z",
+            "last_updated": "2026-06-17T22:01:17Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -2502,23 +2668,23 @@
                 "source": {
                     "path": "plugins/aws-core",
                     "ref": "main",
-                    "sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+                    "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-core",
-            "sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+            "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
             "source": "aws-core@claude-plugins-official",
-            "source_sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+            "source_sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2940,
-                    "on_invoke": 50433
+                    "always_on": 3126,
+                    "on_invoke": 53385
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1887,
-                    "on_invoke": 35581
+                    "always_on": 2003,
+                    "on_invoke": 37689
                 }
             },
             "unique_installs": 2084,
@@ -2572,20 +2738,20 @@
                     {
                         "chars": {
                             "always_on": 525,
-                            "on_invoke": 9030
+                            "on_invoke": 15592
                         },
                         "name": "finding-data-lake-assets"
                     },
                     {
                         "chars": {
                             "always_on": 487,
-                            "on_invoke": 5469
+                            "on_invoke": 9475
                         },
                         "name": "exploring-data-catalog"
                     }
                 ]
             },
-            "last_updated": "2026-06-16T12:09:34Z",
+            "last_updated": "2026-06-17T22:01:17Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -2597,23 +2763,23 @@
                 "source": {
                     "path": "plugins/aws-data-analytics",
                     "ref": "main",
-                    "sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+                    "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-data-analytics",
-            "sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+            "sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
             "source": "aws-data-analytics@claude-plugins-official",
-            "source_sha": "3151b58551a4218ebe1190f4622fdc8b212c7e07",
+            "source_sha": "9ad8fe7d729435ae3788a16fdbf308520ee2b78e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1720,
-                    "on_invoke": 21424
+                    "on_invoke": 25502
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1164,
-                    "on_invoke": 15224
+                    "on_invoke": 18247
                 }
             },
             "unique_installs": 860,
@@ -3046,7 +3212,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:51:52Z",
+            "last_updated": "2026-06-17T04:26:56Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
@@ -3055,15 +3221,15 @@
                 "source": {
                     "path": "plugins/aws-serverless",
                     "ref": "main",
-                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "aws-serverless",
-            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "source": "aws-serverless@claude-plugins-official",
-            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1039,
@@ -3105,7 +3271,7 @@
                     {
                         "chars": {
                             "always_on": 893,
-                            "on_invoke": 9830
+                            "on_invoke": 9769
                         },
                         "name": "knowledge-base-for-startups"
                     },
@@ -3125,7 +3291,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T15:57:31-04:00",
+            "last_updated": "2026-06-16T18:51:25-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -3137,27 +3303,79 @@
                 "source": {
                     "path": "advisor/plugins/aws-startup-advisor",
                     "ref": "main",
-                    "sha": "f28c66d966e8b03b387ffd44a47c6c53b73ff775",
+                    "sha": "2e1d603a43b241f13ed40e4d1762f5e4ed744ecc",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/startups.git"
                 }
             },
             "plugin": "aws-startup-advisor",
-            "sha": "f28c66d966e8b03b387ffd44a47c6c53b73ff775",
+            "sha": "2e1d603a43b241f13ed40e4d1762f5e4ed744ecc",
             "source": "aws-startup-advisor@claude-plugins-official",
-            "source_sha": "f28c66d966e8b03b387ffd44a47c6c53b73ff775",
+            "source_sha": "2e1d603a43b241f13ed40e4d1762f5e4ed744ecc",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1553,
-                    "on_invoke": 23843
+                    "on_invoke": 23824
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1008,
-                    "on_invoke": 17208
+                    "on_invoke": 17192
                 }
             },
             "unique_installs": 184,
-            "version": "1.5.0"
+            "version": "1.5.1"
+        },
+        "aws-transform@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "aws-transform-mcp"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 967,
+                            "on_invoke": 30945
+                        },
+                        "name": "aws-transform"
+                    }
+                ]
+            },
+            "last_updated": "2026-06-17T04:26:56Z",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Amazon Web Services"
+                },
+                "category": "migration",
+                "description": "Migrate, modernize, and upgrade codebases to AWS. Transforms .NET Framework to .NET 8/10, mainframe COBOL to Java, VMware VMs to EC2, SQL Server to Aurora, and upgrades Java/Python/Node.js versions and AWS SDKs. AWS Transform - continuous modernization analyzes codebases for tech debt, security issues, and upgrade opportunities, then remediates them.",
+                "homepage": "https://github.com/awslabs/agent-plugins",
+                "name": "aws-transform",
+                "source": {
+                    "path": "plugins/aws-transform",
+                    "ref": "main",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
+                    "source": "git-subdir",
+                    "url": "https://github.com/awslabs/agent-plugins.git"
+                }
+            },
+            "plugin": "aws-transform",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
+            "source": "aws-transform@claude-plugins-official",
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 399,
+                    "on_invoke": 10187
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 256,
+                    "on_invoke": 7168
+                }
+            },
+            "version": "1.1.1"
         },
         "azure-cosmos-db-assistant@claude-plugins-official": {
             "components": {
@@ -3452,22 +3670,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-15T09:29:30-07:00",
+            "last_updated": "2026-06-17T09:16:44-07:00",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to move beyond generic advice. It enables Claude to perform real-world tasks: listing resources, validating deployments, diagnosing infrastructure issues, and optimizing costs across 50+ Azure services.",
                 "homepage": "https://github.com/microsoft/azure-skills",
                 "name": "azure",
                 "source": {
-                    "sha": "82492494405b948c8422766ddae390714bbd78ed",
+                    "sha": "3edfc3e7636d20c43fe7b24e9e6ca2c9e41c4ac7",
                     "source": "url",
                     "url": "https://github.com/microsoft/azure-skills.git"
                 }
             },
             "plugin": "azure",
-            "sha": "82492494405b948c8422766ddae390714bbd78ed",
+            "sha": "3edfc3e7636d20c43fe7b24e9e6ca2c9e41c4ac7",
             "source": "azure@claude-plugins-official",
-            "source_sha": "82492494405b948c8422766ddae390714bbd78ed",
+            "source_sha": "3edfc3e7636d20c43fe7b24e9e6ca2c9e41c4ac7",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 6135,
@@ -3913,7 +4131,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T09:53:52-07:00",
+            "last_updated": "2026-06-17T10:23:40-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Boltz"
@@ -3925,15 +4143,15 @@
                 "source": {
                     "path": "plugins/boltz",
                     "ref": "main",
-                    "sha": "02d9d74cfa4465149c66136d2b3c92a9d7c117c4",
+                    "sha": "2d2830181a349415a172bdbd5272d84038924da8",
                     "source": "git-subdir",
                     "url": "https://github.com/boltz-bio/boltz-api-skills.git"
                 }
             },
             "plugin": "boltz",
-            "sha": "02d9d74cfa4465149c66136d2b3c92a9d7c117c4",
+            "sha": "2d2830181a349415a172bdbd5272d84038924da8",
             "source": "boltz@claude-plugins-official",
-            "source_sha": "02d9d74cfa4465149c66136d2b3c92a9d7c117c4",
+            "source_sha": "2d2830181a349415a172bdbd5272d84038924da8",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 772,
@@ -4258,7 +4476,7 @@
                     {
                         "chars": {
                             "always_on": 560,
-                            "on_invoke": 13375
+                            "on_invoke": 13648
                         },
                         "name": "buildkite-api"
                     },
@@ -4286,20 +4504,20 @@
                     {
                         "chars": {
                             "always_on": 140,
-                            "on_invoke": 9158
+                            "on_invoke": 9153
                         },
                         "name": "buildkite-preflight"
                     },
                     {
                         "chars": {
                             "always_on": 835,
-                            "on_invoke": 16845
+                            "on_invoke": 18218
                         },
                         "name": "buildkite-agent-runtime"
                     }
                 ]
             },
-            "last_updated": "2026-06-15T13:34:23+10:00",
+            "last_updated": "2026-06-17T14:55:52+10:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Buildkite"
@@ -4309,23 +4527,23 @@
                 "homepage": "https://buildkite.com",
                 "name": "buildkite",
                 "source": {
-                    "sha": "e6c7784f46a2c070fdf7e6fe1b61cd3ca0e20166",
+                    "sha": "ffffb1ed6c82a3b170433572b93d85b764c91bab",
                     "source": "url",
                     "url": "https://github.com/buildkite/skills.git"
                 }
             },
             "plugin": "buildkite",
-            "sha": "e6c7784f46a2c070fdf7e6fe1b61cd3ca0e20166",
+            "sha": "ffffb1ed6c82a3b170433572b93d85b764c91bab",
             "source": "buildkite@claude-plugins-official",
-            "source_sha": "e6c7784f46a2c070fdf7e6fe1b61cd3ca0e20166",
+            "source_sha": "ffffb1ed6c82a3b170433572b93d85b764c91bab",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1253,
-                    "on_invoke": 32579
+                    "always_on": 1254,
+                    "on_invoke": 33364
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 895,
-                    "on_invoke": 23040
+                    "always_on": 896,
+                    "on_invoke": 23603
                 }
             },
             "unique_installs": 253,
@@ -4437,7 +4655,7 @@
                     {
                         "chars": {
                             "always_on": 594,
-                            "on_invoke": 39987
+                            "on_invoke": 43082
                         },
                         "name": "carta-compensation-benchmarks"
                     },
@@ -4450,7 +4668,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T21:09:17Z",
+            "last_updated": "2026-06-17T22:48:41Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -4462,33 +4680,35 @@
                 "source": {
                     "path": "plugins/carta-cap-table",
                     "ref": "main",
-                    "sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+                    "sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-cap-table",
-            "sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+            "sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
             "source": "carta-cap-table@claude-plugins-official",
-            "source_sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+            "source_sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3786,
-                    "on_invoke": 78936
+                    "on_invoke": 80022
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 2553,
-                    "on_invoke": 57210
+                    "on_invoke": 58040
                 }
             },
             "unique_installs": 247,
-            "version": "6.18.8"
+            "version": "6.21.1"
         },
         "carta-crm@claude-plugins-official": {
             "components": {
                 "agents": [],
                 "commands": [],
-                "hooks": [],
+                "hooks": [
+                    "SessionStart"
+                ],
                 "lspServers": [],
                 "mcpServers": [],
                 "skills": [
@@ -4641,7 +4861,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T21:09:17Z",
+            "last_updated": "2026-06-17T22:48:41Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -4653,15 +4873,15 @@
                 "source": {
                     "path": "plugins/carta-crm",
                     "ref": "main",
-                    "sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+                    "sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-crm",
-            "sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+            "sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
             "source": "carta-crm@claude-plugins-official",
-            "source_sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+            "source_sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2988,
@@ -4673,7 +4893,7 @@
                 }
             },
             "unique_installs": 191,
-            "version": "0.7.1"
+            "version": "0.8.0"
         },
         "carta-investors@claude-plugins-official": {
             "components": {
@@ -4746,7 +4966,7 @@
                     {
                         "chars": {
                             "always_on": 436,
-                            "on_invoke": 22194
+                            "on_invoke": 24433
                         },
                         "name": "carta-budget-vs-actuals"
                     },
@@ -4759,8 +4979,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 566,
-                            "on_invoke": 40522
+                            "always_on": 616,
+                            "on_invoke": 50486
                         },
                         "name": "carta-budget-actuals"
                     },
@@ -4787,7 +5007,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T21:09:17Z",
+            "last_updated": "2026-06-17T22:48:41Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -4799,27 +5019,27 @@
                 "source": {
                     "path": "plugins/carta-investors",
                     "ref": "main",
-                    "sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+                    "sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-investors",
-            "sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+            "sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
             "source": "carta-investors@claude-plugins-official",
-            "source_sha": "a975cce9b9e71b8e13c21185bc5a3fffb9c6d804",
+            "source_sha": "d30c529680f4c3d47fcc7a92a4377fc888d8e786",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 3043,
-                    "on_invoke": 143446
+                    "always_on": 3064,
+                    "on_invoke": 148592
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 2015,
-                    "on_invoke": 102889
+                    "always_on": 2029,
+                    "on_invoke": 106682
                 }
             },
             "unique_installs": 223,
-            "version": "0.100.2"
+            "version": "0.102.1"
         },
         "cds-mcp@claude-plugins-official": {
             "components": {
@@ -4918,22 +5138,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T12:07:41Z",
+            "last_updated": "2026-06-17T12:46:01Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions with Puppeteer.",
                 "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
                 "name": "chrome-devtools-mcp",
                 "source": {
-                    "sha": "08c234ea4b14b0ba0906deeca396873614a8c063",
+                    "sha": "163a581cc1ce279d38d56b2e37e0402c4c9b4510",
                     "source": "url",
                     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git"
                 }
             },
             "plugin": "chrome-devtools-mcp",
-            "sha": "08c234ea4b14b0ba0906deeca396873614a8c063",
+            "sha": "163a581cc1ce279d38d56b2e37e0402c4c9b4510",
             "source": "chrome-devtools-mcp@claude-plugins-official",
-            "source_sha": "08c234ea4b14b0ba0906deeca396873614a8c063",
+            "source_sha": "163a581cc1ce279d38d56b2e37e0402c4c9b4510",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 651,
@@ -5752,7 +5972,7 @@
                     {
                         "chars": {
                             "always_on": 409,
-                            "on_invoke": 13447
+                            "on_invoke": 14516
                         },
                         "name": "turnstile-spin"
                     },
@@ -5814,30 +6034,30 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-15T10:05:21-04:00",
+            "last_updated": "2026-06-17T18:07:34-04:00",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
                 "homepage": "https://github.com/cloudflare/skills",
                 "name": "cloudflare",
                 "source": {
-                    "sha": "8ff55f2a574f498bbf89675279d92b7a61f4d521",
+                    "sha": "ffcc622bf112eccc49c4b433faa5dd28e9ede2ea",
                     "source": "url",
                     "url": "https://github.com/cloudflare/skills.git"
                 }
             },
             "plugin": "cloudflare",
-            "sha": "8ff55f2a574f498bbf89675279d92b7a61f4d521",
+            "sha": "ffcc622bf112eccc49c4b433faa5dd28e9ede2ea",
             "source": "cloudflare@claude-plugins-official",
-            "source_sha": "8ff55f2a574f498bbf89675279d92b7a61f4d521",
+            "source_sha": "ffcc622bf112eccc49c4b433faa5dd28e9ede2ea",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1765,
-                    "on_invoke": 48341
+                    "on_invoke": 48707
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1171,
-                    "on_invoke": 34277
+                    "on_invoke": 34535
                 }
             },
             "unique_installs": 11024,
@@ -6202,96 +6422,103 @@
                 "agents": [
                     {
                         "chars": {
-                            "always_on": 197,
-                            "on_invoke": 1641
-                        },
-                        "name": "architecture-critic"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 239,
-                            "on_invoke": 2167
-                        },
-                        "name": "legacy-analyst"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 256,
-                            "on_invoke": 2284
-                        },
-                        "name": "business-rules-extractor"
-                    },
-                    {
-                        "chars": {
                             "always_on": 168,
-                            "on_invoke": 3500
+                            "on_invoke": 4638
                         },
                         "name": "security-auditor"
                     },
                     {
                         "chars": {
+                            "always_on": 256,
+                            "on_invoke": 3422
+                        },
+                        "name": "business-rules-extractor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 197,
+                            "on_invoke": 2779
+                        },
+                        "name": "architecture-critic"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 516,
+                            "on_invoke": 6876
+                        },
+                        "name": "version-delta-analyst"
+                    },
+                    {
+                        "chars": {
                             "always_on": 165,
-                            "on_invoke": 2006
+                            "on_invoke": 2645
                         },
                         "name": "test-engineer"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 240,
+                            "on_invoke": 1593
+                        },
+                        "name": "scaffolder"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 239,
+                            "on_invoke": 3305
+                        },
+                        "name": "legacy-analyst"
                     }
                 ],
                 "commands": [
                     {
                         "chars": {
-                            "always_on": 129,
-                            "on_invoke": 3170
+                            "always_on": 202,
+                            "on_invoke": 12977
                         },
-                        "name": "modernize-extract-rules"
+                        "name": "modernize-uplift"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 137,
+                            "on_invoke": 7219
+                        },
+                        "name": "modernize-harden"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 135,
+                            "on_invoke": 8597
+                        },
+                        "name": "modernize-map"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 136,
+                            "on_invoke": 2353
+                        },
+                        "name": "modernize-status"
                     },
                     {
                         "chars": {
                             "always_on": 139,
-                            "on_invoke": 4346
+                            "on_invoke": 5030
                         },
                         "name": "modernize-preflight"
                     },
                     {
                         "chars": {
                             "always_on": 146,
-                            "on_invoke": 4414
+                            "on_invoke": 5644
                         },
                         "name": "modernize-reimagine"
                     },
                     {
                         "chars": {
-                            "always_on": 135,
-                            "on_invoke": 8107
-                        },
-                        "name": "modernize-map"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 139,
-                            "on_invoke": 8465
+                            "always_on": 136,
+                            "on_invoke": 11026
                         },
                         "name": "modernize-assess"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 140,
-                            "on_invoke": 3345
-                        },
-                        "name": "modernize-brief"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 137,
-                            "on_invoke": 5564
-                        },
-                        "name": "modernize-harden"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 136,
-                            "on_invoke": 2047
-                        },
-                        "name": "modernize-status"
                     },
                     {
                         "chars": {
@@ -6299,6 +6526,20 @@
                             "on_invoke": 4841
                         },
                         "name": "modernize-transform"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 140,
+                            "on_invoke": 4263
+                        },
+                        "name": "modernize-brief"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 129,
+                            "on_invoke": 5643
+                        },
+                        "name": "modernize-extract-rules"
                     }
                 ],
                 "hooks": [],
@@ -6306,7 +6547,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-09T08:49:47-07:00",
+            "last_updated": "2026-06-10T00:28:19Z",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -6321,15 +6562,15 @@
             "plugin": "code-modernization",
             "sha": null,
             "source": "code-modernization@claude-plugins-official",
-            "source_sha": "746c982737e3ce684dc45844f703d5b40389ed78",
+            "source_sha": "8e61adb4c7f574e4bb7b03a0f242065c95b36f58",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 774,
-                    "on_invoke": 21167
+                    "always_on": 1138,
+                    "on_invoke": 34632
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 510,
-                    "on_invoke": 15193
+                    "always_on": 771,
+                    "on_invoke": 25005
                 }
             },
             "unique_installs": 3072
@@ -6520,7 +6761,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T16:40:24+02:00",
+            "last_updated": "2026-06-17T15:34:07+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "CodSpeed"
@@ -6530,15 +6771,15 @@
                 "homepage": "https://codspeed.io",
                 "name": "codspeed",
                 "source": {
-                    "sha": "66037bed0152bd0998685c876a80814383dd0eeb",
+                    "sha": "b29c40c3c045994c564410c07093cdd8001ab820",
                     "source": "url",
                     "url": "https://github.com/CodSpeedHQ/codspeed.git"
                 }
             },
             "plugin": "codspeed",
-            "sha": "66037bed0152bd0998685c876a80814383dd0eeb",
+            "sha": "b29c40c3c045994c564410c07093cdd8001ab820",
             "source": "codspeed@claude-plugins-official",
-            "source_sha": "66037bed0152bd0998685c876a80814383dd0eeb",
+            "source_sha": "b29c40c3c045994c564410c07093cdd8001ab820",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 422,
@@ -6617,6 +6858,13 @@
                 "commands": [
                     {
                         "chars": {
+                            "always_on": 81,
+                            "on_invoke": 254
+                        },
+                        "name": "migrate-optimizely"
+                    },
+                    {
+                        "chars": {
                             "always_on": 69,
                             "on_invoke": 242
                         },
@@ -6654,7 +6902,7 @@
                     {
                         "chars": {
                             "always_on": 177,
-                            "on_invoke": 81461
+                            "on_invoke": 90920
                         },
                         "name": "migrate-eppo"
                     },
@@ -6696,9 +6944,16 @@
                     {
                         "chars": {
                             "always_on": 189,
-                            "on_invoke": 37220
+                            "on_invoke": 46418
                         },
                         "name": "migrate-posthog"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 233,
+                            "on_invoke": 100170
+                        },
+                        "name": "migrate-optimizely"
                     },
                     {
                         "chars": {
@@ -6710,20 +6965,20 @@
                     {
                         "chars": {
                             "always_on": 182,
-                            "on_invoke": 53422
+                            "on_invoke": 56521
                         },
                         "name": "onboard-confidence"
                     },
                     {
                         "chars": {
                             "always_on": 209,
-                            "on_invoke": 99039
+                            "on_invoke": 108355
                         },
                         "name": "migrate-statsig"
                     }
                 ]
             },
-            "last_updated": "2026-06-16T18:46:53+02:00",
+            "last_updated": "2026-06-17T14:21:38+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Spotify Confidence"
@@ -6733,26 +6988,26 @@
                 "homepage": "https://confidence.spotify.com",
                 "name": "confidence",
                 "source": {
-                    "sha": "4854807c4461dba686f2b8b69d0955a83ac6ff7e",
+                    "sha": "22b99929179c464dcc2402c3c2560dfbf4308e0c",
                     "source": "url",
                     "url": "https://github.com/spotify/confidence-ai-plugins.git"
                 }
             },
             "plugin": "confidence",
-            "sha": "4854807c4461dba686f2b8b69d0955a83ac6ff7e",
+            "sha": "22b99929179c464dcc2402c3c2560dfbf4308e0c",
             "source": "confidence@claude-plugins-official",
-            "source_sha": "4854807c4461dba686f2b8b69d0955a83ac6ff7e",
+            "source_sha": "22b99929179c464dcc2402c3c2560dfbf4308e0c",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 806,
-                    "on_invoke": 178788
+                    "always_on": 931,
+                    "on_invoke": 230464
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 514,
-                    "on_invoke": 130020
+                    "always_on": 594,
+                    "on_invoke": 167650
                 }
             },
-            "version": "0.3.0"
+            "version": "0.4.0"
         },
         "context7@claude-plugins-official": {
             "components": {
@@ -6824,13 +7079,13 @@
                     {
                         "chars": {
                             "always_on": 1185,
-                            "on_invoke": 10401
+                            "on_invoke": 12915
                         },
                         "name": "quickstart"
                     }
                 ]
             },
-            "last_updated": "2026-06-11T21:38:22-07:00",
+            "last_updated": "2026-06-17T00:31:56-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Convex",
@@ -6859,27 +7114,27 @@
                 ],
                 "name": "convex",
                 "source": {
-                    "sha": "d184f54776d20dd834218b11b83feb42d5e2a065",
+                    "sha": "b04d9d3c83bf8446302be95e12cb834fba6fe622",
                     "source": "url",
                     "url": "https://github.com/get-convex/convex-backend-skill.git"
                 }
             },
             "plugin": "convex",
-            "sha": "d184f54776d20dd834218b11b83feb42d5e2a065",
+            "sha": "b04d9d3c83bf8446302be95e12cb834fba6fe622",
             "source": "convex@claude-plugins-official",
-            "source_sha": "d184f54776d20dd834218b11b83feb42d5e2a065",
+            "source_sha": "b04d9d3c83bf8446302be95e12cb834fba6fe622",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1176,
-                    "on_invoke": 21608
+                    "on_invoke": 22557
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 848,
-                    "on_invoke": 16002
+                    "on_invoke": 16701
                 }
             },
             "unique_installs": 371,
-            "version": "1.2.2"
+            "version": "1.3.0"
         },
         "crowdstrike-falcon-foundry@claude-plugins-official": {
             "components": {
@@ -7142,7 +7397,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-15T12:42:03+03:00",
+            "last_updated": "2026-06-17T10:33:01+03:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Dash0"
@@ -7152,15 +7407,15 @@
                 "homepage": "https://dash0.com/",
                 "name": "dash0",
                 "source": {
-                    "sha": "e1a46f085171787382465b7148070da36127119f",
+                    "sha": "9d0f6d3ed65dcd512324f767a49b9d1612ead59d",
                     "source": "url",
                     "url": "https://github.com/dash0hq/dash0-agent-plugin.git"
                 }
             },
             "plugin": "dash0-agent-plugin",
-            "sha": "e1a46f085171787382465b7148070da36127119f",
+            "sha": "9d0f6d3ed65dcd512324f767a49b9d1612ead59d",
             "source": "dash0@claude-plugins-official",
-            "source_sha": "e1a46f085171787382465b7148070da36127119f",
+            "source_sha": "9d0f6d3ed65dcd512324f767a49b9d1612ead59d",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -7183,153 +7438,153 @@
                 "mcpServers": [
                     "notebook",
                     "visualization",
-                    "datacloud_bigquery_toolbox",
-                    "datacloud_spanner_toolbox",
-                    "datacloud_alloydb-postgres-admin_toolbox",
-                    "datacloud_alloydb-postgres_toolbox",
-                    "datacloud_cloud-sql-postgresql-admin_toolbox",
-                    "datacloud_cloud-sql-postgresql_toolbox",
-                    "datacloud_knowledge_catalog_toolbox",
-                    "datacloud_dataproc_toolbox",
-                    "datacloud_serverless-spark_toolbox"
+                    "bigquery",
+                    "spanner",
+                    "alloydb-postgres-admin",
+                    "alloydb-postgres",
+                    "cloud-sql-postgresql-admin",
+                    "cloud-sql-postgresql",
+                    "knowledge_catalog",
+                    "dataproc",
+                    "serverless-spark"
                 ],
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 1056,
+                            "always_on": 1032,
                             "on_invoke": 13943
                         },
                         "name": "notebook-guidance"
                     },
                     {
                         "chars": {
-                            "always_on": 268,
+                            "always_on": 244,
                             "on_invoke": 1644
                         },
                         "name": "gcloud-auth-verification"
                     },
                     {
                         "chars": {
-                            "always_on": 658,
+                            "always_on": 634,
                             "on_invoke": 9590
                         },
                         "name": "federate-lakehouse-catalog"
                     },
                     {
                         "chars": {
-                            "always_on": 295,
+                            "always_on": 271,
                             "on_invoke": 1776
                         },
                         "name": "developing-with-bigquery"
                     },
                     {
                         "chars": {
-                            "always_on": 659,
+                            "always_on": 635,
                             "on_invoke": 577
                         },
                         "name": "accidental-data-loss-prevention"
                     },
                     {
                         "chars": {
-                            "always_on": 1014,
-                            "on_invoke": 9456
+                            "always_on": 1003,
+                            "on_invoke": 20236
                         },
                         "name": "gcp-dataflow"
                     },
                     {
                         "chars": {
-                            "always_on": 1013,
+                            "always_on": 989,
                             "on_invoke": 5425
                         },
                         "name": "gcp-pipeline-resource-provisioning"
                     },
                     {
                         "chars": {
-                            "always_on": 301,
+                            "always_on": 277,
                             "on_invoke": 11745
                         },
                         "name": "data-autocleaning"
                     },
                     {
                         "chars": {
-                            "always_on": 1050,
+                            "always_on": 1026,
                             "on_invoke": 5177
                         },
                         "name": "building-data-apps"
                     },
                     {
                         "chars": {
-                            "always_on": 327,
+                            "always_on": 303,
                             "on_invoke": 8684
                         },
                         "name": "gcp-composer-troubleshooting"
                     },
                     {
                         "chars": {
-                            "always_on": 534,
+                            "always_on": 510,
                             "on_invoke": 3270
                         },
                         "name": "gcp-spark"
                     },
                     {
                         "chars": {
-                            "always_on": 425,
+                            "always_on": 401,
                             "on_invoke": 11256
                         },
                         "name": "dbt-bigquery"
                     },
                     {
                         "chars": {
-                            "always_on": 448,
+                            "always_on": 424,
                             "on_invoke": 16453
                         },
                         "name": "gcp-pipeline-orchestration"
                     },
                     {
                         "chars": {
-                            "always_on": 765,
+                            "always_on": 741,
                             "on_invoke": 9054
                         },
                         "name": "discovering-gcp-data-assets"
                     },
                     {
                         "chars": {
-                            "always_on": 429,
+                            "always_on": 405,
                             "on_invoke": 8969
                         },
                         "name": "gcp-data-pipelines"
                     },
                     {
                         "chars": {
-                            "always_on": 446,
+                            "always_on": 422,
                             "on_invoke": 11754
                         },
                         "name": "dataform-bigquery"
                     },
                     {
                         "chars": {
-                            "always_on": 435,
+                            "always_on": 411,
                             "on_invoke": 6630
                         },
                         "name": "bigquery-data-transfer-service"
                     },
                     {
                         "chars": {
-                            "always_on": 591,
+                            "always_on": 567,
                             "on_invoke": 9124
                         },
                         "name": "ml-best-practices"
                     },
                     {
                         "chars": {
-                            "always_on": 642,
+                            "always_on": 618,
                             "on_invoke": 2029
                         },
                         "name": "managing-python-dependencies"
                     }
                 ]
             },
-            "last_updated": "2026-06-15T17:42:36-07:00",
+            "last_updated": "2026-06-16T17:20:04-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -7339,23 +7594,23 @@
                 "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
                 "name": "data-agent-kit-starter-pack",
                 "source": {
-                    "sha": "be57e961ec11b97b7b16b04eb81065d35c81e1e5",
+                    "sha": "0deb62a19fdab2c00ae6c1f7b1359e1c40bd8c6d",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack.git"
                 }
             },
-            "plugin": "data-agent-kit-starter-pack",
-            "sha": "be57e961ec11b97b7b16b04eb81065d35c81e1e5",
+            "plugin": "dak",
+            "sha": "0deb62a19fdab2c00ae6c1f7b1359e1c40bd8c6d",
             "source": "data-agent-kit-starter-pack@claude-plugins-official",
-            "source_sha": "be57e961ec11b97b7b16b04eb81065d35c81e1e5",
+            "source_sha": "0deb62a19fdab2c00ae6c1f7b1359e1c40bd8c6d",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4236,
-                    "on_invoke": 55051
+                    "always_on": 4038,
+                    "on_invoke": 58878
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 2749,
-                    "on_invoke": 38951
+                    "always_on": 2622,
+                    "on_invoke": 41660
                 }
             },
             "unique_installs": 1426,
@@ -7802,7 +8057,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:51:52Z",
+            "last_updated": "2026-06-17T04:26:56Z",
             "marketplace_entry": {
                 "category": "database",
                 "description": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload.",
@@ -7811,15 +8066,15 @@
                 "source": {
                     "path": "plugins/databases-on-aws",
                     "ref": "main",
-                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "databases-on-aws",
-            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "source": "databases-on-aws@claude-plugins-official",
-            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 375,
@@ -8209,6 +8464,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 774,
+                            "on_invoke": 18601
+                        },
+                        "name": "datarobot-workload-api"
+                    },
+                    {
+                        "chars": {
                             "always_on": 374,
                             "on_invoke": 13693
                         },
@@ -8237,7 +8499,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-15T11:16:19-07:00",
+            "last_updated": "2026-06-17T13:15:00-05:00",
             "marketplace_entry": {
                 "author": {
                     "name": "DataRobot"
@@ -8247,23 +8509,23 @@
                 "homepage": "https://datarobot.com",
                 "name": "datarobot-agent-skills",
                 "source": {
-                    "sha": "6597148f13471d951322f5321a35cef59a47f6bc",
+                    "sha": "00207d8d614128deef728a9e6f7f07a3f1d958c6",
                     "source": "url",
                     "url": "https://github.com/datarobot-oss/datarobot-agent-skills.git"
                 }
             },
             "plugin": "datarobot-agent-skills",
-            "sha": "6597148f13471d951322f5321a35cef59a47f6bc",
+            "sha": "00207d8d614128deef728a9e6f7f07a3f1d958c6",
             "source": "datarobot-agent-skills@claude-plugins-official",
-            "source_sha": "6597148f13471d951322f5321a35cef59a47f6bc",
+            "source_sha": "00207d8d614128deef728a9e6f7f07a3f1d958c6",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1347,
-                    "on_invoke": 47489
+                    "always_on": 1618,
+                    "on_invoke": 55136
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 897,
-                    "on_invoke": 33570
+                    "always_on": 1089,
+                    "on_invoke": 39163
                 }
             },
             "unique_installs": 857,
@@ -8403,7 +8665,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:51:52Z",
+            "last_updated": "2026-06-17T04:26:56Z",
             "marketplace_entry": {
                 "category": "deployment",
                 "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
@@ -8412,15 +8674,15 @@
                 "source": {
                     "path": "plugins/deploy-on-aws",
                     "ref": "main",
-                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "deploy-on-aws",
-            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "source": "deploy-on-aws@claude-plugins-official",
-            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 476,
@@ -9971,7 +10233,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T10:33:07-07:00",
+            "last_updated": "2026-06-17T15:02:00-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -9981,15 +10243,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/firestore-native",
                 "name": "firestore-native",
                 "source": {
-                    "sha": "d151daf6a5fde7f46fde824292828ab630220282",
+                    "sha": "26ab5016e0216cf86f0988e1d11b52b5a101783e",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/firestore-native.git"
                 }
             },
             "plugin": "firestore-native",
-            "sha": "d151daf6a5fde7f46fde824292828ab630220282",
+            "sha": "26ab5016e0216cf86f0988e1d11b52b5a101783e",
             "source": "firestore-native@claude-plugins-official",
-            "source_sha": "d151daf6a5fde7f46fde824292828ab630220282",
+            "source_sha": "26ab5016e0216cf86f0988e1d11b52b5a101783e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 79,
@@ -10001,7 +10263,7 @@
                 }
             },
             "unique_installs": 54,
-            "version": "0.3.0"
+            "version": "0.3.1"
         },
         "forge-skills@claude-plugins-official": {
             "components": {
@@ -10853,7 +11115,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T15:32:37-07:00",
+            "last_updated": "2026-06-17T16:55:34-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -10863,15 +11125,15 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "badb6a040cd0e59d3f1ebec51ce73a4f18c8f465",
+                    "sha": "8c981a451a79b5e0ee794f8f9ab084fc5b41e92c",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "badb6a040cd0e59d3f1ebec51ce73a4f18c8f465",
+            "sha": "8c981a451a79b5e0ee794f8f9ab084fc5b41e92c",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "badb6a040cd0e59d3f1ebec51ce73a4f18c8f465",
+            "source_sha": "8c981a451a79b5e0ee794f8f9ab084fc5b41e92c",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3962,
@@ -10883,7 +11145,7 @@
                 }
             },
             "unique_installs": 754,
-            "version": "0.6.107"
+            "version": "0.6.109"
         },
         "imessage@claude-plugins-official": {
             "components": {
@@ -11634,6 +11896,58 @@
             "unique_installs": 786,
             "version": "0.1.3"
         },
+        "logrocket@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "logrocket"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 263,
+                            "on_invoke": 4333
+                        },
+                        "name": "use-logrocket"
+                    }
+                ]
+            },
+            "last_updated": "2026-06-15T10:27:26-04:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "LogRocket"
+                },
+                "category": "monitoring",
+                "description": "Connect Claude Code to LogRocket to query session replays, metrics, issues, and user behavior using natural language.",
+                "homepage": "https://logrocket.com",
+                "name": "logrocket",
+                "source": {
+                    "path": "plugins/logrocket",
+                    "ref": "main",
+                    "sha": "51ccce4a3b9ff41f9d0de66fe3ac26fd0056cc5a",
+                    "source": "git-subdir",
+                    "url": "https://github.com/LogRocket/logrocket-claude-plugin.git"
+                }
+            },
+            "plugin": "logrocket",
+            "sha": "51ccce4a3b9ff41f9d0de66fe3ac26fd0056cc5a",
+            "source": "logrocket@claude-plugins-official",
+            "source_sha": "51ccce4a3b9ff41f9d0de66fe3ac26fd0056cc5a",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 93,
+                    "on_invoke": 1442
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 61,
+                    "on_invoke": 1013
+                }
+            },
+            "version": "0.1.0"
+        },
         "looker@claude-plugins-official": {
             "components": {
                 "agents": [],
@@ -12166,6 +12480,13 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 531,
+                            "on_invoke": 18524
+                        },
+                        "name": "convert-web-app"
+                    },
+                    {
+                        "chars": {
                             "always_on": 361,
                             "on_invoke": 7180
                         },
@@ -12180,13 +12501,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 531,
-                            "on_invoke": 18524
-                        },
-                        "name": "convert-web-app"
-                    },
-                    {
-                        "chars": {
                             "always_on": 434,
                             "on_invoke": 12907
                         },
@@ -12194,7 +12508,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-04T22:10:06+01:00",
+            "last_updated": "2026-06-17T18:51:57+03:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Anthropic / Model Context Protocol"
@@ -12206,15 +12520,15 @@
                 "source": {
                     "path": "plugins/mcp-apps",
                     "ref": "main",
-                    "sha": "ca1d29894fabbd1558885a9ec8620dcb01d7457e",
+                    "sha": "fa1274490873f869c9a084e1abb9cf3031d288c7",
                     "source": "git-subdir",
                     "url": "https://github.com/modelcontextprotocol/ext-apps.git"
                 }
             },
             "plugin": "mcp-apps",
-            "sha": "ca1d29894fabbd1558885a9ec8620dcb01d7457e",
+            "sha": "fa1274490873f869c9a084e1abb9cf3031d288c7",
             "source": "mcp-apps@claude-plugins-official",
-            "source_sha": "ca1d29894fabbd1558885a9ec8620dcb01d7457e",
+            "source_sha": "fa1274490873f869c9a084e1abb9cf3031d288c7",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 630,
@@ -12521,7 +12835,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T15:57:31-04:00",
+            "last_updated": "2026-06-16T18:51:25-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -12533,15 +12847,15 @@
                 "source": {
                     "path": "migrate/plugins/migration-to-aws",
                     "ref": "main",
-                    "sha": "f28c66d966e8b03b387ffd44a47c6c53b73ff775",
+                    "sha": "2e1d603a43b241f13ed40e4d1762f5e4ed744ecc",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/startups.git"
                 }
             },
             "plugin": "migration-to-aws",
-            "sha": "f28c66d966e8b03b387ffd44a47c6c53b73ff775",
+            "sha": "2e1d603a43b241f13ed40e4d1762f5e4ed744ecc",
             "source": "migration-to-aws@claude-plugins-official",
-            "source_sha": "f28c66d966e8b03b387ffd44a47c6c53b73ff775",
+            "source_sha": "2e1d603a43b241f13ed40e4d1762f5e4ed744ecc",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 586,
@@ -12614,13 +12928,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 88,
-                            "on_invoke": 616
-                        },
-                        "name": "miro-diagram"
-                    },
-                    {
-                        "chars": {
                             "always_on": 249,
                             "on_invoke": 18545
                         },
@@ -12642,6 +12949,20 @@
                     },
                     {
                         "chars": {
+                            "always_on": 95,
+                            "on_invoke": 665
+                        },
+                        "name": "miro-table"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 88,
+                            "on_invoke": 616
+                        },
+                        "name": "miro-diagram"
+                    },
+                    {
+                        "chars": {
                             "always_on": 110,
                             "on_invoke": 640
                         },
@@ -12649,14 +12970,14 @@
                     },
                     {
                         "chars": {
-                            "always_on": 95,
-                            "on_invoke": 665
+                            "always_on": 305,
+                            "on_invoke": 7483
                         },
-                        "name": "miro-table"
+                        "name": "miro-code-explain-on-board"
                     }
                 ]
             },
-            "last_updated": "2026-06-03T07:39:53+02:00",
+            "last_updated": "2026-06-17T12:29:42+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Miro"
@@ -12668,27 +12989,121 @@
                 "source": {
                     "path": "claude-plugins/miro",
                     "ref": "main",
-                    "sha": "9d7c3dc0a9a365b298e3808c741c53e2e80d86d1",
+                    "sha": "85c2c7347542b3ce185eb1d2793f8d79ad485c63",
                     "source": "git-subdir",
                     "url": "https://github.com/miroapp/miro-ai.git"
                 }
             },
             "plugin": "miro",
-            "sha": "9d7c3dc0a9a365b298e3808c741c53e2e80d86d1",
+            "sha": "85c2c7347542b3ce185eb1d2793f8d79ad485c63",
             "source": "miro@claude-plugins-official",
-            "source_sha": "9d7c3dc0a9a365b298e3808c741c53e2e80d86d1",
+            "source_sha": "85c2c7347542b3ce185eb1d2793f8d79ad485c63",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 354,
-                    "on_invoke": 14921
+                    "always_on": 462,
+                    "on_invoke": 17811
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 274,
-                    "on_invoke": 10736
+                    "always_on": 354,
+                    "on_invoke": 12822
                 }
             },
             "unique_installs": 2085,
-            "version": "1.2.6"
+            "version": "1.3.0"
+        },
+        "monday-crm@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "monday"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 395,
+                            "on_invoke": 13340
+                        },
+                        "name": "board-diagnosis"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 388,
+                            "on_invoke": 5382
+                        },
+                        "name": "setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 494,
+                            "on_invoke": 17957
+                        },
+                        "name": "meeting-to-opportunity"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 502,
+                            "on_invoke": 19486
+                        },
+                        "name": "morning-briefing"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 464,
+                            "on_invoke": 11759
+                        },
+                        "name": "forecast-dashboard"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 418,
+                            "on_invoke": 15387
+                        },
+                        "name": "bulk-data-hygiene"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 481,
+                            "on_invoke": 22722
+                        },
+                        "name": "workspace-builder"
+                    }
+                ]
+            },
+            "last_updated": "2026-06-17T16:39:48+03:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "monday.com"
+                },
+                "category": "productivity",
+                "description": "Run your monday CRM in plain language. Build a pipeline from scratch, start the day with a ranked deal briefing, spin up a forecast dashboard, audit board health, clean up messy data in bulk, and turn meeting notes into deal updates. Every skill writes back into monday as a real update, doc, or dashboard. Built on the official monday MCP connector.",
+                "homepage": "https://monday.com",
+                "name": "monday-crm",
+                "source": {
+                    "path": "plugins/monday-crm",
+                    "ref": "master",
+                    "sha": "668ea969f355217f06bf1e179d48a34213f13a20",
+                    "source": "git-subdir",
+                    "url": "https://github.com/mondaycom/mcp.git"
+                }
+            },
+            "plugin": "monday-crm",
+            "sha": "668ea969f355217f06bf1e179d48a34213f13a20",
+            "source": "monday-crm@claude-plugins-official",
+            "source_sha": "668ea969f355217f06bf1e179d48a34213f13a20",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 1110,
+                    "on_invoke": 40655
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 790,
+                    "on_invoke": 29826
+                }
+            },
+            "version": "0.2.1"
         },
         "mongodb@claude-plugins-official": {
             "components": {
@@ -13435,6 +13850,310 @@
             "unique_installs": 348,
             "version": "1.0.0"
         },
+        "oracle-ai-data-platform-workbench-engineer-agent@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [
+                    "SessionStart"
+                ],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 423,
+                            "on_invoke": 11119
+                        },
+                        "name": "aidp-notebooks"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 568,
+                            "on_invoke": 7896
+                        },
+                        "name": "aidp-engineer-bootstrap"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 471,
+                            "on_invoke": 4097
+                        },
+                        "name": "aidp-federate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 563,
+                            "on_invoke": 5313
+                        },
+                        "name": "aidp-knowledge-bases"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 643,
+                            "on_invoke": 5320
+                        },
+                        "name": "aidp-sql-ddl"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 626,
+                            "on_invoke": 16462
+                        },
+                        "name": "aidp-agent-flows"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 444,
+                            "on_invoke": 6865
+                        },
+                        "name": "aidp-catalog-init"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 473,
+                            "on_invoke": 7440
+                        },
+                        "name": "aidp-spark-debugging"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 409,
+                            "on_invoke": 4228
+                        },
+                        "name": "aidp-observability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 430,
+                            "on_invoke": 3776
+                        },
+                        "name": "aidp-analyzing-data"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 549,
+                            "on_invoke": 9584
+                        },
+                        "name": "aidp-cluster-ops"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 481,
+                            "on_invoke": 3145
+                        },
+                        "name": "aidp-data-sharing"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 638,
+                            "on_invoke": 5221
+                        },
+                        "name": "aidp-table-management"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 488,
+                            "on_invoke": 9885
+                        },
+                        "name": "aidp-spark-optimization"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 429,
+                            "on_invoke": 2606
+                        },
+                        "name": "aidp-verified-queries"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 401,
+                            "on_invoke": 4036
+                        },
+                        "name": "aidp-catalog-explore"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 414,
+                            "on_invoke": 3360
+                        },
+                        "name": "aidp-data-quality"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 391,
+                            "on_invoke": 9263
+                        },
+                        "name": "aidp-bundle"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 459,
+                            "on_invoke": 2632
+                        },
+                        "name": "aidp-semantic-model"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 379,
+                            "on_invoke": 2927
+                        },
+                        "name": "aidp-migration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 677,
+                            "on_invoke": 7589
+                        },
+                        "name": "aidp-roles-access"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 391,
+                            "on_invoke": 1653
+                        },
+                        "name": "aidp-audit"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 418,
+                            "on_invoke": 6552
+                        },
+                        "name": "aidp-workspace-admin"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 375,
+                            "on_invoke": 5376
+                        },
+                        "name": "aidp-ingest-file-to-table"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 392,
+                            "on_invoke": 2983
+                        },
+                        "name": "aidp-user-settings"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 376,
+                            "on_invoke": 4961
+                        },
+                        "name": "aidp-volumes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 426,
+                            "on_invoke": 4939
+                        },
+                        "name": "aidp-git"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 384,
+                            "on_invoke": 2560
+                        },
+                        "name": "aidp-profiling-tables"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 532,
+                            "on_invoke": 5467
+                        },
+                        "name": "aidp-agent-highcode"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 350,
+                            "on_invoke": 4488
+                        },
+                        "name": "aidp-workspace-files"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 494,
+                            "on_invoke": 10494
+                        },
+                        "name": "aidp-mlops"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 483,
+                            "on_invoke": 4503
+                        },
+                        "name": "aidp-credentials"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 496,
+                            "on_invoke": 3354
+                        },
+                        "name": "aidp-tools"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 434,
+                            "on_invoke": 8072
+                        },
+                        "name": "aidp-engineer-overview"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 308,
+                            "on_invoke": 11629
+                        },
+                        "name": "aidp-pipelines"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 543,
+                            "on_invoke": 3436
+                        },
+                        "name": "aidp-models-catalog"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 402,
+                            "on_invoke": 3747
+                        },
+                        "name": "aidp-ai-sql"
+                    }
+                ]
+            },
+            "last_updated": "2026-06-16T11:54:50-06:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Oracle"
+                },
+                "category": "development",
+                "description": "Oracle AI Data Platform (AIDP) Workbench engineer agent for Claude Code \u2014 a 37-skill agent that operates the full Spark/Delta lakehouse in natural language. Discovers your catalog into a grounding cache, turns plain English into accurate Spark SQL, and runs the lifecycle (CREATE/INSERT/UPDATE/DELETE/MERGE, OPTIMIZE/VACUUM, time-travel). Ingests files, profiles data and sets quality rules, authors and repairs pipelines, provisions clusters, and debugs via the Spark UI. Governs the platform (roles, credential store, Delta Sharing, audit logs), plus native Git, bundles, and MLOps/MLflow. Runs via the official Oracle aidp CLI.",
+                "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+                "name": "oracle-ai-data-platform-workbench-engineer-agent",
+                "source": {
+                    "path": "ai/claude-code-plugins/oracle-ai-data-platform-workbench-engineer-agent",
+                    "ref": "main",
+                    "sha": "13e7a9139b3b62172119c7fc1a63bf4a2eac919d",
+                    "source": "git-subdir",
+                    "url": "https://github.com/oracle-samples/oracle-aidp-samples.git"
+                }
+            },
+            "plugin": "oracle-ai-data-platform-workbench-engineer-agent",
+            "sha": "13e7a9139b3b62172119c7fc1a63bf4a2eac919d",
+            "source": "oracle-ai-data-platform-workbench-engineer-agent@claude-plugins-official",
+            "source_sha": "13e7a9139b3b62172119c7fc1a63bf4a2eac919d",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 6612,
+                    "on_invoke": 94306
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 4739,
+                    "on_invoke": 69702
+                }
+            },
+            "version": "0.5.0"
+        },
         "oracle-ai-data-platform-workbench-spark-connectors@claude-plugins-official": {
             "components": {
                 "agents": [],
@@ -13671,7 +14390,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T23:44:15+05:30",
+            "last_updated": "2026-06-17T13:22:18+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -13681,15 +14400,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/oracledb",
                 "name": "oracledb",
                 "source": {
-                    "sha": "112837b96ddf6a9be8506cacbc847776e6252d8e",
+                    "sha": "6081bf97fc8f1a41c77a7110cb093291a5452a93",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/oracledb.git"
                 }
             },
             "plugin": "oracledb",
-            "sha": "112837b96ddf6a9be8506cacbc847776e6252d8e",
+            "sha": "6081bf97fc8f1a41c77a7110cb093291a5452a93",
             "source": "oracledb@claude-plugins-official",
-            "source_sha": "112837b96ddf6a9be8506cacbc847776e6252d8e",
+            "source_sha": "6081bf97fc8f1a41c77a7110cb093291a5452a93",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 88,
@@ -13701,7 +14420,7 @@
                 }
             },
             "unique_installs": 51,
-            "version": "0.2.1"
+            "version": "0.2.3"
         },
         "outputai@claude-plugins-official": {
             "components": {
@@ -14094,7 +14813,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T13:12:47-05:00",
+            "last_updated": "2026-06-17T14:10:24-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Output.ai"
@@ -14106,15 +14825,15 @@
                 "source": {
                     "path": "coding_assistants/claude/plugins/outputai",
                     "ref": "main",
-                    "sha": "ad03627aa08a4384bb401066f1cb93e47f5e5b88",
+                    "sha": "c005dac0d4048756dae968a5f201fbcfad13019f",
                     "source": "git-subdir",
                     "url": "https://github.com/growthxai/output.git"
                 }
             },
             "plugin": "outputai",
-            "sha": "ad03627aa08a4384bb401066f1cb93e47f5e5b88",
+            "sha": "c005dac0d4048756dae968a5f201fbcfad13019f",
             "source": "outputai@claude-plugins-official",
-            "source_sha": "ad03627aa08a4384bb401066f1cb93e47f5e5b88",
+            "source_sha": "c005dac0d4048756dae968a5f201fbcfad13019f",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4222,
@@ -14758,7 +15477,7 @@
                     {
                         "chars": {
                             "always_on": 213,
-                            "on_invoke": 11457
+                            "on_invoke": 11147
                         },
                         "name": "skills-store"
                     },
@@ -14772,7 +15491,7 @@
                     {
                         "chars": {
                             "always_on": 617,
-                            "on_invoke": 6804
+                            "on_invoke": 6875
                         },
                         "name": "querying-posthog-data"
                     },
@@ -14849,16 +15568,23 @@
                     {
                         "chars": {
                             "always_on": 275,
-                            "on_invoke": 7129
+                            "on_invoke": 7138
                         },
                         "name": "instrument-llm-analytics"
                     },
                     {
                         "chars": {
-                            "always_on": 439,
-                            "on_invoke": 10442
+                            "always_on": 520,
+                            "on_invoke": 12839
                         },
                         "name": "exploring-apm-traces"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1144,
+                            "on_invoke": 17415
+                        },
+                        "name": "signals-scout-customer-analytics"
                     },
                     {
                         "chars": {
@@ -14904,8 +15630,15 @@
                     },
                     {
                         "chars": {
+                            "always_on": 675,
+                            "on_invoke": 2799
+                        },
+                        "name": "choosing-trend-or-slope-view"
+                    },
+                    {
+                        "chars": {
                             "always_on": 848,
-                            "on_invoke": 12525
+                            "on_invoke": 12490
                         },
                         "name": "authoring-signals-scouts"
                     },
@@ -14926,7 +15659,7 @@
                     {
                         "chars": {
                             "always_on": 781,
-                            "on_invoke": 13762
+                            "on_invoke": 14257
                         },
                         "name": "signals-scout-anomaly-detection"
                     },
@@ -14940,7 +15673,7 @@
                     {
                         "chars": {
                             "always_on": 488,
-                            "on_invoke": 12679
+                            "on_invoke": 12671
                         },
                         "name": "consuming-endpoints-from-client-code"
                     },
@@ -15107,8 +15840,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 506,
-                            "on_invoke": 15460
+                            "always_on": 496,
+                            "on_invoke": 15210
                         },
                         "name": "working-with-skills"
                     },
@@ -15227,7 +15960,7 @@
                     {
                         "chars": {
                             "always_on": 949,
-                            "on_invoke": 28515
+                            "on_invoke": 28510
                         },
                         "name": "exploring-signals-scouts"
                     },
@@ -15248,7 +15981,7 @@
                     {
                         "chars": {
                             "always_on": 617,
-                            "on_invoke": 16790
+                            "on_invoke": 18188
                         },
                         "name": "signals-scout-observability-gaps"
                     },
@@ -15290,7 +16023,7 @@
                     {
                         "chars": {
                             "always_on": 260,
-                            "on_invoke": 5693
+                            "on_invoke": 5754
                         },
                         "name": "instrument-logs"
                     },
@@ -15300,6 +16033,13 @@
                             "on_invoke": 15175
                         },
                         "name": "suppressing-noisy-errors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1128,
+                            "on_invoke": 13354
+                        },
+                        "name": "signals-scout-product-analytics"
                     },
                     {
                         "chars": {
@@ -15338,34 +16078,34 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-15T16:08:12+02:00",
+            "last_updated": "2026-06-17T18:34:51-03:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code.",
                 "homepage": "https://posthog.com/docs/model-context-protocol",
                 "name": "posthog",
                 "source": {
-                    "sha": "071b9b841a987aa93409d4db1499237a5120bc63",
+                    "sha": "cf9d6f22c667d4e8c88a6bae1af0f854b1ce0a8d",
                     "source": "url",
                     "url": "https://github.com/PostHog/ai-plugin.git"
                 }
             },
             "plugin": "posthog",
-            "sha": "071b9b841a987aa93409d4db1499237a5120bc63",
+            "sha": "cf9d6f22c667d4e8c88a6bae1af0f854b1ce0a8d",
             "source": "posthog@claude-plugins-official",
-            "source_sha": "071b9b841a987aa93409d4db1499237a5120bc63",
+            "source_sha": "cf9d6f22c667d4e8c88a6bae1af0f854b1ce0a8d",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 16247,
-                    "on_invoke": 359343
+                    "always_on": 17220,
+                    "on_invoke": 373075
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 11053,
-                    "on_invoke": 264076
+                    "always_on": 11723,
+                    "on_invoke": 274076
                 }
             },
             "unique_installs": 11506,
-            "version": "1.1.36"
+            "version": "1.1.37"
         },
         "postiz@claude-plugins-official": {
             "components": {
@@ -16099,7 +16839,7 @@
                 ],
                 "skills": []
             },
-            "last_updated": "2026-06-17T09:52:44+10:00",
+            "last_updated": "2026-06-17T03:12:56Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Quarkus"
@@ -16109,15 +16849,15 @@
                 "homepage": "https://quarkus.io",
                 "name": "quarkus-agent",
                 "source": {
-                    "sha": "85ff3b2fd54664dfe16f68ebb4068546c3d8a8b0",
+                    "sha": "0baae19189bb5c0a74c586e1ba5576d2b503583b",
                     "source": "url",
                     "url": "https://github.com/quarkusio/quarkus-agent-mcp.git"
                 }
             },
             "plugin": "quarkus-agent",
-            "sha": "85ff3b2fd54664dfe16f68ebb4068546c3d8a8b0",
+            "sha": "0baae19189bb5c0a74c586e1ba5576d2b503583b",
             "source": "quarkus-agent@claude-plugins-official",
-            "source_sha": "85ff3b2fd54664dfe16f68ebb4068546c3d8a8b0",
+            "source_sha": "0baae19189bb5c0a74c586e1ba5576d2b503583b",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -16129,7 +16869,7 @@
                 }
             },
             "unique_installs": 729,
-            "version": "1.1.2"
+            "version": "1.1.3"
         },
         "railway@claude-plugins-official": {
             "components": {
@@ -16254,7 +16994,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-15T20:49:10+02:00",
+            "last_updated": "2026-06-17T15:32:17+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Configure RevenueCat projects, apps, products, entitlements, and offerings directly from Claude Code. Manage your in-app purchase backend without leaving your development workflow.",
@@ -16262,15 +17002,15 @@
                 "name": "rc",
                 "source": {
                     "path": "revenuecat",
-                    "sha": "c387dcd737a949f303ee5942b022f922edda5ac6",
+                    "sha": "e28ef7dac29c95363b0f8a3152e778f4e1d0725e",
                     "source": "url",
                     "url": "https://github.com/RevenueCat/rc-claude-code-plugin.git"
                 }
             },
             "plugin": "rc",
-            "sha": "c387dcd737a949f303ee5942b022f922edda5ac6",
+            "sha": "e28ef7dac29c95363b0f8a3152e778f4e1d0725e",
             "source": "rc@claude-plugins-official",
-            "source_sha": "c387dcd737a949f303ee5942b022f922edda5ac6",
+            "source_sha": "e28ef7dac29c95363b0f8a3152e778f4e1d0725e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -16385,24 +17125,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 512,
-                            "on_invoke": 13859
-                        },
-                        "name": "agent-email-inbox"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 531,
-                            "on_invoke": 7438
-                        },
-                        "name": "resend-cli"
-                    },
-                    {
-                        "chars": {
                             "always_on": 586,
-                            "on_invoke": 12190
+                            "on_invoke": 12229
                         },
                         "name": "resend"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 361,
+                            "on_invoke": 3171
+                        },
+                        "name": "email-best-practices"
                     },
                     {
                         "chars": {
@@ -16413,14 +17146,21 @@
                     },
                     {
                         "chars": {
-                            "always_on": 361,
-                            "on_invoke": 3171
+                            "always_on": 531,
+                            "on_invoke": 7450
                         },
-                        "name": "email-best-practices"
+                        "name": "resend-cli"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 512,
+                            "on_invoke": 13859
+                        },
+                        "name": "agent-email-inbox"
                     }
                 ]
             },
-            "last_updated": "2026-06-05T15:50:31-03:00",
+            "last_updated": "2026-06-17T18:05:33-03:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Resend"
@@ -16430,23 +17170,23 @@
                 "homepage": "https://resend.com",
                 "name": "resend",
                 "source": {
-                    "sha": "0888546d6a69149c8d2402d46f395f5dddb1c720",
+                    "sha": "406ba99b78d48c2cdbc1ebc9010ad2c12c7f5ba6",
                     "source": "url",
                     "url": "https://github.com/resend/resend-skills.git"
                 }
             },
             "plugin": "resend",
-            "sha": "0888546d6a69149c8d2402d46f395f5dddb1c720",
+            "sha": "406ba99b78d48c2cdbc1ebc9010ad2c12c7f5ba6",
             "source": "resend@claude-plugins-official",
-            "source_sha": "0888546d6a69149c8d2402d46f395f5dddb1c720",
+            "source_sha": "406ba99b78d48c2cdbc1ebc9010ad2c12c7f5ba6",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 762,
-                    "on_invoke": 18428
+                    "on_invoke": 18451
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 535,
-                    "on_invoke": 13751
+                    "on_invoke": 13765
                 }
             },
             "unique_installs": 1749,
@@ -16461,7 +17201,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-06-15T20:49:10+02:00",
+            "last_updated": "2026-06-17T15:32:17+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Configure RevenueCat projects, apps, products, entitlements, and offerings directly from Claude Code. Manage your in-app purchase backend without leaving your development workflow.",
@@ -16469,15 +17209,15 @@
                 "name": "revenuecat",
                 "source": {
                     "path": "revenuecat",
-                    "sha": "c387dcd737a949f303ee5942b022f922edda5ac6",
+                    "sha": "e28ef7dac29c95363b0f8a3152e778f4e1d0725e",
                     "source": "url",
                     "url": "https://github.com/RevenueCat/rc-claude-code-plugin.git"
                 }
             },
             "plugin": "revenuecat",
-            "sha": "c387dcd737a949f303ee5942b022f922edda5ac6",
+            "sha": "e28ef7dac29c95363b0f8a3152e778f4e1d0725e",
             "source": "revenuecat@claude-plugins-official",
-            "source_sha": "c387dcd737a949f303ee5942b022f922edda5ac6",
+            "source_sha": "e28ef7dac29c95363b0f8a3152e778f4e1d0725e",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -17183,7 +17923,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-12T17:51:52Z",
+            "last_updated": "2026-06-17T04:26:56Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
@@ -17192,25 +17932,16 @@
                 "source": {
                     "path": "plugins/sagemaker-ai",
                     "ref": "main",
-                    "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+                    "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
                     "source": "git-subdir",
                     "url": "https://github.com/awslabs/agent-plugins.git"
                 }
             },
             "plugin": "sagemaker-ai",
-            "sha": "7a17df718d26f07414b876e77a7480fa25089b08",
+            "sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
             "source": "sagemaker-ai@claude-plugins-official",
-            "source_sha": "7a17df718d26f07414b876e77a7480fa25089b08",
-            "tokens": {
-                "claude-opus-4-7": {
-                    "always_on": 3468,
-                    "on_invoke": 52079
-                },
-                "claude-sonnet-4-6": {
-                    "always_on": 2430,
-                    "on_invoke": 37972
-                }
-            },
+            "source_sha": "46fd59cd1a0751ac15e34754f86f9a06b0900d2c",
+            "tokens": {},
             "unique_installs": 1041,
             "version": "1.2.1"
         },
@@ -17220,13 +17951,6 @@
                 "commands": [
                     {
                         "chars": {
-                            "always_on": 60,
-                            "on_invoke": 1257
-                        },
-                        "name": "sanity"
-                    },
-                    {
-                        "chars": {
                             "always_on": 74,
                             "on_invoke": 1695
                         },
@@ -17234,17 +17958,24 @@
                     },
                     {
                         "chars": {
+                            "always_on": 77,
+                            "on_invoke": 1275
+                        },
+                        "name": "sanity-review"
+                    },
+                    {
+                        "chars": {
                             "always_on": 80,
-                            "on_invoke": 1325
+                            "on_invoke": 1327
                         },
                         "name": "deploy-schema"
                     },
                     {
                         "chars": {
-                            "always_on": 77,
-                            "on_invoke": 1275
+                            "always_on": 60,
+                            "on_invoke": 1257
                         },
-                        "name": "sanity-review"
+                        "name": "sanity"
                     }
                 ],
                 "hooks": [],
@@ -17255,6 +17986,20 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 755,
+                            "on_invoke": 3468
+                        },
+                        "name": "sanity-best-practices"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 480,
+                            "on_invoke": 1346
+                        },
+                        "name": "content-modeling-best-practices"
+                    },
+                    {
+                        "chars": {
                             "always_on": 524,
                             "on_invoke": 2049
                         },
@@ -17262,17 +18007,17 @@
                     },
                     {
                         "chars": {
+                            "always_on": 477,
+                            "on_invoke": 4972
+                        },
+                        "name": "sanity-migration"
+                    },
+                    {
+                        "chars": {
                             "always_on": 422,
                             "on_invoke": 1430
                         },
                         "name": "content-experimentation-best-practices"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 755,
-                            "on_invoke": 3468
-                        },
-                        "name": "sanity-best-practices"
                     },
                     {
                         "chars": {
@@ -17287,24 +18032,10 @@
                             "on_invoke": 1440
                         },
                         "name": "seo-aeo-best-practices"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 477,
-                            "on_invoke": 4972
-                        },
-                        "name": "sanity-migration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 480,
-                            "on_invoke": 1346
-                        },
-                        "name": "content-modeling-best-practices"
                     }
                 ]
             },
-            "last_updated": "2026-06-10T13:33:52-07:00",
+            "last_updated": "2026-06-17T14:29:06-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Sanity"
@@ -17314,25 +18045,16 @@
                 "homepage": "https://www.sanity.io",
                 "name": "sanity",
                 "source": {
-                    "sha": "2d7b7c08a31a6e5b613e33a9edc76456e4d7c052",
+                    "sha": "2ec17ddc6034073b2974e6dbf691acb3bcc8b9fd",
                     "source": "url",
                     "url": "https://github.com/sanity-io/agent-toolkit.git"
                 }
             },
             "plugin": "sanity",
-            "sha": "2d7b7c08a31a6e5b613e33a9edc76456e4d7c052",
+            "sha": "2ec17ddc6034073b2974e6dbf691acb3bcc8b9fd",
             "source": "sanity@claude-plugins-official",
-            "source_sha": "2d7b7c08a31a6e5b613e33a9edc76456e4d7c052",
-            "tokens": {
-                "claude-opus-4-7": {
-                    "always_on": 1377,
-                    "on_invoke": 9117
-                },
-                "claude-sonnet-4-6": {
-                    "always_on": 920,
-                    "on_invoke": 6569
-                }
-            },
+            "source_sha": "2ec17ddc6034073b2974e6dbf691acb3bcc8b9fd",
+            "tokens": {},
             "unique_installs": 1525,
             "version": "1.0.0"
         },
@@ -17407,7 +18129,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T21:19:36Z",
+            "last_updated": "2026-06-17T16:30:47+01:00",
             "marketplace_entry": {
                 "author": {
                     "email": "ospo@sap.com",
@@ -17421,15 +18143,15 @@
                 "source": {
                     "path": "packages/fiori-mcp-server",
                     "ref": "main",
-                    "sha": "f15bbb9afb98a5590247b472fc2cd680ed01e71c",
+                    "sha": "1429ef4bff76ecdf8448ed0aa0735c20f0ba48c7",
                     "source": "git-subdir",
                     "url": "https://github.com/SAP/open-ux-tools.git"
                 }
             },
             "plugin": "sap-fiori-mcp-server",
-            "sha": "f15bbb9afb98a5590247b472fc2cd680ed01e71c",
+            "sha": "1429ef4bff76ecdf8448ed0aa0735c20f0ba48c7",
             "source": "sap-fiori-mcp-server@claude-plugins-official",
-            "source_sha": "f15bbb9afb98a5590247b472fc2cd680ed01e71c",
+            "source_sha": "1429ef4bff76ecdf8448ed0aa0735c20f0ba48c7",
             "tokens": {},
             "unique_installs": 390,
             "version": "1.4.1"
@@ -17577,27 +18299,20 @@
         "semgrep@claude-plugins-official": {
             "components": {
                 "agents": [],
-                "commands": [
-                    {
-                        "chars": {
-                            "always_on": 121,
-                            "on_invoke": 760
-                        },
-                        "name": "setup-semgrep-plugin"
-                    }
-                ],
+                "commands": [],
                 "hooks": [
+                    "PreToolUse",
                     "PostToolUse",
                     "SessionStart",
                     "UserPromptSubmit"
                 ],
                 "lspServers": [],
                 "mcpServers": [
-                    "semgrep"
+                    "guardian"
                 ],
                 "skills": []
             },
-            "last_updated": "2026-05-07T15:24:30-07:00",
+            "last_updated": "2026-06-17T13:04:52-07:00",
             "marketplace_entry": {
                 "category": "security",
                 "description": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
@@ -17605,27 +18320,27 @@
                 "name": "semgrep",
                 "source": {
                     "path": "plugin",
-                    "sha": "274846f6f9da5f56be53b19170bc008d357142a7",
+                    "sha": "18771d9a7f78b0cb15711ad759ab253b20aeb45d",
                     "source": "git-subdir",
                     "url": "https://github.com/semgrep/mcp-marketplace.git"
                 }
             },
             "plugin": "semgrep",
-            "sha": "274846f6f9da5f56be53b19170bc008d357142a7",
+            "sha": "18771d9a7f78b0cb15711ad759ab253b20aeb45d",
             "source": "semgrep@claude-plugins-official",
-            "source_sha": "274846f6f9da5f56be53b19170bc008d357142a7",
+            "source_sha": "18771d9a7f78b0cb15711ad759ab253b20aeb45d",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 61,
-                    "on_invoke": 325
+                    "always_on": 0,
+                    "on_invoke": 0
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 40,
-                    "on_invoke": 244
+                    "always_on": 0,
+                    "on_invoke": 0
                 }
             },
             "unique_installs": 16799,
-            "version": "0.5.3"
+            "version": "2.0.1"
         },
         "sentry-cli@claude-plugins-official": {
             "components": {
@@ -17865,7 +18580,7 @@
                     {
                         "chars": {
                             "always_on": 331,
-                            "on_invoke": 19466
+                            "on_invoke": 20476
                         },
                         "name": "sentry-cloudflare-sdk"
                     },
@@ -17920,22 +18635,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T22:03:07+02:00",
+            "last_updated": "2026-06-17T19:38:18-04:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
                 "homepage": "https://github.com/getsentry/sentry-for-claude/tree/main",
                 "name": "sentry",
                 "source": {
-                    "sha": "34da65c94c93aed40a20ae85d9e1d1935591ad39",
+                    "sha": "88b2adfc59751ba569c399f90c1024859a20c390",
                     "source": "url",
                     "url": "https://github.com/getsentry/sentry-for-claude.git"
                 }
             },
             "plugin": "sentry",
-            "sha": "34da65c94c93aed40a20ae85d9e1d1935591ad39",
+            "sha": "88b2adfc59751ba569c399f90c1024859a20c390",
             "source": "sentry@claude-plugins-official",
-            "source_sha": "34da65c94c93aed40a20ae85d9e1d1935591ad39",
+            "source_sha": "88b2adfc59751ba569c399f90c1024859a20c390",
             "tokens": {},
             "unique_installs": 34172,
             "version": "1.0.0"
@@ -18353,10 +19068,10 @@
                 "commands": [
                     {
                         "chars": {
-                            "always_on": 75,
-                            "on_invoke": 1132
+                            "always_on": 68,
+                            "on_invoke": 1001
                         },
-                        "name": "standup"
+                        "name": "summarize-channel"
                     },
                     {
                         "chars": {
@@ -18374,17 +19089,17 @@
                     },
                     {
                         "chars": {
+                            "always_on": 75,
+                            "on_invoke": 1132
+                        },
+                        "name": "standup"
+                    },
+                    {
+                        "chars": {
                             "always_on": 89,
                             "on_invoke": 1407
                         },
                         "name": "draft-announcement"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 68,
-                            "on_invoke": 1001
-                        },
-                        "name": "summarize-channel"
                     }
                 ],
                 "hooks": [],
@@ -18402,39 +19117,58 @@
                     },
                     {
                         "chars": {
+                            "always_on": 232,
+                            "on_invoke": 8006
+                        },
+                        "name": "create-slack-app"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 644,
+                            "on_invoke": 16782
+                        },
+                        "name": "block-kit"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 879,
+                            "on_invoke": 12749
+                        },
+                        "name": "slack-api"
+                    },
+                    {
+                        "chars": {
                             "always_on": 105,
                             "on_invoke": 3815
                         },
                         "name": "slack-search"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 345,
+                            "on_invoke": 6995
+                        },
+                        "name": "slack-cli"
                     }
                 ]
             },
-            "last_updated": "2026-06-02T15:27:14-04:00",
+            "last_updated": "2026-06-17T10:53:11-07:00",
             "marketplace_entry": {
                 "category": "productivity",
                 "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
                 "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
                 "name": "slack",
                 "source": {
-                    "sha": "38fb959299386a6d2c202511ef7e76909a072663",
+                    "sha": "4729a3eefeacf32548fc1bd27f0e51700a2a8d11",
                     "source": "url",
                     "url": "https://github.com/slackapi/slack-mcp-plugin.git"
                 }
             },
             "plugin": "slack",
-            "sha": "38fb959299386a6d2c202511ef7e76909a072663",
+            "sha": "4729a3eefeacf32548fc1bd27f0e51700a2a8d11",
             "source": "slack@claude-plugins-official",
-            "source_sha": "38fb959299386a6d2c202511ef7e76909a072663",
-            "tokens": {
-                "claude-opus-4-7": {
-                    "always_on": 213,
-                    "on_invoke": 4117
-                },
-                "claude-sonnet-4-6": {
-                    "always_on": 138,
-                    "on_invoke": 3095
-                }
-            },
+            "source_sha": "4729a3eefeacf32548fc1bd27f0e51700a2a8d11",
+            "tokens": {},
             "unique_installs": 75955,
             "version": "1.0.0"
         },
@@ -18891,7 +19625,15 @@
         },
         "stripe@claude-plugins-official": {
             "components": {
-                "agents": [],
+                "agents": [
+                    {
+                        "chars": {
+                            "always_on": 107,
+                            "on_invoke": 7891
+                        },
+                        "name": "company-researcher"
+                    }
+                ],
                 "commands": [
                     {
                         "chars": {
@@ -18930,6 +19672,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 826,
+                            "on_invoke": 19498
+                        },
+                        "name": "connect-recommend"
+                    },
+                    {
+                        "chars": {
                             "always_on": 659,
                             "on_invoke": 3994
                         },
@@ -18944,7 +19693,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-14T01:19:13Z",
+            "last_updated": "2026-06-17T14:35:48-07:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Stripe development plugin for Claude",
@@ -18953,27 +19702,18 @@
                 "source": {
                     "path": "providers/claude/plugin",
                     "ref": "main",
-                    "sha": "7e7f72eb42e06f79e7bc75f86e9395f4c8232c00",
+                    "sha": "d9527bfc2d0993f3d2a650501e53e4f68d179ca3",
                     "source": "git-subdir",
                     "url": "https://github.com/stripe/ai.git"
                 }
             },
             "plugin": "stripe",
-            "sha": "7e7f72eb42e06f79e7bc75f86e9395f4c8232c00",
+            "sha": "d9527bfc2d0993f3d2a650501e53e4f68d179ca3",
             "source": "stripe@claude-plugins-official",
-            "source_sha": "7e7f72eb42e06f79e7bc75f86e9395f4c8232c00",
-            "tokens": {
-                "claude-opus-4-7": {
-                    "always_on": 746,
-                    "on_invoke": 7422
-                },
-                "claude-sonnet-4-6": {
-                    "always_on": 488,
-                    "on_invoke": 5233
-                }
-            },
+            "source_sha": "d9527bfc2d0993f3d2a650501e53e4f68d179ca3",
+            "tokens": {},
             "unique_installs": 39863,
-            "version": "0.1.0"
+            "version": "0.2.0"
         },
         "sumup@claude-plugins-official": {
             "components": {
@@ -19186,25 +19926,25 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T10:09:47-07:00",
+            "last_updated": "2026-06-16T22:42:19-07:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills.",
                 "homepage": "https://github.com/obra/superpowers.git",
                 "name": "superpowers",
                 "source": {
-                    "sha": "284be5905ed540d34ce5bcde24728b9b7f413ea0",
+                    "sha": "b62616fc12f6a007c6fd5118146821d748da0d33",
                     "source": "url",
                     "url": "https://github.com/obra/superpowers.git"
                 }
             },
             "plugin": "superpowers",
-            "sha": "284be5905ed540d34ce5bcde24728b9b7f413ea0",
+            "sha": "b62616fc12f6a007c6fd5118146821d748da0d33",
             "source": "superpowers@claude-plugins-official",
-            "source_sha": "284be5905ed540d34ce5bcde24728b9b7f413ea0",
+            "source_sha": "b62616fc12f6a007c6fd5118146821d748da0d33",
             "tokens": {},
             "unique_installs": 821869,
-            "version": "6.0.0"
+            "version": "6.0.2"
         },
         "swift-lsp@claude-plugins-official": {
             "components": {
@@ -20744,22 +21484,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-16T14:35:38Z",
+            "last_updated": "2026-06-17T09:19:27+03:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
                 "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
                 "name": "wix",
                 "source": {
-                    "sha": "34bc4adaa3865fc678cbe0fadc74dd1047e2e1b6",
+                    "sha": "3210de0af739dd668e1531b8acd9a6a6ec3bf5c4",
                     "source": "url",
                     "url": "https://github.com/wix/skills.git"
                 }
             },
             "plugin": "wix",
-            "sha": "34bc4adaa3865fc678cbe0fadc74dd1047e2e1b6",
+            "sha": "3210de0af739dd668e1531b8acd9a6a6ec3bf5c4",
             "source": "wix@claude-plugins-official",
-            "source_sha": "34bc4adaa3865fc678cbe0fadc74dd1047e2e1b6",
+            "source_sha": "3210de0af739dd668e1531b8acd9a6a6ec3bf5c4",
             "tokens": {},
             "unique_installs": 2824,
             "version": "1.1.0"
@@ -21059,7 +21799,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-05-15T19:00:50+08:00",
+            "last_updated": "2026-05-26T10:20:34+08:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Zilliz"
@@ -21070,15 +21810,15 @@
                 "name": "zilliz",
                 "source": {
                     "path": "plugins/zilliz",
-                    "sha": "e960396da0bd0b1cb219fa97e3bcbb425ee1abbd",
+                    "sha": "768d3db5fdb69b74116ada2b371032a49bfb3fe1",
                     "source": "url",
                     "url": "https://github.com/zilliztech/zilliz-plugin.git"
                 }
             },
             "plugin": "zilliz",
-            "sha": "e960396da0bd0b1cb219fa97e3bcbb425ee1abbd",
+            "sha": "768d3db5fdb69b74116ada2b371032a49bfb3fe1",
             "source": "zilliz@claude-plugins-official",
-            "source_sha": "e960396da0bd0b1cb219fa97e3bcbb425ee1abbd",
+            "source_sha": "768d3db5fdb69b74116ada2b371032a49bfb3fe1",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
