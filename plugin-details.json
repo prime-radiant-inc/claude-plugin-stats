@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-20T08:30:26.241Z",
+    "generated_at": "2026-06-21T08:49:03.369Z",
     "installs_generated_at": "2026-06-19T06:00:40.920131+00:00",
-    "marketplace_sha": "73e22af437e0d09b6534854ac0f3d4884dd9d9a3",
+    "marketplace_sha": "57446951ad09cb8d9e7e4820f08dcba34c2d20a2",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -7432,7 +7432,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-19T12:23:16+02:00",
+            "last_updated": "2026-06-20T09:50:55+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Dash0"
@@ -7442,15 +7442,15 @@
                 "homepage": "https://dash0.com/",
                 "name": "dash0",
                 "source": {
-                    "sha": "348610d062a763545a82cd7835bea9298cd227bf",
+                    "sha": "956ff78dc7d5ee5a5aa8fb321a4e3abaeeb5f742",
                     "source": "url",
                     "url": "https://github.com/dash0hq/dash0-agent-plugin.git"
                 }
             },
             "plugin": "dash0-agent-plugin",
-            "sha": "348610d062a763545a82cd7835bea9298cd227bf",
+            "sha": "956ff78dc7d5ee5a5aa8fb321a4e3abaeeb5f742",
             "source": "dash0@claude-plugins-official",
-            "source_sha": "348610d062a763545a82cd7835bea9298cd227bf",
+            "source_sha": "956ff78dc7d5ee5a5aa8fb321a4e3abaeeb5f742",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 126,
@@ -11102,7 +11102,7 @@
                     {
                         "chars": {
                             "always_on": 312,
-                            "on_invoke": 16381
+                            "on_invoke": 22131
                         },
                         "name": "slideshow"
                     },
@@ -11164,7 +11164,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-19T16:21:31-04:00",
+            "last_updated": "2026-06-20T18:24:11-04:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -11174,27 +11174,27 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "82b6ccde7934836c100c47206bacca5455c8b3d8",
+                    "sha": "0d2198e6547e73e83015cd1fc7ad602c163f7297",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "82b6ccde7934836c100c47206bacca5455c8b3d8",
+            "sha": "0d2198e6547e73e83015cd1fc7ad602c163f7297",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "82b6ccde7934836c100c47206bacca5455c8b3d8",
+            "source_sha": "0d2198e6547e73e83015cd1fc7ad602c163f7297",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4073,
-                    "on_invoke": 123889
+                    "on_invoke": 125843
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 2849,
-                    "on_invoke": 91252
+                    "on_invoke": 92590
                 }
             },
             "unique_installs": 1003,
-            "version": "0.6.114"
+            "version": "0.6.118"
         },
         "imessage@claude-plugins-official": {
             "components": {
@@ -14513,7 +14513,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-17T13:22:18+02:00",
+            "last_updated": "2026-06-20T16:13:18+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -14523,15 +14523,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/oracledb",
                 "name": "oracledb",
                 "source": {
-                    "sha": "6081bf97fc8f1a41c77a7110cb093291a5452a93",
+                    "sha": "4dde67892d32017f30a0c02922219281a4c4ec82",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/oracledb.git"
                 }
             },
             "plugin": "oracledb",
-            "sha": "6081bf97fc8f1a41c77a7110cb093291a5452a93",
+            "sha": "4dde67892d32017f30a0c02922219281a4c4ec82",
             "source": "oracledb@claude-plugins-official",
-            "source_sha": "6081bf97fc8f1a41c77a7110cb093291a5452a93",
+            "source_sha": "4dde67892d32017f30a0c02922219281a4c4ec82",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 88,
@@ -21656,7 +21656,16 @@
             "sha": "b2f2bc09dd05b15db9cb2e696f57872e85944aad",
             "source": "vercel@claude-plugins-official",
             "source_sha": "b2f2bc09dd05b15db9cb2e696f57872e85944aad",
-            "tokens": {},
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 2629,
+                    "on_invoke": 94885
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 1749,
+                    "on_invoke": 68566
+                }
+            },
             "unique_installs": 174315,
             "version": "0.44.0"
         },
@@ -21846,7 +21855,16 @@
             "sha": "668e6ee9dc5a9fb4d72c25962233aa819f435d9a",
             "source": "wix@claude-plugins-official",
             "source_sha": "668e6ee9dc5a9fb4d72c25962233aa819f435d9a",
-            "tokens": {},
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 892,
+                    "on_invoke": 22915
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 651,
+                    "on_invoke": 15829
+                }
+            },
             "unique_installs": 2926,
             "version": "1.1.0"
         },
@@ -22132,7 +22150,16 @@
             "sha": "469b06007824bb859982a95d2dad5caec11e0bf1",
             "source": "zapier@claude-plugins-official",
             "source_sha": "469b06007824bb859982a95d2dad5caec11e0bf1",
-            "tokens": {},
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 498,
+                    "on_invoke": 11427
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 361,
+                    "on_invoke": 8405
+                }
+            },
             "unique_installs": 2689,
             "version": "1.0.0"
         },
