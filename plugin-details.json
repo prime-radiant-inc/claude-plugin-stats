@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-21T08:49:03.369Z",
+    "generated_at": "2026-06-22T09:27:11.599Z",
     "installs_generated_at": "2026-06-19T06:00:40.920131+00:00",
-    "marketplace_sha": "57446951ad09cb8d9e7e4820f08dcba34c2d20a2",
+    "marketplace_sha": "545162ba19782cb08668a5d1bb51a8e0368872ad",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -5033,7 +5033,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-19T17:16:06Z",
+            "last_updated": "2026-06-21T05:40:10Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -5045,15 +5045,15 @@
                 "source": {
                     "path": "plugins/carta-investors",
                     "ref": "main",
-                    "sha": "4cb559c373bf618b2552353f9bf6e3ab6a7e6f7a",
+                    "sha": "bb45f4b388a0d96366b137a8c47d03c45434d1fa",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-investors",
-            "sha": "4cb559c373bf618b2552353f9bf6e3ab6a7e6f7a",
+            "sha": "bb45f4b388a0d96366b137a8c47d03c45434d1fa",
             "source": "carta-investors@claude-plugins-official",
-            "source_sha": "4cb559c373bf618b2552353f9bf6e3ab6a7e6f7a",
+            "source_sha": "bb45f4b388a0d96366b137a8c47d03c45434d1fa",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3143,
@@ -5065,7 +5065,7 @@
                 }
             },
             "unique_installs": 278,
-            "version": "0.106.0"
+            "version": "0.107.1"
         },
         "cds-mcp@claude-plugins-official": {
             "components": {
@@ -11101,8 +11101,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 312,
-                            "on_invoke": 22131
+                            "always_on": 448,
+                            "on_invoke": 31905
                         },
                         "name": "slideshow"
                     },
@@ -11164,7 +11164,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-20T18:24:11-04:00",
+            "last_updated": "2026-06-21T17:59:01-04:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -11174,27 +11174,27 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "0d2198e6547e73e83015cd1fc7ad602c163f7297",
+                    "sha": "e385d213f3f2521ecc52ea1b681d1ad759904d0a",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "0d2198e6547e73e83015cd1fc7ad602c163f7297",
+            "sha": "e385d213f3f2521ecc52ea1b681d1ad759904d0a",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "0d2198e6547e73e83015cd1fc7ad602c163f7297",
+            "source_sha": "e385d213f3f2521ecc52ea1b681d1ad759904d0a",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4073,
-                    "on_invoke": 125843
+                    "always_on": 4119,
+                    "on_invoke": 129059
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 2849,
-                    "on_invoke": 92590
+                    "always_on": 2878,
+                    "on_invoke": 94860
                 }
             },
             "unique_installs": 1003,
-            "version": "0.6.118"
+            "version": "0.6.121"
         },
         "imessage@claude-plugins-official": {
             "components": {
@@ -11391,7 +11391,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-18T12:08:54+03:00",
+            "last_updated": "2026-06-21T20:03:11+03:00",
             "marketplace_entry": {
                 "author": {
                     "name": "JFrog Ltd.",
@@ -11404,14 +11404,14 @@
                 "source": {
                     "commit": "259c8e718266c16e99b4f30ae9b1ed0f9f00d98d",
                     "repo": "jfrog/claude-plugin",
-                    "sha": "97e25cc7db106c7fb6e2343968cbfe8fe5e5963a",
+                    "sha": "ac0ea16e9e96c9837b26d3c7d6bdfecd41cb6149",
                     "source": "github"
                 }
             },
             "plugin": "jfrog",
-            "sha": "97e25cc7db106c7fb6e2343968cbfe8fe5e5963a",
+            "sha": "ac0ea16e9e96c9837b26d3c7d6bdfecd41cb6149",
             "source": "jfrog@claude-plugins-official",
-            "source_sha": "97e25cc7db106c7fb6e2343968cbfe8fe5e5963a",
+            "source_sha": "ac0ea16e9e96c9837b26d3c7d6bdfecd41cb6149",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 515,
@@ -11423,7 +11423,7 @@
                 }
             },
             "unique_installs": 182,
-            "version": "0.2.5"
+            "version": "0.2.7"
         },
         "knowledge-catalog@claude-plugins-official": {
             "components": {
@@ -14513,7 +14513,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-20T16:13:18+02:00",
+            "last_updated": "2026-06-21T09:44:21+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -14523,15 +14523,15 @@
                 "homepage": "https://github.com/gemini-cli-extensions/oracledb",
                 "name": "oracledb",
                 "source": {
-                    "sha": "4dde67892d32017f30a0c02922219281a4c4ec82",
+                    "sha": "d5a26255c6f2ffb32b5920735512629014622693",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/oracledb.git"
                 }
             },
             "plugin": "oracledb",
-            "sha": "4dde67892d32017f30a0c02922219281a4c4ec82",
+            "sha": "d5a26255c6f2ffb32b5920735512629014622693",
             "source": "oracledb@claude-plugins-official",
-            "source_sha": "4dde67892d32017f30a0c02922219281a4c4ec82",
+            "source_sha": "d5a26255c6f2ffb32b5920735512629014622693",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 88,
@@ -15621,7 +15621,7 @@
                     {
                         "chars": {
                             "always_on": 617,
-                            "on_invoke": 6875
+                            "on_invoke": 6876
                         },
                         "name": "querying-posthog-data"
                     },
@@ -15691,7 +15691,7 @@
                     {
                         "chars": {
                             "always_on": 411,
-                            "on_invoke": 3429
+                            "on_invoke": 3431
                         },
                         "name": "exploring-mcp-intent-clusters"
                     },
@@ -15816,8 +15816,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 614,
-                            "on_invoke": 17900
+                            "always_on": 621,
+                            "on_invoke": 18448
                         },
                         "name": "exploring-llm-evaluations"
                     },
@@ -15943,7 +15943,7 @@
                     {
                         "chars": {
                             "always_on": 417,
-                            "on_invoke": 5108
+                            "on_invoke": 5091
                         },
                         "name": "exploring-mcp-tool-quality"
                     },
@@ -16013,7 +16013,7 @@
                     {
                         "chars": {
                             "always_on": 383,
-                            "on_invoke": 4185
+                            "on_invoke": 4103
                         },
                         "name": "exploring-mcp-sessions"
                     },
@@ -16243,8 +16243,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 550,
-                            "on_invoke": 14484
+                            "always_on": 601,
+                            "on_invoke": 18479
                         },
                         "name": "signals-scout-csp-violations"
                     },
@@ -16264,34 +16264,34 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-18T16:46:48+02:00",
+            "last_updated": "2026-06-21T12:24:30+02:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code.",
                 "homepage": "https://posthog.com/docs/model-context-protocol",
                 "name": "posthog",
                 "source": {
-                    "sha": "fa6f61965c1df5c70ad2c48e1b5bd8672ce9a7e6",
+                    "sha": "d09ebca2302c085cef2dd576f2b6ec88fe254ce1",
                     "source": "url",
                     "url": "https://github.com/PostHog/ai-plugin.git"
                 }
             },
             "plugin": "posthog",
-            "sha": "fa6f61965c1df5c70ad2c48e1b5bd8672ce9a7e6",
+            "sha": "d09ebca2302c085cef2dd576f2b6ec88fe254ce1",
             "source": "posthog@claude-plugins-official",
-            "source_sha": "fa6f61965c1df5c70ad2c48e1b5bd8672ce9a7e6",
+            "source_sha": "d09ebca2302c085cef2dd576f2b6ec88fe254ce1",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 18621,
-                    "on_invoke": 392457
+                    "always_on": 18646,
+                    "on_invoke": 394123
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 12718,
-                    "on_invoke": 288420
+                    "always_on": 12728,
+                    "on_invoke": 289570
                 }
             },
             "unique_installs": 11820,
-            "version": "1.1.38"
+            "version": "1.1.39"
         },
         "postiz@claude-plugins-official": {
             "components": {
@@ -17315,21 +17315,21 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-19T22:28:03+02:00",
+            "last_updated": "2026-06-21T23:16:06+02:00",
             "marketplace_entry": {
                 "description": "Continuous memory for Claude Code. Extracts, summarizes, and compresses conversations into tiered daily logs. Claude remembers what you did yesterday.",
                 "homepage": "https://github.com/Digital-Process-Tools/claude-remember",
                 "name": "remember",
                 "source": {
-                    "sha": "ce4eb100e2082adf1a0a0f1555bf1cfa5b3fddca",
+                    "sha": "e6bc86214ea62e069465c064c185e3742bac55c0",
                     "source": "url",
                     "url": "https://github.com/Digital-Process-Tools/claude-remember.git"
                 }
             },
             "plugin": "remember",
-            "sha": "ce4eb100e2082adf1a0a0f1555bf1cfa5b3fddca",
+            "sha": "e6bc86214ea62e069465c064c185e3742bac55c0",
             "source": "remember@claude-plugins-official",
-            "source_sha": "ce4eb100e2082adf1a0a0f1555bf1cfa5b3fddca",
+            "source_sha": "e6bc86214ea62e069465c064c185e3742bac55c0",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 29,
@@ -17341,7 +17341,7 @@
                 }
             },
             "unique_installs": 39792,
-            "version": "0.8.1"
+            "version": "0.8.2"
         },
         "resend@claude-plugins-official": {
             "components": {
@@ -21839,22 +21839,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-18T11:37:33+03:00",
+            "last_updated": "2026-06-21T11:45:51+03:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
                 "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
                 "name": "wix",
                 "source": {
-                    "sha": "668e6ee9dc5a9fb4d72c25962233aa819f435d9a",
+                    "sha": "7d427f948b7a00416d698f52b36ff8c38cab95db",
                     "source": "url",
                     "url": "https://github.com/wix/skills.git"
                 }
             },
             "plugin": "wix",
-            "sha": "668e6ee9dc5a9fb4d72c25962233aa819f435d9a",
+            "sha": "7d427f948b7a00416d698f52b36ff8c38cab95db",
             "source": "wix@claude-plugins-official",
-            "source_sha": "668e6ee9dc5a9fb4d72c25962233aa819f435d9a",
+            "source_sha": "7d427f948b7a00416d698f52b36ff8c38cab95db",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 892,
