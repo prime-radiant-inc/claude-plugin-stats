@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-27T08:17:30.041Z",
+    "generated_at": "2026-06-28T08:30:37.917Z",
     "installs_generated_at": "2026-06-26T06:00:24.033780+00:00",
-    "marketplace_sha": "f42c6edab38a90e56b7120a45525c541dee86ecc",
+    "marketplace_sha": "30a213f9b39e3c40b0073bb5b41081da9f2b6634",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -1800,22 +1800,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-26T11:42:46-07:00",
+            "last_updated": "2026-06-26T17:28:07-07:00",
             "marketplace_entry": {
                 "category": "productivity",
                 "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
                 "homepage": "https://github.com/atlassian/atlassian-mcp-server",
                 "name": "atlassian",
                 "source": {
-                    "sha": "38a17806fac2a1b546ec1b437c5f76f7c9cc0adc",
+                    "sha": "201c1b20ef45a05fcece7f7b11df6e62b356d8d0",
                     "source": "url",
                     "url": "https://github.com/atlassian/atlassian-mcp-server.git"
                 }
             },
             "plugin": "atlassian",
-            "sha": "38a17806fac2a1b546ec1b437c5f76f7c9cc0adc",
+            "sha": "201c1b20ef45a05fcece7f7b11df6e62b356d8d0",
             "source": "atlassian@claude-plugins-official",
-            "source_sha": "38a17806fac2a1b546ec1b437c5f76f7c9cc0adc",
+            "source_sha": "201c1b20ef45a05fcece7f7b11df6e62b356d8d0",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1074,
@@ -7622,13 +7622,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 329,
-                            "on_invoke": 3326
-                        },
-                        "name": "developing-with-bigquery"
-                    },
-                    {
-                        "chars": {
                             "always_on": 635,
                             "on_invoke": 577
                         },
@@ -7679,7 +7672,7 @@
                     {
                         "chars": {
                             "always_on": 401,
-                            "on_invoke": 11256
+                            "on_invoke": 11240
                         },
                         "name": "dbt-bigquery"
                     },
@@ -7706,8 +7699,15 @@
                     },
                     {
                         "chars": {
+                            "always_on": 313,
+                            "on_invoke": 3187
+                        },
+                        "name": "bigquery"
+                    },
+                    {
+                        "chars": {
                             "always_on": 422,
-                            "on_invoke": 11754
+                            "on_invoke": 11738
                         },
                         "name": "dataform-bigquery"
                     },
@@ -7734,7 +7734,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-26T17:50:07Z",
+            "last_updated": "2026-06-26T23:41:41-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
@@ -7744,23 +7744,23 @@
                 "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
                 "name": "data-agent-kit-starter-pack",
                 "source": {
-                    "sha": "9bc90f9ec22b156a71f37c45157cf3f551005a45",
+                    "sha": "23d0e064cce2f7034e9270f770dc10d96bccde39",
                     "source": "url",
                     "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack.git"
                 }
             },
             "plugin": "dak",
-            "sha": "9bc90f9ec22b156a71f37c45157cf3f551005a45",
+            "sha": "23d0e064cce2f7034e9270f770dc10d96bccde39",
             "source": "data-agent-kit-starter-pack@claude-plugins-official",
-            "source_sha": "9bc90f9ec22b156a71f37c45157cf3f551005a45",
+            "source_sha": "23d0e064cce2f7034e9270f770dc10d96bccde39",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4072,
-                    "on_invoke": 59629
+                    "always_on": 4067,
+                    "on_invoke": 59556
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 2642,
-                    "on_invoke": 42170
+                    "always_on": 2638,
+                    "on_invoke": 42122
                 }
             },
             "unique_installs": 1756,
@@ -11549,7 +11549,7 @@
                     {
                         "chars": {
                             "always_on": 795,
-                            "on_invoke": 20011
+                            "on_invoke": 20114
                         },
                         "name": "pr-to-video"
                     },
@@ -11570,14 +11570,14 @@
                     {
                         "chars": {
                             "always_on": 750,
-                            "on_invoke": 17042
+                            "on_invoke": 17145
                         },
                         "name": "faceless-explainer"
                     },
                     {
                         "chars": {
                             "always_on": 848,
-                            "on_invoke": 12472
+                            "on_invoke": 12574
                         },
                         "name": "motion-graphics"
                     },
@@ -11598,14 +11598,14 @@
                     {
                         "chars": {
                             "always_on": 645,
-                            "on_invoke": 15285
+                            "on_invoke": 15386
                         },
                         "name": "music-to-video"
                     },
                     {
                         "chars": {
                             "always_on": 1046,
-                            "on_invoke": 30422
+                            "on_invoke": 30533
                         },
                         "name": "embedded-captions"
                     },
@@ -11626,7 +11626,7 @@
                     {
                         "chars": {
                             "always_on": 500,
-                            "on_invoke": 8790
+                            "on_invoke": 9084
                         },
                         "name": "hyperframes-cli"
                     },
@@ -11647,20 +11647,20 @@
                     {
                         "chars": {
                             "always_on": 828,
-                            "on_invoke": 15762
+                            "on_invoke": 16113
                         },
                         "name": "hyperframes"
                     },
                     {
                         "chars": {
                             "always_on": 757,
-                            "on_invoke": 18380
+                            "on_invoke": 18483
                         },
                         "name": "product-launch-video"
                     }
                 ]
             },
-            "last_updated": "2026-06-26T22:43:22Z",
+            "last_updated": "2026-06-27T13:54:58-04:00",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -11670,27 +11670,27 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "e3edbd55cff35884f4f0c90164e1337385e9ad08",
+                    "sha": "3351fb1a6d7f0202d07db9bf9ad335fd0d1ec344",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "e3edbd55cff35884f4f0c90164e1337385e9ad08",
+            "sha": "3351fb1a6d7f0202d07db9bf9ad335fd0d1ec344",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "e3edbd55cff35884f4f0c90164e1337385e9ad08",
+            "source_sha": "3351fb1a6d7f0202d07db9bf9ad335fd0d1ec344",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4439,
-                    "on_invoke": 110724
+                    "on_invoke": 111105
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 3098,
-                    "on_invoke": 82009
+                    "on_invoke": 82285
                 }
             },
             "unique_installs": 1202,
-            "version": "0.7.13"
+            "version": "0.7.17"
         },
         "imessage@claude-plugins-official": {
             "components": {
@@ -16381,7 +16381,7 @@
                     },
                     {
                         "chars": {
-                            "always_on": 580,
+                            "always_on": 696,
                             "on_invoke": 7771
                         },
                         "name": "suggesting-data-imports"
@@ -16410,7 +16410,7 @@
                     {
                         "chars": {
                             "always_on": 259,
-                            "on_invoke": 9382
+                            "on_invoke": 9239
                         },
                         "name": "instrument-product-analytics"
                     },
@@ -16420,13 +16420,6 @@
                             "on_invoke": 4209
                         },
                         "name": "designing-email-templates"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 703,
-                            "on_invoke": 4689
-                        },
-                        "name": "analysing-exported-session-recordings"
                     },
                     {
                         "chars": {
@@ -16452,7 +16445,7 @@
                     {
                         "chars": {
                             "always_on": 275,
-                            "on_invoke": 7138
+                            "on_invoke": 7027
                         },
                         "name": "instrument-llm-analytics"
                     },
@@ -16529,14 +16522,14 @@
                     {
                         "chars": {
                             "always_on": 848,
-                            "on_invoke": 12566
+                            "on_invoke": 13355
                         },
                         "name": "authoring-signals-scouts"
                     },
                     {
                         "chars": {
                             "always_on": 221,
-                            "on_invoke": 8432
+                            "on_invoke": 11341
                         },
                         "name": "exploring-llm-clusters"
                     },
@@ -16578,14 +16571,14 @@
                     {
                         "chars": {
                             "always_on": 261,
-                            "on_invoke": 8632
+                            "on_invoke": 8489
                         },
                         "name": "instrument-integration"
                     },
                     {
                         "chars": {
                             "always_on": 988,
-                            "on_invoke": 8659
+                            "on_invoke": 11386
                         },
                         "name": "configuring-experiment-analytics"
                     },
@@ -16669,7 +16662,7 @@
                     {
                         "chars": {
                             "always_on": 500,
-                            "on_invoke": 3920
+                            "on_invoke": 4079
                         },
                         "name": "creating-experiments"
                     },
@@ -16686,13 +16679,6 @@
                             "on_invoke": 9061
                         },
                         "name": "assessing-heatmaps"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1035,
-                            "on_invoke": 15272
-                        },
-                        "name": "planning-user-interviews"
                     },
                     {
                         "chars": {
@@ -16739,7 +16725,7 @@
                     {
                         "chars": {
                             "always_on": 269,
-                            "on_invoke": 6613
+                            "on_invoke": 6470
                         },
                         "name": "instrument-error-tracking"
                     },
@@ -16784,13 +16770,6 @@
                             "on_invoke": 10473
                         },
                         "name": "diagnosing-sdk-health"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 566,
-                            "on_invoke": 3639
-                        },
-                        "name": "exporting-session-recordings"
                     },
                     {
                         "chars": {
@@ -16857,6 +16836,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 566,
+                            "on_invoke": 3099
+                        },
+                        "name": "checking-deploy-timing"
+                    },
+                    {
+                        "chars": {
                             "always_on": 411,
                             "on_invoke": 5762
                         },
@@ -16868,6 +16854,13 @@
                             "on_invoke": 14268
                         },
                         "name": "tuning-incremental-sync-config"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1059,
+                            "on_invoke": 16918
+                        },
+                        "name": "planning-voice-agent-user-interviews"
                     },
                     {
                         "chars": {
@@ -16910,6 +16903,13 @@
                             "on_invoke": 5617
                         },
                         "name": "formatting-insight-axes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 868,
+                            "on_invoke": 10032
+                        },
+                        "name": "setting-up-a-custom-rest-source"
                     },
                     {
                         "chars": {
@@ -16970,7 +16970,7 @@
                     {
                         "chars": {
                             "always_on": 260,
-                            "on_invoke": 5754
+                            "on_invoke": 5643
                         },
                         "name": "instrument-logs"
                     },
@@ -16980,6 +16980,13 @@
                             "on_invoke": 15175
                         },
                         "name": "suppressing-noisy-errors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 740,
+                            "on_invoke": 7650
+                        },
+                        "name": "exploring-replay-vision-observations"
                     },
                     {
                         "chars": {
@@ -17032,34 +17039,34 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-25T19:09:45+02:00",
+            "last_updated": "2026-06-27T18:33:27+02:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code.",
                 "homepage": "https://posthog.com/docs/model-context-protocol",
                 "name": "posthog",
                 "source": {
-                    "sha": "835f4f647fec8a8fbde8ea00cf9b2432a35d7e5b",
+                    "sha": "b2054334354599d7cc2d02e7329a5066e44d9c4f",
                     "source": "url",
                     "url": "https://github.com/PostHog/ai-plugin.git"
                 }
             },
             "plugin": "posthog",
-            "sha": "835f4f647fec8a8fbde8ea00cf9b2432a35d7e5b",
+            "sha": "b2054334354599d7cc2d02e7329a5066e44d9c4f",
             "source": "posthog@claude-plugins-official",
-            "source_sha": "835f4f647fec8a8fbde8ea00cf9b2432a35d7e5b",
+            "source_sha": "b2054334354599d7cc2d02e7329a5066e44d9c4f",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 19502,
-                    "on_invoke": 407486
+                    "always_on": 19881,
+                    "on_invoke": 414336
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 13327,
-                    "on_invoke": 299548
+                    "always_on": 13583,
+                    "on_invoke": 304553
                 }
             },
             "unique_installs": 12128,
-            "version": "1.1.41"
+            "version": "1.1.43"
         },
         "postiz@claude-plugins-official": {
             "components": {
@@ -18256,7 +18263,7 @@
                     {
                         "chars": {
                             "always_on": 97,
-                            "on_invoke": 60867
+                            "on_invoke": 61163
                         },
                         "name": "rill-connector"
                     },
@@ -18304,7 +18311,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-25T08:59:42Z",
+            "last_updated": "2026-06-27T08:50:45Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Rill Data"
@@ -18314,23 +18321,23 @@
                 "homepage": "https://docs.rilldata.com/developers/build/ai-configuration",
                 "name": "rill",
                 "source": {
-                    "sha": "c8c8738f44826150d52304cd4fb70cc3ecbdca2e",
+                    "sha": "5ac72459d4ec43c6e818bfdb1f3f2696e0cb21d4",
                     "source": "url",
                     "url": "https://github.com/rilldata/agent-skills.git"
                 }
             },
             "plugin": "rill",
-            "sha": "c8c8738f44826150d52304cd4fb70cc3ecbdca2e",
+            "sha": "5ac72459d4ec43c6e818bfdb1f3f2696e0cb21d4",
             "source": "rill@claude-plugins-official",
-            "source_sha": "c8c8738f44826150d52304cd4fb70cc3ecbdca2e",
+            "source_sha": "5ac72459d4ec43c6e818bfdb1f3f2696e0cb21d4",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 257,
-                    "on_invoke": 80981
+                    "on_invoke": 81074
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 179,
-                    "on_invoke": 60947
+                    "on_invoke": 61006
                 }
             },
             "unique_installs": 87,
