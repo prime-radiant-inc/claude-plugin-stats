@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-06-28T08:30:37.917Z",
+    "generated_at": "2026-06-29T09:06:21.064Z",
     "installs_generated_at": "2026-06-26T06:00:24.033780+00:00",
-    "marketplace_sha": "30a213f9b39e3c40b0073bb5b41081da9f2b6634",
+    "marketplace_sha": "3dc50d51835dc85f7a3f77d593dd9a565a87276b",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -11626,7 +11626,7 @@
                     {
                         "chars": {
                             "always_on": 500,
-                            "on_invoke": 9084
+                            "on_invoke": 10148
                         },
                         "name": "hyperframes-cli"
                     },
@@ -11660,7 +11660,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-27T13:54:58-04:00",
+            "last_updated": "2026-06-28T22:55:15Z",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -11670,27 +11670,27 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "3351fb1a6d7f0202d07db9bf9ad335fd0d1ec344",
+                    "sha": "c811a2750a2f9a242b764959e7509217f9943511",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "3351fb1a6d7f0202d07db9bf9ad335fd0d1ec344",
+            "sha": "c811a2750a2f9a242b764959e7509217f9943511",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "3351fb1a6d7f0202d07db9bf9ad335fd0d1ec344",
+            "source_sha": "c811a2750a2f9a242b764959e7509217f9943511",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4439,
-                    "on_invoke": 111105
+                    "on_invoke": 111453
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 3098,
-                    "on_invoke": 82285
+                    "on_invoke": 82538
                 }
             },
             "unique_installs": 1202,
-            "version": "0.7.17"
+            "version": "0.7.18"
         },
         "imessage@claude-plugins-official": {
             "components": {
@@ -23066,22 +23066,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-25T18:10:01+03:00",
+            "last_updated": "2026-06-28T15:55:51+03:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
                 "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
                 "name": "wix",
                 "source": {
-                    "sha": "1ea953a29525ce8ff07a3b5a3a107927804c3eba",
+                    "sha": "75d59c5f85f7719a25328547b0386ceb5f7c7501",
                     "source": "url",
                     "url": "https://github.com/wix/skills.git"
                 }
             },
             "plugin": "wix",
-            "sha": "1ea953a29525ce8ff07a3b5a3a107927804c3eba",
+            "sha": "75d59c5f85f7719a25328547b0386ceb5f7c7501",
             "source": "wix@claude-plugins-official",
-            "source_sha": "1ea953a29525ce8ff07a3b5a3a107927804c3eba",
+            "source_sha": "75d59c5f85f7719a25328547b0386ceb5f7c7501",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 892,
