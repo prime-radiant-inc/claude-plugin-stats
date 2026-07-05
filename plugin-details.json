@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-07-04T08:15:53.064Z",
+    "generated_at": "2026-07-05T08:24:55.300Z",
     "installs_generated_at": "2026-07-03T06:00:30.789356+00:00",
-    "marketplace_sha": "8326199c6ec61fdcece33199b61bdaa4f9ae1570",
+    "marketplace_sha": "26db21ae4fa1748aaa74fc4c01d340aaac92f4f1",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -7259,8 +7259,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 610,
-                            "on_invoke": 4980
+                            "always_on": 665,
+                            "on_invoke": 8669
                         },
                         "name": "convex-authz"
                     },
@@ -7280,7 +7280,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-03T11:29:03-07:00",
+            "last_updated": "2026-07-04T09:28:11-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Convex",
@@ -7309,27 +7309,27 @@
                 ],
                 "name": "convex",
                 "source": {
-                    "sha": "25815e82e848720f11c57fdaf161ecd846e0e7dd",
+                    "sha": "884c2c222d473fb9ffdf1ceb6d842c4d77208d93",
                     "source": "url",
                     "url": "https://github.com/get-convex/convex-backend-skill.git"
                 }
             },
             "plugin": "convex",
-            "sha": "25815e82e848720f11c57fdaf161ecd846e0e7dd",
+            "sha": "884c2c222d473fb9ffdf1ceb6d842c4d77208d93",
             "source": "convex@claude-plugins-official",
-            "source_sha": "25815e82e848720f11c57fdaf161ecd846e0e7dd",
+            "source_sha": "884c2c222d473fb9ffdf1ceb6d842c4d77208d93",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2293,
-                    "on_invoke": 33740
+                    "always_on": 2310,
+                    "on_invoke": 35030
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1674,
-                    "on_invoke": 25002
+                    "always_on": 1686,
+                    "on_invoke": 25938
                 }
             },
             "unique_installs": 696,
-            "version": "1.8.0"
+            "version": "1.8.2"
         },
         "crowdstrike-falcon-foundry@claude-plugins-official": {
             "components": {
@@ -7600,7 +7600,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-03T16:15:16+02:00",
+            "last_updated": "2026-07-04T18:56:31+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Dash0"
@@ -7610,15 +7610,15 @@
                 "homepage": "https://dash0.com/",
                 "name": "dash0",
                 "source": {
-                    "sha": "4aed2d535f3ee5e7c7e24f58163c2f369ae2b4b1",
+                    "sha": "72ec6bebd0a0d0b217d2f264a7ee03ef0a4d6bf0",
                     "source": "url",
                     "url": "https://github.com/dash0hq/dash0-agent-plugin.git"
                 }
             },
             "plugin": "dash0-agent-plugin",
-            "sha": "4aed2d535f3ee5e7c7e24f58163c2f369ae2b4b1",
+            "sha": "72ec6bebd0a0d0b217d2f264a7ee03ef0a4d6bf0",
             "source": "dash0@claude-plugins-official",
-            "source_sha": "4aed2d535f3ee5e7c7e24f58163c2f369ae2b4b1",
+            "source_sha": "72ec6bebd0a0d0b217d2f264a7ee03ef0a4d6bf0",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 135,
@@ -7630,7 +7630,7 @@
                 }
             },
             "unique_installs": 704,
-            "version": "0.1.16"
+            "version": "0.1.17"
         },
         "data-agent-kit-starter-pack@claude-plugins-official": {
             "components": {
@@ -10166,8 +10166,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 548,
-                            "on_invoke": 1919
+                            "always_on": 592,
+                            "on_invoke": 2038
                         },
                         "name": "expo-observe"
                     },
@@ -10229,7 +10229,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-01T21:59:17-07:00",
+            "last_updated": "2026-07-04T03:02:00-07:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution.",
@@ -10238,27 +10238,27 @@
                 "source": {
                     "path": "plugins/expo",
                     "ref": "main",
-                    "sha": "1f9951197dc6acff61c4f0f19521fa0e62c33e51",
+                    "sha": "e7e81d2964ec8907bc3c2988e3408dc643028f96",
                     "source": "git-subdir",
                     "url": "https://github.com/expo/skills.git"
                 }
             },
             "plugin": "expo",
-            "sha": "1f9951197dc6acff61c4f0f19521fa0e62c33e51",
+            "sha": "e7e81d2964ec8907bc3c2988e3408dc643028f96",
             "source": "expo@claude-plugins-official",
-            "source_sha": "1f9951197dc6acff61c4f0f19521fa0e62c33e51",
+            "source_sha": "e7e81d2964ec8907bc3c2988e3408dc643028f96",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2340,
-                    "on_invoke": 51468
+                    "always_on": 2357,
+                    "on_invoke": 51519
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1621,
-                    "on_invoke": 38178
+                    "always_on": 1634,
+                    "on_invoke": 38218
                 }
             },
             "unique_installs": 12590,
-            "version": "1.5.0"
+            "version": "1.5.1"
         },
         "fakechat@claude-plugins-official": {
             "components": {
@@ -12091,8 +12091,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 307,
-                            "on_invoke": 2211
+                            "always_on": 337,
+                            "on_invoke": 12034
                         },
                         "name": "figma"
                     },
@@ -12189,7 +12189,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-03T15:45:07-07:00",
+            "last_updated": "2026-07-04T22:33:27Z",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -12199,27 +12199,27 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "e92700acded50469d3fb35da3a8b198d2cdc36d8",
+                    "sha": "78cca797f1112496e7a8b2191b07fcb27a848f3a",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "e92700acded50469d3fb35da3a8b198d2cdc36d8",
+            "sha": "78cca797f1112496e7a8b2191b07fcb27a848f3a",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "e92700acded50469d3fb35da3a8b198d2cdc36d8",
+            "source_sha": "78cca797f1112496e7a8b2191b07fcb27a848f3a",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4836,
-                    "on_invoke": 119728
+                    "always_on": 4851,
+                    "on_invoke": 123196
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 3372,
-                    "on_invoke": 88417
+                    "always_on": 3381,
+                    "on_invoke": 90926
                 }
             },
             "unique_installs": 1420,
-            "version": "0.7.28"
+            "version": "0.7.33"
         },
         "idmp-plugin@claude-plugins-official": {
             "components": {
@@ -16898,13 +16898,13 @@
                     {
                         "chars": {
                             "always_on": 695,
-                            "on_invoke": 24756
+                            "on_invoke": 24762
                         },
                         "name": "pixeltable-skill"
                     }
                 ]
             },
-            "last_updated": "2026-07-01T10:33:06-07:00",
+            "last_updated": "2026-07-04T09:15:29-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Pixeltable"
@@ -16914,27 +16914,27 @@
                 "homepage": "https://docs.pixeltable.com",
                 "name": "pixeltable",
                 "source": {
-                    "sha": "729175dbb2a144bb6529fb93ac696bad40a1f09d",
+                    "sha": "933c15b55a49aa375ce0300c074bdf43b68571b9",
                     "source": "url",
                     "url": "https://github.com/pixeltable/pixeltable-skill.git"
                 }
             },
             "plugin": "pixeltable",
-            "sha": "729175dbb2a144bb6529fb93ac696bad40a1f09d",
+            "sha": "933c15b55a49aa375ce0300c074bdf43b68571b9",
             "source": "pixeltable@claude-plugins-official",
-            "source_sha": "729175dbb2a144bb6529fb93ac696bad40a1f09d",
+            "source_sha": "933c15b55a49aa375ce0300c074bdf43b68571b9",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 262,
-                    "on_invoke": 10278
+                    "on_invoke": 10281
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 171,
-                    "on_invoke": 7738
+                    "on_invoke": 7740
                 }
             },
             "unique_installs": 4,
-            "version": "2.5.3"
+            "version": "2.5.4"
         },
         "planetscale@claude-plugins-official": {
             "components": {
@@ -24374,22 +24374,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-03T13:10:07+02:00",
+            "last_updated": "2026-07-04T12:14:53+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
                 "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
                 "name": "wix",
                 "source": {
-                    "sha": "39165b47e23b613312c5dcf5eecc2275d428682b",
+                    "sha": "e00cc4b85da811a4457edcf0fc43cf79c751ec89",
                     "source": "url",
                     "url": "https://github.com/wix/skills.git"
                 }
             },
             "plugin": "wix",
-            "sha": "39165b47e23b613312c5dcf5eecc2275d428682b",
+            "sha": "e00cc4b85da811a4457edcf0fc43cf79c751ec89",
             "source": "wix@claude-plugins-official",
-            "source_sha": "39165b47e23b613312c5dcf5eecc2275d428682b",
+            "source_sha": "e00cc4b85da811a4457edcf0fc43cf79c751ec89",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1833,
