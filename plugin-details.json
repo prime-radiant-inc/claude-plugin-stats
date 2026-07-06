@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-07-05T08:24:55.300Z",
+    "generated_at": "2026-07-06T08:49:48.574Z",
     "installs_generated_at": "2026-07-03T06:00:30.789356+00:00",
-    "marketplace_sha": "26db21ae4fa1748aaa74fc4c01d340aaac92f4f1",
+    "marketplace_sha": "06b291803d65afb86b6264e03d5968926afddc90",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -5757,7 +5757,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-30T12:38:11+02:00",
+            "last_updated": "2026-07-05T14:43:48+01:00",
             "marketplace_entry": {
                 "author": {
                     "name": "ClickHouse Inc"
@@ -5767,15 +5767,15 @@
                 "homepage": "https://clickhouse.com",
                 "name": "clickhouse-best-practices",
                 "source": {
-                    "sha": "faa5b11bfa6c1b615cfff0ac017c73b8c255a3f7",
+                    "sha": "71cc41a35ab55d508bed1ab24699ef03da687eae",
                     "source": "url",
                     "url": "https://github.com/ClickHouse/agent-skills.git"
                 }
             },
             "plugin": "clickhouse-best-practices",
-            "sha": "faa5b11bfa6c1b615cfff0ac017c73b8c255a3f7",
+            "sha": "71cc41a35ab55d508bed1ab24699ef03da687eae",
             "source": "clickhouse-best-practices@claude-plugins-official",
-            "source_sha": "faa5b11bfa6c1b615cfff0ac017c73b8c255a3f7",
+            "source_sha": "71cc41a35ab55d508bed1ab24699ef03da687eae",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1797,
@@ -7600,7 +7600,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-04T18:56:31+02:00",
+            "last_updated": "2026-07-05T11:03:18+02:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Dash0"
@@ -7610,15 +7610,15 @@
                 "homepage": "https://dash0.com/",
                 "name": "dash0",
                 "source": {
-                    "sha": "72ec6bebd0a0d0b217d2f264a7ee03ef0a4d6bf0",
+                    "sha": "49bb84cd6f06f4ce71207b1762eaa6aedd530300",
                     "source": "url",
                     "url": "https://github.com/dash0hq/dash0-agent-plugin.git"
                 }
             },
             "plugin": "dash0-agent-plugin",
-            "sha": "72ec6bebd0a0d0b217d2f264a7ee03ef0a4d6bf0",
+            "sha": "49bb84cd6f06f4ce71207b1762eaa6aedd530300",
             "source": "dash0@claude-plugins-official",
-            "source_sha": "72ec6bebd0a0d0b217d2f264a7ee03ef0a4d6bf0",
+            "source_sha": "49bb84cd6f06f4ce71207b1762eaa6aedd530300",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 135,
@@ -7630,7 +7630,7 @@
                 }
             },
             "unique_installs": 704,
-            "version": "0.1.17"
+            "version": "0.1.18"
         },
         "data-agent-kit-starter-pack@claude-plugins-official": {
             "components": {
@@ -11896,22 +11896,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-03T11:40:32+02:00",
+            "last_updated": "2026-07-06T00:26:30+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
                 "homepage": "https://github.com/huggingface/skills.git",
                 "name": "huggingface-skills",
                 "source": {
-                    "sha": "4948baec814c92edd91024b76d8c2ffa6df4eb70",
+                    "sha": "79512173c9c526293bfbc133722fd43d72b64b22",
                     "source": "url",
                     "url": "https://github.com/huggingface/skills.git"
                 }
             },
             "plugin": "huggingface-skills",
-            "sha": "4948baec814c92edd91024b76d8c2ffa6df4eb70",
+            "sha": "79512173c9c526293bfbc133722fd43d72b64b22",
             "source": "huggingface-skills@claude-plugins-official",
-            "source_sha": "4948baec814c92edd91024b76d8c2ffa6df4eb70",
+            "source_sha": "79512173c9c526293bfbc133722fd43d72b64b22",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3437,
@@ -12189,7 +12189,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-04T22:33:27Z",
+            "last_updated": "2026-07-05T19:25:42Z",
             "marketplace_entry": {
                 "author": {
                     "name": "HeyGen"
@@ -12199,15 +12199,15 @@
                 "homepage": "https://hyperframes.heygen.com",
                 "name": "hyperframes",
                 "source": {
-                    "sha": "78cca797f1112496e7a8b2191b07fcb27a848f3a",
+                    "sha": "e8d19b1b43bf94f65d7b7a6e5f86cb352eaec39d",
                     "source": "url",
                     "url": "https://github.com/heygen-com/hyperframes.git"
                 }
             },
             "plugin": "hyperframes",
-            "sha": "78cca797f1112496e7a8b2191b07fcb27a848f3a",
+            "sha": "e8d19b1b43bf94f65d7b7a6e5f86cb352eaec39d",
             "source": "hyperframes@claude-plugins-official",
-            "source_sha": "78cca797f1112496e7a8b2191b07fcb27a848f3a",
+            "source_sha": "e8d19b1b43bf94f65d7b7a6e5f86cb352eaec39d",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4851,
@@ -12219,7 +12219,7 @@
                 }
             },
             "unique_installs": 1420,
-            "version": "0.7.33"
+            "version": "0.7.36"
         },
         "idmp-plugin@claude-plugins-official": {
             "components": {
@@ -12609,8 +12609,8 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 854,
-                            "on_invoke": 26484
+                            "always_on": 930,
+                            "on_invoke": 26836
                         },
                         "name": "jfrog"
                     },
@@ -12630,7 +12630,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-06-29T14:58:02+03:00",
+            "last_updated": "2026-07-05T13:06:04+03:00",
             "marketplace_entry": {
                 "author": {
                     "name": "JFrog Ltd.",
@@ -12643,26 +12643,26 @@
                 "source": {
                     "commit": "259c8e718266c16e99b4f30ae9b1ed0f9f00d98d",
                     "repo": "jfrog/claude-plugin",
-                    "sha": "abadbc634f2acb10387737c4116defaabecec2da",
+                    "sha": "c6967bd11059f10e7c301922d2a411f57126a25f",
                     "source": "github"
                 }
             },
             "plugin": "jfrog",
-            "sha": "abadbc634f2acb10387737c4116defaabecec2da",
+            "sha": "c6967bd11059f10e7c301922d2a411f57126a25f",
             "source": "jfrog@claude-plugins-official",
-            "source_sha": "abadbc634f2acb10387737c4116defaabecec2da",
+            "source_sha": "c6967bd11059f10e7c301922d2a411f57126a25f",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 782,
-                    "on_invoke": 16702
+                    "always_on": 810,
+                    "on_invoke": 16846
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 538,
-                    "on_invoke": 12442
+                    "always_on": 558,
+                    "on_invoke": 12548
                 }
             },
             "unique_installs": 214,
-            "version": "0.2.9"
+            "version": "0.2.10"
         },
         "knowledge-catalog@claude-plugins-official": {
             "components": {
@@ -24333,9 +24333,16 @@
                     {
                         "chars": {
                             "always_on": 1503,
-                            "on_invoke": 7418
+                            "on_invoke": 7560
                         },
                         "name": "wix-vibe-headless"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 182,
+                            "on_invoke": 387
+                        },
+                        "name": "wix-auth"
                     },
                     {
                         "chars": {
@@ -24346,8 +24353,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 332,
-                            "on_invoke": 20238
+                            "always_on": 349,
+                            "on_invoke": 21392
                         },
                         "name": "wix-manage"
                     },
@@ -24374,30 +24381,30 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-04T12:14:53+02:00",
+            "last_updated": "2026-07-05T21:59:42+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
                 "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
                 "name": "wix",
                 "source": {
-                    "sha": "e00cc4b85da811a4457edcf0fc43cf79c751ec89",
+                    "sha": "e4a3c42c2f223d74b3eb6410fbd87f66f55286e8",
                     "source": "url",
                     "url": "https://github.com/wix/skills.git"
                 }
             },
             "plugin": "wix",
-            "sha": "e00cc4b85da811a4457edcf0fc43cf79c751ec89",
+            "sha": "e4a3c42c2f223d74b3eb6410fbd87f66f55286e8",
             "source": "wix@claude-plugins-official",
-            "source_sha": "e00cc4b85da811a4457edcf0fc43cf79c751ec89",
+            "source_sha": "e4a3c42c2f223d74b3eb6410fbd87f66f55286e8",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1833,
-                    "on_invoke": 30870
+                    "always_on": 1904,
+                    "on_invoke": 31511
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1345,
-                    "on_invoke": 21822
+                    "always_on": 1398,
+                    "on_invoke": 22256
                 }
             },
             "unique_installs": 3121,
