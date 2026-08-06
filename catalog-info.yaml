@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: claude-plugin-stats
+  description: Daily git-scrape of Claude Code plugin install counts from Anthropic's public endpoint, with recovered history back to Dec 2025 and an interactive GitHub Pages chart.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    prime-radiant.com/repo-map-rev: "3d39eb8c2cb04ceb44f07237a7940d1f43257156"
+  tags: [python, git-scraping]
+  links:
+    - { url: "https://primeradiant.com/claude-plugin-stats/", title: "Interactive install-count chart" }
+spec:
+  type: tool
+  lifecycle: production
+  owner: user:obra
+  system: plugins
