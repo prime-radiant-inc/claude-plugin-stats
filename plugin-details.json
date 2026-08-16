@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-08-15T07:36:51.215Z",
+    "generated_at": "2026-08-16T07:37:07.715Z",
     "installs_generated_at": "2026-08-14T06:00:57.518643+00:00",
-    "marketplace_sha": "7f19a36438e68783a960d4096c45d6af97739674",
+    "marketplace_sha": "2dc97c0d12ab25539cf5f85294c068511269ab09",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -15414,28 +15414,28 @@
                     {
                         "chars": {
                             "always_on": 190,
-                            "on_invoke": 8700
+                            "on_invoke": 8347
                         },
                         "name": "diagnosing-bugs"
                     },
                     {
                         "chars": {
                             "always_on": 140,
-                            "on_invoke": 62
+                            "on_invoke": 64
                         },
                         "name": "grill-with-docs"
                     },
                     {
                         "chars": {
                             "always_on": 162,
-                            "on_invoke": 6317
+                            "on_invoke": 6339
                         },
                         "name": "triage"
                     },
                     {
                         "chars": {
                             "always_on": 173,
-                            "on_invoke": 5745
+                            "on_invoke": 5785
                         },
                         "name": "improve-codebase-architecture"
                     },
@@ -15449,28 +15449,28 @@
                     {
                         "chars": {
                             "always_on": 171,
-                            "on_invoke": 3353
+                            "on_invoke": 3363
                         },
                         "name": "tdd"
                     },
                     {
                         "chars": {
                             "always_on": 176,
-                            "on_invoke": 2808
+                            "on_invoke": 2825
                         },
                         "name": "to-spec"
                     },
                     {
                         "chars": {
                             "always_on": 276,
-                            "on_invoke": 5342
+                            "on_invoke": 5359
                         },
                         "name": "to-tickets"
                     },
                     {
                         "chars": {
                             "always_on": 227,
-                            "on_invoke": 11507
+                            "on_invoke": 11678
                         },
                         "name": "wayfinder"
                     },
@@ -15512,7 +15512,7 @@
                     {
                         "chars": {
                             "always_on": 448,
-                            "on_invoke": 6086
+                            "on_invoke": 6103
                         },
                         "name": "code-review"
                     },
@@ -15533,21 +15533,21 @@
                     {
                         "chars": {
                             "always_on": 78,
-                            "on_invoke": 26
+                            "on_invoke": 36
                         },
                         "name": "grill-me"
                     },
                     {
                         "chars": {
                             "always_on": 179,
-                            "on_invoke": 1665
+                            "on_invoke": 1660
                         },
                         "name": "grilling"
                     },
                     {
                         "chars": {
                             "always_on": 112,
-                            "on_invoke": 667
+                            "on_invoke": 682
                         },
                         "name": "handoff"
                     },
@@ -15581,7 +15581,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-13T10:06:21+01:00",
+            "last_updated": "2026-08-15T22:24:19+01:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Matt Pocock"
@@ -15591,23 +15591,23 @@
                 "homepage": "https://github.com/mattpocock/skills",
                 "name": "mattpocock-skills",
                 "source": {
-                    "sha": "8b78b531ab965735c5dc74f6f7a219e1e37326df",
+                    "sha": "068b6e0c62393147daf03530149cdce209c93da8",
                     "source": "url",
                     "url": "https://github.com/mattpocock/skills.git"
                 }
             },
             "plugin": "mattpocock-skills",
-            "sha": "8b78b531ab965735c5dc74f6f7a219e1e37326df",
+            "sha": "068b6e0c62393147daf03530149cdce209c93da8",
             "source": "mattpocock-skills@claude-plugins-official",
-            "source_sha": "8b78b531ab965735c5dc74f6f7a219e1e37326df",
+            "source_sha": "068b6e0c62393147daf03530149cdce209c93da8",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1614,
-                    "on_invoke": 37299
+                    "on_invoke": 37295
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1117,
-                    "on_invoke": 27157
+                    "on_invoke": 27163
                 }
             },
             "unique_installs": 19162,
@@ -25468,7 +25468,7 @@
                     {
                         "chars": {
                             "always_on": 767,
-                            "on_invoke": 4050
+                            "on_invoke": 4415
                         },
                         "name": "stripe-best-practices"
                     },
@@ -25502,7 +25502,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-14T00:34:33Z",
+            "last_updated": "2026-08-15T00:21:08Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Stripe development plugin for Claude",
@@ -25511,27 +25511,27 @@
                 "source": {
                     "path": "providers/claude/plugin",
                     "ref": "main",
-                    "sha": "2cda67e9ab99eec887c156c748d9a42d66ca5d53",
+                    "sha": "f4abb4498d2e3298c6b9e52cdd4559cebfc70a2f",
                     "source": "git-subdir",
                     "url": "https://github.com/stripe/ai.git"
                 }
             },
             "plugin": "stripe",
-            "sha": "2cda67e9ab99eec887c156c748d9a42d66ca5d53",
+            "sha": "f4abb4498d2e3298c6b9e52cdd4559cebfc70a2f",
             "source": "stripe@claude-plugins-official",
-            "source_sha": "2cda67e9ab99eec887c156c748d9a42d66ca5d53",
+            "source_sha": "f4abb4498d2e3298c6b9e52cdd4559cebfc70a2f",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 1618,
-                    "on_invoke": 31734
+                    "on_invoke": 31854
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1044,
-                    "on_invoke": 22272
+                    "on_invoke": 22357
                 }
             },
             "unique_installs": 65787,
-            "version": "0.6.0"
+            "version": "0.6.1"
         },
         "sumup@claude-plugins-official": {
             "components": {
@@ -25545,17 +25545,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 248,
-                            "on_invoke": 5831
+                            "always_on": 237,
+                            "on_invoke": 2232
                         },
-                        "name": "sumup"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 277,
-                            "on_invoke": 2780
-                        },
-                        "name": "upgrade-sumup"
+                        "name": "sumup-mcp"
                     },
                     {
                         "chars": {
@@ -25573,10 +25566,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 237,
-                            "on_invoke": 2232
+                            "always_on": 277,
+                            "on_invoke": 2780
                         },
-                        "name": "sumup-mcp"
+                        "name": "upgrade-sumup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 248,
+                            "on_invoke": 5831
+                        },
+                        "name": "sumup"
                     },
                     {
                         "chars": {
@@ -25587,22 +25587,22 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-26T00:33:40+02:00",
+            "last_updated": "2026-08-15T19:58:59+02:00",
             "marketplace_entry": {
                 "category": "development",
                 "description": "SumUp payment integrations across terminal and online checkout flows. Build Android and iOS POS apps with SumUp card readers, online checkout with server SDKs and the checkout widget, and control card readers remotely via Cloud API.",
                 "homepage": "https://www.sumup.com/",
                 "name": "sumup",
                 "source": {
-                    "sha": "937ad2118bf928087706431ee60cedf8a8a44d3c",
+                    "sha": "cb72003b417cec5e717c6b788d63394b7e921938",
                     "source": "url",
                     "url": "https://github.com/sumup/sumup-skills.git"
                 }
             },
             "plugin": "sumup",
-            "sha": "937ad2118bf928087706431ee60cedf8a8a44d3c",
+            "sha": "cb72003b417cec5e717c6b788d63394b7e921938",
             "source": "sumup@claude-plugins-official",
-            "source_sha": "937ad2118bf928087706431ee60cedf8a8a44d3c",
+            "source_sha": "cb72003b417cec5e717c6b788d63394b7e921938",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 658,
@@ -25686,7 +25686,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-12T15:20:24+06:00",
+            "last_updated": "2026-08-15T17:28:42+10:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Superdesign dev, Inc."
@@ -25696,15 +25696,15 @@
                 "homepage": "https://superdesign.dev",
                 "name": "superdesign",
                 "source": {
-                    "sha": "a47784a8638327de05f869f509d4235478407bfa",
+                    "sha": "dc60b43625426bdd1e88fe494739fd5ea27daedd",
                     "source": "url",
                     "url": "https://github.com/superdesigndev/superdesign-skill.git"
                 }
             },
             "plugin": "superdesign",
-            "sha": "a47784a8638327de05f869f509d4235478407bfa",
+            "sha": "dc60b43625426bdd1e88fe494739fd5ea27daedd",
             "source": "superdesign@claude-plugins-official",
-            "source_sha": "a47784a8638327de05f869f509d4235478407bfa",
+            "source_sha": "dc60b43625426bdd1e88fe494739fd5ea27daedd",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 186,
