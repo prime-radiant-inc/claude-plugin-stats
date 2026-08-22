@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-08-21T07:39:35.518Z",
+    "generated_at": "2026-08-22T07:37:11.766Z",
     "installs_generated_at": "2026-08-21T06:00:43.550069+00:00",
-    "marketplace_sha": "67a666efc8524ff7abaa266f84e514aa77aee48f",
+    "marketplace_sha": "340e33aef211d95769d252324854497af871dafe",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -6149,7 +6149,7 @@
                     {
                         "chars": {
                             "always_on": 160,
-                            "on_invoke": 5429
+                            "on_invoke": 6585
                         },
                         "name": "scan-researcher"
                     },
@@ -6205,7 +6205,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-17T20:29:50-07:00",
+            "last_updated": "2026-08-21T08:48:34-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -6220,19 +6220,19 @@
             "plugin": "claude-security",
             "sha": null,
             "source": "claude-security@claude-plugins-official",
-            "source_sha": "cf7e67d87c01b839173b459c3114acfafc603bcb",
+            "source_sha": "1247e88a7028a6c47493081ef221989cb302b8ef",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 647,
-                    "on_invoke": 11044
+                    "on_invoke": 11399
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 435,
-                    "on_invoke": 7947
+                    "on_invoke": 8181
                 }
             },
             "unique_installs": 13344,
-            "version": "0.10.1"
+            "version": "0.10.2"
         },
         "clickhouse-best-practices@claude-plugins-official": {
             "components": {
