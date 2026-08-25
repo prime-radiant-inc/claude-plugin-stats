@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-08-24T07:45:43.783Z",
+    "generated_at": "2026-08-25T07:39:56.013Z",
     "installs_generated_at": "2026-08-21T06:00:43.550069+00:00",
-    "marketplace_sha": "340e33aef211d95769d252324854497af871dafe",
+    "marketplace_sha": "b819188d2eea14e0400556ca29dbd1179a7c595b",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -4936,7 +4936,7 @@
                     {
                         "chars": {
                             "always_on": 948,
-                            "on_invoke": 62106
+                            "on_invoke": 62152
                         },
                         "name": "carta-compensation-benchmarks"
                     },
@@ -4978,7 +4978,7 @@
                     {
                         "chars": {
                             "always_on": 813,
-                            "on_invoke": 38734
+                            "on_invoke": 38989
                         },
                         "name": "carta-reporting"
                     },
@@ -5012,6 +5012,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 967,
+                            "on_invoke": 31280
+                        },
+                        "name": "carta-compensation-app"
+                    },
+                    {
+                        "chars": {
                             "always_on": 970,
                             "on_invoke": 48226
                         },
@@ -5040,7 +5047,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-20T01:55:57Z",
+            "last_updated": "2026-08-24T21:18:42Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -5052,27 +5059,27 @@
                 "source": {
                     "path": "plugins/carta-cap-table",
                     "ref": "main",
-                    "sha": "7be35157286a6654783f82c701e46d06c40dcfb1",
+                    "sha": "9918825a395d72ddea7401fc42aebff9099e3933",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-cap-table",
-            "sha": "7be35157286a6654783f82c701e46d06c40dcfb1",
+            "sha": "9918825a395d72ddea7401fc42aebff9099e3933",
             "source": "carta-cap-table@claude-plugins-official",
-            "source_sha": "7be35157286a6654783f82c701e46d06c40dcfb1",
+            "source_sha": "9918825a395d72ddea7401fc42aebff9099e3933",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4692,
-                    "on_invoke": 135516
+                    "always_on": 5057,
+                    "on_invoke": 147642
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 3213,
-                    "on_invoke": 99146
+                    "always_on": 3462,
+                    "on_invoke": 108090
                 }
             },
             "unique_installs": 587,
-            "version": "6.50.0"
+            "version": "6.56.0"
         },
         "carta-crm@claude-plugins-official": {
             "components": {
@@ -5222,7 +5229,7 @@
                     {
                         "chars": {
                             "always_on": 588,
-                            "on_invoke": 22399
+                            "on_invoke": 22245
                         },
                         "name": "prepare-for-meeting"
                     },
@@ -5250,13 +5257,13 @@
                     {
                         "chars": {
                             "always_on": 520,
-                            "on_invoke": 25881
+                            "on_invoke": 28475
                         },
                         "name": "get-angles"
                     }
                 ]
             },
-            "last_updated": "2026-08-20T17:56:40Z",
+            "last_updated": "2026-08-24T12:06:31Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -5268,27 +5275,27 @@
                 "source": {
                     "path": "plugins/carta-crm",
                     "ref": "main",
-                    "sha": "3aa656ea870e1d8d7f73d0418c49043cab9df01a",
+                    "sha": "e512bd67c11e4b084f2ddfacf5ba6c40100a7962",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-crm",
-            "sha": "3aa656ea870e1d8d7f73d0418c49043cab9df01a",
+            "sha": "e512bd67c11e4b084f2ddfacf5ba6c40100a7962",
             "source": "carta-crm@claude-plugins-official",
-            "source_sha": "3aa656ea870e1d8d7f73d0418c49043cab9df01a",
+            "source_sha": "e512bd67c11e4b084f2ddfacf5ba6c40100a7962",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3575,
-                    "on_invoke": 54657
+                    "on_invoke": 55558
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 2741,
-                    "on_invoke": 41387
+                    "on_invoke": 42030
                 }
             },
             "unique_installs": 489,
-            "version": "1.8.0"
+            "version": "1.8.6"
         },
         "carta-investors@claude-plugins-official": {
             "components": {
@@ -5362,7 +5369,7 @@
                     {
                         "chars": {
                             "always_on": 652,
-                            "on_invoke": 27382
+                            "on_invoke": 27295
                         },
                         "name": "carta-portfolio-analytics-routing"
                     },
@@ -5376,20 +5383,20 @@
                     {
                         "chars": {
                             "always_on": 1034,
-                            "on_invoke": 40175
+                            "on_invoke": 40334
                         },
                         "name": "carta-manco"
                     },
                     {
                         "chars": {
                             "always_on": 747,
-                            "on_invoke": 19880
+                            "on_invoke": 22354
                         },
                         "name": "carta-home-build"
                     }
                 ]
             },
-            "last_updated": "2026-08-20T01:55:57Z",
+            "last_updated": "2026-08-24T18:51:04Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -5401,27 +5408,27 @@
                 "source": {
                     "path": "plugins/carta-investors",
                     "ref": "main",
-                    "sha": "7be35157286a6654783f82c701e46d06c40dcfb1",
+                    "sha": "84e5df561bb7321300a024477082fcb04295611d",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-investors",
-            "sha": "7be35157286a6654783f82c701e46d06c40dcfb1",
+            "sha": "84e5df561bb7321300a024477082fcb04295611d",
             "source": "carta-investors@claude-plugins-official",
-            "source_sha": "7be35157286a6654783f82c701e46d06c40dcfb1",
+            "source_sha": "84e5df561bb7321300a024477082fcb04295611d",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 3699,
-                    "on_invoke": 149888
+                    "on_invoke": 150401
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 2467,
-                    "on_invoke": 108238
+                    "on_invoke": 108613
                 }
             },
             "unique_installs": 569,
-            "version": "3.72.5"
+            "version": "3.82.2"
         },
         "catalyst-by-zoho@claude-plugins-official": {
             "components": {
@@ -6205,7 +6212,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-21T08:48:34-07:00",
+            "last_updated": "2026-08-24T13:17:27-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -6220,7 +6227,7 @@
             "plugin": "claude-security",
             "sha": null,
             "source": "claude-security@claude-plugins-official",
-            "source_sha": "1247e88a7028a6c47493081ef221989cb302b8ef",
+            "source_sha": "9518f7a2ce367e85b432860bf897c57ffdcd8ae9",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 647,
@@ -6232,7 +6239,7 @@
                 }
             },
             "unique_installs": 13344,
-            "version": "0.10.2"
+            "version": "0.10.2.3"
         },
         "clickhouse-best-practices@claude-plugins-official": {
             "components": {
@@ -17025,6 +17032,106 @@
             "unique_installs": 4905,
             "version": "1.2.1"
         },
+        "netsuite-ai-companion@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 289,
+                            "on_invoke": 15893
+                        },
+                        "name": "netsuite-ai-connector-instructions"
+                    }
+                ]
+            },
+            "last_updated": "2026-08-12T12:33:16Z",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Oracle NetSuite"
+                },
+                "category": "productivity",
+                "description": "Guides AI assistants that use the NetSuite AI Connector: tool-selection order, output formatting, NetSuite domain knowledge, multi-subsidiary and currency handling, and SuiteQL safety guardrails. Requires the NetSuite AI Connector Service.",
+                "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion",
+                "name": "netsuite-ai-companion",
+                "source": {
+                    "path": "anthropic/netsuite-ai-companion",
+                    "ref": "ai-plugins-dist",
+                    "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+                    "source": "git-subdir",
+                    "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git"
+                }
+            },
+            "plugin": "netsuite-ai-companion",
+            "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+            "source": "netsuite-ai-companion@claude-plugins-official",
+            "source_sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 120,
+                    "on_invoke": 6490
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 72,
+                    "on_invoke": 4481
+                }
+            },
+            "version": "1.0.0"
+        },
+        "netsuite-finance-analyst@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 693,
+                            "on_invoke": 11349
+                        },
+                        "name": "netsuite-finance-analyst"
+                    }
+                ]
+            },
+            "last_updated": "2026-08-12T12:33:16Z",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Oracle NetSuite"
+                },
+                "category": "productivity",
+                "description": "Director-level finance analysis on live NetSuite data: financial reporting, period close, variance, aging and reconciliation reviews, cash reporting, and board-ready narratives with next actions. Requires the NetSuite AI Connector Service.",
+                "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
+                "name": "netsuite-finance-analyst",
+                "source": {
+                    "path": "anthropic/netsuite-finance-analyst",
+                    "ref": "ai-plugins-dist",
+                    "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+                    "source": "git-subdir",
+                    "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git"
+                }
+            },
+            "plugin": "netsuite-finance-analyst",
+            "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+            "source": "netsuite-finance-analyst@claude-plugins-official",
+            "source_sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 235,
+                    "on_invoke": 3803
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 149,
+                    "on_invoke": 2644
+                }
+            },
+            "version": "1.0.0"
+        },
         "netsuite-suitecloud@claude-plugins-official": {
             "components": {
                 "agents": [],
@@ -17035,24 +17142,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 287,
-                            "on_invoke": 15893
+                            "always_on": 268,
+                            "on_invoke": 6127
                         },
-                        "name": "netsuite-ai-connector-instructions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 467,
-                            "on_invoke": 5067
-                        },
-                        "name": "netsuite-sdf-roles-and-permissions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 255,
-                            "on_invoke": 31398
-                        },
-                        "name": "netsuite-uif-spa-reference"
+                        "name": "netsuite-suitescript-records-reference"
                     },
                     {
                         "chars": {
@@ -17063,6 +17156,13 @@
                     },
                     {
                         "chars": {
+                            "always_on": 433,
+                            "on_invoke": 58531
+                        },
+                        "name": "netsuite-suitescript-upgrade"
+                    },
+                    {
+                        "chars": {
                             "always_on": 410,
                             "on_invoke": 11926
                         },
@@ -17070,62 +17170,67 @@
                     },
                     {
                         "chars": {
-                            "always_on": 268,
-                            "on_invoke": 6127
+                            "always_on": 502,
+                            "on_invoke": 167735
                         },
-                        "name": "netsuite-suitescript-records-reference"
+                        "name": "netsuite-sdf-safe-guide"
                     },
                     {
                         "chars": {
-                            "always_on": 433,
-                            "on_invoke": 58531
+                            "always_on": 467,
+                            "on_invoke": 5067
                         },
-                        "name": "netsuite-suitescript-upgrade"
+                        "name": "netsuite-sdf-roles-and-permissions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 399,
+                            "on_invoke": 46220
+                        },
+                        "name": "netsuite-suitescript-learning"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 255,
+                            "on_invoke": 31398
+                        },
+                        "name": "netsuite-uif-spa-reference"
                     }
                 ]
             },
-            "last_updated": "2026-08-06T16:46:17+02:00",
+            "last_updated": "2026-08-12T12:33:16Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Oracle NetSuite"
                 },
                 "category": "development",
-                "description": "NetSuite agent skills from Oracle \u2014 authoring guidance for SuiteCloud Development Framework (SDF) objects and UIF single-page-app components, plus runtime guidance for the NetSuite AI Service Connector.",
-                "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk",
+                "description": "Develop NetSuite SuiteCloud solutions with SuiteScript, SDF, and best practices: SuiteScript records and upgrades, SDF objects, roles and permissions, UIF single-page apps, OWASP secure coding, project documentation, and the SAFE Guide.",
+                "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud",
                 "name": "netsuite-suitecloud",
-                "skills": [
-                    "./netsuite-ai-connector-instructions",
-                    "./netsuite-sdf-roles-and-permissions",
-                    "./netsuite-uif-spa-reference",
-                    "./netsuite-owasp-secure-coding",
-                    "./netsuite-sdf-project-documentation",
-                    "./netsuite-suitescript-records-reference",
-                    "./netsuite-suitescript-upgrade"
-                ],
                 "source": {
-                    "path": "packages/agent-skills",
-                    "ref": "master",
-                    "sha": "d0069ddee009765d04e1afbe6ac5dde8b6b263cf",
+                    "path": "anthropic/netsuite-suitecloud",
+                    "ref": "ai-plugins-dist",
+                    "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
                     "source": "git-subdir",
                     "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git"
-                },
-                "strict": false
-            },
-            "plugin": "netsuite-suitecloud",
-            "sha": "d0069ddee009765d04e1afbe6ac5dde8b6b263cf",
-            "source": "netsuite-suitecloud@claude-plugins-official",
-            "source_sha": "d0069ddee009765d04e1afbe6ac5dde8b6b263cf",
-            "tokens": {
-                "claude-opus-4-7": {
-                    "always_on": 1001,
-                    "on_invoke": 96733
-                },
-                "claude-sonnet-4-6": {
-                    "always_on": 688,
-                    "on_invoke": 69714
                 }
             },
-            "unique_installs": 1207
+            "plugin": "netsuite-suitecloud",
+            "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+            "source": "netsuite-suitecloud@claude-plugins-official",
+            "source_sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 1232,
+                    "on_invoke": 175396
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 847,
+                    "on_invoke": 126172
+                }
+            },
+            "unique_installs": 1207,
+            "version": "1.0.0"
         },
         "newrelic@claude-plugins-official": {
             "components": {
@@ -21347,6 +21452,9 @@
             },
             "last_updated": "2026-08-11T16:45:18+03:00",
             "marketplace_entry": {
+                "author": {
+                    "name": "Qodo"
+                },
                 "category": "development",
                 "description": "Qodo Skills provides a curated library of reusable AI agent capabilities that extend Claude's functionality for software development workflows. Each skill is designed to integrate seamlessly into your development process, enabling tasks like code quality checks, automated testing, security scanning, and compliance validation. Skills operate across your entire SDLC\u2014from IDE to CI/CD\u2014ensuring consistent standards and catching issues early.",
                 "displayName": "Qodo",
@@ -27472,6 +27580,174 @@
                 }
             },
             "unique_installs": 2013
+        },
+        "unity@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 240,
+                            "on_invoke": 1064
+                        },
+                        "name": "tilemap-palette-create"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 227,
+                            "on_invoke": 12187
+                        },
+                        "name": "ui-ugui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 554,
+                            "on_invoke": 18110
+                        },
+                        "name": "manage-sprite-atlas"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 332,
+                            "on_invoke": 14026
+                        },
+                        "name": "validate-urp-render-graph-renderer-feature"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 727,
+                            "on_invoke": 9298
+                        },
+                        "name": "optimize-text-mesh-pro"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 278,
+                            "on_invoke": 10513
+                        },
+                        "name": "ui-uitk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 675,
+                            "on_invoke": 6444
+                        },
+                        "name": "ui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 663,
+                            "on_invoke": 18688
+                        },
+                        "name": "build-live-game"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 633,
+                            "on_invoke": 12054
+                        },
+                        "name": "tilemap-ruletile-createfromsegment"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 209,
+                            "on_invoke": 901
+                        },
+                        "name": "shader-graph-create-custom-node"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 377,
+                            "on_invoke": 4615
+                        },
+                        "name": "sprite-segment-3x3grid"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 156,
+                            "on_invoke": 9611
+                        },
+                        "name": "2d-pixel-perfect"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 960,
+                            "on_invoke": 10280
+                        },
+                        "name": "implement-in-app-purchases"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 510,
+                            "on_invoke": 6218
+                        },
+                        "name": "ui-imgui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 532,
+                            "on_invoke": 4329
+                        },
+                        "name": "setup-multiplayer-services"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 838,
+                            "on_invoke": 35099
+                        },
+                        "name": "levelplay-unity-integration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 358,
+                            "on_invoke": 25456
+                        },
+                        "name": "localization"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 418,
+                            "on_invoke": 1214
+                        },
+                        "name": "tilemap-ruletile-createempty"
+                    }
+                ]
+            },
+            "last_updated": "2026-08-21T13:13:03-04:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Unity Technologies"
+                },
+                "category": "development",
+                "description": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization.",
+                "displayName": "Unity",
+                "homepage": "https://unity.com",
+                "name": "unity",
+                "source": {
+                    "sha": "360523972ed0cb356d679acc612bd0f8d1ba3c2b",
+                    "source": "url",
+                    "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git"
+                }
+            },
+            "plugin": "unity",
+            "sha": "360523972ed0cb356d679acc612bd0f8d1ba3c2b",
+            "source": "unity@claude-plugins-official",
+            "source_sha": "360523972ed0cb356d679acc612bd0f8d1ba3c2b",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 3270,
+                    "on_invoke": 76080
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 2148,
+                    "on_invoke": 53056
+                }
+            },
+            "version": "0.1.0-beta"
         },
         "unreal-engine-skills-for-claude-code@claude-plugins-official": {
             "components": {
