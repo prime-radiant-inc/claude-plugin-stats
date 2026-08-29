@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-08-28T11:07:01.934Z",
+    "generated_at": "2026-08-29T07:29:42.678Z",
     "installs_generated_at": "2026-08-28T06:00:31.271415+00:00",
-    "marketplace_sha": "0620a687ddd518871772eefd78573baff2dcb8cb",
+    "marketplace_sha": "ed404106fcd80ba98ecb7c851e531dcb626d13b7",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -24330,6 +24330,649 @@
             },
             "unique_installs": 724,
             "version": "0.2.0"
+        },
+        "scandit-sdk@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 478,
+                            "on_invoke": 6425
+                        },
+                        "name": "matrixscan-find-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 584,
+                            "on_invoke": 15752
+                        },
+                        "name": "label-capture-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 572,
+                            "on_invoke": 18325
+                        },
+                        "name": "label-capture-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 389,
+                            "on_invoke": 5718
+                        },
+                        "name": "matrixscan-batch-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 484,
+                            "on_invoke": 17259
+                        },
+                        "name": "matrixscan-count-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 454,
+                            "on_invoke": 10314
+                        },
+                        "name": "id-capture-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 586,
+                            "on_invoke": 17022
+                        },
+                        "name": "id-bolt"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 483,
+                            "on_invoke": 10620
+                        },
+                        "name": "barcode-selection-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 585,
+                            "on_invoke": 13457
+                        },
+                        "name": "barcode-capture-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 437,
+                            "on_invoke": 5494
+                        },
+                        "name": "matrixscan-ar-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 477,
+                            "on_invoke": 7328
+                        },
+                        "name": "matrixscan-ar-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 389,
+                            "on_invoke": 8598
+                        },
+                        "name": "label-capture-rn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 364,
+                            "on_invoke": 5446
+                        },
+                        "name": "matrixscan-ar-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 587,
+                            "on_invoke": 5917
+                        },
+                        "name": "label-capture-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 511,
+                            "on_invoke": 25702
+                        },
+                        "name": "data-capture-sdk"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 420,
+                            "on_invoke": 4002
+                        },
+                        "name": "matrixscan-pick-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 562,
+                            "on_invoke": 22547
+                        },
+                        "name": "id-capture-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 477,
+                            "on_invoke": 6367
+                        },
+                        "name": "matrixscan-count-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 479,
+                            "on_invoke": 4441
+                        },
+                        "name": "matrixscan-ar-annotation-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 500,
+                            "on_invoke": 12393
+                        },
+                        "name": "id-capture-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 451,
+                            "on_invoke": 5352
+                        },
+                        "name": "matrixscan-batch-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 397,
+                            "on_invoke": 5219
+                        },
+                        "name": "matrixscan-batch-rn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 484,
+                            "on_invoke": 17529
+                        },
+                        "name": "matrixscan-count-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 452,
+                            "on_invoke": 24202
+                        },
+                        "name": "matrixscan-ar-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 402,
+                            "on_invoke": 7647
+                        },
+                        "name": "label-capture-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 640,
+                            "on_invoke": 20068
+                        },
+                        "name": "scandit-xamarin-to-net-migration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 399,
+                            "on_invoke": 6516
+                        },
+                        "name": "matrixscan-batch-web"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 434,
+                            "on_invoke": 4429
+                        },
+                        "name": "matrixscan-ar-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 511,
+                            "on_invoke": 5177
+                        },
+                        "name": "barcode-capture-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 373,
+                            "on_invoke": 6361
+                        },
+                        "name": "matrixscan-batch-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 517,
+                            "on_invoke": 12313
+                        },
+                        "name": "id-capture-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 400,
+                            "on_invoke": 7522
+                        },
+                        "name": "label-capture-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 300,
+                            "on_invoke": 3178
+                        },
+                        "name": "sparkscan-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 423,
+                            "on_invoke": 17104
+                        },
+                        "name": "matrixscan-ar-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 493,
+                            "on_invoke": 4213
+                        },
+                        "name": "sparkscan-web"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 448,
+                            "on_invoke": 15766
+                        },
+                        "name": "sparkscan-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 581,
+                            "on_invoke": 20605
+                        },
+                        "name": "label-capture-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 422,
+                            "on_invoke": 5755
+                        },
+                        "name": "matrixscan-count-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 389,
+                            "on_invoke": 8048
+                        },
+                        "name": "label-capture-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 341,
+                            "on_invoke": 5192
+                        },
+                        "name": "matrixscan-ar-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 415,
+                            "on_invoke": 7279
+                        },
+                        "name": "barcode-capture-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 417,
+                            "on_invoke": 3541
+                        },
+                        "name": "barcode-capture-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 473,
+                            "on_invoke": 6442
+                        },
+                        "name": "parser-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 487,
+                            "on_invoke": 17969
+                        },
+                        "name": "matrixscan-ar-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 432,
+                            "on_invoke": 14864
+                        },
+                        "name": "id-capture-web"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 261,
+                            "on_invoke": 4905
+                        },
+                        "name": "sparkscan-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 557,
+                            "on_invoke": 17381
+                        },
+                        "name": "id-capture-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 487,
+                            "on_invoke": 18541
+                        },
+                        "name": "matrixscan-batch-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 474,
+                            "on_invoke": 17007
+                        },
+                        "name": "matrixscan-count-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 482,
+                            "on_invoke": 4689
+                        },
+                        "name": "matrixscan-pick-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 403,
+                            "on_invoke": 6090
+                        },
+                        "name": "matrixscan-ar-web"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 465,
+                            "on_invoke": 4602
+                        },
+                        "name": "barcode-capture-web"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 479,
+                            "on_invoke": 7661
+                        },
+                        "name": "matrixscan-count-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 379,
+                            "on_invoke": 6086
+                        },
+                        "name": "barcode-capture-flutter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 503,
+                            "on_invoke": 12077
+                        },
+                        "name": "barcode-capture-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 487,
+                            "on_invoke": 5224
+                        },
+                        "name": "barcode-capture-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 331,
+                            "on_invoke": 4831
+                        },
+                        "name": "matrixscan-batch-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 463,
+                            "on_invoke": 15805
+                        },
+                        "name": "sparkscan-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 286,
+                            "on_invoke": 3463
+                        },
+                        "name": "sparkscan-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 421,
+                            "on_invoke": 5079
+                        },
+                        "name": "matrixscan-ar-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 452,
+                            "on_invoke": 6491
+                        },
+                        "name": "matrixscan-count-rn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 462,
+                            "on_invoke": 14675
+                        },
+                        "name": "matrixscan-batch-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 354,
+                            "on_invoke": 5561
+                        },
+                        "name": "matrixscan-ar-rn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 297,
+                            "on_invoke": 3532
+                        },
+                        "name": "matrixscan-ar-highlight-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 454,
+                            "on_invoke": 11969
+                        },
+                        "name": "id-capture-rn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 453,
+                            "on_invoke": 8836
+                        },
+                        "name": "matrixscan-count-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 332,
+                            "on_invoke": 7623
+                        },
+                        "name": "matrixscan-batch-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 477,
+                            "on_invoke": 14834
+                        },
+                        "name": "id-capture-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 458,
+                            "on_invoke": 12702
+                        },
+                        "name": "id-capture-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 493,
+                            "on_invoke": 7988
+                        },
+                        "name": "label-capture-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 591,
+                            "on_invoke": 27244
+                        },
+                        "name": "id-capture-net-maui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 398,
+                            "on_invoke": 5965
+                        },
+                        "name": "barcode-capture-rn"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 356,
+                            "on_invoke": 4321
+                        },
+                        "name": "sparkscan-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 393,
+                            "on_invoke": 7133
+                        },
+                        "name": "label-capture-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 427,
+                            "on_invoke": 4437
+                        },
+                        "name": "label-capture-web"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 445,
+                            "on_invoke": 15178
+                        },
+                        "name": "sparkscan-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 452,
+                            "on_invoke": 5359
+                        },
+                        "name": "barcode-capture-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 360,
+                            "on_invoke": 9173
+                        },
+                        "name": "sparkscan-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 504,
+                            "on_invoke": 9725
+                        },
+                        "name": "barcode-capture-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 483,
+                            "on_invoke": 5648
+                        },
+                        "name": "matrixscan-count-capacitor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 473,
+                            "on_invoke": 12318
+                        },
+                        "name": "matrixscan-count-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 475,
+                            "on_invoke": 7269
+                        },
+                        "name": "matrixscan-batch-kmp"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 574,
+                            "on_invoke": 19581
+                        },
+                        "name": "id-capture-net-android"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 353,
+                            "on_invoke": 4553
+                        },
+                        "name": "sparkscan-cordova"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 450,
+                            "on_invoke": 15137
+                        },
+                        "name": "matrixscan-batch-net-ios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 257,
+                            "on_invoke": 5175
+                        },
+                        "name": "sparkscan-rn"
+                    }
+                ]
+            },
+            "last_updated": "2026-08-20T14:59:57+02:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Scandit"
+                },
+                "category": "development",
+                "description": "AI agent skills for integrating the Scandit Data Capture SDK \u2014 product selection, documentation, and implementation guides for barcode scanning, ID capture, and smart label capture.",
+                "displayName": "Scandit SDK",
+                "homepage": "https://www.scandit.com",
+                "name": "scandit-sdk",
+                "source": {
+                    "sha": "2f0731a090eb9c23a64b6dcd9559cf113df3313f",
+                    "source": "url",
+                    "url": "https://github.com/Scandit/skills.git"
+                }
+            },
+            "plugin": "scandit-sdk",
+            "sha": "2f0731a090eb9c23a64b6dcd9559cf113df3313f",
+            "source": "scandit-sdk@claude-plugins-official",
+            "source_sha": "2f0731a090eb9c23a64b6dcd9559cf113df3313f",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 15671,
+                    "on_invoke": 351679
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 10701,
+                    "on_invoke": 249274
+                }
+            }
         },
         "security-guidance@claude-plugins-official": {
             "components": {
