@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-09-01T07:34:26.006Z",
+    "generated_at": "2026-09-02T07:34:41.952Z",
     "installs_generated_at": "2026-08-28T06:00:31.271415+00:00",
-    "marketplace_sha": "ed404106fcd80ba98ecb7c851e531dcb626d13b7",
+    "marketplace_sha": "0e3f501d0f4acb2a3406f645b1e0f80056c22e8c",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -191,7 +191,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-08-19T09:43:46-07:00",
+            "last_updated": "2026-08-31T11:56:05-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "ActiveCampaign"
@@ -202,15 +202,15 @@
                 "homepage": "https://www.activecampaign.com",
                 "name": "activecampaign",
                 "source": {
-                    "sha": "964b2f9f9ad4c918645adf5efd6d87c2fca36c84",
+                    "sha": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0",
                     "source": "url",
                     "url": "https://github.com/ActiveCampaign/activecampaign-plugin.git"
                 }
             },
             "plugin": "activecampaign",
-            "sha": "964b2f9f9ad4c918645adf5efd6d87c2fca36c84",
+            "sha": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0",
             "source": "activecampaign@claude-plugins-official",
-            "source_sha": "964b2f9f9ad4c918645adf5efd6d87c2fca36c84",
+            "source_sha": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 853,
@@ -221,7 +221,7 @@
                     "on_invoke": 16482
                 }
             },
-            "version": "0.3.0"
+            "version": "0.3.1"
         },
         "adobe-for-creativity@claude-plugins-official": {
             "components": {
@@ -6300,7 +6300,7 @@
                     {
                         "chars": {
                             "always_on": 241,
-                            "on_invoke": 3804
+                            "on_invoke": 4252
                         },
                         "name": "scan-inventory"
                     },
@@ -6335,9 +6335,16 @@
                     {
                         "chars": {
                             "always_on": 152,
-                            "on_invoke": 3789
+                            "on_invoke": 4863
                         },
                         "name": "scan-verifier"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 168,
+                            "on_invoke": 364
+                        },
+                        "name": "scan-loader"
                     },
                     {
                         "chars": {
@@ -6349,7 +6356,9 @@
                 ],
                 "commands": [],
                 "hooks": [
-                    "UserPromptExpansion"
+                    "UserPromptExpansion",
+                    "PostToolUse",
+                    "PostToolUseFailure"
                 ],
                 "lspServers": [],
                 "mcpServers": [],
@@ -6357,13 +6366,13 @@
                     {
                         "chars": {
                             "always_on": 337,
-                            "on_invoke": 3925
+                            "on_invoke": 3880
                         },
                         "name": "claude-security"
                     }
                 ]
             },
-            "last_updated": "2026-08-24T13:17:27-07:00",
+            "last_updated": "2026-09-01T11:18:30-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -6378,19 +6387,19 @@
             "plugin": "claude-security",
             "sha": null,
             "source": "claude-security@claude-plugins-official",
-            "source_sha": "9518f7a2ce367e85b432860bf897c57ffdcd8ae9",
+            "source_sha": "f85f7cfcbbe9c949ba63304add8be7daf5c13e78",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 647,
-                    "on_invoke": 11399
+                    "always_on": 699,
+                    "on_invoke": 11974
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 435,
-                    "on_invoke": 8181
+                    "always_on": 469,
+                    "on_invoke": 8583
                 }
             },
             "unique_installs": 15302,
-            "version": "0.10.2.3"
+            "version": "0.11.0"
         },
         "clickhouse-best-practices@claude-plugins-official": {
             "components": {
@@ -12390,13 +12399,13 @@
                     {
                         "chars": {
                             "always_on": 236,
-                            "on_invoke": 7961
+                            "on_invoke": 9074
                         },
                         "name": "frontend-design"
                     }
                 ]
             },
-            "last_updated": "2026-06-14T20:35:08-05:00",
+            "last_updated": "2026-09-01T14:23:53-04:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -12411,15 +12420,15 @@
             "plugin": "frontend-design",
             "sha": null,
             "source": "frontend-design@claude-plugins-official",
-            "source_sha": "d029127f7d29bdb8fd8902ac34dd7d5c8ba92b6e",
+            "source_sha": "44490cccaf6d9f82fdeec9416fbf7c9bd72575dc",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 83,
-                    "on_invoke": 2361
+                    "on_invoke": 2747
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 54,
-                    "on_invoke": 1700
+                    "on_invoke": 1992
                 }
             },
             "unique_installs": 1211610
