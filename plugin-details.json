@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-09-09T07:34:22.485Z",
+    "generated_at": "2026-09-10T07:33:55.249Z",
     "installs_generated_at": "2026-09-04T06:00:23.315035+00:00",
-    "marketplace_sha": "517b2fcd1b60fa2181ac52dcf8492361ba341180",
+    "marketplace_sha": "3ea32df27be71d78775e627df2382fc26203577f",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -25448,13 +25448,14 @@
                     "SessionStart",
                     "UserPromptSubmit",
                     "PostToolUse",
-                    "Stop"
+                    "Stop",
+                    "SubagentStop"
                 ],
                 "lspServers": [],
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-08-12T20:14:09-05:00",
+            "last_updated": "2026-09-09T17:42:50Z",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -25470,7 +25471,7 @@
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "222b19d2d1c635c440cc490364f5a88169ee31a7",
+            "source_sha": "debbe686ab74ec095436a499b1a59864037e46cf",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -25482,7 +25483,7 @@
                 }
             },
             "unique_installs": 260975,
-            "version": "2.0.7"
+            "version": "2.0.8"
         },
         "semgrep@claude-plugins-official": {
             "components": {
