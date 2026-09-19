@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-09-18T07:34:54.210Z",
+    "generated_at": "2026-09-19T07:31:59.682Z",
     "installs_generated_at": "2026-09-18T06:00:21.677342+00:00",
-    "marketplace_sha": "1aa8f02ec8327f513686934f458a620f83db91ed",
+    "marketplace_sha": "c447c3207a425bc4e2a0d068435f64b0477ae981",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -871,6 +871,7 @@
                 },
                 "category": "productivity",
                 "description": "Bring Airwallex's global financial infrastructure to Claude. Orchestrate actions across your account in plain language, e.g., set up invoices from a PO, onboard suppliers from invoices, and check current cash position across currencies. AgentOS bundles pre-built finance Skills with MCP servers. A public CLI connects your agent to Airwallex's capabilities.",
+                "displayName": "Airwallex",
                 "homepage": "https://www.airwallex.com/docs",
                 "name": "airwallex-agentos",
                 "source": {
@@ -15370,6 +15371,86 @@
             "unique_installs": 17229,
             "version": "0.1.0"
         },
+        "incident-io@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "incident_io"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 362,
+                            "on_invoke": 4300
+                        },
+                        "name": "doctor"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 311,
+                            "on_invoke": 3528
+                        },
+                        "name": "skill-authoring"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 579,
+                            "on_invoke": 2921
+                        },
+                        "name": "architecture"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 546,
+                            "on_invoke": 3763
+                        },
+                        "name": "extensions-review"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 394,
+                            "on_invoke": 4816
+                        },
+                        "name": "extensions"
+                    }
+                ]
+            },
+            "last_updated": "2026-09-16T12:40:46Z",
+            "marketplace_entry": {
+                "author": {
+                    "name": "incident.io"
+                },
+                "category": "monitoring",
+                "description": "Work with incident.io from Claude: respond to and investigate incidents, check on-call schedules and escalations, and author the runbooks, skills and architecture docs that incident.io investigations draw on. Bundles the official incident.io MCP server (OAuth on first use).",
+                "homepage": "https://incident.io",
+                "name": "incident-io",
+                "source": {
+                    "path": "plugins/incident-io",
+                    "ref": "main",
+                    "sha": "6d0bbfc9e52256fc39326b9ba6d08f16831b60ae",
+                    "source": "git-subdir",
+                    "url": "https://github.com/incident-io/skills.git"
+                }
+            },
+            "plugin": "incident-io",
+            "sha": "6d0bbfc9e52256fc39326b9ba6d08f16831b60ae",
+            "source": "incident-io@claude-plugins-official",
+            "source_sha": "6d0bbfc9e52256fc39326b9ba6d08f16831b60ae",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 696,
+                    "on_invoke": 6183
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 492,
+                    "on_invoke": 4682
+                }
+            },
+            "version": "0.18.0"
+        },
         "informatica-for-claude-platform@claude-plugins-official": {
             "components": {
                 "agents": [],
@@ -23865,7 +23946,7 @@
                     "name": "Qodo"
                 },
                 "category": "development",
-                "description": "Qodo setup, code intelligence, and review workflows.",
+                "description": "Bring Qodo's codebase intelligence, coding standards, and code review into your coding agent.",
                 "displayName": "Qodo",
                 "homepage": "https://github.com/qodo-ai/qodo-skills.git",
                 "name": "qodo",
@@ -31789,6 +31870,106 @@
             },
             "unique_installs": 2163,
             "version": "1.0.0"
+        },
+        "wingspan@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "wingspan"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 406,
+                            "on_invoke": 6412
+                        },
+                        "name": "onboarding-contractors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 492,
+                            "on_invoke": 8083
+                        },
+                        "name": "using-wingspan-tools"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 300,
+                            "on_invoke": 3871
+                        },
+                        "name": "outstanding"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 448,
+                            "on_invoke": 5211
+                        },
+                        "name": "troubleshooting-connection"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 408,
+                            "on_invoke": 9520
+                        },
+                        "name": "finding-contractors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 410,
+                            "on_invoke": 9861
+                        },
+                        "name": "creating-draft-payables"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 392,
+                            "on_invoke": 10034
+                        },
+                        "name": "checking-payments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 221,
+                            "on_invoke": 1602
+                        },
+                        "name": "connect"
+                    }
+                ]
+            },
+            "last_updated": "2026-09-11T18:45:50+02:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Wingspan"
+                },
+                "category": "productivity",
+                "description": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment, then onboard contractors and log payments as drafts, with a preview before anything is written. Requires a Wingspan account; bundles the Wingspan MCP server (OAuth on first use).",
+                "displayName": "Wingspan",
+                "homepage": "https://github.com/wingspanHQ/mcp-claude-plugin",
+                "name": "wingspan",
+                "source": {
+                    "sha": "b989f3b303a1f605955291e34ed29b755bf436e1",
+                    "source": "url",
+                    "url": "https://github.com/wingspanHQ/mcp-claude-plugin.git"
+                }
+            },
+            "plugin": "wingspan",
+            "sha": "b989f3b303a1f605955291e34ed29b755bf436e1",
+            "source": "wingspan@claude-plugins-official",
+            "source_sha": "b989f3b303a1f605955291e34ed29b755bf436e1",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 1021,
+                    "on_invoke": 18342
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 727,
+                    "on_invoke": 13766
+                }
+            },
+            "version": "0.1.0"
         },
         "wix@claude-plugins-official": {
             "components": {
