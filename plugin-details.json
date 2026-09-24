@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-09-23T07:37:31.383Z",
+    "generated_at": "2026-09-24T07:37:03.429Z",
     "installs_generated_at": "2026-09-18T06:00:21.677342+00:00",
-    "marketplace_sha": "db467cc56673fc963ca418b4165c688dfbe77007",
+    "marketplace_sha": "6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -1259,6 +1259,149 @@
             },
             "unique_installs": 3647,
             "version": "1.1.0"
+        },
+        "amazon-selling-partner@claude-plugins-official": {
+            "components": {
+                "agents": [],
+                "commands": [
+                    {
+                        "chars": {
+                            "always_on": 99,
+                            "on_invoke": 642
+                        },
+                        "name": "sp-sales-drop"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 134,
+                            "on_invoke": 623
+                        },
+                        "name": "sp-stockout-check"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 110,
+                            "on_invoke": 324
+                        },
+                        "name": "sp-fix-listing"
+                    }
+                ],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [
+                    "amazon-selling-partner"
+                ],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 441,
+                            "on_invoke": 7764
+                        },
+                        "name": "stockout-prevention"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 770,
+                            "on_invoke": 9532
+                        },
+                        "name": "fba-inbound-management"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 557,
+                            "on_invoke": 4434
+                        },
+                        "name": "listing-searchability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1037,
+                            "on_invoke": 10685
+                        },
+                        "name": "support-case-helper"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 981,
+                            "on_invoke": 9684
+                        },
+                        "name": "invite-secondary-users"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 644,
+                            "on_invoke": 5507
+                        },
+                        "name": "listing-buyability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 589,
+                            "on_invoke": 3204
+                        },
+                        "name": "listing-troubleshooter"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 785,
+                            "on_invoke": 11075
+                        },
+                        "name": "listing-compliance"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 871,
+                            "on_invoke": 6036
+                        },
+                        "name": "seller-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1060,
+                            "on_invoke": 15371
+                        },
+                        "name": "sp-api-knowledge"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 661,
+                            "on_invoke": 11129
+                        },
+                        "name": "listing-issues"
+                    }
+                ]
+            },
+            "last_updated": "2026-09-23T08:44:14-07:00",
+            "marketplace_entry": {
+                "author": {
+                    "name": "Amazon"
+                },
+                "category": "productivity",
+                "description": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, then review and approve every listing, inventory or FBA action before it runs. Bundles the Amazon Selling Partner MCP server (Seller Central OAuth on first use). Currently in beta.",
+                "displayName": "Amazon Selling Partner",
+                "homepage": "https://github.com/amzn/selling-partner-agentic-toolkit",
+                "name": "amazon-selling-partner",
+                "source": {
+                    "sha": "10573bac239b7062a476667eaa574d400335c70e",
+                    "source": "url",
+                    "url": "https://github.com/amzn/selling-partner-agentic-toolkit.git"
+                }
+            },
+            "plugin": "amazon-selling-partner",
+            "sha": "10573bac239b7062a476667eaa574d400335c70e",
+            "source": "amazon-selling-partner@claude-plugins-official",
+            "source_sha": "10573bac239b7062a476667eaa574d400335c70e",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 2955,
+                    "on_invoke": 34862
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 2014,
+                    "on_invoke": 25462
+                }
+            },
+            "version": "1.0.0"
         },
         "amd-skills@claude-plugins-official": {
             "components": {
