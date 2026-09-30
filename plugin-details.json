@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-09-29T07:43:23.486Z",
+    "generated_at": "2026-09-30T07:45:30.981Z",
     "installs_generated_at": "2026-09-25T06:00:14.619439+00:00",
-    "marketplace_sha": "fbe07fb6ce7d51d8e86ca6efdf050059894cdb80",
+    "marketplace_sha": "2a8ad9f74633d10e3d9bb0660a03bfc6e50584b1",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -3510,31 +3510,10 @@
                 "agents": [
                     {
                         "chars": {
-                            "always_on": 263,
-                            "on_invoke": 63736
-                        },
-                        "name": "llm2bedrock-prompt-evaluator"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 613,
-                            "on_invoke": 5688
-                        },
-                        "name": "generic-phase-worker-rw"
-                    },
-                    {
-                        "chars": {
                             "always_on": 193,
                             "on_invoke": 26743
                         },
                         "name": "llm2bedrock-log-ingestor"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 245,
-                            "on_invoke": 30591
-                        },
-                        "name": "llm2bedrock-code-analyzer"
                     },
                     {
                         "chars": {
@@ -3545,10 +3524,31 @@
                     },
                     {
                         "chars": {
+                            "always_on": 263,
+                            "on_invoke": 63736
+                        },
+                        "name": "llm2bedrock-prompt-evaluator"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 613,
+                            "on_invoke": 5669
+                        },
+                        "name": "generic-phase-worker-rw"
+                    },
+                    {
+                        "chars": {
                             "always_on": 672,
-                            "on_invoke": 8381
+                            "on_invoke": 8362
                         },
                         "name": "generic-phase-worker-rwx"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 245,
+                            "on_invoke": 30591
+                        },
+                        "name": "llm2bedrock-code-analyzer"
                     },
                     {
                         "chars": {
@@ -3559,58 +3559,25 @@
                     }
                 ],
                 "commands": [],
-                "hooks": [
-                    "SessionStart"
-                ],
+                "hooks": [],
                 "lspServers": [],
                 "mcpServers": [
-                    "awsknowledge",
-                    "awspricing",
-                    "temporal-docs",
-                    "aws-pricing-calculator"
+                    "aws-mcp"
                 ],
                 "skills": [
                     {
                         "chars": {
                             "always_on": 1013,
-                            "on_invoke": 15722
+                            "on_invoke": 16111
                         },
                         "name": "contextual-offers-for-startups"
                     },
                     {
                         "chars": {
-                            "always_on": 999,
-                            "on_invoke": 10605
-                        },
-                        "name": "prompt-library-for-startups"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 2654,
-                            "on_invoke": 16838
-                        },
-                        "name": "agent-advisor"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1506,
-                            "on_invoke": 53997
-                        },
-                        "name": "gcp-to-aws"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1003,
-                            "on_invoke": 21494
+                            "always_on": 1024,
+                            "on_invoke": 22007
                         },
                         "name": "start-building-for-startups"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 702,
-                            "on_invoke": 45036
-                        },
-                        "name": "llm-to-bedrock"
                     },
                     {
                         "chars": {
@@ -3621,60 +3588,95 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1672,
-                            "on_invoke": 21788
+                            "always_on": 1034,
+                            "on_invoke": 25629
                         },
                         "name": "heroku-to-aws"
                     },
                     {
                         "chars": {
-                            "always_on": 1025,
-                            "on_invoke": 10701
+                            "always_on": 1053,
+                            "on_invoke": 15064
+                        },
+                        "name": "azure-to-aws"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1029,
+                            "on_invoke": 10605
+                        },
+                        "name": "prompt-library-for-startups"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 549,
+                            "on_invoke": 11880
+                        },
+                        "name": "tf-best-practices"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 702,
+                            "on_invoke": 45828
+                        },
+                        "name": "llm-to-bedrock"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1020,
+                            "on_invoke": 55314
+                        },
+                        "name": "gcp-to-aws"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1056,
+                            "on_invoke": 11502
                         },
                         "name": "architect-for-startups"
                     },
                     {
                         "chars": {
-                            "always_on": 549,
-                            "on_invoke": 11438
+                            "always_on": 1045,
+                            "on_invoke": 17309
                         },
-                        "name": "tf-best-practices"
+                        "name": "agent-advisor"
                     }
                 ]
             },
-            "last_updated": "2026-09-21T13:56:36-07:00",
+            "last_updated": "2026-09-29T18:55:36Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
                 },
                 "category": "development",
-                "description": "Personalized architecture, cost, security, and migration guidance for startups. From day-one account setup and security baselines to production-ready infrastructure, cost optimization, and beyond. Includes AWS Activate Credits eligibility, 60+ exclusive startup offers, and multi-account multi-region support. Built on expertise from AWS Startup Solutions Architects and patterns from 350,000+ startups.",
-                "homepage": "https://github.com/awslabs/startups",
+                "description": "Personalized AWS guidance built on patterns from 350,000+ startups. Get architecture, cost, and security recommendations matched to your stage, from day-one account setup to production-ready infrastructure. Migrate to AWS from Azure, GCP, or Heroku with resource discovery, cost estimates, and generated Terraform. Move OpenAI, Azure OpenAI, and Gemini code to Amazon Bedrock, and plan and prototype AI agents on AgentCore and other AWS runtimes. Includes AWS Activate credits eligibility, 60+ exclusive startup offers, and multi-account, multi-region support. Built by AWS Startup Solutions Architects.",
+                "homepage": "https://github.com/aws/agent-toolkit-for-aws",
                 "name": "aws-startup-advisor",
                 "source": {
-                    "path": "advisor/plugins/aws-startup-advisor",
+                    "path": "plugins/aws-startup-advisor",
                     "ref": "main",
-                    "sha": "ec681ba5d49b039dbf1ef9d87d3304205b824f3d",
+                    "sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394",
                     "source": "git-subdir",
-                    "url": "https://github.com/awslabs/startups.git"
+                    "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-startup-advisor",
-            "sha": "ec681ba5d49b039dbf1ef9d87d3304205b824f3d",
+            "sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394",
             "source": "aws-startup-advisor@claude-plugins-official",
-            "source_sha": "ec681ba5d49b039dbf1ef9d87d3304205b824f3d",
+            "source_sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 5365,
-                    "on_invoke": 165503
+                    "always_on": 4911,
+                    "on_invoke": 174401
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 3583,
-                    "on_invoke": 120837
+                    "always_on": 3278,
+                    "on_invoke": 127197
                 }
             },
             "unique_installs": 1386,
-            "version": "2.0.1"
+            "version": "2.0.2"
         },
         "aws-transform@claude-plugins-official": {
             "components": {
@@ -23550,10 +23552,31 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 603,
+                            "on_invoke": 4261
+                        },
+                        "name": "api-discovery"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 335,
+                            "on_invoke": 5882
+                        },
+                        "name": "ci-integration"
+                    },
+                    {
+                        "chars": {
                             "always_on": 558,
                             "on_invoke": 7187
                         },
                         "name": "api-monitoring"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 667,
+                            "on_invoke": 5996
+                        },
+                        "name": "bootstrap"
                     },
                     {
                         "chars": {
@@ -23564,10 +23587,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 667,
-                            "on_invoke": 6015
+                            "always_on": 156,
+                            "on_invoke": 1498
                         },
-                        "name": "bootstrap"
+                        "name": "api-engineer"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 590,
+                            "on_invoke": 3907
+                        },
+                        "name": "api-testing"
                     },
                     {
                         "chars": {
@@ -23585,38 +23615,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 335,
-                            "on_invoke": 5882
+                            "always_on": 669,
+                            "on_invoke": 6654
                         },
-                        "name": "ci-integration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 603,
-                            "on_invoke": 4261
-                        },
-                        "name": "api-discovery"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 504,
-                            "on_invoke": 1874
-                        },
-                        "name": "ai-readiness"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 590,
-                            "on_invoke": 3907
-                        },
-                        "name": "api-testing"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 336,
-                            "on_invoke": 1781
-                        },
-                        "name": "api-documentation"
+                        "name": "api-mocking"
                     },
                     {
                         "chars": {
@@ -23627,48 +23629,48 @@
                     },
                     {
                         "chars": {
-                            "always_on": 669,
-                            "on_invoke": 6654
+                            "always_on": 336,
+                            "on_invoke": 1781
                         },
-                        "name": "api-mocking"
+                        "name": "api-documentation"
                     },
                     {
                         "chars": {
-                            "always_on": 156,
-                            "on_invoke": 1498
+                            "always_on": 504,
+                            "on_invoke": 1876
                         },
-                        "name": "api-engineer"
+                        "name": "ai-readiness"
                     }
                 ]
             },
-            "last_updated": "2026-09-21T11:08:04-07:00",
+            "last_updated": "2026-09-23T15:54:52Z",
             "marketplace_entry": {
                 "category": "development",
-                "description": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server.",
-                "homepage": "https://learning.postman.com/docs/developer/postman-mcp-server/",
+                "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman Flows, and publish generated API documentation.",
+                "homepage": "https://github.com/postmanlabs/postman-plugin",
                 "name": "postman",
                 "source": {
-                    "sha": "1e5f49ee91c3604bc3590c5602f664e0e4bfc1fd",
+                    "sha": "67cff8f385d88608f427af01e152969065ddb1d8",
                     "source": "url",
-                    "url": "https://github.com/Postman-Devrel/postman-claude-code-plugin.git"
+                    "url": "https://github.com/postmanlabs/postman-plugin.git"
                 }
             },
             "plugin": "postman",
-            "sha": "1e5f49ee91c3604bc3590c5602f664e0e4bfc1fd",
+            "sha": "67cff8f385d88608f427af01e152969065ddb1d8",
             "source": "postman@claude-plugins-official",
-            "source_sha": "1e5f49ee91c3604bc3590c5602f664e0e4bfc1fd",
+            "source_sha": "67cff8f385d88608f427af01e152969065ddb1d8",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2038,
-                    "on_invoke": 23008
+                    "on_invoke": 22994
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1474,
-                    "on_invoke": 17154
+                    "on_invoke": 17147
                 }
             },
             "unique_installs": 23759,
-            "version": "2.0.0"
+            "version": "2.0.1"
         },
         "pr-review-toolkit@claude-plugins-official": {
             "components": {
