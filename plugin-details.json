@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-09-30T07:45:30.981Z",
+    "generated_at": "2026-10-01T07:45:03.466Z",
     "installs_generated_at": "2026-09-25T06:00:14.619439+00:00",
-    "marketplace_sha": "2a8ad9f74633d10e3d9bb0660a03bfc6e50584b1",
+    "marketplace_sha": "ab024cdcfa7ca80be204acd4907656ba5a968589",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -8848,7 +8848,7 @@
                 ],
                 "skills": []
             },
-            "last_updated": "2026-09-08T11:54:59-07:00",
+            "last_updated": "2026-09-30T16:11:48-04:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Upstash"
@@ -8865,7 +8865,7 @@
             "plugin": "context7",
             "sha": null,
             "source": "context7@claude-plugins-official",
-            "source_sha": "bc875e80bee06bf11bd28cfc2fdf9ee563d3d2d7",
+            "source_sha": "ab024cdcfa7ca80be204acd4907656ba5a968589",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -15667,7 +15667,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-03-30T14:08:48-07:00",
+            "last_updated": "2026-09-30T15:34:53-04:00",
             "marketplace_entry": {
                 "category": "productivity",
                 "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing, allowlists, and policy via /imessage:access.",
@@ -15677,7 +15677,7 @@
             "plugin": "imessage",
             "sha": null,
             "source": "imessage@claude-plugins-official",
-            "source_sha": "31e7200b33db954ec45cae5dd1bed9bd6611bbe3",
+            "source_sha": "b6041c772138cdb3408fb4d93accd770f0ec56a1",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 159,
@@ -15689,7 +15689,7 @@
                 }
             },
             "unique_installs": 17388,
-            "version": "0.1.0"
+            "version": "0.2.0"
         },
         "incident-io@claude-plugins-official": {
             "components": {
@@ -17525,6 +17525,79 @@
                 }
             },
             "unique_installs": 3996
+        },
+        "math-proof@claude-plugins-official": {
+            "components": {
+                "agents": [
+                    {
+                        "chars": {
+                            "always_on": 256,
+                            "on_invoke": 3280
+                        },
+                        "name": "math-proof-judge"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 230,
+                            "on_invoke": 2855
+                        },
+                        "name": "math-proof-worker"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 347,
+                            "on_invoke": 2855
+                        },
+                        "name": "math-proof-worker-deep"
+                    }
+                ],
+                "commands": [],
+                "hooks": [],
+                "lspServers": [],
+                "mcpServers": [],
+                "skills": [
+                    {
+                        "chars": {
+                            "always_on": 344,
+                            "on_invoke": 5570
+                        },
+                        "name": "solo"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 487,
+                            "on_invoke": 73890
+                        },
+                        "name": "siege"
+                    }
+                ]
+            },
+            "last_updated": "2026-09-30T11:31:58-07:00",
+            "marketplace_entry": {
+                "author": {
+                    "email": "support@anthropic.com",
+                    "name": "Anthropic"
+                },
+                "category": "math",
+                "description": "Two skills for hard mathematics problems, each ending in a self-contained proof.md: /math-proof:solo has the session work the problem itself in stages with a notes file; /math-proof:siege works on it for hours in rounds of judge and worker sub-agents and says plainly what is and is not proved.",
+                "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-proof",
+                "name": "math-proof",
+                "source": "./plugins/math-proof"
+            },
+            "plugin": "math-proof",
+            "sha": null,
+            "source": "math-proof@claude-plugins-official",
+            "source_sha": "aa5654b7acb7d3096b5db44381bcfceaf4a71dfb",
+            "tokens": {
+                "claude-opus-4-7": {
+                    "always_on": 558,
+                    "on_invoke": 30414
+                },
+                "claude-sonnet-4-6": {
+                    "always_on": 405,
+                    "on_invoke": 22696
+                }
+            }
         },
         "mattpocock-skills@claude-plugins-official": {
             "components": {
