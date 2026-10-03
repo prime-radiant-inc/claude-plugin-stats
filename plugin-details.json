@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-02T07:42:22.617Z",
+    "generated_at": "2026-10-03T07:41:27.704Z",
     "installs_generated_at": "2026-10-02T06:00:05.876445+00:00",
-    "marketplace_sha": "ab024cdcfa7ca80be204acd4907656ba5a968589",
+    "marketplace_sha": "d182ca456ca09d31d139f7d3818d1d333b103cce",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -2947,17 +2947,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 953,
-                            "on_invoke": 28291
+                            "always_on": 544,
+                            "on_invoke": 7195
                         },
-                        "name": "agents-connect"
+                        "name": "agents-deploy"
                     },
                     {
                         "chars": {
-                            "always_on": 936,
-                            "on_invoke": 30990
+                            "always_on": 715,
+                            "on_invoke": 2768
                         },
-                        "name": "agents-harden"
+                        "name": "agents-optimize"
                     },
                     {
                         "chars": {
@@ -2968,10 +2968,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 544,
-                            "on_invoke": 7195
+                            "always_on": 936,
+                            "on_invoke": 30990
                         },
-                        "name": "agents-deploy"
+                        "name": "agents-harden"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 953,
+                            "on_invoke": 28291
+                        },
+                        "name": "agents-connect"
                     },
                     {
                         "chars": {
@@ -2986,17 +2993,10 @@
                             "on_invoke": 25123
                         },
                         "name": "agents-pay"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 715,
-                            "on_invoke": 2768
-                        },
-                        "name": "agents-optimize"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T09:47:31Z",
+            "last_updated": "2026-10-01T16:53:07Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -3008,15 +3008,15 @@
                 "source": {
                     "path": "plugins/aws-agents",
                     "ref": "main",
-                    "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+                    "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-agents",
-            "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+            "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
             "source": "aws-agents@claude-plugins-official",
-            "source_sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+            "source_sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2356,
@@ -3101,10 +3101,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 625,
-                            "on_invoke": 13800
+                            "always_on": 1043,
+                            "on_invoke": 33228
                         },
-                        "name": "aws-cloudformation"
+                        "name": "amazon-bedrock"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1038,
+                            "on_invoke": 5875
+                        },
+                        "name": "aws-ai-ml"
                     },
                     {
                         "chars": {
@@ -3115,80 +3122,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 744,
-                            "on_invoke": 7455
-                        },
-                        "name": "aws-serverless"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 802,
-                            "on_invoke": 6289
-                        },
-                        "name": "aws-deployment"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 291,
-                            "on_invoke": 7624
-                        },
-                        "name": "aws-secrets-manager"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 146,
-                            "on_invoke": 4873
-                        },
-                        "name": "aws-sdk-swift-usage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 478,
-                            "on_invoke": 6327
-                        },
-                        "name": "signing-in-to-aws"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1004,
-                            "on_invoke": 31085
-                        },
-                        "name": "amazon-bedrock"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 734,
-                            "on_invoke": 12892
-                        },
-                        "name": "aws-security"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 968,
-                            "on_invoke": 5614
-                        },
-                        "name": "aws-containers"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1032,
-                            "on_invoke": 7800
-                        },
-                        "name": "aws-compute"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 849,
-                            "on_invoke": 10632
-                        },
-                        "name": "aws-networking"
-                    },
-                    {
-                        "chars": {
                             "always_on": 945,
                             "on_invoke": 10913
                         },
                         "name": "aws-well-architected-review"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 307,
+                            "on_invoke": 8349
+                        },
+                        "name": "aws-sdk-js-v3-usage"
                     },
                     {
                         "chars": {
@@ -3199,8 +3143,113 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1003,
-                            "on_invoke": 5443
+                            "always_on": 978,
+                            "on_invoke": 11367
+                        },
+                        "name": "aws-messaging-and-streaming"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 291,
+                            "on_invoke": 7624
+                        },
+                        "name": "aws-secrets-manager"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 763,
+                            "on_invoke": 11855
+                        },
+                        "name": "launch-with-aws"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 802,
+                            "on_invoke": 6289
+                        },
+                        "name": "aws-deployment"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 968,
+                            "on_invoke": 5614
+                        },
+                        "name": "aws-containers"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 533,
+                            "on_invoke": 8481
+                        },
+                        "name": "aws-billing-and-cost-management"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1044,
+                            "on_invoke": 21985
+                        },
+                        "name": "aws-storage"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 146,
+                            "on_invoke": 4873
+                        },
+                        "name": "aws-sdk-swift-usage"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 674,
+                            "on_invoke": 7180
+                        },
+                        "name": "aws-database"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 849,
+                            "on_invoke": 10632
+                        },
+                        "name": "aws-networking"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 625,
+                            "on_invoke": 13800
+                        },
+                        "name": "aws-cloudformation"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1032,
+                            "on_invoke": 7800
+                        },
+                        "name": "aws-compute"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1010,
+                            "on_invoke": 36289
+                        },
+                        "name": "aws-serverless"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 478,
+                            "on_invoke": 6327
+                        },
+                        "name": "signing-in-to-aws"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1009,
+                            "on_invoke": 5804
+                        },
+                        "name": "aws-iam"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1047,
+                            "on_invoke": 27357
                         },
                         "name": "aws-observability"
                     },
@@ -3213,63 +3262,14 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1009,
-                            "on_invoke": 5804
+                            "always_on": 734,
+                            "on_invoke": 12892
                         },
-                        "name": "aws-iam"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1038,
-                            "on_invoke": 5875
-                        },
-                        "name": "aws-ai-ml"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 533,
-                            "on_invoke": 8481
-                        },
-                        "name": "aws-billing-and-cost-management"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 763,
-                            "on_invoke": 11855
-                        },
-                        "name": "launch-with-aws"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 978,
-                            "on_invoke": 11367
-                        },
-                        "name": "aws-messaging-and-streaming"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1044,
-                            "on_invoke": 21985
-                        },
-                        "name": "aws-storage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 307,
-                            "on_invoke": 8349
-                        },
-                        "name": "aws-sdk-js-v3-usage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 674,
-                            "on_invoke": 6523
-                        },
-                        "name": "aws-database"
+                        "name": "aws-security"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T09:47:31Z",
+            "last_updated": "2026-10-01T16:53:07Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -3281,23 +3281,23 @@
                 "source": {
                     "path": "plugins/aws-core",
                     "ref": "main",
-                    "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+                    "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-core",
-            "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+            "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
             "source": "aws-core@claude-plugins-official",
-            "source_sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+            "source_sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 7059,
-                    "on_invoke": 90769
+                    "always_on": 7132,
+                    "on_invoke": 110182
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 4603,
-                    "on_invoke": 63464
+                    "always_on": 4661,
+                    "on_invoke": 77130
                 }
             },
             "unique_installs": 11248,
@@ -3315,38 +3315,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 670,
-                            "on_invoke": 7511
+                            "always_on": 872,
+                            "on_invoke": 8329
                         },
-                        "name": "creating-data-lake-table"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1018,
-                            "on_invoke": 9145
-                        },
-                        "name": "redshift-guide"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 487,
-                            "on_invoke": 9921
-                        },
-                        "name": "exploring-data-catalog"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1013,
-                            "on_invoke": 9899
-                        },
-                        "name": "ingesting-into-data-lake"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 516,
-                            "on_invoke": 7059
-                        },
-                        "name": "storing-and-querying-vectors"
+                        "name": "debugging-mwaa-workflow"
                     },
                     {
                         "chars": {
@@ -3357,10 +3329,38 @@
                     },
                     {
                         "chars": {
-                            "always_on": 906,
-                            "on_invoke": 8463
+                            "always_on": 487,
+                            "on_invoke": 9921
                         },
-                        "name": "amazon-opensearch-service"
+                        "name": "exploring-data-catalog"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 869,
+                            "on_invoke": 14451
+                        },
+                        "name": "testing-mwaa-workflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 516,
+                            "on_invoke": 7059
+                        },
+                        "name": "storing-and-querying-vectors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 670,
+                            "on_invoke": 7511
+                        },
+                        "name": "creating-data-lake-table"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1062,
+                            "on_invoke": 28140
+                        },
+                        "name": "upgrading-mwaa-environments"
                     },
                     {
                         "chars": {
@@ -3371,6 +3371,34 @@
                     },
                     {
                         "chars": {
+                            "always_on": 1018,
+                            "on_invoke": 9145
+                        },
+                        "name": "redshift-guide"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 906,
+                            "on_invoke": 8463
+                        },
+                        "name": "amazon-opensearch-service"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 961,
+                            "on_invoke": 10147
+                        },
+                        "name": "authoring-mwaa-workflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1013,
+                            "on_invoke": 9899
+                        },
+                        "name": "ingesting-into-data-lake"
+                    },
+                    {
+                        "chars": {
                             "always_on": 791,
                             "on_invoke": 8028
                         },
@@ -3378,7 +3406,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-09-22T09:47:31Z",
+            "last_updated": "2026-10-01T16:53:07Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -3390,27 +3418,27 @@
                 "source": {
                     "path": "plugins/aws-data-analytics",
                     "ref": "main",
-                    "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+                    "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-data-analytics",
-            "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+            "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
             "source": "aws-data-analytics@claude-plugins-official",
-            "source_sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+            "source_sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2572,
-                    "on_invoke": 33178
+                    "always_on": 4079,
+                    "on_invoke": 56496
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1714,
-                    "on_invoke": 23553
+                    "always_on": 2722,
+                    "on_invoke": 40290
                 }
             },
             "unique_installs": 2469,
-            "version": "1.2.0"
+            "version": "1.3.0"
         },
         "aws-serverless@claude-plugins-official": {
             "components": {
@@ -27800,7 +27828,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-09-09T17:42:50Z",
+            "last_updated": "2026-10-02T13:17:39-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -27811,12 +27839,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.7"
+                "version": "2.0.9"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "debbe686ab74ec095436a499b1a59864037e46cf",
+            "source_sha": "01f8be9b220b6e993a3c2cb219f28d7cc6fd3d6f",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -27828,7 +27856,7 @@
                 }
             },
             "unique_installs": 273024,
-            "version": "2.0.8"
+            "version": "2.0.9"
         },
         "semgrep@claude-plugins-official": {
             "components": {
