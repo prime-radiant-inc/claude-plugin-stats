@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-05T07:57:39.858Z",
+    "generated_at": "2026-10-06T07:44:32.151Z",
     "installs_generated_at": "2026-10-02T06:00:05.876445+00:00",
-    "marketplace_sha": "d182ca456ca09d31d139f7d3818d1d333b103cce",
+    "marketplace_sha": "d4226d062928f8d9505dbdeadd10217d23361052",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -27828,7 +27828,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-02T13:17:39-07:00",
+            "last_updated": "2026-10-05T09:53:54-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -27839,12 +27839,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.9"
+                "version": "2.0.10"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "01f8be9b220b6e993a3c2cb219f28d7cc6fd3d6f",
+            "source_sha": "a22217bb450a6cc00d7a161566e7cc7d96dbf63a",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -27856,7 +27856,7 @@
                 }
             },
             "unique_installs": 273024,
-            "version": "2.0.9"
+            "version": "2.0.10"
         },
         "semgrep@claude-plugins-official": {
             "components": {
