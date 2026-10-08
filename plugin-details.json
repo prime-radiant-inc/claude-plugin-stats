@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-07T07:44:46.359Z",
+    "generated_at": "2026-10-08T07:48:07.964Z",
     "installs_generated_at": "2026-10-02T06:00:05.876445+00:00",
-    "marketplace_sha": "d4226d062928f8d9505dbdeadd10217d23361052",
+    "marketplace_sha": "b78ac49cdc6b3d7b61c4439470e311f4291265b1",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -13246,10 +13246,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 562,
-                            "on_invoke": 33026
+                            "always_on": 192,
+                            "on_invoke": 1591
                         },
-                        "name": "figma-use"
+                        "name": "figma-create-new-file"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 402,
+                            "on_invoke": 22712
+                        },
+                        "name": "figma-implement-motion"
                     },
                     {
                         "chars": {
@@ -13257,6 +13264,69 @@
                             "on_invoke": 6524
                         },
                         "name": "figma-use-motion"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 273,
+                            "on_invoke": 26155
+                        },
+                        "name": "figma-code-connect"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 273,
+                            "on_invoke": 5279
+                        },
+                        "name": "figma-shaders"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 748,
+                            "on_invoke": 23624
+                        },
+                        "name": "figma-generate-library"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 541,
+                            "on_invoke": 3454
+                        },
+                        "name": "figma-design-to-code"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 562,
+                            "on_invoke": 33026
+                        },
+                        "name": "figma-use"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 249,
+                            "on_invoke": 4533
+                        },
+                        "name": "figma-generative-plugins"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 631,
+                            "on_invoke": 3314
+                        },
+                        "name": "figma-swiftui"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 879,
+                            "on_invoke": 35772
+                        },
+                        "name": "figma-generate-design"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 193,
+                            "on_invoke": 6628
+                        },
+                        "name": "figma-use-figjam"
                     },
                     {
                         "chars": {
@@ -13271,107 +13341,37 @@
                             "on_invoke": 21642
                         },
                         "name": "figma-use-slides"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 273,
-                            "on_invoke": 26155
-                        },
-                        "name": "figma-code-connect"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 193,
-                            "on_invoke": 6628
-                        },
-                        "name": "figma-use-figjam"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 541,
-                            "on_invoke": 3454
-                        },
-                        "name": "figma-design-to-code"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 879,
-                            "on_invoke": 33683
-                        },
-                        "name": "figma-generate-design"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 748,
-                            "on_invoke": 23967
-                        },
-                        "name": "figma-generate-library"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 249,
-                            "on_invoke": 4533
-                        },
-                        "name": "figma-generative-plugins"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 273,
-                            "on_invoke": 5279
-                        },
-                        "name": "figma-shaders"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 192,
-                            "on_invoke": 1192
-                        },
-                        "name": "figma-create-new-file"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 402,
-                            "on_invoke": 22712
-                        },
-                        "name": "figma-implement-motion"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 631,
-                            "on_invoke": 3314
-                        },
-                        "name": "figma-swiftui"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T11:24:16+01:00",
+            "last_updated": "2026-10-05T10:46:00+01:00",
             "marketplace_entry": {
                 "category": "design",
                 "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
                 "homepage": "https://github.com/figma/mcp-server-guide",
                 "name": "figma",
                 "source": {
-                    "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+                    "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
                     "source": "url",
                     "url": "https://github.com/figma/mcp-server-guide.git"
                 }
             },
             "plugin": "figma",
-            "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+            "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
             "source": "figma@claude-plugins-official",
-            "source_sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+            "source_sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 2138,
-                    "on_invoke": 73558
+                    "on_invoke": 73655
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 1576,
-                    "on_invoke": 53786
+                    "on_invoke": 53845
                 }
             },
             "unique_installs": 188259,
-            "version": "2.2.120"
+            "version": "2.2.127"
         },
         "firebase@claude-plugins-official": {
             "components": {
@@ -26331,13 +26331,6 @@
                 "agents": [
                     {
                         "chars": {
-                            "always_on": 521,
-                            "on_invoke": 5680
-                        },
-                        "name": "architecture-review"
-                    },
-                    {
-                        "chars": {
                             "always_on": 207,
                             "on_invoke": 3271
                         },
@@ -26347,6 +26340,48 @@
                 "commands": [
                     {
                         "chars": {
+                            "always_on": 121,
+                            "on_invoke": 1244
+                        },
+                        "name": "logout"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 189,
+                            "on_invoke": 1591
+                        },
+                        "name": "set-default"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 147,
+                            "on_invoke": 564
+                        },
+                        "name": "telemetry"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 141,
+                            "on_invoke": 4104
+                        },
+                        "name": "feedback"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 157,
+                            "on_invoke": 1807
+                        },
+                        "name": "login"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 269,
+                            "on_invoke": 2573
+                        },
+                        "name": "reset-source-tracking"
+                    },
+                    {
+                        "chars": {
                             "always_on": 142,
                             "on_invoke": 898
                         },
@@ -26354,17 +26389,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 192,
-                            "on_invoke": 846
+                            "always_on": 189,
+                            "on_invoke": 8087
                         },
-                        "name": "welcome"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 121,
-                            "on_invoke": 1186
-                        },
-                        "name": "logout"
+                        "name": "discover"
                     },
                     {
                         "chars": {
@@ -26382,8 +26410,22 @@
                     },
                     {
                         "chars": {
+                            "always_on": 220,
+                            "on_invoke": 3137
+                        },
+                        "name": "setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 192,
+                            "on_invoke": 846
+                        },
+                        "name": "welcome"
+                    },
+                    {
+                        "chars": {
                             "always_on": 134,
-                            "on_invoke": 6763
+                            "on_invoke": 6536
                         },
                         "name": "plugin-install"
                     },
@@ -26393,48 +26435,6 @@
                             "on_invoke": 758
                         },
                         "name": "project"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 269,
-                            "on_invoke": 2573
-                        },
-                        "name": "reset-source-tracking"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 189,
-                            "on_invoke": 1450
-                        },
-                        "name": "set-default"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 165,
-                            "on_invoke": 6899
-                        },
-                        "name": "discover"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 147,
-                            "on_invoke": 564
-                        },
-                        "name": "telemetry"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 220,
-                            "on_invoke": 3137
-                        },
-                        "name": "setup"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 157,
-                            "on_invoke": 1807
-                        },
-                        "name": "login"
                     }
                 ],
                 "hooks": [
@@ -26457,241 +26457,24 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 466,
-                            "on_invoke": 3366
-                        },
-                        "name": "platform-validation-rule-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 762,
-                            "on_invoke": 6289
-                        },
-                        "name": "platform-metadata-retrieve"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 551,
-                            "on_invoke": 6672
-                        },
-                        "name": "platform-apex-test-run"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 434,
-                            "on_invoke": 6970
-                        },
-                        "name": "platform-apex-logs-debug"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 476,
-                            "on_invoke": 5800
-                        },
-                        "name": "platform-capability-search"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 517,
-                            "on_invoke": 3539
-                        },
-                        "name": "platform-deploy-validate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 594,
-                            "on_invoke": 25850
-                        },
-                        "name": "platform-apex-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 646,
-                            "on_invoke": 9629
-                        },
-                        "name": "platform-soql-query"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1044,
-                            "on_invoke": 23547
-                        },
-                        "name": "dx-code-analyzer-run"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 857,
-                            "on_invoke": 16775
-                        },
-                        "name": "platform-value-set-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 457,
-                            "on_invoke": 6602
-                        },
-                        "name": "platform-custom-tab-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 521,
-                            "on_invoke": 4114
-                        },
-                        "name": "platform-quick-deploy"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1047,
-                            "on_invoke": 20921
-                        },
-                        "name": "dx-code-analyzer-configure"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1004,
-                            "on_invoke": 21947
-                        },
-                        "name": "platform-metadata-api-context-get"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 760,
-                            "on_invoke": 11167
-                        },
-                        "name": "platform-apex-anonymous-run"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 898,
-                            "on_invoke": 7103
-                        },
-                        "name": "platform-report-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 346,
-                            "on_invoke": 5578
-                        },
-                        "name": "platform-permission-set-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 503,
-                            "on_invoke": 4915
-                        },
-                        "name": "platform-destructive-deploy"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 520,
-                            "on_invoke": 11646
-                        },
-                        "name": "platform-custom-application-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 914,
-                            "on_invoke": 12751
-                        },
-                        "name": "platform-manifest-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1006,
-                            "on_invoke": 9176
-                        },
-                        "name": "platform-architecture-analyze"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 821,
-                            "on_invoke": 15519
-                        },
-                        "name": "platform-sharing-rules-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 816,
-                            "on_invoke": 8158
-                        },
-                        "name": "platform-sharing-owd-configure"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 905,
-                            "on_invoke": 19345
-                        },
-                        "name": "platform-flexipage-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 867,
+                            "always_on": 547,
                             "on_invoke": 13381
                         },
                         "name": "platform-custom-object-generate"
                     },
                     {
                         "chars": {
-                            "always_on": 904,
-                            "on_invoke": 11565
+                            "always_on": 540,
+                            "on_invoke": 9769
                         },
-                        "name": "platform-lsp-integrate"
+                        "name": "platform-data-manage"
                     },
                     {
                         "chars": {
-                            "always_on": 968,
-                            "on_invoke": 38353
+                            "always_on": 549,
+                            "on_invoke": 12751
                         },
-                        "name": "dx-code-analyzer-custom-rule-create"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 695,
-                            "on_invoke": 9095
-                        },
-                        "name": "platform-apex-test-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 847,
-                            "on_invoke": 7299
-                        },
-                        "name": "dx-project-create"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 765,
-                            "on_invoke": 13485
-                        },
-                        "name": "platform-custom-report-type-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1019,
-                            "on_invoke": 20064
-                        },
-                        "name": "dx-org-manage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 763,
-                            "on_invoke": 9741
-                        },
-                        "name": "platform-environment-validate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 502,
-                            "on_invoke": 20129
-                        },
-                        "name": "automation-flow-generate"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 533,
-                            "on_invoke": 8445
-                        },
-                        "name": "platform-metadata-deploy"
+                        "name": "platform-manifest-generate"
                     },
                     {
                         "chars": {
@@ -26702,10 +26485,31 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1036,
-                            "on_invoke": 22859
+                            "always_on": 789,
+                            "on_invoke": 16643
                         },
-                        "name": "platform-custom-field-generate"
+                        "name": "dx-project-create"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 594,
+                            "on_invoke": 21675
+                        },
+                        "name": "platform-apex-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 434,
+                            "on_invoke": 6970
+                        },
+                        "name": "platform-apex-logs-debug"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 601,
+                            "on_invoke": 8158
+                        },
+                        "name": "platform-sharing-owd-configure"
                     },
                     {
                         "chars": {
@@ -26713,10 +26517,206 @@
                             "on_invoke": 7887
                         },
                         "name": "platform-list-view-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 537,
+                            "on_invoke": 11565
+                        },
+                        "name": "platform-lsp-integrate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 593,
+                            "on_invoke": 21947
+                        },
+                        "name": "platform-metadata-api-context-get"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 652,
+                            "on_invoke": 21615
+                        },
+                        "name": "platform-custom-metadata-type-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 520,
+                            "on_invoke": 11646
+                        },
+                        "name": "platform-custom-application-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 543,
+                            "on_invoke": 7103
+                        },
+                        "name": "platform-report-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 503,
+                            "on_invoke": 5200
+                        },
+                        "name": "platform-destructive-deploy"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 552,
+                            "on_invoke": 9741
+                        },
+                        "name": "platform-environment-validate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 729,
+                            "on_invoke": 25607
+                        },
+                        "name": "platform-data-and-tooling-api-context-get"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 543,
+                            "on_invoke": 5378
+                        },
+                        "name": "platform-soql-query"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 547,
+                            "on_invoke": 13485
+                        },
+                        "name": "platform-custom-report-type-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 750,
+                            "on_invoke": 20840
+                        },
+                        "name": "platform-custom-setting-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 539,
+                            "on_invoke": 16775
+                        },
+                        "name": "platform-value-set-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 521,
+                            "on_invoke": 4245
+                        },
+                        "name": "platform-quick-deploy"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 457,
+                            "on_invoke": 6602
+                        },
+                        "name": "platform-custom-tab-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 517,
+                            "on_invoke": 3872
+                        },
+                        "name": "platform-deploy-validate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1019,
+                            "on_invoke": 20064
+                        },
+                        "name": "dx-org-manage"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 589,
+                            "on_invoke": 6289
+                        },
+                        "name": "platform-metadata-retrieve"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 533,
+                            "on_invoke": 8445
+                        },
+                        "name": "platform-metadata-deploy"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 476,
+                            "on_invoke": 5777
+                        },
+                        "name": "platform-capability-search"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 541,
+                            "on_invoke": 19345
+                        },
+                        "name": "platform-flexipage-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 566,
+                            "on_invoke": 9095
+                        },
+                        "name": "platform-apex-test-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 502,
+                            "on_invoke": 20129
+                        },
+                        "name": "automation-flow-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 550,
+                            "on_invoke": 15519
+                        },
+                        "name": "platform-sharing-rules-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 466,
+                            "on_invoke": 3366
+                        },
+                        "name": "platform-validation-rule-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 423,
+                            "on_invoke": 6672
+                        },
+                        "name": "platform-apex-test-run"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 346,
+                            "on_invoke": 5578
+                        },
+                        "name": "platform-permission-set-generate"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 549,
+                            "on_invoke": 11167
+                        },
+                        "name": "platform-apex-anonymous-run"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 718,
+                            "on_invoke": 22859
+                        },
+                        "name": "platform-custom-field-generate"
                     }
                 ]
             },
-            "last_updated": "2026-09-18T15:55:39Z",
+            "last_updated": "2026-10-03T00:18:43Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Salesforce"
@@ -26728,27 +26728,27 @@
                 "source": {
                     "path": "plugins/builder/salesforce-development",
                     "ref": "main",
-                    "sha": "c217b703b3e5a3c279f1a510d8703161b14bd0a5",
+                    "sha": "3c15867bdb9dacd515960174c661c706d041bb63",
                     "source": "git-subdir",
                     "url": "https://github.com/forcedotcom/sf-skills.git"
                 }
             },
             "plugin": "salesforce-development",
-            "sha": "c217b703b3e5a3c279f1a510d8703161b14bd0a5",
+            "sha": "3c15867bdb9dacd515960174c661c706d041bb63",
             "source": "salesforce-development@claude-plugins-official",
-            "source_sha": "c217b703b3e5a3c279f1a510d8703161b14bd0a5",
+            "source_sha": "3c15867bdb9dacd515960174c661c706d041bb63",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 10289,
-                    "on_invoke": 194272
+                    "always_on": 8302,
+                    "on_invoke": 186799
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 7003,
-                    "on_invoke": 138148
+                    "always_on": 5587,
+                    "on_invoke": 133247
                 }
             },
             "unique_installs": 526,
-            "version": "2.1.1"
+            "version": "2.3.0"
         },
         "sanity@claude-plugins-official": {
             "components": {
@@ -27828,7 +27828,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-05T09:53:54-07:00",
+            "last_updated": "2026-10-07T08:40:40-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -27839,12 +27839,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.10"
+                "version": "2.0.11"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "a22217bb450a6cc00d7a161566e7cc7d96dbf63a",
+            "source_sha": "f711194a9ecdf004b655dbc5006610fbb9e7c7bb",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -27856,7 +27856,7 @@
                 }
             },
             "unique_installs": 273024,
-            "version": "2.0.10"
+            "version": "2.0.11"
         },
         "semgrep@claude-plugins-official": {
             "components": {
