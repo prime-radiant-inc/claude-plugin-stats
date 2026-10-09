@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-08T07:48:07.964Z",
+    "generated_at": "2026-10-09T07:46:52.816Z",
     "installs_generated_at": "2026-10-02T06:00:05.876445+00:00",
-    "marketplace_sha": "b78ac49cdc6b3d7b61c4439470e311f4291265b1",
+    "marketplace_sha": "315c4e48967d9541c29c3c656441dded353ca7aa",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -3227,8 +3227,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1010,
-                            "on_invoke": 36289
+                            "always_on": 744,
+                            "on_invoke": 9054
                         },
                         "name": "aws-serverless"
                     },
@@ -3248,8 +3248,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1047,
-                            "on_invoke": 27357
+                            "always_on": 1048,
+                            "on_invoke": 27707
                         },
                         "name": "aws-observability"
                     },
@@ -3269,7 +3269,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-10-01T16:53:07Z",
+            "last_updated": "2026-10-02T07:27:20Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -3281,23 +3281,23 @@
                 "source": {
                     "path": "plugins/aws-core",
                     "ref": "main",
-                    "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+                    "sha": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-core",
-            "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+            "sha": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7",
             "source": "aws-core@claude-plugins-official",
-            "source_sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+            "source_sha": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 7132,
-                    "on_invoke": 110182
+                    "always_on": 7063,
+                    "on_invoke": 100752
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 4661,
-                    "on_invoke": 77130
+                    "always_on": 4617,
+                    "on_invoke": 70546
                 }
             },
             "unique_installs": 11248,
@@ -15733,6 +15733,27 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 466,
+                            "on_invoke": 6569
+                        },
+                        "name": "extensions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 384,
+                            "on_invoke": 4563
+                        },
+                        "name": "talking-to-the-user"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 311,
+                            "on_invoke": 4943
+                        },
+                        "name": "skill-authoring"
+                    },
+                    {
+                        "chars": {
                             "always_on": 362,
                             "on_invoke": 4300
                         },
@@ -15740,35 +15761,28 @@
                     },
                     {
                         "chars": {
-                            "always_on": 311,
-                            "on_invoke": 4037
-                        },
-                        "name": "skill-authoring"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 579,
-                            "on_invoke": 2921
+                            "always_on": 413,
+                            "on_invoke": 4315
                         },
                         "name": "architecture"
                     },
                     {
                         "chars": {
-                            "always_on": 546,
-                            "on_invoke": 3763
+                            "always_on": 503,
+                            "on_invoke": 2711
                         },
-                        "name": "extensions-review"
+                        "name": "architecture-author"
                     },
                     {
                         "chars": {
-                            "always_on": 394,
-                            "on_invoke": 4816
+                            "always_on": 514,
+                            "on_invoke": 8198
                         },
-                        "name": "extensions"
+                        "name": "on-call"
                     }
                 ]
             },
-            "last_updated": "2026-09-21T08:53:02Z",
+            "last_updated": "2026-10-07T12:51:27Z",
             "marketplace_entry": {
                 "author": {
                     "name": "incident.io"
@@ -15780,27 +15794,27 @@
                 "source": {
                     "path": "plugins/incident-io",
                     "ref": "main",
-                    "sha": "443f47164eda1f93108ebd908843925f681954ef",
+                    "sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8",
                     "source": "git-subdir",
                     "url": "https://github.com/incident-io/skills.git"
                 }
             },
             "plugin": "incident-io",
-            "sha": "443f47164eda1f93108ebd908843925f681954ef",
+            "sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8",
             "source": "incident-io@claude-plugins-official",
-            "source_sha": "443f47164eda1f93108ebd908843925f681954ef",
+            "source_sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 696,
-                    "on_invoke": 6367
+                    "always_on": 936,
+                    "on_invoke": 11634
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 492,
-                    "on_invoke": 4814
+                    "always_on": 680,
+                    "on_invoke": 8904
                 }
             },
             "unique_installs": 96,
-            "version": "0.19.0"
+            "version": "1.20261007.771"
         },
         "informatica-for-claude-platform@claude-plugins-official": {
             "components": {
@@ -24940,7 +24954,7 @@
                     }
                 ]
             },
-            "last_updated": "2026-07-20T19:05:45-05:00",
+            "last_updated": "2026-10-08T16:33:07Z",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -24955,7 +24969,7 @@
             "plugin": "receipts",
             "sha": null,
             "source": "receipts@claude-plugins-official",
-            "source_sha": "b822a2974dfbbd2544308e3c1cd4cb26d144589b",
+            "source_sha": "0baf7d19f0b2ad785746af2c868adbbf46d47f24",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 216,
