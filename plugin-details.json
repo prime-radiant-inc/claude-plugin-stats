@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-09T07:46:52.816Z",
+    "generated_at": "2026-10-10T07:39:09.995Z",
     "installs_generated_at": "2026-10-02T06:00:05.876445+00:00",
-    "marketplace_sha": "315c4e48967d9541c29c3c656441dded353ca7aa",
+    "marketplace_sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -5408,17 +5408,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 388,
-                            "on_invoke": 11190
+                            "always_on": 976,
+                            "on_invoke": 26342
                         },
-                        "name": "carta-reporting-markdown"
+                        "name": "carta-issuance"
                     },
                     {
                         "chars": {
-                            "always_on": 852,
-                            "on_invoke": 22413
+                            "always_on": 834,
+                            "on_invoke": 6206
                         },
-                        "name": "carta-issuance"
+                        "name": "carta-round-history"
                     },
                     {
                         "chars": {
@@ -5429,115 +5429,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 868,
-                            "on_invoke": 3828
-                        },
-                        "name": "carta-waterfall-scenarios"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 815,
-                            "on_invoke": 6131
-                        },
-                        "name": "carta-market-benchmarks"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1381,
-                            "on_invoke": 2390
-                        },
-                        "name": "carta-discover-commands"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 948,
-                            "on_invoke": 61860
-                        },
-                        "name": "carta-compensation-benchmarks"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 560,
-                            "on_invoke": 35111
-                        },
-                        "name": "carta-interaction-reference"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 278,
-                            "on_invoke": 4588
-                        },
-                        "name": "carta-hmrc-limits"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 813,
-                            "on_invoke": 43607
-                        },
-                        "name": "carta-reporting"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 834,
-                            "on_invoke": 6022
-                        },
-                        "name": "carta-round-history"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 970,
-                            "on_invoke": 47268
-                        },
-                        "name": "carta-compensation-scorecard"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 924,
-                            "on_invoke": 6196
-                        },
-                        "name": "carta-conversion-calculator"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 353,
-                            "on_invoke": 6204
-                        },
-                        "name": "carta-reporting-excel"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 725,
-                            "on_invoke": 6834
-                        },
-                        "name": "carta-valuation-history"
-                    },
-                    {
-                        "chars": {
                             "always_on": 698,
-                            "on_invoke": 6271
+                            "on_invoke": 6187
                         },
                         "name": "carta-witness-signatures"
                     },
                     {
                         "chars": {
-                            "always_on": 570,
-                            "on_invoke": 26014
+                            "always_on": 948,
+                            "on_invoke": 63618
                         },
-                        "name": "carta-captable-home-build"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1037,
-                            "on_invoke": 56824
-                        },
-                        "name": "carta-compensation-app"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 866,
-                            "on_invoke": 35141
-                        },
-                        "name": "carta-compensation-rolematcher"
+                        "name": "carta-compensation-benchmarks"
                     },
                     {
                         "chars": {
@@ -5548,14 +5450,112 @@
                     },
                     {
                         "chars": {
+                            "always_on": 353,
+                            "on_invoke": 6204
+                        },
+                        "name": "carta-reporting-excel"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 866,
+                            "on_invoke": 35494
+                        },
+                        "name": "carta-compensation-rolematcher"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 728,
+                            "on_invoke": 32569
+                        },
+                        "name": "carta-captable-home-build"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 560,
+                            "on_invoke": 35111
+                        },
+                        "name": "carta-interaction-reference"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 815,
+                            "on_invoke": 7405
+                        },
+                        "name": "carta-market-benchmarks"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 278,
+                            "on_invoke": 4588
+                        },
+                        "name": "carta-hmrc-limits"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 868,
+                            "on_invoke": 6741
+                        },
+                        "name": "carta-waterfall-scenarios"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 388,
+                            "on_invoke": 11190
+                        },
+                        "name": "carta-reporting-markdown"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 725,
+                            "on_invoke": 6834
+                        },
+                        "name": "carta-valuation-history"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1381,
+                            "on_invoke": 2764
+                        },
+                        "name": "carta-discover-commands"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 924,
+                            "on_invoke": 6196
+                        },
+                        "name": "carta-conversion-calculator"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 970,
+                            "on_invoke": 47611
+                        },
+                        "name": "carta-compensation-scorecard"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1037,
+                            "on_invoke": 68025
+                        },
+                        "name": "carta-compensation-app"
+                    },
+                    {
+                        "chars": {
                             "always_on": 1037,
                             "on_invoke": 11425
                         },
                         "name": "carta-grant-vesting"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 813,
+                            "on_invoke": 43607
+                        },
+                        "name": "carta-reporting"
                     }
                 ]
             },
-            "last_updated": "2026-09-23T01:44:13Z",
+            "last_updated": "2026-10-07T14:12:16Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -5567,27 +5567,27 @@
                 "source": {
                     "path": "plugins/carta-cap-table",
                     "ref": "main",
-                    "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd",
+                    "sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-cap-table",
-            "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd",
+            "sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b",
             "source": "carta-cap-table@claude-plugins-official",
-            "source_sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd",
+            "source_sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 5565,
-                    "on_invoke": 154679
+                    "always_on": 5657,
+                    "on_invoke": 166199
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 3824,
-                    "on_invoke": 113633
+                    "always_on": 3894,
+                    "on_invoke": 122165
                 }
             },
             "unique_installs": 687,
-            "version": "6.89.2"
+            "version": "6.93.3"
         },
         "carta-crm@claude-plugins-official": {
             "components": {
@@ -5603,157 +5603,10 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 520,
-                            "on_invoke": 27511
-                        },
-                        "name": "get-angles"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 366,
-                            "on_invoke": 1521
-                        },
-                        "name": "update-note"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 792,
-                            "on_invoke": 8505
-                        },
-                        "name": "home"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 341,
-                            "on_invoke": 1796
-                        },
-                        "name": "add-company"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 311,
-                            "on_invoke": 1792
-                        },
-                        "name": "add-note"
-                    },
-                    {
-                        "chars": {
                             "always_on": 467,
                             "on_invoke": 2177
                         },
                         "name": "update-investor"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 470,
-                            "on_invoke": 3280
-                        },
-                        "name": "search-deals"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 392,
-                            "on_invoke": 2113
-                        },
-                        "name": "add-fundraising"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 419,
-                            "on_invoke": 2272
-                        },
-                        "name": "add-contact"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 514,
-                            "on_invoke": 3974
-                        },
-                        "name": "search-investors"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 380,
-                            "on_invoke": 1764
-                        },
-                        "name": "add-investor"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 662,
-                            "on_invoke": 15654
-                        },
-                        "name": "tutorial"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 464,
-                            "on_invoke": 2646
-                        },
-                        "name": "update-contact"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 529,
-                            "on_invoke": 4545
-                        },
-                        "name": "search-companies"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 736,
-                            "on_invoke": 32816
-                        },
-                        "name": "prepare-for-meeting"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 656,
-                            "on_invoke": 6955
-                        },
-                        "name": "deal-flow-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 538,
-                            "on_invoke": 4424
-                        },
-                        "name": "search-contacts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 528,
-                            "on_invoke": 2962
-                        },
-                        "name": "enrich-company"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 338,
-                            "on_invoke": 3308
-                        },
-                        "name": "search-reports"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 454,
-                            "on_invoke": 2241
-                        },
-                        "name": "update-company"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 337,
-                            "on_invoke": 1979
-                        },
-                        "name": "search-notes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 537,
-                            "on_invoke": 4219
-                        },
-                        "name": "search-fundraisings"
                     },
                     {
                         "chars": {
@@ -5764,10 +5617,157 @@
                     },
                     {
                         "chars": {
+                            "always_on": 341,
+                            "on_invoke": 1796
+                        },
+                        "name": "add-company"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 537,
+                            "on_invoke": 4219
+                        },
+                        "name": "search-fundraisings"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 366,
+                            "on_invoke": 1521
+                        },
+                        "name": "update-note"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 662,
+                            "on_invoke": 15654
+                        },
+                        "name": "tutorial"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 392,
+                            "on_invoke": 2113
+                        },
+                        "name": "add-fundraising"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 520,
+                            "on_invoke": 27511
+                        },
+                        "name": "get-angles"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 529,
+                            "on_invoke": 4545
+                        },
+                        "name": "search-companies"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 464,
+                            "on_invoke": 2646
+                        },
+                        "name": "update-contact"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 419,
+                            "on_invoke": 2272
+                        },
+                        "name": "add-contact"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 656,
+                            "on_invoke": 6955
+                        },
+                        "name": "deal-flow-analytics"
+                    },
+                    {
+                        "chars": {
                             "always_on": 329,
                             "on_invoke": 2843
                         },
                         "name": "add-deal"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 792,
+                            "on_invoke": 8505
+                        },
+                        "name": "home"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 337,
+                            "on_invoke": 1979
+                        },
+                        "name": "search-notes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 776,
+                            "on_invoke": 8848
+                        },
+                        "name": "carta-crm-home-build"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 528,
+                            "on_invoke": 2962
+                        },
+                        "name": "enrich-company"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 311,
+                            "on_invoke": 1792
+                        },
+                        "name": "add-note"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 454,
+                            "on_invoke": 2241
+                        },
+                        "name": "update-company"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 736,
+                            "on_invoke": 32816
+                        },
+                        "name": "prepare-for-meeting"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 338,
+                            "on_invoke": 3308
+                        },
+                        "name": "search-reports"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 470,
+                            "on_invoke": 3280
+                        },
+                        "name": "search-deals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 514,
+                            "on_invoke": 3974
+                        },
+                        "name": "search-investors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 538,
+                            "on_invoke": 4424
+                        },
+                        "name": "search-contacts"
                     },
                     {
                         "chars": {
@@ -5778,14 +5778,14 @@
                     },
                     {
                         "chars": {
-                            "always_on": 776,
-                            "on_invoke": 8848
+                            "always_on": 380,
+                            "on_invoke": 1764
                         },
-                        "name": "carta-crm-home-build"
+                        "name": "add-investor"
                     }
                 ]
             },
-            "last_updated": "2026-09-23T01:44:13Z",
+            "last_updated": "2026-10-07T14:12:16Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Carta Engineering"
@@ -5797,15 +5797,15 @@
                 "source": {
                     "path": "plugins/carta-crm",
                     "ref": "main",
-                    "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd",
+                    "sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b",
                     "source": "git-subdir",
                     "url": "https://github.com/carta/plugins.git"
                 }
             },
             "plugin": "carta-crm",
-            "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd",
+            "sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b",
             "source": "carta-crm@claude-plugins-official",
-            "source_sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd",
+            "source_sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 4196,
@@ -5817,7 +5817,7 @@
                 }
             },
             "unique_installs": 576,
-            "version": "1.14.2"
+            "version": "1.14.5"
         },
         "carta-investors@claude-plugins-official": {
             "components": {
@@ -9171,24 +9171,45 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 465,
-                            "on_invoke": 20359
+                            "always_on": 504,
+                            "on_invoke": 19322
                         },
-                        "name": "functions-falcon-api"
+                        "name": "api-integrations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 947,
+                            "on_invoke": 20384
+                        },
+                        "name": "functions-development"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 468,
+                            "on_invoke": 20513
+                        },
+                        "name": "e2e-testing"
                     },
                     {
                         "chars": {
                             "always_on": 441,
-                            "on_invoke": 14019
+                            "on_invoke": 17675
                         },
                         "name": "collections-development"
                     },
                     {
                         "chars": {
-                            "always_on": 461,
-                            "on_invoke": 21048
+                            "always_on": 435,
+                            "on_invoke": 6724
                         },
-                        "name": "workflows-development"
+                        "name": "security-patterns"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 465,
+                            "on_invoke": 20879
+                        },
+                        "name": "functions-falcon-api"
                     },
                     {
                         "chars": {
@@ -9199,56 +9220,42 @@
                     },
                     {
                         "chars": {
-                            "always_on": 435,
-                            "on_invoke": 6968
-                        },
-                        "name": "security-patterns"
-                    },
-                    {
-                        "chars": {
                             "always_on": 505,
-                            "on_invoke": 16016
+                            "on_invoke": 17602
                         },
                         "name": "debugging-workflows"
                     },
                     {
                         "chars": {
+                            "always_on": 461,
+                            "on_invoke": 21196
+                        },
+                        "name": "workflows-development"
+                    },
+                    {
+                        "chars": {
                             "always_on": 671,
-                            "on_invoke": 18790
+                            "on_invoke": 20529
                         },
                         "name": "development-workflow"
                     },
                     {
                         "chars": {
-                            "always_on": 504,
-                            "on_invoke": 16787
+                            "always_on": 1016,
+                            "on_invoke": 20567
                         },
-                        "name": "api-integrations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 468,
-                            "on_invoke": 20537
-                        },
-                        "name": "e2e-testing"
+                        "name": "ai-agents-development"
                     },
                     {
                         "chars": {
                             "always_on": 486,
-                            "on_invoke": 19115
+                            "on_invoke": 20894
                         },
                         "name": "ui-development"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 947,
-                            "on_invoke": 18929
-                        },
-                        "name": "functions-development"
                     }
                 ]
             },
-            "last_updated": "2026-08-19T13:56:50-04:00",
+            "last_updated": "2026-10-01T12:39:05-06:00",
             "marketplace_entry": {
                 "author": {
                     "name": "CrowdStrike"
@@ -9258,27 +9265,27 @@
                 "homepage": "https://github.com/CrowdStrike/foundry-skills",
                 "name": "crowdstrike-falcon-foundry",
                 "source": {
-                    "sha": "7f7d46687c16a9a37c9b08ad58ad58999aabe497",
+                    "sha": "61572f38592d47c747e2595182459781bf0bc679",
                     "source": "url",
                     "url": "https://github.com/CrowdStrike/foundry-skills.git"
                 }
             },
             "plugin": "crowdstrike-falcon-foundry",
-            "sha": "7f7d46687c16a9a37c9b08ad58ad58999aabe497",
+            "sha": "61572f38592d47c747e2595182459781bf0bc679",
             "source": "crowdstrike-falcon-foundry@claude-plugins-official",
-            "source_sha": "7f7d46687c16a9a37c9b08ad58ad58999aabe497",
+            "source_sha": "61572f38592d47c747e2595182459781bf0bc679",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2187,
-                    "on_invoke": 66715
+                    "always_on": 2563,
+                    "on_invoke": 78657
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1454,
-                    "on_invoke": 48405
+                    "always_on": 1693,
+                    "on_invoke": 57241
                 }
             },
             "unique_installs": 1253,
-            "version": "1.5.0"
+            "version": "1.6.0"
         },
         "crowdstrike-falcon-fusion@claude-plugins-official": {
             "components": {
@@ -9294,56 +9301,56 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 460,
-                            "on_invoke": 17763
+                            "always_on": 342,
+                            "on_invoke": 9657
                         },
-                        "name": "workflows"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 359,
-                            "on_invoke": 7538
-                        },
-                        "name": "lookup-files"
+                        "name": "execution"
                     },
                     {
                         "chars": {
                             "always_on": 686,
-                            "on_invoke": 20879
+                            "on_invoke": 20703
                         },
                         "name": "authoring"
                     },
                     {
                         "chars": {
                             "always_on": 362,
-                            "on_invoke": 18249
+                            "on_invoke": 18148
                         },
                         "name": "deployment"
                     },
                     {
                         "chars": {
-                            "always_on": 606,
-                            "on_invoke": 2097
+                            "always_on": 601,
+                            "on_invoke": 2246
                         },
                         "name": "foundry-redirect"
                     },
                     {
                         "chars": {
-                            "always_on": 342,
-                            "on_invoke": 9744
+                            "always_on": 210,
+                            "on_invoke": 6892
                         },
-                        "name": "execution"
+                        "name": "setup"
                     },
                     {
                         "chars": {
-                            "always_on": 210,
-                            "on_invoke": 6979
+                            "always_on": 460,
+                            "on_invoke": 17974
                         },
-                        "name": "setup"
+                        "name": "workflows"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 359,
+                            "on_invoke": 7444
+                        },
+                        "name": "lookup-files"
                     }
                 ]
             },
-            "last_updated": "2026-09-08T22:24:04+05:30",
+            "last_updated": "2026-10-01T16:30:51-06:00",
             "marketplace_entry": {
                 "author": {
                     "name": "CrowdStrike"
@@ -9353,27 +9360,27 @@
                 "homepage": "https://github.com/CrowdStrike/fusion-skills",
                 "name": "crowdstrike-falcon-fusion",
                 "source": {
-                    "sha": "3e15710a94b712473e87ce7cd7c43d026156a3f3",
+                    "sha": "38527dc5afa970543859c31ca5dbf69352bfaa28",
                     "source": "url",
                     "url": "https://github.com/CrowdStrike/fusion-skills.git"
                 }
             },
             "plugin": "crowdstrike-falcon-fusion",
-            "sha": "3e15710a94b712473e87ce7cd7c43d026156a3f3",
+            "sha": "38527dc5afa970543859c31ca5dbf69352bfaa28",
             "source": "crowdstrike-falcon-fusion@claude-plugins-official",
-            "source_sha": "3e15710a94b712473e87ce7cd7c43d026156a3f3",
+            "source_sha": "38527dc5afa970543859c31ca5dbf69352bfaa28",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1154,
-                    "on_invoke": 31764
+                    "always_on": 1152,
+                    "on_invoke": 31473
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 724,
-                    "on_invoke": 22875
+                    "always_on": 723,
+                    "on_invoke": 22775
                 }
             },
             "unique_installs": 173,
-            "version": "1.2.0"
+            "version": "1.3.0"
         },
         "csharp-lsp@claude-plugins-official": {
             "components": {
@@ -13739,13 +13746,6 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 292,
-                            "on_invoke": 7192
-                        },
-                        "name": "general-analysis"
-                    },
-                    {
-                        "chars": {
                             "always_on": 221,
                             "on_invoke": 4683
                         },
@@ -13754,13 +13754,34 @@
                     {
                         "chars": {
                             "always_on": 176,
-                            "on_invoke": 3522
+                            "on_invoke": 4087
                         },
                         "name": "session-review"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 728,
+                            "on_invoke": 12961
+                        },
+                        "name": "friction-analysis"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 829,
+                            "on_invoke": 23838
+                        },
+                        "name": "idea-generation"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 729,
+                            "on_invoke": 12696
+                        },
+                        "name": "general-analysis"
                     }
                 ]
             },
-            "last_updated": "2026-06-04T12:46:32-04:00",
+            "last_updated": "2026-10-05T11:21:51-04:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Fullstory"
@@ -13770,27 +13791,27 @@
                 "homepage": "https://www.fullstory.com",
                 "name": "fullstory",
                 "source": {
-                    "sha": "b20614e2d08d7a7c70775bb62b5af640f60b024b",
+                    "sha": "ca872d97f5c35dc41ee2eecfc6e392a5895ac171",
                     "source": "url",
                     "url": "https://github.com/fullstorydev/fullstory-skills.git"
                 }
             },
             "plugin": "fullstory",
-            "sha": "b20614e2d08d7a7c70775bb62b5af640f60b024b",
+            "sha": "ca872d97f5c35dc41ee2eecfc6e392a5895ac171",
             "source": "fullstory@claude-plugins-official",
-            "source_sha": "b20614e2d08d7a7c70775bb62b5af640f60b024b",
+            "source_sha": "ca872d97f5c35dc41ee2eecfc6e392a5895ac171",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 332,
-                    "on_invoke": 5380
+                    "always_on": 916,
+                    "on_invoke": 19490
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 237,
-                    "on_invoke": 4018
+                    "always_on": 666,
+                    "on_invoke": 14787
                 }
             },
             "unique_installs": 477,
-            "version": "0.1.0"
+            "version": "0.2.0"
         },
         "gc-ai@claude-plugins-official": {
             "components": {
@@ -14773,7 +14794,7 @@
                     "name": "Hostinger"
                 },
                 "category": "deployment",
-                "description": "Deploy, manage and monitor Hostinger services \u2014 Websites, Domains, Ecommerce, Email Marketing, Subscriptions & Payments, and VPS. Authenticate via browser (OAuth) or API token.",
+                "description": "Deploy, manage and monitor your Hostinger services directly from Claude Code. The plugin connects Claude to Hostinger's remote MCP server, so you can ship sites and apps, manage domains and DNS, run WordPress and operate VPS servers without leaving your coding environment. There's nothing to install on your machine: no Node.js, no npm, no local server. Key features include one-prompt deployments for static sites, Node.js apps (built on Hostinger), full WordPress site imports, and WordPress plugins and themes, plus static and PHP sites on the Agency Plan. Beyond deployments, Claude can search and register domains, edit DNS records and snapshots, check build logs, and manage mailboxes, online stores, email marketing contacts, subscriptions and orders. It can also control VPS firewalls, snapshots and monitoring. Sign in through your browser (OAuth) on first use, or set a `HOSTINGER_API_TOKEN` from hPanel. How to use: there are no commands to memorize. Describe what you want and Claude picks the right tool or deployment skill. Try \"deploy my static site to Hostinger\", \"deploy this Next.js app to example.com\", \"create an A record pointing example.com to 1.2.3.4\", or \"show VPS metrics for the last 24 hours.\"",
                 "displayName": "Hostinger",
                 "homepage": "https://www.hostinger.com",
                 "name": "hostinger",
@@ -22434,59 +22455,101 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 606,
-                            "on_invoke": 14024
+                            "always_on": 547,
+                            "on_invoke": 8611
                         },
-                        "name": "exploring-llm-traces"
+                        "name": "managing-endpoint-versions"
                     },
                     {
                         "chars": {
-                            "always_on": 1014,
-                            "on_invoke": 20157
+                            "always_on": 549,
+                            "on_invoke": 14188
                         },
-                        "name": "working-with-scouts"
+                        "name": "tuning-incremental-sync-config"
                     },
                     {
                         "chars": {
-                            "always_on": 453,
-                            "on_invoke": 1547
+                            "always_on": 657,
+                            "on_invoke": 8150
                         },
-                        "name": "organizing-conversations-code"
+                        "name": "managing-path-cleaning-rules"
                     },
                     {
                         "chars": {
-                            "always_on": 501,
-                            "on_invoke": 4264
+                            "always_on": 491,
+                            "on_invoke": 13806
                         },
-                        "name": "building-html-canvases"
+                        "name": "building-loops"
                     },
                     {
                         "chars": {
-                            "always_on": 761,
-                            "on_invoke": 8093
+                            "always_on": 630,
+                            "on_invoke": 11677
                         },
-                        "name": "diagnosing-stacktrace-symbolication"
+                        "name": "filtering-bot-traffic"
                     },
                     {
                         "chars": {
-                            "always_on": 636,
-                            "on_invoke": 6353
+                            "always_on": 278,
+                            "on_invoke": 7094
                         },
-                        "name": "setting-up-support-slack-locally"
+                        "name": "instrument-llm-analytics"
                     },
                     {
                         "chars": {
-                            "always_on": 797,
-                            "on_invoke": 9061
+                            "always_on": 837,
+                            "on_invoke": 9937
                         },
-                        "name": "assessing-heatmaps"
+                        "name": "authoring-data-quality-checks"
                     },
                     {
                         "chars": {
-                            "always_on": 544,
-                            "on_invoke": 6382
+                            "always_on": 759,
+                            "on_invoke": 2352
                         },
-                        "name": "exploring-endpoint-execution-logs"
+                        "name": "finding-experiments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 346,
+                            "on_invoke": 10473
+                        },
+                        "name": "diagnosing-sdk-health"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 557,
+                            "on_invoke": 13202
+                        },
+                        "name": "exploring-live-traffic"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 656,
+                            "on_invoke": 7219
+                        },
+                        "name": "managing-reminders"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 825,
+                            "on_invoke": 42342
+                        },
+                        "name": "authoring-scouts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 956,
+                            "on_invoke": 15421
+                        },
+                        "name": "querying-posthog-data"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 267,
+                            "on_invoke": 21144
+                        },
+                        "name": "signals-scout-customer-analytics-billing-and-usage"
                     },
                     {
                         "chars": {
@@ -22497,45 +22560,157 @@
                     },
                     {
                         "chars": {
-                            "always_on": 425,
-                            "on_invoke": 12811
+                            "always_on": 488,
+                            "on_invoke": 12671
                         },
-                        "name": "diagnosing-endpoint-performance"
+                        "name": "consuming-endpoints-from-client-code"
                     },
                     {
                         "chars": {
-                            "always_on": 481,
-                            "on_invoke": 6846
+                            "always_on": 696,
+                            "on_invoke": 8073
                         },
-                        "name": "exploring-mcp-tool-usage"
+                        "name": "suggesting-data-imports"
                     },
                     {
                         "chars": {
-                            "always_on": 547,
-                            "on_invoke": 8611
+                            "always_on": 233,
+                            "on_invoke": 26750
                         },
-                        "name": "managing-endpoint-versions"
+                        "name": "signals-scout-surveys"
                     },
                     {
                         "chars": {
-                            "always_on": 892,
-                            "on_invoke": 11467
+                            "always_on": 660,
+                            "on_invoke": 30013
                         },
-                        "name": "querying-posthog-data"
+                        "name": "inbox-exploration"
                     },
                     {
                         "chars": {
-                            "always_on": 468,
-                            "on_invoke": 5284
+                            "always_on": 761,
+                            "on_invoke": 8093
                         },
-                        "name": "auditing-warehouse-view-health"
+                        "name": "diagnosing-stacktrace-symbolication"
                     },
                     {
                         "chars": {
-                            "always_on": 169,
-                            "on_invoke": 17696
+                            "always_on": 633,
+                            "on_invoke": 5274
                         },
-                        "name": "signals-scout-ai-observability"
+                        "name": "investigating-metric-anomalies"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 342,
+                            "on_invoke": 3510
+                        },
+                        "name": "review-hog-perspective-logic-correctness"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 767,
+                            "on_invoke": 34896
+                        },
+                        "name": "cleaning-up-stale-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 611,
+                            "on_invoke": 10001
+                        },
+                        "name": "creating-experiments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 628,
+                            "on_invoke": 29637
+                        },
+                        "name": "feature-usage-feed"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 542,
+                            "on_invoke": 5395
+                        },
+                        "name": "writing-streamlit-apps"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 629,
+                            "on_invoke": 10835
+                        },
+                        "name": "creating-an-endpoint"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 168,
+                            "on_invoke": 8583
+                        },
+                        "name": "signals-scout-general"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 213,
+                            "on_invoke": 11998
+                        },
+                        "name": "skills-store"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 706,
+                            "on_invoke": 4846
+                        },
+                        "name": "writing-simplified-technical-english"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 679,
+                            "on_invoke": 7254
+                        },
+                        "name": "suggesting-path-cleaning-rules"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 221,
+                            "on_invoke": 12099
+                        },
+                        "name": "exploring-llm-clusters"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1007,
+                            "on_invoke": 22677
+                        },
+                        "name": "scanning-experiments-with-replay-vision"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 319,
+                            "on_invoke": 7448
+                        },
+                        "name": "designing-email-templates"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 271,
+                            "on_invoke": 30667
+                        },
+                        "name": "signals-scout-web-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 905,
+                            "on_invoke": 8204
+                        },
+                        "name": "copying-endpoints-across-projects"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 649,
+                            "on_invoke": 10661
+                        },
+                        "name": "exploring-autocapture-events"
                     },
                     {
                         "chars": {
@@ -22546,29 +22721,554 @@
                     },
                     {
                         "chars": {
-                            "always_on": 273,
-                            "on_invoke": 15126
+                            "always_on": 439,
+                            "on_invoke": 4427
                         },
-                        "name": "analyzing-expensive-users"
+                        "name": "managing-streamlit-apps"
                     },
                     {
                         "chars": {
-                            "always_on": 275,
+                            "always_on": 572,
+                            "on_invoke": 23386
+                        },
+                        "name": "setting-up-a-data-warehouse-source"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 797,
+                            "on_invoke": 9061
+                        },
+                        "name": "assessing-heatmaps"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 631,
+                            "on_invoke": 8354
+                        },
+                        "name": "building-a-dashboard"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 370,
+                            "on_invoke": 6248
+                        },
+                        "name": "instrument-metrics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 468,
+                            "on_invoke": 5284
+                        },
+                        "name": "auditing-warehouse-view-health"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 566,
+                            "on_invoke": 3099
+                        },
+                        "name": "checking-deploy-timing"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 820,
+                            "on_invoke": 9432
+                        },
+                        "name": "finding-sessions-to-watch"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 335,
+                            "on_invoke": 5199
+                        },
+                        "name": "review-hog-resolution-criteria"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 481,
+                            "on_invoke": 6753
+                        },
+                        "name": "exploring-mcp-tool-usage"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 418,
+                            "on_invoke": 3888
+                        },
+                        "name": "creating-box-plot-insights"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 956,
+                            "on_invoke": 18020
+                        },
+                        "name": "managing-experiment-lifecycle"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 259,
+                            "on_invoke": 9495
+                        },
+                        "name": "instrument-product-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 453,
+                            "on_invoke": 8493
+                        },
+                        "name": "copying-flags-across-projects"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 675,
+                            "on_invoke": 3069
+                        },
+                        "name": "choosing-trend-or-slope-view"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1028,
+                            "on_invoke": 25645
+                        },
+                        "name": "creating-online-evaluations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 205,
+                            "on_invoke": 23600
+                        },
+                        "name": "signals-scout-logs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1034,
+                            "on_invoke": 4158
+                        },
+                        "name": "modeling-dimension-tables"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 371,
+                            "on_invoke": 13680
+                        },
+                        "name": "signals-scout-workflows"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 681,
                             "on_invoke": 7346
                         },
-                        "name": "instrument-llm-analytics"
+                        "name": "review-hog-authoring"
                     },
                     {
                         "chars": {
-                            "always_on": 701,
-                            "on_invoke": 11129
+                            "always_on": 318,
+                            "on_invoke": 31724
                         },
-                        "name": "building-canvases"
+                        "name": "signals-scout-inbox-validation"
                     },
                     {
                         "chars": {
-                            "always_on": 430,
-                            "on_invoke": 10346
+                            "always_on": 293,
+                            "on_invoke": 42028
+                        },
+                        "name": "signals-scout-web-vitals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 234,
+                            "on_invoke": 5671
+                        },
+                        "name": "context-layer-dreaming"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 419,
+                            "on_invoke": 10971
+                        },
+                        "name": "exploring-llm-costs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 515,
+                            "on_invoke": 17301
+                        },
+                        "name": "investigating-error-issue"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 380,
+                            "on_invoke": 11741
+                        },
+                        "name": "authoring-log-alerts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 214,
+                            "on_invoke": 17129
+                        },
+                        "name": "signals-scout-apm"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 520,
+                            "on_invoke": 13615
+                        },
+                        "name": "exploring-apm-traces"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 501,
+                            "on_invoke": 4565
+                        },
+                        "name": "building-html-canvases"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 333,
+                            "on_invoke": 3811
+                        },
+                        "name": "review-hog-validation-criteria"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 234,
+                            "on_invoke": 33206
+                        },
+                        "name": "signals-scout-session-replay"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1016,
+                            "on_invoke": 15033
+                        },
+                        "name": "diagnosing-experiment-results"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 228,
+                            "on_invoke": 31234
+                        },
+                        "name": "signals-scout-experiments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 232,
+                            "on_invoke": 40487
+                        },
+                        "name": "signals-scout-csp-violations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1014,
+                            "on_invoke": 20654
+                        },
+                        "name": "debugging-experiments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 945,
+                            "on_invoke": 11175
+                        },
+                        "name": "setting-up-a-custom-rest-source"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 485,
+                            "on_invoke": 16847
+                        },
+                        "name": "signals"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 108,
+                            "on_invoke": 666
+                        },
+                        "name": "context-layer-health-check"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 734,
+                            "on_invoke": 11856
+                        },
+                        "name": "understanding-billing-usage"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 260,
+                            "on_invoke": 5876
+                        },
+                        "name": "instrument-logs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1023,
+                            "on_invoke": 10444
+                        },
+                        "name": "turning-engineering-analytics-into-insights"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 403,
+                            "on_invoke": 5908
+                        },
+                        "name": "creating-surveys"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 469,
+                            "on_invoke": 8988
+                        },
+                        "name": "downloading-batch-export-files"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1051,
+                            "on_invoke": 12940
+                        },
+                        "name": "creating-replay-vision-scanners"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 418,
+                            "on_invoke": 10553
+                        },
+                        "name": "authoring-error-tracking-alerts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 535,
+                            "on_invoke": 7229
+                        },
+                        "name": "finding-deleted-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 438,
+                            "on_invoke": 6270
+                        },
+                        "name": "finding-replay-for-issue"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 261,
+                            "on_invoke": 8724
+                        },
+                        "name": "instrument-integration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 698,
+                            "on_invoke": 14457
+                        },
+                        "name": "configuring-experiment-rollout"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 262,
+                            "on_invoke": 26381
+                        },
+                        "name": "signals-scout-tasks"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 292,
+                            "on_invoke": 32169
+                        },
+                        "name": "signals-scout-mcp-tool-calls"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 780,
+                            "on_invoke": 34121
+                        },
+                        "name": "working-with-scouts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 564,
+                            "on_invoke": 16560
+                        },
+                        "name": "diagnosing-failed-warehouse-syncs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 219,
+                            "on_invoke": 53033
+                        },
+                        "name": "signals-scout-feature-flags"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 425,
+                            "on_invoke": 12811
+                        },
+                        "name": "diagnosing-endpoint-performance"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 229,
+                            "on_invoke": 21381
+                        },
+                        "name": "signals-scout-customer-analytics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 295,
+                            "on_invoke": 43372
+                        },
+                        "name": "signals-scout-data-warehouse"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 169,
+                            "on_invoke": 19064
+                        },
+                        "name": "signals-scout-ai-observability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 718,
+                            "on_invoke": 19242
+                        },
+                        "name": "querying-canvas-data"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 564,
+                            "on_invoke": 13238
+                        },
+                        "name": "grouping-noisy-errors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 517,
+                            "on_invoke": 11299
+                        },
+                        "name": "creating-ai-subscription"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 173,
+                            "on_invoke": 14326
+                        },
+                        "name": "signals-scout-error-tracking"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 679,
+                            "on_invoke": 8556
+                        },
+                        "name": "setting-up-warehouse-properties"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 757,
+                            "on_invoke": 10869
+                        },
+                        "name": "exploring-ai-failures"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 415,
+                            "on_invoke": 7760
+                        },
+                        "name": "exploring-mcp-sessions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 329,
+                            "on_invoke": 3637
+                        },
+                        "name": "review-hog-perspective-performance-reliability"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 752,
+                            "on_invoke": 27508
+                        },
+                        "name": "debugging-surveys"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 604,
+                            "on_invoke": 12219
+                        },
+                        "name": "checking-member-access"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 417,
+                            "on_invoke": 7408
+                        },
+                        "name": "exploring-mcp-tool-quality"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 716,
+                            "on_invoke": 10970
+                        },
+                        "name": "adding-warehouse-person-properties"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1059,
+                            "on_invoke": 7294
+                        },
+                        "name": "modeling-warehouse-foundations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 630,
+                            "on_invoke": 12052
+                        },
+                        "name": "validating-and-publishing-canvases"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 571,
+                            "on_invoke": 15309
+                        },
+                        "name": "suppressing-noisy-errors"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 257,
+                            "on_invoke": 18640
+                        },
+                        "name": "signals-scout-skills-store"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 999,
+                            "on_invoke": 43968
+                        },
+                        "name": "exploring-scouts"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 645,
+                            "on_invoke": 7804
+                        },
+                        "name": "composing-grid-canvases"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 729,
+                            "on_invoke": 7604
+                        },
+                        "name": "formatting-insight-axes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1052,
+                            "on_invoke": 4208
+                        },
+                        "name": "modeling-product-usage-metrics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 473,
+                            "on_invoke": 7910
                         },
                         "name": "managing-subscriptions"
                     },
@@ -22581,115 +23281,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 566,
-                            "on_invoke": 3099
+                            "always_on": 701,
+                            "on_invoke": 14861
                         },
-                        "name": "checking-deploy-timing"
+                        "name": "building-canvases"
                     },
                     {
                         "chars": {
-                            "always_on": 214,
-                            "on_invoke": 16635
+                            "always_on": 403,
+                            "on_invoke": 7537
                         },
-                        "name": "signals-scout-apm"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 628,
-                            "on_invoke": 29333
-                        },
-                        "name": "feature-usage-feed"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 645,
-                            "on_invoke": 7663
-                        },
-                        "name": "composing-grid-canvases"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 252,
-                            "on_invoke": 24395
-                        },
-                        "name": "signals-scout-data-pipelines"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 370,
-                            "on_invoke": 6304
-                        },
-                        "name": "instrument-metrics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 108,
-                            "on_invoke": 884
-                        },
-                        "name": "context-layer-consolidation"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 292,
-                            "on_invoke": 27772
-                        },
-                        "name": "signals-scout-mcp-tool-calls"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 681,
-                            "on_invoke": 7346
-                        },
-                        "name": "review-hog-authoring"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 269,
-                            "on_invoke": 6929
-                        },
-                        "name": "instrument-error-tracking"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 271,
-                            "on_invoke": 30651
-                        },
-                        "name": "signals-scout-web-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 571,
-                            "on_invoke": 15309
-                        },
-                        "name": "suppressing-noisy-errors"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 906,
-                            "on_invoke": 29540
-                        },
-                        "name": "debugging-mcp-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 660,
-                            "on_invoke": 28887
-                        },
-                        "name": "inbox-exploration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 439,
-                            "on_invoke": 4427
-                        },
-                        "name": "managing-streamlit-apps"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 515,
-                            "on_invoke": 17301
-                        },
-                        "name": "investigating-error-issue"
+                        "name": "diagnosing-missing-recordings"
                     },
                     {
                         "chars": {
@@ -22700,52 +23302,38 @@
                     },
                     {
                         "chars": {
-                            "always_on": 757,
-                            "on_invoke": 10869
+                            "always_on": 606,
+                            "on_invoke": 21957
                         },
-                        "name": "exploring-ai-failures"
+                        "name": "exploring-llm-evaluations"
                     },
                     {
                         "chars": {
-                            "always_on": 281,
-                            "on_invoke": 3518
+                            "always_on": 465,
+                            "on_invoke": 11663
                         },
-                        "name": "auditing-experiments-flags"
+                        "name": "building-react-quill-canvases"
                     },
                     {
                         "chars": {
-                            "always_on": 1032,
-                            "on_invoke": 6666
+                            "always_on": 235,
+                            "on_invoke": 17373
                         },
-                        "name": "modeling-revenue-metrics"
+                        "name": "signals-scout-anomaly-detection"
                     },
                     {
                         "chars": {
-                            "always_on": 770,
-                            "on_invoke": 6045
+                            "always_on": 108,
+                            "on_invoke": 985
                         },
-                        "name": "authoring-data-quality-checks"
+                        "name": "context-layer-consolidation"
                     },
                     {
                         "chars": {
-                            "always_on": 740,
-                            "on_invoke": 11782
+                            "always_on": 606,
+                            "on_invoke": 17017
                         },
-                        "name": "exploring-replay-vision-observations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 333,
-                            "on_invoke": 3811
-                        },
-                        "name": "review-hog-validation-criteria"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 542,
-                            "on_invoke": 5395
-                        },
-                        "name": "writing-streamlit-apps"
+                        "name": "exploring-llm-traces"
                     },
                     {
                         "chars": {
@@ -22756,486 +23344,59 @@
                     },
                     {
                         "chars": {
-                            "always_on": 233,
-                            "on_invoke": 26896
+                            "always_on": 461,
+                            "on_invoke": 7227
                         },
-                        "name": "signals-scout-surveys"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 630,
-                            "on_invoke": 9956
-                        },
-                        "name": "validating-and-publishing-canvases"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 564,
-                            "on_invoke": 13238
-                        },
-                        "name": "grouping-noisy-errors"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 679,
-                            "on_invoke": 8323
-                        },
-                        "name": "setting-up-warehouse-properties"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1052,
-                            "on_invoke": 4208
-                        },
-                        "name": "modeling-product-usage-metrics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 213,
-                            "on_invoke": 12057
-                        },
-                        "name": "skills-store"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 628,
-                            "on_invoke": 7025
-                        },
-                        "name": "exploring-mcp-intent-clusters"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 205,
-                            "on_invoke": 23221
-                        },
-                        "name": "signals-scout-logs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 223,
-                            "on_invoke": 22354
-                        },
-                        "name": "signals-scout-observability-gaps"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 486,
-                            "on_invoke": 8695
-                        },
-                        "name": "testing-mcp-tools-locally"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 234,
-                            "on_invoke": 29469
-                        },
-                        "name": "signals-scout-session-replay"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 487,
-                            "on_invoke": 9197
-                        },
-                        "name": "investigating-replay"
+                        "name": "triaging-error-issues"
                     },
                     {
                         "chars": {
                             "always_on": 977,
-                            "on_invoke": 13308
+                            "on_invoke": 13694
                         },
                         "name": "diagnosing-ci-and-merge-bottlenecks"
                     },
                     {
                         "chars": {
-                            "always_on": 168,
-                            "on_invoke": 7704
+                            "always_on": 740,
+                            "on_invoke": 13278
                         },
-                        "name": "signals-scout-general"
+                        "name": "exploring-replay-vision-observations"
                     },
                     {
                         "chars": {
-                            "always_on": 656,
-                            "on_invoke": 5961
-                        },
-                        "name": "managing-reminders"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 657,
-                            "on_invoke": 8150
-                        },
-                        "name": "managing-path-cleaning-rules"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1051,
-                            "on_invoke": 11655
-                        },
-                        "name": "creating-replay-vision-scanners"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 418,
-                            "on_invoke": 3888
-                        },
-                        "name": "creating-box-plot-insights"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 614,
-                            "on_invoke": 10835
-                        },
-                        "name": "creating-an-endpoint"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 484,
-                            "on_invoke": 9069
-                        },
-                        "name": "debugging-signals-pipeline"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1016,
-                            "on_invoke": 14833
-                        },
-                        "name": "diagnosing-experiment-results"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 262,
-                            "on_invoke": 26191
-                        },
-                        "name": "signals-scout-tasks"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 572,
-                            "on_invoke": 23386
-                        },
-                        "name": "setting-up-a-data-warehouse-source"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 520,
-                            "on_invoke": 13615
-                        },
-                        "name": "exploring-apm-traces"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1036,
-                            "on_invoke": 29502
-                        },
-                        "name": "authoring-scouts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 323,
-                            "on_invoke": 10208
-                        },
-                        "name": "cleaning-up-stale-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 716,
-                            "on_invoke": 10963
-                        },
-                        "name": "adding-warehouse-person-properties"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 221,
-                            "on_invoke": 12099
-                        },
-                        "name": "exploring-llm-clusters"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 293,
-                            "on_invoke": 39474
-                        },
-                        "name": "signals-scout-web-vitals"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 219,
-                            "on_invoke": 29244
-                        },
-                        "name": "signals-scout-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 905,
-                            "on_invoke": 8204
-                        },
-                        "name": "copying-endpoints-across-projects"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 173,
-                            "on_invoke": 13627
-                        },
-                        "name": "signals-scout-error-tracking"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 403,
-                            "on_invoke": 7280
-                        },
-                        "name": "diagnosing-missing-recordings"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 485,
-                            "on_invoke": 16847
-                        },
-                        "name": "signals"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 346,
-                            "on_invoke": 10473
-                        },
-                        "name": "diagnosing-sdk-health"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 260,
-                            "on_invoke": 5995
-                        },
-                        "name": "instrument-logs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 267,
-                            "on_invoke": 21221
-                        },
-                        "name": "signals-scout-customer-analytics-billing-and-usage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 198,
-                            "on_invoke": 18569
-                        },
-                        "name": "signals-scout-revenue-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 536,
-                            "on_invoke": 6920
-                        },
-                        "name": "debugging-local-replay"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 511,
-                            "on_invoke": 5607
-                        },
-                        "name": "working-with-task-comments"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1034,
-                            "on_invoke": 4158
-                        },
-                        "name": "modeling-dimension-tables"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 395,
-                            "on_invoke": 13927
-                        },
-                        "name": "building-workflows"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 633,
-                            "on_invoke": 5274
-                        },
-                        "name": "investigating-metric-anomalies"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 418,
-                            "on_invoke": 9282
-                        },
-                        "name": "authoring-error-tracking-alerts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 706,
-                            "on_invoke": 4846
-                        },
-                        "name": "writing-simplified-technical-english"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 996,
-                            "on_invoke": 13372
+                            "always_on": 1014,
+                            "on_invoke": 13572
                         },
                         "name": "configuring-experiment-analytics"
                     },
                     {
                         "chars": {
-                            "always_on": 564,
-                            "on_invoke": 16272
+                            "always_on": 1032,
+                            "on_invoke": 6666
                         },
-                        "name": "diagnosing-failed-warehouse-syncs"
+                        "name": "modeling-revenue-metrics"
                     },
                     {
                         "chars": {
-                            "always_on": 698,
-                            "on_invoke": 10922
+                            "always_on": 544,
+                            "on_invoke": 6382
                         },
-                        "name": "configuring-experiment-rollout"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 944,
-                            "on_invoke": 35617
-                        },
-                        "name": "exploring-scouts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 247,
-                            "on_invoke": 5687
-                        },
-                        "name": "instrument-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 595,
-                            "on_invoke": 15241
-                        },
-                        "name": "querying-canvas-data"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 229,
-                            "on_invoke": 21381
-                        },
-                        "name": "signals-scout-customer-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 469,
-                            "on_invoke": 7307
-                        },
-                        "name": "downloading-batch-export-files"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 945,
-                            "on_invoke": 11175
-                        },
-                        "name": "setting-up-a-custom-rest-source"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 734,
-                            "on_invoke": 11700
-                        },
-                        "name": "understanding-billing-usage"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 345,
-                            "on_invoke": 7270
-                        },
-                        "name": "investigate-metric"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 617,
-                            "on_invoke": 9280
-                        },
-                        "name": "auditing-warehouse-source-health"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 794,
-                            "on_invoke": 15986
-                        },
-                        "name": "managing-experiment-lifecycle"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 557,
-                            "on_invoke": 13202
-                        },
-                        "name": "exploring-live-traffic"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 524,
-                            "on_invoke": 9212
-                        },
-                        "name": "analyzing-experiment-session-replays"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 227,
-                            "on_invoke": 28799
-                        },
-                        "name": "signals-scout-replay-vision"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 816,
-                            "on_invoke": 30613
-                        },
-                        "name": "debugging-surveys"
+                        "name": "exploring-endpoint-execution-logs"
                     },
                     {
                         "chars": {
                             "always_on": 949,
-                            "on_invoke": 36474
+                            "on_invoke": 36509
                         },
                         "name": "exploring-mcp-tool-original-user-motive"
                     },
                     {
                         "chars": {
-                            "always_on": 465,
-                            "on_invoke": 10139
+                            "always_on": 487,
+                            "on_invoke": 9300
                         },
-                        "name": "building-react-quill-canvases"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 415,
-                            "on_invoke": 8009
-                        },
-                        "name": "exploring-mcp-sessions"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 224,
-                            "on_invoke": 20816
-                        },
-                        "name": "signals-scout-product-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 204,
-                            "on_invoke": 21429
-                        },
-                        "name": "signals-scout-health-checks"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 549,
-                            "on_invoke": 14268
-                        },
-                        "name": "tuning-incremental-sync-config"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 696,
-                            "on_invoke": 8073
-                        },
-                        "name": "suggesting-data-imports"
+                        "name": "investigating-replay"
                     },
                     {
                         "chars": {
@@ -23246,199 +23407,73 @@
                     },
                     {
                         "chars": {
-                            "always_on": 108,
-                            "on_invoke": 666
+                            "always_on": 198,
+                            "on_invoke": 18924
                         },
-                        "name": "context-layer-health-check"
+                        "name": "signals-scout-revenue-analytics"
                     },
                     {
                         "chars": {
-                            "always_on": 228,
-                            "on_invoke": 30081
+                            "always_on": 269,
+                            "on_invoke": 6719
                         },
-                        "name": "signals-scout-experiments"
+                        "name": "instrument-error-tracking"
                     },
                     {
                         "chars": {
-                            "always_on": 1059,
-                            "on_invoke": 7294
-                        },
-                        "name": "modeling-warehouse-foundations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 235,
-                            "on_invoke": 17374
-                        },
-                        "name": "signals-scout-anomaly-detection"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 538,
-                            "on_invoke": 5171
-                        },
-                        "name": "improving-mcp-tools"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1059,
-                            "on_invoke": 17874
-                        },
-                        "name": "planning-voice-agent-user-interviews"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 232,
-                            "on_invoke": 39635
-                        },
-                        "name": "signals-scout-csp-violations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 453,
-                            "on_invoke": 8493
-                        },
-                        "name": "copying-flags-across-projects"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 630,
-                            "on_invoke": 11677
-                        },
-                        "name": "filtering-bot-traffic"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 261,
-                            "on_invoke": 8948
-                        },
-                        "name": "instrument-integration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 329,
-                            "on_invoke": 3637
-                        },
-                        "name": "review-hog-perspective-performance-reliability"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 258,
-                            "on_invoke": 20510
-                        },
-                        "name": "signals-scout-conversations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 606,
-                            "on_invoke": 19631
-                        },
-                        "name": "exploring-llm-evaluations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 615,
-                            "on_invoke": 15212
+                            "always_on": 723,
+                            "on_invoke": 35547
                         },
                         "name": "triaging-visual-review-runs"
                     },
                     {
                         "chars": {
-                            "always_on": 950,
-                            "on_invoke": 4652
+                            "always_on": 277,
+                            "on_invoke": 33642
                         },
-                        "name": "modeling-conversion-metrics"
+                        "name": "signals-scout-pr-follow-up"
                     },
                     {
                         "chars": {
-                            "always_on": 631,
-                            "on_invoke": 3404
+                            "always_on": 628,
+                            "on_invoke": 7025
                         },
-                        "name": "building-a-dashboard"
+                        "name": "exploring-mcp-intent-clusters"
                     },
                     {
                         "chars": {
-                            "always_on": 342,
-                            "on_invoke": 3510
+                            "always_on": 224,
+                            "on_invoke": 21484
                         },
-                        "name": "review-hog-perspective-logic-correctness"
+                        "name": "signals-scout-product-analytics"
                     },
                     {
                         "chars": {
-                            "always_on": 257,
-                            "on_invoke": 18642
+                            "always_on": 524,
+                            "on_invoke": 9212
                         },
-                        "name": "signals-scout-skills-store"
+                        "name": "analyzing-experiment-session-replays"
                     },
                     {
                         "chars": {
-                            "always_on": 729,
-                            "on_invoke": 7604
+                            "always_on": 273,
+                            "on_invoke": 15126
                         },
-                        "name": "formatting-insight-axes"
+                        "name": "analyzing-expensive-users"
                     },
                     {
                         "chars": {
-                            "always_on": 496,
-                            "on_invoke": 15706
+                            "always_on": 664,
+                            "on_invoke": 10700
                         },
-                        "name": "working-with-skills"
+                        "name": "investigating-ci-failures"
                     },
                     {
                         "chars": {
-                            "always_on": 1023,
-                            "on_invoke": 10444
+                            "always_on": 252,
+                            "on_invoke": 25408
                         },
-                        "name": "turning-engineering-analytics-into-insights"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 820,
-                            "on_invoke": 9432
-                        },
-                        "name": "finding-sessions-to-watch"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 679,
-                            "on_invoke": 7254
-                        },
-                        "name": "suggesting-path-cleaning-rules"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 649,
-                            "on_invoke": 10661
-                        },
-                        "name": "exploring-autocapture-events"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 983,
-                            "on_invoke": 4463
-                        },
-                        "name": "modeling-activation-metrics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 675,
-                            "on_invoke": 3069
-                        },
-                        "name": "choosing-trend-or-slope-view"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 259,
-                            "on_invoke": 9698
-                        },
-                        "name": "instrument-product-analytics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 250,
-                            "on_invoke": 23086
-                        },
-                        "name": "signals-scout-inbox-validation"
+                        "name": "signals-scout-data-pipelines"
                     },
                     {
                         "chars": {
@@ -23449,167 +23484,132 @@
                     },
                     {
                         "chars": {
-                            "always_on": 1007,
-                            "on_invoke": 22724
+                            "always_on": 227,
+                            "on_invoke": 31595
                         },
-                        "name": "scanning-experiments-with-replay-vision"
+                        "name": "signals-scout-replay-vision"
                     },
                     {
                         "chars": {
-                            "always_on": 759,
-                            "on_invoke": 1950
+                            "always_on": 247,
+                            "on_invoke": 5512
                         },
-                        "name": "finding-experiments"
+                        "name": "instrument-feature-flags"
                     },
                     {
                         "chars": {
-                            "always_on": 419,
-                            "on_invoke": 10865
+                            "always_on": 627,
+                            "on_invoke": 16842
                         },
-                        "name": "exploring-llm-costs"
+                        "name": "working-with-skills"
                     },
                     {
                         "chars": {
-                            "always_on": 417,
-                            "on_invoke": 7454
+                            "always_on": 617,
+                            "on_invoke": 9280
                         },
-                        "name": "exploring-mcp-tool-quality"
+                        "name": "auditing-warehouse-source-health"
                     },
                     {
                         "chars": {
-                            "always_on": 499,
-                            "on_invoke": 9470
+                            "always_on": 281,
+                            "on_invoke": 3518
                         },
-                        "name": "creating-ai-subscription"
+                        "name": "auditing-experiments-flags"
                     },
                     {
                         "chars": {
-                            "always_on": 1014,
-                            "on_invoke": 20654
+                            "always_on": 983,
+                            "on_invoke": 4463
                         },
-                        "name": "debugging-experiments"
+                        "name": "modeling-activation-metrics"
                     },
                     {
                         "chars": {
-                            "always_on": 234,
-                            "on_invoke": 5176
+                            "always_on": 345,
+                            "on_invoke": 7264
                         },
-                        "name": "context-layer-dreaming"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 319,
-                            "on_invoke": 7448
-                        },
-                        "name": "designing-email-templates"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 380,
-                            "on_invoke": 11741
-                        },
-                        "name": "authoring-log-alerts"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1005,
-                            "on_invoke": 23342
-                        },
-                        "name": "creating-online-evaluations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 664,
-                            "on_invoke": 10499
-                        },
-                        "name": "investigating-ci-failures"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 500,
-                            "on_invoke": 5165
-                        },
-                        "name": "creating-experiments"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 438,
-                            "on_invoke": 6270
-                        },
-                        "name": "finding-replay-for-issue"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 461,
-                            "on_invoke": 7227
-                        },
-                        "name": "triaging-error-issues"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 535,
-                            "on_invoke": 7229
-                        },
-                        "name": "finding-deleted-feature-flags"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 335,
-                            "on_invoke": 5161
-                        },
-                        "name": "review-hog-resolution-criteria"
+                        "name": "investigate-metric"
                     },
                     {
                         "chars": {
                             "always_on": 910,
-                            "on_invoke": 24178
+                            "on_invoke": 27232
                         },
                         "name": "resolving-ingestion-warnings"
                     },
                     {
                         "chars": {
-                            "always_on": 488,
-                            "on_invoke": 12671
+                            "always_on": 223,
+                            "on_invoke": 22927
                         },
-                        "name": "consuming-endpoints-from-client-code"
+                        "name": "signals-scout-observability-gaps"
                     },
                     {
                         "chars": {
-                            "always_on": 295,
-                            "on_invoke": 42635
+                            "always_on": 511,
+                            "on_invoke": 5607
                         },
-                        "name": "signals-scout-data-warehouse"
+                        "name": "working-with-task-comments"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 950,
+                            "on_invoke": 4652
+                        },
+                        "name": "modeling-conversion-metrics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 204,
+                            "on_invoke": 22589
+                        },
+                        "name": "signals-scout-health-checks"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 258,
+                            "on_invoke": 20510
+                        },
+                        "name": "signals-scout-conversations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 395,
+                            "on_invoke": 13927
+                        },
+                        "name": "building-workflows"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T16:07:13+02:00",
+            "last_updated": "2026-10-05T14:50:10+02:00",
             "marketplace_entry": {
                 "category": "monitoring",
                 "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code.",
                 "homepage": "https://posthog.com/docs/model-context-protocol",
                 "name": "posthog",
                 "source": {
-                    "sha": "469d1773e9cb55cb2d0cffd0a91e12bbeff8d32e",
+                    "sha": "e0fbf5e742fb4242c4ea509b395b2e343642f0b7",
                     "source": "url",
                     "url": "https://github.com/PostHog/ai-plugin.git"
                 }
             },
             "plugin": "posthog",
-            "sha": "469d1773e9cb55cb2d0cffd0a91e12bbeff8d32e",
+            "sha": "e0fbf5e742fb4242c4ea509b395b2e343642f0b7",
             "source": "posthog@claude-plugins-official",
-            "source_sha": "469d1773e9cb55cb2d0cffd0a91e12bbeff8d32e",
+            "source_sha": "e0fbf5e742fb4242c4ea509b395b2e343642f0b7",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 30167,
-                    "on_invoke": 738845
+                    "always_on": 29370,
+                    "on_invoke": 792797
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 20744,
-                    "on_invoke": 540214
+                    "always_on": 20211,
+                    "on_invoke": 581164
                 }
             },
             "unique_installs": 15114,
-            "version": "1.1.64"
+            "version": "1.1.67"
         },
         "postiz@claude-plugins-official": {
             "components": {
@@ -24320,21 +24320,21 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 558,
-                            "on_invoke": 11089
+                            "always_on": 687,
+                            "on_invoke": 17404
                         },
-                        "name": "qodo-get-rules"
+                        "name": "qodo-manage-standards"
                     },
                     {
                         "chars": {
-                            "always_on": 687,
-                            "on_invoke": 16720
+                            "always_on": 353,
+                            "on_invoke": 11925
                         },
-                        "name": "qodo-manage-standards"
+                        "name": "qodo-get-rules"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T17:46:43+03:00",
+            "last_updated": "2026-10-07T20:17:37+03:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@qodo.ai",
@@ -24348,27 +24348,27 @@
                 "source": {
                     "path": "packages/qodo-standards",
                     "ref": "main",
-                    "sha": "7dd3e7ec7706005651a3f7adb014d9ff8f2d52ea",
+                    "sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1",
                     "source": "git-subdir",
                     "url": "https://github.com/qodo-ai/qodo-skills.git"
                 }
             },
             "plugin": "qodo-standards",
-            "sha": "7dd3e7ec7706005651a3f7adb014d9ff8f2d52ea",
+            "sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1",
             "source": "qodo-standards@claude-plugins-official",
-            "source_sha": "7dd3e7ec7706005651a3f7adb014d9ff8f2d52ea",
+            "source_sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 439,
-                    "on_invoke": 9700
+                    "always_on": 380,
+                    "on_invoke": 10097
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 301,
-                    "on_invoke": 6964
+                    "always_on": 262,
+                    "on_invoke": 7172
                 }
             },
             "unique_installs": 62,
-            "version": "2.0.11"
+            "version": "2.0.13"
         },
         "qodo@claude-plugins-official": {
             "components": {
@@ -24381,34 +24381,34 @@
                     {
                         "chars": {
                             "always_on": 646,
-                            "on_invoke": 11051
+                            "on_invoke": 12071
                         },
                         "name": "qodo-codebase-wisdom"
                     },
                     {
                         "chars": {
-                            "always_on": 1221,
-                            "on_invoke": 26843
-                        },
-                        "name": "qodo-review-resolver"
-                    },
-                    {
-                        "chars": {
                             "always_on": 405,
-                            "on_invoke": 34443
+                            "on_invoke": 35630
                         },
                         "name": "qodo-review"
                     },
                     {
                         "chars": {
+                            "always_on": 1221,
+                            "on_invoke": 27663
+                        },
+                        "name": "qodo-review-resolver"
+                    },
+                    {
+                        "chars": {
                             "always_on": 192,
-                            "on_invoke": 3666
+                            "on_invoke": 3695
                         },
                         "name": "qodo-setup"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T17:46:43+03:00",
+            "last_updated": "2026-10-07T20:17:37+03:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@qodo.ai",
@@ -24422,27 +24422,27 @@
                 "source": {
                     "path": "packages/qodo",
                     "ref": "main",
-                    "sha": "7dd3e7ec7706005651a3f7adb014d9ff8f2d52ea",
+                    "sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1",
                     "source": "git-subdir",
                     "url": "https://github.com/qodo-ai/qodo-skills.git"
                 }
             },
             "plugin": "qodo",
-            "sha": "7dd3e7ec7706005651a3f7adb014d9ff8f2d52ea",
+            "sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1",
             "source": "qodo@claude-plugins-official",
-            "source_sha": "7dd3e7ec7706005651a3f7adb014d9ff8f2d52ea",
+            "source_sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 820,
-                    "on_invoke": 26294
+                    "on_invoke": 27093
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 608,
-                    "on_invoke": 19037
+                    "on_invoke": 19417
                 }
             },
             "unique_installs": 338,
-            "version": "2.0.11"
+            "version": "2.0.13"
         },
         "qt-development-skills@claude-plugins-official": {
             "components": {
@@ -27835,14 +27835,13 @@
                     "SessionStart",
                     "UserPromptSubmit",
                     "PostToolUse",
-                    "Stop",
-                    "SubagentStop"
+                    "Stop"
                 ],
                 "lspServers": [],
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-07T08:40:40-07:00",
+            "last_updated": "2026-10-09T09:01:58-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -27853,12 +27852,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.11"
+                "version": "2.0.12"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "f711194a9ecdf004b655dbc5006610fbb9e7c7bb",
+            "source_sha": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -27870,7 +27869,7 @@
                 }
             },
             "unique_installs": 273024,
-            "version": "2.0.11"
+            "version": "2.0.12"
         },
         "semgrep@claude-plugins-official": {
             "components": {
@@ -28675,10 +28674,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 68,
-                            "on_invoke": 1001
+                            "always_on": 89,
+                            "on_invoke": 1388
                         },
-                        "name": "summarize-channel"
+                        "name": "draft-announcement"
                     },
                     {
                         "chars": {
@@ -28689,17 +28688,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 89,
-                            "on_invoke": 1388
-                        },
-                        "name": "draft-announcement"
-                    },
-                    {
-                        "chars": {
                             "always_on": 84,
                             "on_invoke": 930
                         },
                         "name": "find-discussions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 68,
+                            "on_invoke": 1001
+                        },
+                        "name": "summarize-channel"
                     }
                 ],
                 "hooks": [],
@@ -28710,31 +28709,17 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 487,
-                            "on_invoke": 8977
-                        },
-                        "name": "test-slack-app"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 521,
-                            "on_invoke": 17085
-                        },
-                        "name": "block-kit"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 367,
-                            "on_invoke": 12067
-                        },
-                        "name": "create-slack-app"
-                    },
-                    {
-                        "chars": {
                             "always_on": 273,
                             "on_invoke": 8518
                         },
                         "name": "slack-docs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 365,
+                            "on_invoke": 10352
+                        },
+                        "name": "slack-cli"
                     },
                     {
                         "chars": {
@@ -28752,6 +28737,20 @@
                     },
                     {
                         "chars": {
+                            "always_on": 487,
+                            "on_invoke": 8977
+                        },
+                        "name": "test-slack-app"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 357,
+                            "on_invoke": 12067
+                        },
+                        "name": "create-slack-app"
+                    },
+                    {
+                        "chars": {
                             "always_on": 499,
                             "on_invoke": 12621
                         },
@@ -28759,41 +28758,41 @@
                     },
                     {
                         "chars": {
-                            "always_on": 365,
-                            "on_invoke": 10352
+                            "always_on": 521,
+                            "on_invoke": 17591
                         },
-                        "name": "slack-cli"
+                        "name": "block-kit"
                     }
                 ]
             },
-            "last_updated": "2026-09-10T14:19:29-07:00",
+            "last_updated": "2026-10-02T16:37:21-07:00",
             "marketplace_entry": {
                 "category": "productivity",
                 "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
                 "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
                 "name": "slack",
                 "source": {
-                    "sha": "8044341769fa84f85ee952dceddb67ef165ab110",
+                    "sha": "b073ebc2fc500b52e781f5fd17ebb9ad462363dc",
                     "source": "url",
                     "url": "https://github.com/slackapi/slack-mcp-plugin.git"
                 }
             },
             "plugin": "slack",
-            "sha": "8044341769fa84f85ee952dceddb67ef165ab110",
+            "sha": "b073ebc2fc500b52e781f5fd17ebb9ad462363dc",
             "source": "slack@claude-plugins-official",
-            "source_sha": "8044341769fa84f85ee952dceddb67ef165ab110",
+            "source_sha": "b073ebc2fc500b52e781f5fd17ebb9ad462363dc",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 1291,
-                    "on_invoke": 31066
+                    "always_on": 1289,
+                    "on_invoke": 31251
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 890,
-                    "on_invoke": 22669
+                    "always_on": 888,
+                    "on_invoke": 22801
                 }
             },
             "unique_installs": 110401,
-            "version": "1.3.0"
+            "version": "1.4.1"
         },
         "snowflake-cortex-code@claude-plugins-official": {
             "components": {
@@ -28808,28 +28807,28 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 298,
-                            "on_invoke": 4168
-                        },
-                        "name": "cortex-setup"
-                    },
-                    {
-                        "chars": {
                             "always_on": 253,
-                            "on_invoke": 4508
+                            "on_invoke": 4940
                         },
                         "name": "cortex-run"
                     },
                     {
                         "chars": {
                             "always_on": 197,
-                            "on_invoke": 3480
+                            "on_invoke": 3892
                         },
                         "name": "cortex-router"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 298,
+                            "on_invoke": 4211
+                        },
+                        "name": "cortex-setup"
                     }
                 ]
             },
-            "last_updated": "2026-08-12T15:03:37+01:00",
+            "last_updated": "2026-09-30T11:21:38-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Snowflake"
@@ -28841,27 +28840,27 @@
                 "source": {
                     "path": "plugins/cortex-code",
                     "ref": "main",
-                    "sha": "0c54225ea50b44c2ae07e1f378bf401e88b33c33",
+                    "sha": "e2a3cbb45a9a62b5648266c5777c1b2edb3f8579",
                     "source": "git-subdir",
                     "url": "https://github.com/Snowflake-Labs/snowflake-ai-kit.git"
                 }
             },
             "plugin": "snowflake-cortex-code",
-            "sha": "0c54225ea50b44c2ae07e1f378bf401e88b33c33",
+            "sha": "e2a3cbb45a9a62b5648266c5777c1b2edb3f8579",
             "source": "snowflake-cortex-code@claude-plugins-official",
-            "source_sha": "0c54225ea50b44c2ae07e1f378bf401e88b33c33",
+            "source_sha": "e2a3cbb45a9a62b5648266c5777c1b2edb3f8579",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 307,
-                    "on_invoke": 5023
+                    "on_invoke": 5477
                 },
                 "claude-sonnet-4-6": {
                     "always_on": 217,
-                    "on_invoke": 3593
+                    "on_invoke": 3859
                 }
             },
             "unique_installs": 2336,
-            "version": "3.3.1"
+            "version": "3.4.0"
         },
         "sonarqube@claude-plugins-official": {
             "components": {
