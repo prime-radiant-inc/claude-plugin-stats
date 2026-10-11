@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-10T07:39:09.995Z",
+    "generated_at": "2026-10-11T07:40:47.740Z",
     "installs_generated_at": "2026-10-02T06:00:05.876445+00:00",
-    "marketplace_sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
+    "marketplace_sha": "f359d43b406057f1a8cdbc4ea93b827642c162e6",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -9567,131 +9567,35 @@
             "unique_installs": 1312,
             "version": "0.1.28"
         },
-        "data-agent-kit-starter-pack@claude-plugins-official": {
+        "data-agent-kit@claude-plugins-official": {
             "components": {
                 "agents": [],
                 "commands": [],
                 "hooks": [
+                    "SessionStart",
                     "PreToolUse"
                 ],
                 "lspServers": [],
                 "mcpServers": [
-                    "notebook",
-                    "visualization",
-                    "bigquery",
-                    "spanner",
-                    "alloydb-postgres",
-                    "cloud-sql-postgresql",
-                    "knowledge_catalog",
-                    "dataproc",
-                    "bigtable",
-                    "cloud-storage"
+                    "dak-notebook",
+                    "dak-viz",
+                    "dak-alloydb",
+                    "dak-spark",
+                    "dak-bigquery",
+                    "dak-bigtable-data",
+                    "dak-bigtable",
+                    "dak-cloudsql",
+                    "dak-gcs",
+                    "dak-kc",
+                    "dak-spanner"
                 ],
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 344,
-                            "on_invoke": 2834
+                            "always_on": 263,
+                            "on_invoke": 1442
                         },
-                        "name": "bigquery-bigframes"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 422,
-                            "on_invoke": 11900
-                        },
-                        "name": "dataform-bigquery"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 241,
-                            "on_invoke": 1081
-                        },
-                        "name": "bigquery-graph"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 894,
-                            "on_invoke": 6159
-                        },
-                        "name": "gcs-security-assessment"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 984,
-                            "on_invoke": 9877
-                        },
-                        "name": "google-cloud-storage-basics"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1003,
-                            "on_invoke": 20236
-                        },
-                        "name": "gcp-dataflow"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 634,
-                            "on_invoke": 9590
-                        },
-                        "name": "federate-lakehouse-catalog"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 782,
-                            "on_invoke": 3434
-                        },
-                        "name": "resolving-mcp-region-configs"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 277,
-                            "on_invoke": 11745
-                        },
-                        "name": "data-autocleaning"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 337,
-                            "on_invoke": 11262
-                        },
-                        "name": "gcp-managed-airflow-migrations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 281,
-                            "on_invoke": 2531
-                        },
-                        "name": "bigquery-ai-ml"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 395,
-                            "on_invoke": 5901
-                        },
-                        "name": "gcp-managed-airflow-recommendations"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 618,
-                            "on_invoke": 2937
-                        },
-                        "name": "managing-python-dependencies"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1013,
-                            "on_invoke": 8126
-                        },
-                        "name": "google-cloud-storage-bucket-architect"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1032,
-                            "on_invoke": 13943
-                        },
-                        "name": "notebook-guidance"
+                        "name": "bigquery-sql"
                     },
                     {
                         "chars": {
@@ -9702,10 +9606,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 395,
-                            "on_invoke": 3419
+                            "always_on": 782,
+                            "on_invoke": 3267
                         },
-                        "name": "google-cloud-auth-verification"
+                        "name": "resolving-mcp-region-configs"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 422,
+                            "on_invoke": 11900
+                        },
+                        "name": "dataform-bigquery"
                     },
                     {
                         "chars": {
@@ -9716,31 +9627,10 @@
                     },
                     {
                         "chars": {
-                            "always_on": 401,
-                            "on_invoke": 11384
+                            "always_on": 828,
+                            "on_invoke": 21093
                         },
-                        "name": "dbt-bigquery"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 424,
-                            "on_invoke": 17336
-                        },
-                        "name": "gcp-pipeline-orchestration"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 405,
-                            "on_invoke": 8969
-                        },
-                        "name": "gcp-data-pipelines"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1026,
-                            "on_invoke": 5177
-                        },
-                        "name": "building-data-apps"
+                        "name": "bigquery-graph-query"
                     },
                     {
                         "chars": {
@@ -9751,41 +9641,6 @@
                     },
                     {
                         "chars": {
-                            "always_on": 741,
-                            "on_invoke": 9054
-                        },
-                        "name": "discovering-gcp-data-assets"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 303,
-                            "on_invoke": 8684
-                        },
-                        "name": "gcp-composer-troubleshooting"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 1015,
-                            "on_invoke": 5517
-                        },
-                        "name": "google-cloud-storage-fuse"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 279,
-                            "on_invoke": 3855
-                        },
-                        "name": "enforcing-resource-attribution"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 560,
-                            "on_invoke": 11118
-                        },
-                        "name": "schema-mapping"
-                    },
-                    {
-                        "chars": {
                             "always_on": 430,
                             "on_invoke": 4685
                         },
@@ -9793,10 +9648,31 @@
                     },
                     {
                         "chars": {
-                            "always_on": 635,
-                            "on_invoke": 577
+                            "always_on": 279,
+                            "on_invoke": 3845
                         },
-                        "name": "accidental-data-loss-prevention"
+                        "name": "enforcing-resource-attribution"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 741,
+                            "on_invoke": 9054
+                        },
+                        "name": "discovering-gcp-data-assets"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 395,
+                            "on_invoke": 5901
+                        },
+                        "name": "gcp-managed-airflow-recommendations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 692,
+                            "on_invoke": 10016
+                        },
+                        "name": "bigquery-graph-author"
                     },
                     {
                         "chars": {
@@ -9807,51 +9683,204 @@
                     },
                     {
                         "chars": {
-                            "always_on": 592,
-                            "on_invoke": 6435
+                            "always_on": 424,
+                            "on_invoke": 21959
+                        },
+                        "name": "gcp-pipeline-orchestration"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1015,
+                            "on_invoke": 5517
+                        },
+                        "name": "google-cloud-storage-fuse"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 741,
+                            "on_invoke": 9765
+                        },
+                        "name": "dak-setup"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 448,
+                            "on_invoke": 21416
+                        },
+                        "name": "gcp-spark-troubleshooting"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 337,
+                            "on_invoke": 11262
+                        },
+                        "name": "gcp-managed-airflow-migrations"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 894,
+                            "on_invoke": 6159
+                        },
+                        "name": "gcs-security-assessment"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1032,
+                            "on_invoke": 19848
+                        },
+                        "name": "notebook-guidance"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 395,
+                            "on_invoke": 3419
+                        },
+                        "name": "google-cloud-auth-verification"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 610,
+                            "on_invoke": 6685
+                        },
+                        "name": "gcp-managed-spark-upgrades"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1003,
+                            "on_invoke": 20423
+                        },
+                        "name": "gcp-dataflow"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 984,
+                            "on_invoke": 9877
+                        },
+                        "name": "google-cloud-storage-basics"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1013,
+                            "on_invoke": 8126
+                        },
+                        "name": "google-cloud-storage-bucket-architect"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 401,
+                            "on_invoke": 11384
+                        },
+                        "name": "dbt-bigquery"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 281,
+                            "on_invoke": 2531
+                        },
+                        "name": "bigquery-ai-ml"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 560,
+                            "on_invoke": 11118
+                        },
+                        "name": "schema-mapping"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 635,
+                            "on_invoke": 577
+                        },
+                        "name": "accidental-data-loss-prevention"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 303,
+                            "on_invoke": 2834
+                        },
+                        "name": "bigquery-bigframes"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 303,
+                            "on_invoke": 8684
+                        },
+                        "name": "gcp-composer-troubleshooting"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 1026,
+                            "on_invoke": 5177
+                        },
+                        "name": "building-data-apps"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 618,
+                            "on_invoke": 2937
+                        },
+                        "name": "managing-python-dependencies"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 277,
+                            "on_invoke": 11745
+                        },
+                        "name": "data-autocleaning"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 634,
+                            "on_invoke": 9590
+                        },
+                        "name": "federate-lakehouse-catalog"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 835,
+                            "on_invoke": 11499
                         },
                         "name": "gcp-spark"
                     },
                     {
                         "chars": {
-                            "always_on": 263,
-                            "on_invoke": 1442
+                            "always_on": 405,
+                            "on_invoke": 9013
                         },
-                        "name": "bigquery-sql"
+                        "name": "gcp-data-pipelines"
                     }
                 ]
             },
-            "last_updated": "2026-09-11T14:25:29-07:00",
+            "last_updated": "2026-09-29T14:25:40-07:00",
             "marketplace_entry": {
                 "author": {
                     "name": "Google LLC"
                 },
                 "category": "development",
                 "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
-                "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
-                "name": "data-agent-kit-starter-pack",
+                "homepage": "https://cloud.google.com/products/data-agent-kit",
+                "name": "data-agent-kit",
                 "source": {
-                    "sha": "2df10e25bbf7dba2570dce1b2e2e77870143969e",
+                    "sha": "83c53b5f129cdeecabe149ff4ba82645d3e51745",
                     "source": "url",
-                    "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack.git"
+                    "url": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git"
                 }
             },
             "plugin": "dak",
-            "sha": "2df10e25bbf7dba2570dce1b2e2e77870143969e",
-            "source": "data-agent-kit-starter-pack@claude-plugins-official",
-            "source_sha": "2df10e25bbf7dba2570dce1b2e2e77870143969e",
+            "sha": "83c53b5f129cdeecabe149ff4ba82645d3e51745",
+            "source": "data-agent-kit@claude-plugins-official",
+            "source_sha": "83c53b5f129cdeecabe149ff4ba82645d3e51745",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 7074,
-                    "on_invoke": 93388
+                    "always_on": 8279,
+                    "on_invoke": 124488
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 4631,
-                    "on_invoke": 65509
+                    "always_on": 5454,
+                    "on_invoke": 87550
                 }
             },
-            "unique_installs": 2926,
-            "version": "0.11.0"
+            "version": "1.0.0"
         },
         "data-engineering@claude-plugins-official": {
             "components": {
@@ -27841,7 +27870,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-09T09:01:58-07:00",
+            "last_updated": "2026-10-09T16:03:36Z",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -27852,12 +27881,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.12"
+                "version": "2.0.13"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
+            "source_sha": "2bba606980d6c14176b36ee2eef43c745c0c9cb8",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -27869,7 +27898,7 @@
                 }
             },
             "unique_installs": 273024,
-            "version": "2.0.12"
+            "version": "2.0.13"
         },
         "semgrep@claude-plugins-official": {
             "components": {
