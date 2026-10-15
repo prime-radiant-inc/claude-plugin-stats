@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-14T07:47:43.169Z",
+    "generated_at": "2026-10-15T07:40:22.343Z",
     "installs_generated_at": "2026-10-13T16:40:39.687192+00:00",
-    "marketplace_sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3",
+    "marketplace_sha": "e281e51e6e6bcf185090db0d87dd47660b11ebb0",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -13290,14 +13290,14 @@
                     {
                         "chars": {
                             "always_on": 402,
-                            "on_invoke": 22712
+                            "on_invoke": 23251
                         },
                         "name": "figma-implement-motion"
                     },
                     {
                         "chars": {
-                            "always_on": 275,
-                            "on_invoke": 6524
+                            "always_on": 325,
+                            "on_invoke": 8391
                         },
                         "name": "figma-use-motion"
                     },
@@ -13317,10 +13317,24 @@
                     },
                     {
                         "chars": {
+                            "always_on": 480,
+                            "on_invoke": 4032
+                        },
+                        "name": "figma-code-workflows"
+                    },
+                    {
+                        "chars": {
                             "always_on": 748,
-                            "on_invoke": 23624
+                            "on_invoke": 23994
                         },
                         "name": "figma-generate-library"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 265,
+                            "on_invoke": 5762
+                        },
+                        "name": "figma-spec"
                     },
                     {
                         "chars": {
@@ -13332,7 +13346,7 @@
                     {
                         "chars": {
                             "always_on": 562,
-                            "on_invoke": 33026
+                            "on_invoke": 33444
                         },
                         "name": "figma-use"
                     },
@@ -13352,8 +13366,8 @@
                     },
                     {
                         "chars": {
-                            "always_on": 879,
-                            "on_invoke": 35772
+                            "always_on": 988,
+                            "on_invoke": 37992
                         },
                         "name": "figma-generate-design"
                     },
@@ -13380,34 +13394,34 @@
                     }
                 ]
             },
-            "last_updated": "2026-10-05T10:46:00+01:00",
+            "last_updated": "2026-10-15T12:38:06+05:30",
             "marketplace_entry": {
                 "category": "design",
                 "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
                 "homepage": "https://github.com/figma/mcp-server-guide",
                 "name": "figma",
                 "source": {
-                    "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
+                    "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
                     "source": "url",
                     "url": "https://github.com/figma/mcp-server-guide.git"
                 }
             },
             "plugin": "figma",
-            "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
+            "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
             "source": "figma@claude-plugins-official",
-            "source_sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
+            "source_sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2138,
-                    "on_invoke": 73655
+                    "always_on": 2422,
+                    "on_invoke": 78901
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1576,
-                    "on_invoke": 53845
+                    "always_on": 1790,
+                    "on_invoke": 57564
                 }
             },
             "unique_installs": 183366,
-            "version": "2.2.127"
+            "version": "2.2.157"
         },
         "firebase@claude-plugins-official": {
             "components": {
@@ -15783,10 +15797,24 @@
                 "skills": [
                     {
                         "chars": {
-                            "always_on": 466,
-                            "on_invoke": 6569
+                            "always_on": 607,
+                            "on_invoke": 7336
                         },
                         "name": "extensions"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 575,
+                            "on_invoke": 14830
+                        },
+                        "name": "postmortem"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 458,
+                            "on_invoke": 13127
+                        },
+                        "name": "telemetry"
                     },
                     {
                         "chars": {
@@ -15798,7 +15826,7 @@
                     {
                         "chars": {
                             "always_on": 311,
-                            "on_invoke": 4943
+                            "on_invoke": 5158
                         },
                         "name": "skill-authoring"
                     },
@@ -15811,8 +15839,15 @@
                     },
                     {
                         "chars": {
+                            "always_on": 484,
+                            "on_invoke": 13869
+                        },
+                        "name": "incidents"
+                    },
+                    {
+                        "chars": {
                             "always_on": 413,
-                            "on_invoke": 4315
+                            "on_invoke": 4303
                         },
                         "name": "architecture"
                     },
@@ -15826,13 +15861,13 @@
                     {
                         "chars": {
                             "always_on": 514,
-                            "on_invoke": 8198
+                            "on_invoke": 10037
                         },
                         "name": "on-call"
                     }
                 ]
             },
-            "last_updated": "2026-10-07T12:51:27Z",
+            "last_updated": "2026-10-14T11:45:26Z",
             "marketplace_entry": {
                 "author": {
                     "name": "incident.io"
@@ -15844,27 +15879,27 @@
                 "source": {
                     "path": "plugins/incident-io",
                     "ref": "main",
-                    "sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8",
+                    "sha": "6af50e2e23e9c782b95a456aab5a053550fba3c9",
                     "source": "git-subdir",
                     "url": "https://github.com/incident-io/skills.git"
                 }
             },
             "plugin": "incident-io",
-            "sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8",
+            "sha": "6af50e2e23e9c782b95a456aab5a053550fba3c9",
             "source": "incident-io@claude-plugins-official",
-            "source_sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8",
+            "source_sha": "6af50e2e23e9c782b95a456aab5a053550fba3c9",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 936,
-                    "on_invoke": 11634
+                    "always_on": 1453,
+                    "on_invoke": 25998
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 680,
-                    "on_invoke": 8904
+                    "always_on": 1048,
+                    "on_invoke": 20042
                 }
             },
             "unique_installs": 192,
-            "version": "1.20261007.771"
+            "version": "1.20261014.705"
         },
         "informatica-for-claude-platform@claude-plugins-official": {
             "components": {
@@ -27892,7 +27927,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-13T20:46:31Z",
+            "last_updated": "2026-10-14T12:12:30Z",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -27908,7 +27943,7 @@
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "8d392c8169665866be1d95f2bfeda5aaae7149dd",
+            "source_sha": "c45209fd0c089108e0468ed282bd4dc0dae361a4",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
