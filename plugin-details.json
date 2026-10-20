@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-19T07:53:03.235Z",
+    "generated_at": "2026-10-20T07:41:29.086Z",
     "installs_generated_at": "2026-10-16T06:00:26.356387+00:00",
-    "marketplace_sha": "ea10b213686c90bb1984b2016937310e05336cf3",
+    "marketplace_sha": "a0b04d9ddccaabe1976645f68b0eda50f74e7022",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -28094,7 +28094,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-15T15:42:58-07:00",
+            "last_updated": "2026-10-19T14:27:13-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -28110,7 +28110,7 @@
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "87bc24ab561c4876dff68bfaec4881dbc83f8250",
+            "source_sha": "a0b04d9ddccaabe1976645f68b0eda50f74e7022",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
