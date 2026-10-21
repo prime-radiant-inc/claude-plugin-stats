@@ -1,7 +1,7 @@
 {
-    "generated_at": "2026-10-20T07:41:29.086Z",
+    "generated_at": "2026-10-21T07:42:41.091Z",
     "installs_generated_at": "2026-10-16T06:00:26.356387+00:00",
-    "marketplace_sha": "a0b04d9ddccaabe1976645f68b0eda50f74e7022",
+    "marketplace_sha": "d1adba47161a271799de7b548225d929310046bd",
     "models": [
         "claude-opus-4-7",
         "claude-sonnet-4-6"
@@ -3566,14 +3566,14 @@
                     {
                         "chars": {
                             "always_on": 219,
-                            "on_invoke": 60989
+                            "on_invoke": 70189
                         },
                         "name": "llm2bedrock-code-rewriter"
                     },
                     {
                         "chars": {
                             "always_on": 263,
-                            "on_invoke": 63736
+                            "on_invoke": 65776
                         },
                         "name": "llm2bedrock-prompt-evaluator"
                     },
@@ -3594,20 +3594,33 @@
                     {
                         "chars": {
                             "always_on": 245,
-                            "on_invoke": 30591
+                            "on_invoke": 31745
                         },
                         "name": "llm2bedrock-code-analyzer"
                     },
                     {
                         "chars": {
                             "always_on": 247,
-                            "on_invoke": 36388
+                            "on_invoke": 58070
                         },
                         "name": "llm2bedrock-report-generator"
                     }
                 ],
-                "commands": [],
-                "hooks": [],
+                "commands": [
+                    {
+                        "chars": {
+                            "always_on": 102,
+                            "on_invoke": 2928
+                        },
+                        "name": "usage-data"
+                    }
+                ],
+                "hooks": [
+                    "SessionStart",
+                    "PostToolUse",
+                    "Stop",
+                    "SessionEnd"
+                ],
                 "lspServers": [],
                 "mcpServers": [
                     "aws-mcp"
@@ -3615,15 +3628,22 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 1040,
+                            "on_invoke": 34108
+                        },
+                        "name": "operate-on-aws"
+                    },
+                    {
+                        "chars": {
                             "always_on": 1013,
-                            "on_invoke": 16111
+                            "on_invoke": 18007
                         },
                         "name": "contextual-offers-for-startups"
                     },
                     {
                         "chars": {
                             "always_on": 1024,
-                            "on_invoke": 22007
+                            "on_invoke": 23556
                         },
                         "name": "start-building-for-startups"
                     },
@@ -3637,14 +3657,14 @@
                     {
                         "chars": {
                             "always_on": 1034,
-                            "on_invoke": 25629
+                            "on_invoke": 27904
                         },
                         "name": "heroku-to-aws"
                     },
                     {
                         "chars": {
-                            "always_on": 1053,
-                            "on_invoke": 15064
+                            "always_on": 1045,
+                            "on_invoke": 20914
                         },
                         "name": "azure-to-aws"
                     },
@@ -3664,35 +3684,35 @@
                     },
                     {
                         "chars": {
-                            "always_on": 702,
-                            "on_invoke": 45828
+                            "always_on": 877,
+                            "on_invoke": 89393
                         },
                         "name": "llm-to-bedrock"
                     },
                     {
                         "chars": {
                             "always_on": 1020,
-                            "on_invoke": 55314
+                            "on_invoke": 57360
                         },
                         "name": "gcp-to-aws"
                     },
                     {
                         "chars": {
-                            "always_on": 1056,
-                            "on_invoke": 11502
+                            "always_on": 1063,
+                            "on_invoke": 13623
                         },
                         "name": "architect-for-startups"
                     },
                     {
                         "chars": {
                             "always_on": 1045,
-                            "on_invoke": 17309
+                            "on_invoke": 18397
                         },
                         "name": "agent-advisor"
                     }
                 ]
             },
-            "last_updated": "2026-09-29T18:55:36Z",
+            "last_updated": "2026-10-20T16:04:27Z",
             "marketplace_entry": {
                 "author": {
                     "name": "Amazon Web Services"
@@ -3704,27 +3724,27 @@
                 "source": {
                     "path": "plugins/aws-startup-advisor",
                     "ref": "main",
-                    "sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394",
+                    "sha": "b310d1c46b4ced6423a737542c92a3a22cfe9e96",
                     "source": "git-subdir",
                     "url": "https://github.com/aws/agent-toolkit-for-aws.git"
                 }
             },
             "plugin": "aws-startup-advisor",
-            "sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394",
+            "sha": "b310d1c46b4ced6423a737542c92a3a22cfe9e96",
             "source": "aws-startup-advisor@claude-plugins-official",
-            "source_sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394",
+            "source_sha": "b310d1c46b4ced6423a737542c92a3a22cfe9e96",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 4911,
-                    "on_invoke": 174401
+                    "always_on": 5398,
+                    "on_invoke": 222777
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 3278,
-                    "on_invoke": 127197
+                    "always_on": 3636,
+                    "on_invoke": 162394
                 }
             },
             "unique_installs": 1490,
-            "version": "2.0.2"
+            "version": "2.0.3"
         },
         "aws-transform@claude-plugins-official": {
             "components": {
@@ -28094,7 +28114,7 @@
                 "mcpServers": [],
                 "skills": []
             },
-            "last_updated": "2026-10-19T14:27:13-07:00",
+            "last_updated": "2026-10-20T17:23:34-07:00",
             "marketplace_entry": {
                 "author": {
                     "email": "support@anthropic.com",
@@ -28105,12 +28125,12 @@
                 "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
                 "name": "security-guidance",
                 "source": "./plugins/security-guidance",
-                "version": "2.0.14"
+                "version": "2.0.15"
             },
             "plugin": "security-guidance",
             "sha": null,
             "source": "security-guidance@claude-plugins-official",
-            "source_sha": "a0b04d9ddccaabe1976645f68b0eda50f74e7022",
+            "source_sha": "d1adba47161a271799de7b548225d929310046bd",
             "tokens": {
                 "claude-opus-4-7": {
                     "always_on": 0,
@@ -28122,7 +28142,7 @@
                 }
             },
             "unique_installs": 268918,
-            "version": "2.0.14"
+            "version": "2.0.15"
         },
         "semgrep@claude-plugins-official": {
             "components": {
@@ -29705,6 +29725,48 @@
                 "skills": [
                     {
                         "chars": {
+                            "always_on": 303,
+                            "on_invoke": 3926
+                        },
+                        "name": "stripe-pay"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 126,
+                            "on_invoke": 9168
+                        },
+                        "name": "upgrade-stripe"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 922,
+                            "on_invoke": 5245
+                        },
+                        "name": "stripe-best-practices"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 941,
+                            "on_invoke": 5801
+                        },
+                        "name": "stripe-projects"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 829,
+                            "on_invoke": 22415
+                        },
+                        "name": "connect-recommend"
+                    },
+                    {
+                        "chars": {
+                            "always_on": 461,
+                            "on_invoke": 6829
+                        },
+                        "name": "stripe-apps"
+                    },
+                    {
+                        "chars": {
                             "always_on": 219,
                             "on_invoke": 929
                         },
@@ -29712,52 +29774,17 @@
                     },
                     {
                         "chars": {
-                            "always_on": 922,
-                            "on_invoke": 5741
-                        },
-                        "name": "stripe-best-practices"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 667,
-                            "on_invoke": 8514
+                            "always_on": 911,
+                            "on_invoke": 11990
                         },
                         "name": "metronome"
                     },
                     {
                         "chars": {
                             "always_on": 480,
-                            "on_invoke": 27884
+                            "on_invoke": 27641
                         },
                         "name": "connect-required-verification-information"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 988,
-                            "on_invoke": 12880
-                        },
-                        "name": "stripe-apps"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 70,
-                            "on_invoke": 7273
-                        },
-                        "name": "upgrade-stripe"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 829,
-                            "on_invoke": 19786
-                        },
-                        "name": "connect-recommend"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 941,
-                            "on_invoke": 6920
-                        },
-                        "name": "stripe-projects"
                     },
                     {
                         "chars": {
@@ -29765,17 +29792,10 @@
                             "on_invoke": 6507
                         },
                         "name": "stripe-directory"
-                    },
-                    {
-                        "chars": {
-                            "always_on": 303,
-                            "on_invoke": 3928
-                        },
-                        "name": "stripe-pay"
                     }
                 ]
             },
-            "last_updated": "2026-09-22T09:52:29-04:00",
+            "last_updated": "2026-10-13T00:56:32Z",
             "marketplace_entry": {
                 "category": "development",
                 "description": "Stripe development plugin for Claude",
@@ -29784,27 +29804,27 @@
                 "source": {
                     "path": "providers/claude/plugin",
                     "ref": "main",
-                    "sha": "97b2164821c378f246c3903852057b36a8bd0296",
+                    "sha": "deae744bc0cbf6034b4b6f22f51c690b71a4e779",
                     "source": "git-subdir",
                     "url": "https://github.com/stripe/ai.git"
                 }
             },
             "plugin": "stripe",
-            "sha": "97b2164821c378f246c3903852057b36a8bd0296",
+            "sha": "deae744bc0cbf6034b4b6f22f51c690b71a4e779",
             "source": "stripe@claude-plugins-official",
-            "source_sha": "97b2164821c378f246c3903852057b36a8bd0296",
+            "source_sha": "deae744bc0cbf6034b4b6f22f51c690b71a4e779",
             "tokens": {
                 "claude-opus-4-7": {
-                    "always_on": 2243,
-                    "on_invoke": 38794
+                    "always_on": 2157,
+                    "on_invoke": 38030
                 },
                 "claude-sonnet-4-6": {
-                    "always_on": 1459,
-                    "on_invoke": 27250
+                    "always_on": 1408,
+                    "on_invoke": 26739
                 }
             },
             "unique_installs": 87174,
-            "version": "0.10.3"
+            "version": "0.11.17"
         },
         "sumup@claude-plugins-official": {
             "components": {
